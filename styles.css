@@ -57,6 +57,22 @@ select{cursor:pointer}
   .actions{grid-column:1/-1;justify-content:flex-start}
   .grid{grid-template-columns:1fr 1fr}
 }
+.quickviews{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  padding:0 16px 16px;
+}
+ 
+.quickviews .btn{
+  padding:9px 12px;
+  font-size:12px;
+}
+ 
+.quickviews .btn.active{
+  border-color: rgba(46,168,255,.75);
+  background: linear-gradient(180deg, rgba(46,168,255,.28), rgba(46,168,255,.14));
+}
 @media (max-width:560px){
   .grid{grid-template-columns:1fr}
   .topbar{flex-direction:column;align-items:flex-start;gap:12px}

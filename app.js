@@ -1,4 +1,4 @@
-const state={items:[],q:'',jurisdiction:'',topic:'',source:''};
+const state = { items: [], q: '', jurisdiction: '', topic: '', source: '', view: 'ALL' };;
 const el=id=>document.getElementById(id);
 const uniq=a=>[...new Set(a)].filter(Boolean).sort((x,y)=>x.localeCompare(y));
  
@@ -48,6 +48,28 @@ function buildFilters(){
 }
  
 function matches(it){
+  // Quick View preset filters
+  const jur = ((it.jurisdiction || '') + ' ' + (it.region || '')).toUpperCase();
+  const topicsText = (it.topics || []).join(' ').toLowerCase();
+  const tagsText = (it.tags || []).join(' ').toLowerCase();
+  const titleText = (it.title || '').toLowerCase();
+  const summaryText = (it.summary || '').toLowerCase();
+ 
+  if (state.view === 'UAE') {
+    if (!jur.includes('UAE')) return false;
+  }
+ 
+  if (state.view === 'UK') {
+    if (!jur.includes('UK') && !jur.includes('UNITED KINGDOM')) return false;
+  }
+ 
+  if (state.view === 'AI') {
+    const hay = [topicsText, tagsText, titleText, summaryText].join(' ');
+    // Match broad AI governance content
+    if (!(hay.includes(' ai ') || hay.includes('artificial intelligence') || hay.includes('responsible ai') || hay.includes('ai governance'))) {
+      return false;
+    }
+  }
   const q=state.q.trim().toLowerCase();
   if(q){
     const hay=[it.title,it.summary,it.source,(it.tags||[]).join(' '),(it.topics||[]).join(' ')].join(' ').toLowerCase();
@@ -133,7 +155,18 @@ async function init(){
   });
 }
  
-init().catch(err=>{
+init(// Quick view buttons
+  document.querySelectorAll('[data-view]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      state.view = btn.getAttribute('data-view') || 'ALL';
+ 
+      // Highlight active button
+      document.querySelectorAll('[data-view]').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+ 
+      render();
+    });
+  })).catch(err=>{
   console.error(err);
   el('lastUpdated').textContent='Failed to load data.';
 });
