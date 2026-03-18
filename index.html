@@ -1,0 +1,135 @@
+index.html <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AIQ Regulatory Monitor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="brand">
+      <span class="dot"></span>
+      <div>
+        <div class="title">AIQ Regulatory Monitor</div>
+        <div class="subtitle">Export controls · Data privacy · Data residency · Responsible AI (US · UAE · UK)</div>
+      </div>
+    </div>
+    <div class="badges">
+      <span class="badge confidential">CONFIDENTIAL</span>
+      <span class="badge" id="lastUpdated">Loading…</span>
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Horizon scanning for regulatory and enforcement developments</h1>
+      <p>This is a lightweight, Netlify-friendly monitor designed for compliance teams. It stores <em>metadata and internal summaries</em>.</p>
+      <p class="disclaimer"><strong>Licensing note:</strong> do not republish paywalled content (e.g., subscription services) unless your licence permits.</p>
+    </section>
+
+    <section class="panel">
+      <div class="filters">
+        <div class="filter">
+          <label for="q">Search</label>
+          <input id="q" type="search" placeholder="Search titles, summaries, tags…">
+        </div>
+        <div class="filter">
+          <label for="jurisdiction">Jurisdiction</label>
+          <select id="jurisdiction"><option value="">All</option></select>
+        </div>
+        <div class="filter">
+          <label for="topic">Topic</label>
+          <select id="topic"><option value="">All</option></select>
+        </div>
+        <div class="filter">
+          <label for="source">Source</label>
+          <select id="source"><option value="">All</option></select>
+        </div>
+        <div class="filter actions">
+          <button id="reset" class="btn secondary">Reset</button>
+          <button id="export" class="btn">Export CSV</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="grid" id="cards"></div>
+      <div class="empty" id="empty" hidden>No items match your filters.</div>
+    </section>
+
+    <section class="panel footer">
+      <div>
+        <h3>Configured sources</h3>
+        <ul>
+          <li><a href="https://ofac.treasury.gov/recent-actions" target="_blank" rel="noreferrer">OFAC Recent Actions</a></li>
+          <li><a href="https://www.adgm.com/media/announcements" target="_blank" rel="noreferrer">ADGM Announcements</a></li>
+          <li><a href="https://www.difccourts.ae/rules-decisions/judgments-orders" target="_blank" rel="noreferrer">DIFC Courts Judgments & Orders</a></li>
+          <li><a href="https://www.mondaq.com/#must-reads" target="_blank" rel="noreferrer">Mondaq Must Reads</a></li>
+          <li><a href="https://www.bakermckenzie.com/en/newsroom/" target="_blank" rel="noreferrer">Baker McKenzie Newsroom</a></li>
+          <li><a href="https://www.dlapiper.com/en-ae/insights/featured-insights" target="_blank" rel="noreferrer">DLA Piper Featured Insights</a></li>
+          <li><a href="https://www.pinsentmasons.com/out-law" target="_blank" rel="noreferrer">Pinsent Masons Out‑Law</a></li>
+          <li><a href="https://www.reuters.com/legal/" target="_blank" rel="noreferrer">Reuters Legal</a></li>
+          <li><a href="https://www.mlex.com/" target="_blank" rel="noreferrer">MLex</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Maintenance</h3>
+        <ol>
+          <li>Edit <code>data/updates.json</code> (recommended).</li>
+          <li>Deploy to Netlify (drag-and-drop or Git integration).</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+[build]
+  publish = "."
+
+# AIQ Regulatory Monitor
+
+Static, Netlify-friendly monitor for curated regulatory updates.
+
+- Edit `data/updates.json` to add items (metadata + internal summary).
+- Watermark uses `assets/aiq-watermark.png` extracted from the attached PPTX.
+- For subscription sources (MLex/Reuters/MLex), store metadata and internal notes only unless your licence permits republication.
+
+:root{--bg:#071225;--text:#eaf1ff;--muted:#a9b8da;--accent:#2ea8ff;--border:rgba(255,255,255,.10);--shadow:0 8px 22px rgba(0,0,0,.35);--radius:16px}
+*{box-sizing:border-box}body{margin:0;font-family:'Readex Pro',system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--text);background:radial-gradient(1200px 800px at 20% -20%, rgba(46,168,255,.18), transparent 60%),radial-gradient(1200px 800px at 110% 10%, rgba(255,59,92,.10), transparent 55%),var(--bg);overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;background-image:url('assets/aiq-watermark.png');background-repeat:repeat;background-size:240px 240px;opacity:.06;transform:rotate(-12deg) scale(1.1);transform-origin:center}
+.topbar{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:18px 22px;background:rgba(7,18,37,.75);border-bottom:1px solid var(--border);backdrop-filter:blur(10px)}
+.brand{display:flex;gap:12px;align-items:center}.dot{width:12px;height:12px;border-radius:50%;background:linear-gradient(135deg,var(--accent),#77d2ff);box-shadow:0 0 0 6px rgba(46,168,255,.15)}
+.title{font-weight:700}.subtitle{color:var(--muted);font-size:12px;margin-top:2px}
+.badges{display:flex;gap:10px;align-items:center}.badge{font-size:12px;padding:8px 10px;border-radius:999px;background:rgba(255,255,255,.06);border:1px solid var(--border)}
+.badge.confidential{background:rgba(255,59,92,.10);border-color:rgba(255,59,92,.25);color:#ffd6df}
+.container{max-width:1120px;margin:0 auto;padding:22px 18px 60px}
+.hero{background:linear-gradient(180deg, rgba(46,168,255,.10), rgba(255,255,255,.03));border:1px solid var(--border);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}
+.hero h1{margin:0 0 8px;font-size:22px}.hero p{margin:8px 0;color:var(--muted);line-height:1.55}
+.disclaimer{border-left:3px solid rgba(46,168,255,.45);padding-left:12px}
+.panel{margin-top:16px;background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow)}
+.filters{display:grid;grid-template-columns:2fr 1fr 1fr 1fr auto;gap:14px;padding:16px;align-items:end}
+.filter label{display:block;font-size:12px;color:var(--muted);margin-bottom:6px}
+input[type=search],select{width:100%;padding:11px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(5,12,25,.55);color:var(--text);outline:none}
+select{cursor:pointer}.actions{display:flex;gap:10px;justify-content:flex-end}
+.btn{padding:11px 14px;border-radius:12px;border:1px solid rgba(46,168,255,.35);background:linear-gradient(180deg, rgba(46,168,255,.22), rgba(46,168,255,.10));color:var(--text);cursor:pointer;font-weight:600}
+.btn.secondary{border-color:rgba(255,255,255,.16);background:rgba(255,255,255,.06)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;padding:16px}
+.card{background:linear-gradient(180deg, rgba(11,27,52,.65), rgba(10,23,48,.65));border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:14px;position:relative;overflow:hidden}
+.meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.pill{font-size:11px;padding:6px 9px;border-radius:999px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);color:var(--muted)}
+.pill.accent{color:#d9f1ff;border-color:rgba(46,168,255,.28);background:rgba(46,168,255,.10)}
+.pill.jur{border-color:rgba(255,255,255,.18)}
+.card h4{margin:8px 0;font-size:14px;line-height:1.35}.card p{margin:0 0 12px;color:var(--muted);font-size:12.5px;line-height:1.5}
+.card a{color:#cfeaff;text-decoration:none}.card a:hover{text-decoration:underline}
+.footer{display:grid;grid-template-columns:1.2fr 1fr;gap:16px;padding:16px}
+.footer h3{margin:0 0 10px;font-size:14px}.footer ul{margin:0;padding-left:16px;color:var(--muted)}.footer li{margin:6px 0}.footer a{color:#cfeaff}.footer ol{margin:0;padding-left:18px;color:var(--muted)}
+.empty{padding:18px;color:var(--muted)}code{background:rgba(255,255,255,.06);padding:2px 6px;border-radius:8px;border:1px solid rgba(255,255,255,.10)}
+@media (max-width:980px){.filters{grid-template-columns:1fr 1fr}.actions{grid-column:1/-1;justify-content:flex-start}.grid{grid-template-columns:1fr 1fr}.footer{grid-template-columns:1fr}}
+@media (max-width:560px){.grid{grid-template-columns:1fr}.topbar{flex-direction:column;align-items:flex-start;gap:12px}}
