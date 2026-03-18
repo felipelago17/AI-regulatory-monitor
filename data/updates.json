@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-03-18",
+  "items": [
+    {
+      "id": "ofac-2026-03-17",
+      "date": "2026-03-17",
+      "jurisdiction": "United States",
+      "topics": ["Sanctions", "OFAC"],
+      "title": "OFAC enforcement settlement with TradeStation Securities",
+      "summary": "OFAC announced a settlement related to sanctions compliance failures. Firms should review screening controls, escalation procedures, and exposure to US persons and USD clearing.",
+      "source": "OFAC – Recent Actions",
+      "url": "https://ofac.treasury.gov/recent-actions",
+      "tags": ["enforcement", "sanctions"]
+    },
+    {
+      "id": "adgm-2026-alert",
+      "date": "2026-02-24",
+      "jurisdiction": "UAE (ADGM)",
+      "topics": ["Regulatory compliance"],
+      "title": "ADGM warning on false claims of regulatory status",
+      "summary": "ADGM issued a public alert regarding entities falsely claiming ADGM authorisation. Firms should strengthen counterparty verification procedures.",
+      "source": "ADGM",
+      "url": "https://www.adgm.com/media/announcements",
+      "tags": ["third-party risk"]
+    }
+  ]
+}
