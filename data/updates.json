@@ -66,6 +66,5164 @@
   "source": "DIFC Courts",
   "url": "https://www.difccourts.ae/rules-decisions/judgments-orders",
   "tags": ["DIFC", "enforcement", "governance"]
-} ]
+{
+  "generated_at": "2026-03-18",
+  "items": [
+    {
+      "id": "eu-article-6-classification-rules-for-high-risk-ai-systems-e-9e24cdb0",
+      "date": "2026-03-18",
+      "jurisdiction": "EU",
+      "region": "EU",
+      "topics": [
+        "AI governance",
+        "AI risk management",
+        "EU AI Act",
+        "Responsible AI"
+      ],
+      "title": "Article 6: Classification Rules for High-Risk AI Systems | EU Artificial Intelligence Act",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "EU AI Act (unofficial)",
+      "url": "https://artificialintelligenceact.eu/article/6/",
+      "tags": [
+        "ai",
+        "eu"
+      ]
+    },
+    {
+      "id": "eu-article-71-eu-database-for-high-risk-ai-systems-listed-in-da0a562a",
+      "date": "2026-03-18",
+      "jurisdiction": "EU",
+      "region": "EU",
+      "topics": [
+        "AI governance",
+        "AI risk management",
+        "EU AI Act",
+        "Responsible AI"
+      ],
+      "title": "Article 71: EU Database for High-Risk AI Systems Listed in Annex III | EU Artificial Intelligence Act",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "EU AI Act (unofficial)",
+      "url": "https://artificialintelligenceact.eu/article/71/",
+      "tags": [
+        "ai",
+        "eu"
+      ]
+    },
+    {
+      "id": "eu-eur-lex-52022pc0197-en-eur-lex-def6c3b1",
+      "date": "2022-01-01",
+      "jurisdiction": "EU",
+      "region": "EU",
+      "topics": [
+        "AI governance",
+        "EU AI Act",
+        "Responsible AI"
+      ],
+      "title": "EUR-Lex - 52022PC0197 - EN - EUR-Lex",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52022PC0197",
+      "tags": [
+        "ai",
+        "eu"
+      ]
+    },
+    {
+      "id": "eu-regulation-2023-988-en-eur-lex-d0734343",
+      "date": "2023-01-01",
+      "jurisdiction": "EU",
+      "region": "EU",
+      "topics": [
+        "AI governance",
+        "EU AI Act",
+        "Responsible AI"
+      ],
+      "title": "Regulation - 2023/988 - EN - EUR-Lex",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX*3A32023R0988",
+      "tags": [
+        "ai",
+        "eu"
+      ]
+    },
+    {
+      "id": "global-aws-responsible-ai-policy-20e309c9",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Corporate responsible AI",
+        "Responsible AI"
+      ],
+      "title": "AWS Responsible AI Policy",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/ai/responsible-ai/policy/",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-ai-principles-google-ai-59343f35",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Corporate responsible AI",
+        "Responsible AI"
+      ],
+      "title": "AI Principles - Google AI",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "Google",
+      "url": "https://ai.google/principles/",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-ai-principles-2023-progress-update-pdf-21f81588",
+      "date": "2023-01-01",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Corporate responsible AI",
+        "Responsible AI"
+      ],
+      "title": "ai-principles-2023-progress-update.pdf",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "Google",
+      "url": "https://ai.google/static/documents/ai-principles-2023-progress-update.pdf",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-ai-responsibility-update-published-february-2025-pdf-8a7a1f90",
+      "date": "2025-01-01",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Corporate responsible AI",
+        "Responsible AI"
+      ],
+      "title": "ai-responsibility-update-published-february-2025.pdf",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "Google",
+      "url": "https://ai.google/static/documents/ai-responsibility-update-published-february-2025.pdf",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-responsible-ai-ibm-53d09550",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Corporate responsible AI",
+        "Responsible AI"
+      ],
+      "title": "Responsible AI | IBM",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "IBM",
+      "url": "https://www.ibm.com/trust/responsible-ai",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-responsible-ai-ethical-policies-and-practices-microso-9311c2ef",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Corporate responsible AI",
+        "Responsible AI"
+      ],
+      "title": "Responsible AI: Ethical policies and practices | Microsoft AI",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/ai/responsible-ai",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-ai-principles-oecd-222dccb6",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "AI principles",
+        "Responsible AI"
+      ],
+      "title": "AI principles | OECD",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "OECD",
+      "url": "https://www.oecd.org/en/topics/sub-issues/ai-principles.html",
+      "tags": [
+        "ai",
+        "oecd"
+      ]
+    },
+    {
+      "id": "global-oecd-ai-policy-observatory-portal-d3453c17",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "AI principles",
+        "Responsible AI"
+      ],
+      "title": "OECD AI Policy Observatory Portal",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "OECD",
+      "url": "https://oecd.ai/en/",
+      "tags": [
+        "ai",
+        "oecd"
+      ]
+    },
+    {
+      "id": "global-ai-advisory-body-united-nations-c43b04c4",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "ISO/IEC 42001",
+        "International governance",
+        "Responsible AI"
+      ],
+      "title": "AI Advisory Body | United Nations",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "United Nations",
+      "url": "https://www.un.org/ai-advisory-body",
+      "tags": [
+        "ai",
+        "iso42001",
+        "un"
+      ]
+    },
+    {
+      "id": "global-world-economic-forum-2d2dda2e",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Policy trends",
+        "Responsible AI"
+      ],
+      "title": "https://www.weforum.org/stories/artificial-intelligence/",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "World Economic Forum",
+      "url": "https://www.weforum.org/stories/artificial-intelligence/",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-what-is-ai-verify-ai-verify-foundation-79602307",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Responsible AI"
+      ],
+      "title": "What is AI Verify – AI Verify Foundation",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "aiverifyfoundation.sg",
+      "url": "https://aiverifyfoundation.sg/what-is-ai-verify/",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-ethics-or-charade-the-troubling-truth-of-bluewashing--500c0eba",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Responsible AI"
+      ],
+      "title": "Ethics or charade? The troubling truth of bluewashing | Advertising | Campaign Asia",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "campaignasia.com",
+      "url": "https://www.campaignasia.com/article/ethics-or-charade-the-troubling-truth-of-bluewashing/484603",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-understanding-iso-42001-and-aims-isms-online-7759f91a",
+      "date": "2001-01-01",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "ISO/IEC 42001",
+        "Responsible AI"
+      ],
+      "title": "Understanding ISO 42001 and AIMS | ISMS.online",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "isms.online",
+      "url": "https://www.isms.online/iso-42001/",
+      "tags": [
+        "ai",
+        "iso42001"
+      ]
+    },
+    {
+      "id": "global-iso-iec-42001-a-new-standard-for-ai-governance-f8e3da0c",
+      "date": "2001-01-01",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "ISO/IEC 42001",
+        "Responsible AI"
+      ],
+      "title": "ISO/IEC 42001: a new standard for AI governance",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "kpmg.com",
+      "url": "https://kpmg.com/ch/en/insights/artificial-intelligence/iso-iec-42001.html*:*:text=ISO*2FIEC*2042001*20is*20the,management*20and*20third*2Dparty*20suppliers.",
+      "tags": [
+        "ai",
+        "iso42001"
+      ]
+    },
+    {
+      "id": "global-l-a-unified-shelves-new-ai-chatbot-after-startup-firm-1a648743",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Responsible AI"
+      ],
+      "title": "L.A. Unified shelves new AI chatbot after startup firm collapses - Los Angeles Times",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "latimes.com",
+      "url": "https://www.latimes.com/california/story/2024-07-03/lausds-highly-touted-ai-chatbot-to-help-students-fails-to-deliver",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-addressing-bias-in-artificial-intelligence-by-iec-e-t-45d5434d",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Bias and fairness",
+        "Responsible AI"
+      ],
+      "title": "Addressing bias in artificial intelligence | by IEC | e-tech | Medium",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "medium.com",
+      "url": "https://medium.com/e-tech/addressing-bias-in-artificial-intelligence-920b55c24d9a",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-how-companies-learn-your-secrets-the-new-york-times-86ce1a8a",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Responsible AI"
+      ],
+      "title": "How Companies Learn Your Secrets - The New York Times",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "nytimes.com",
+      "url": "https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-what-is-sustainable-ai-oxethica-359b8944",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Responsible AI"
+      ],
+      "title": "What is Sustainable AI? | oxethica",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "oxethica.com",
+      "url": "https://www.oxethica.com/blog/what-is-sustainable-ai",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-sgmodelaigovframework2-pdf-e46105b7",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Responsible AI"
+      ],
+      "title": "sgmodelaigovframework2.pdf",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "pdpc.gov.sg",
+      "url": "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/resource-for-organisation/ai/sgmodelaigovframework2.pdf",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-the-regulation-of-fine-tuning-federated-compliance-fo-d736943c",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Responsible AI"
+      ],
+      "title": "The regulation of fine-tuning: Federated compliance for modified general-purpose AI models - ScienceDirect",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "sciencedirect.com",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2212473X25001063",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-the-black-box-myth-what-the-industry-pretends-not-to--d63e08bc",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Responsible AI"
+      ],
+      "title": "The Black Box Myth: What the Industry Pretends Not to Know About AI | TechPolicy.Press",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "techpolicy.press",
+      "url": "https://www.techpolicy.press/the-black-box-myth-what-the-industry-pretends-not-to-know-about-ai/",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-the-eu-ai-act-has-arrived-how-unilever-is-preparing-u-ff034686",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Responsible AI"
+      ],
+      "title": "The EU AI Act has arrived: how Unilever is preparing | Unilever",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "unilever.com",
+      "url": "https://www.unilever.com/news/news-search/2024/the-eu-ai-act-has-arrived-how-unilever-is-preparing/",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-ai-incident-response-22nov2025-docx-f14a20ba",
+      "date": "2025-01-01",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Responsible AI"
+      ],
+      "title": "AI_Incident_Response_22Nov2025.docx",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "urldefense.com",
+      "url": "https://urldefense.com/v3/__https:/media.licdn.com/dms/document/media/v2/D4E1FAQHIaEyO2MbdTQ/feedshare-document-pdf-analyzed/B4EZrVRfY_IoAY-/0/1764514729499?e=1765411200&v=beta&t=eBd9EtY5PU1-wMpgKzOQ_LimJiME9QjBv1C0YMZnpGA__;!!HTp9Kzo!glpDSDE684e0x23vFhMMtp-EjFPCnA2nQD7gacFWSaFJLNU5XMC4KxK9zZ8fsYv_aP6DodNdh0QXurIjY34P2HvG8fj1YoQXuNqpeFM$",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-bill-text-ab-2013-generative-artificial-intelligence--2f1f90de",
+      "date": "2013-01-01",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Responsible AI",
+        "Training data transparency"
+      ],
+      "title": "Bill Text - AB-2013 Generative artificial intelligence: training data transparency.",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "urldefense.com",
+      "url": "https://urldefense.com/v3/__https:/leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2013__;!!HTp9Kzo!glpDSDE684e0x23vFhMMtp-EjFPCnA2nQD7gacFWSaFJLNU5XMC4KxK9zZ8fsYv_aP6DodNdh0QXurIjY34P2HvG8fj1YoQXP4KXLHc$",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-introducing-riskrubric-ai-the-risk-scorecard-for-ever-97829277",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "AI risk management",
+        "Responsible AI"
+      ],
+      "title": "Introducing RiskRubric.ai: The Risk Scorecard for Every AI Model - Noma Security",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "urldefense.com",
+      "url": "https://urldefense.com/v3/__https:/noma.security/blog/introducing-riskrubric-ai-the-risk-scorecard-for-every-ai-model/?utm_source=cybersec&utm_medium=newsfeed__;!!HTp9Kzo!glpDSDE684e0x23vFhMMtp-EjFPCnA2nQD7gacFWSaFJLNU5XMC4KxK9zZ8fsYv_aP6DodNdh0QXurIjY34P2HvG8fj1YoQXpQ1RGrI$",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-search-results-for-model-weights-eu-artificial-intell-aa53e89a",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Model governance",
+        "Responsible AI"
+      ],
+      "title": "Search results for \"model weights\" | EU Artificial Intelligence Act",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "urldefense.com",
+      "url": "https://urldefense.com/v3/__https:/artificialintelligenceact.eu/?s=model*weights&et_pb_searchform_submit=et_search_proccess&et_pb_include_posts=yes&et_pb_include_pages=yes__;Kw!!HTp9Kzo!glpDSDE684e0x23vFhMMtp-EjFPCnA2nQD7gacFWSaFJLNU5XMC4KxK9zZ8fsYv_aP6DodNdh0QXurIjY34P2HvG8fj1YoQXZyWeYtk$",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-us-and-uk-refuse-to-sign-paris-summit-declaration-on--9dabf1ba",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Responsible AI"
+      ],
+      "title": "US and UK refuse to sign Paris summit declaration on ‘inclusive’ AI | Artificial intelligence (AI) | The Guardian",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "urldefense.com",
+      "url": "https://urldefense.com/v3/__https:/www.theguardian.com/technology/2025/feb/11/us-uk-paris-ai-summit-artificial-intelligence-declaration?utm_source=chatgpt.com__;!!HTp9Kzo!glpDSDE684e0x23vFhMMtp-EjFPCnA2nQD7gacFWSaFJLNU5XMC4KxK9zZ8fsYv_aP6DodNdh0QXurIjY34P2HvG8fj1YoQXS35UmOg$",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "global-ai-watch-global-regulatory-tracker-united-arab-emirat-8d2b4699",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Responsible AI"
+      ],
+      "title": "AI Watch: Global regulatory tracker - United Arab Emirates | White & Case LLP",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "whitecase.com",
+      "url": "https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-uae",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "uae-publications-artificial-intelligence-office-uae-0d01ea9c",
+      "date": "2026-03-18",
+      "jurisdiction": "UAE",
+      "region": "UAE",
+      "topics": [
+        "AI governance",
+        "Responsible AI",
+        "UAE policy"
+      ],
+      "title": "Publications | Artificial Intelligence Office, UAE",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "ai.gov.ae",
+      "url": "https://ai.gov.ae/publications/",
+      "tags": [
+        "ai",
+        "uae"
+      ]
+    },
+    {
+      "id": "uk-artificial-intelligence-regulation-bill-hl-968ab449",
+      "date": "2026-03-18",
+      "jurisdiction": "UK",
+      "region": "UK",
+      "topics": [
+        "AI governance",
+        "Responsible AI",
+        "UK policy"
+      ],
+      "title": "Artificial Intelligence (Regulation) Bill [HL]",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "bills.parliament.uk",
+      "url": "https://bills.parliament.uk/publications/59353/documents/6094",
+      "tags": [
+        "ai",
+        "uk"
+      ]
+    },
+    {
+      "id": "uk-ai-opportunities-action-plan-gov-uk-a8b5f568",
+      "date": "2026-03-18",
+      "jurisdiction": "UK",
+      "region": "UK",
+      "topics": [
+        "AI governance",
+        "Responsible AI",
+        "UK policy"
+      ],
+      "title": "AI Opportunities Action Plan - GOV.UK",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "gov.uk",
+      "url": "https://www.gov.uk/government/publications/ai-opportunities-action-plan/ai-opportunities-action-plan",
+      "tags": [
+        "ai",
+        "uk"
+      ]
+    },
+    {
+      "id": "us-h-r-6216-introduced-in-house-ee2c10ad",
+      "date": "2026-03-18",
+      "jurisdiction": "US",
+      "region": "US",
+      "topics": [
+        "AI governance",
+        "Responsible AI",
+        "US policy"
+      ],
+      "title": "H. R. 6216 (Introduced-in-House)",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "congress.gov",
+      "url": "https://www.congress.gov/116/bills/hr6216/BILLS-116hr6216ih.xml",
+      "tags": [
+        "ai",
+        "us"
+      ]
+    },
+    {
+      "id": "us-generative-ai-genai-executive-order-govops-3b2c5494",
+      "date": "2026-03-18",
+      "jurisdiction": "US",
+      "region": "US",
+      "topics": [
+        "AI governance",
+        "Responsible AI",
+        "US policy"
+      ],
+      "title": "Generative AI (GenAI) Executive Order | GovOps",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "govops.ca.gov",
+      "url": "https://www.govops.ca.gov/generative-ai-genai-executive-order/",
+      "tags": [
+        "ai",
+        "us"
+      ]
+    },
+    {
+      "id": "us-ai-risk-management-framework-nist-4e8dd1cf",
+      "date": "2026-03-18",
+      "jurisdiction": "US",
+      "region": "US",
+      "topics": [
+        "AI governance",
+        "AI risk management",
+        "Responsible AI"
+      ],
+      "title": "AI Risk Management Framework | NIST",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "nist.gov",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "tags": [
+        "ai",
+        "nist",
+        "us"
+      ]
+    },
+    {
+      "id": "us-artificial-intelligence-risk-management-framework-ai-rmf--f9b79652",
+      "date": "2026-03-18",
+      "jurisdiction": "US",
+      "region": "US",
+      "topics": [
+        "AI governance",
+        "AI risk management",
+        "Responsible AI"
+      ],
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0) | NIST",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "nist.gov",
+      "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10",
+      "tags": [
+        "ai",
+        "nist",
+        "us"
+      ]
+    },
+    {
+      "id": "us-https-www-nist-gov-risk-management-1ba9401a",
+      "date": "2026-03-18",
+      "jurisdiction": "US",
+      "region": "US",
+      "topics": [
+        "AI governance",
+        "AI risk management",
+        "Responsible AI"
+      ],
+      "title": "https://www.nist.gov/risk-management",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "nist.gov",
+      "url": "https://www.nist.gov/risk-management",
+      "tags": [
+        "ai",
+        "nist",
+        "us"
+      ]
+    },
+    {
+      "id": "us-ny-state-assembly-bill-2025-a6453a-142fa900",
+      "date": "2025-01-01",
+      "jurisdiction": "US",
+      "region": "US",
+      "topics": [
+        "AI governance",
+        "Responsible AI",
+        "US policy"
+      ],
+      "title": "NY State Assembly Bill 2025-A6453A",
+      "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
+      "source": "nysenate.gov",
+      "url": "https://www.nysenate.gov/legislation/bills/2025/A6453/amendment/A",
+      "tags": [
+        "ai",
+        "us"
+      {
+  "generated_at": "2026-03-18",
+  "items": [
+    {
+      "id": "aig-resource-d8d41658",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Axios AI+ (daily)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "axios.com",
+      "url": "https://www.axios.com/signup/ai-plus",
+      "tags": [
+        "a-newsletters",
+        "ai",
+        "for-industry-developments",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "A. Newsletters",
+      "group": "For industry developments:"
+    },
+    {
+      "id": "aig-resource-3842fae1",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Privacy and AI governance"
+      ],
+      "title": "AI Governance Dashboard by the IAPP (weekly)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "iapp.org",
+      "url": "https://iapp.org/news/subscriptions",
+      "tags": [
+        "a-newsletters",
+        "ai",
+        "for-industry-developments",
+        "governance",
+        "i-learn",
+        "iapp"
+      ],
+      "pillar": "I. Learn",
+      "category": "A. Newsletters",
+      "group": "For industry developments:"
+    },
+    {
+      "id": "aig-resource-9dd23249",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Eye on AI by Fortune (weekly)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "fortune.com",
+      "url": "https://fortune.com/newsletters/eye-on-ai",
+      "tags": [
+        "a-newsletters",
+        "ai",
+        "for-industry-developments",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "A. Newsletters",
+      "group": "For industry developments:"
+    },
+    {
+      "id": "aig-resource-ecdb5aab",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "The Neuron (daily)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "theneurondaily.com",
+      "url": "https://www.theneurondaily.com/",
+      "tags": [
+        "a-newsletters",
+        "ai",
+        "for-industry-developments",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "A. Newsletters",
+      "group": "For industry developments:"
+    },
+    {
+      "id": "aig-resource-2f43011e",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "The Algorithm by the MIT Technology Review (weekly)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "forms.technologyreview.com",
+      "url": "https://forms.technologyreview.com/newsletters/ai-demystified-the-algorithm/",
+      "tags": [
+        "a-newsletters",
+        "ai",
+        "for-industry-developments",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "A. Newsletters",
+      "group": "For industry developments:"
+    },
+    {
+      "id": "aig-resource-f95843e9",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "One Useful Thing by Ethan Mollick (bi-weekly)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "oneusefulthing.org",
+      "url": "https://www.oneusefulthing.org/",
+      "tags": [
+        "a-newsletters",
+        "ai",
+        "for-unique-insights",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "A. Newsletters",
+      "group": "For unique insights:"
+    },
+    {
+      "id": "aig-resource-aa29e9fa",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "AI Mindset by Connor Grennan (weekly)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ai-mindset.ai",
+      "url": "https://www.ai-mindset.ai/ai-mindset-newsletter",
+      "tags": [
+        "a-newsletters",
+        "ai",
+        "for-unique-insights",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "A. Newsletters",
+      "group": "For unique insights:"
+    },
+    {
+      "id": "aig-resource-2c134157",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "AI with Allie by Allie Miller (bi-weekly)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "aiwithallie.beehiiv.com",
+      "url": "https://aiwithallie.beehiiv.com/",
+      "tags": [
+        "a-newsletters",
+        "ai",
+        "for-unique-insights",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "A. Newsletters",
+      "group": "For unique insights:"
+    },
+    {
+      "id": "aig-resource-82737355",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Center for AI & Digital Policy Update (weekly)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "caidp.org",
+      "url": "https://www.caidp.org/caidp-update/",
+      "tags": [
+        "a-newsletters",
+        "ai",
+        "for-deeper-or-specific-cuts",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "A. Newsletters",
+      "group": "For deeper or specific cuts:"
+    },
+    {
+      "id": "aig-resource-93572854",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Epoch AI (weekly)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "epochai.substack.com",
+      "url": "https://epochai.substack.com/",
+      "tags": [
+        "a-newsletters",
+        "ai",
+        "for-deeper-or-specific-cuts",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "A. Newsletters",
+      "group": "For deeper or specific cuts:"
+    },
+    {
+      "id": "aig-resource-5592c47d",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Enterprise AI Governance by Oliver Patel (weekly)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "oliverpatel.substack.com",
+      "url": "https://oliverpatel.substack.com/",
+      "tags": [
+        "a-newsletters",
+        "ai",
+        "for-deeper-or-specific-cuts",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "A. Newsletters",
+      "group": "For deeper or specific cuts:"
+    },
+    {
+      "id": "aig-resource-594e2ad4",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Doing AI Governance by James Kavanagh (weekly)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ethos-ai.org",
+      "url": "https://www.ethos-ai.org/",
+      "tags": [
+        "a-newsletters",
+        "ai",
+        "for-deeper-or-specific-cuts",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "A. Newsletters",
+      "group": "For deeper or specific cuts:"
+    },
+    {
+      "id": "aig-resource-1d392fd7",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "AI Policy Perspectives (bi-weekly)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "aipolicyperspectives.com",
+      "url": "https://www.aipolicyperspectives.com/",
+      "tags": [
+        "a-newsletters",
+        "ai",
+        "for-deeper-or-specific-cuts",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "A. Newsletters",
+      "group": "For deeper or specific cuts:"
+    },
+    {
+      "id": "aig-resource-41a29f9d",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Public Sector AI by Chris Kraft (weekly)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "linkedin.com",
+      "url": "https://www.linkedin.com/newsletters/7185088850434662401/",
+      "tags": [
+        "a-newsletters",
+        "ai",
+        "for-deeper-or-specific-cuts",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "A. Newsletters",
+      "group": "For deeper or specific cuts:"
+    },
+    {
+      "id": "aig-resource-6bc43002",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "AI Daily Brief",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "Apple Podcasts",
+      "url": "https://podcasts.apple.com/us/podcast/the-ai-daily-brief-formerly-the-ai-breakdown/id1680633614",
+      "tags": [
+        "ai",
+        "b-podcasts",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "B. Podcasts",
+      "group": null
+    },
+    {
+      "id": "aig-resource-665f9c97",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Waking Up with AI by Katherine Forrest and Anna Gressel (weekly)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "Apple Podcasts",
+      "url": "https://podcasts.apple.com/us/podcast/waking-up-with-ai/id1734234418",
+      "tags": [
+        "ai",
+        "b-podcasts",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "B. Podcasts",
+      "group": null
+    },
+    {
+      "id": "aig-resource-3b4d1588",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "2",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/mustafa_suleyman_what_is_an_ai_anyway",
+      "tags": [
+        "ai",
+        "b-podcasts",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "B. Podcasts",
+      "group": null
+    },
+    {
+      "id": "aig-resource-8333296d",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "What is an AI Anyway by Mustafa Suleyman",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/yejin_choi_why_ai_is_incredibly_smart_and_shockingly_stupid",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-capabilities"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI capabilities:"
+    },
+    {
+      "id": "aig-resource-39759157",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "Why AI is Incredibly Smart and Shocking Stupid by Yejin Choi",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/jeff_dean_ai_isn_t_as_smart_as_you_think_but_it_could_be",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-capabilities"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI capabilities:"
+    },
+    {
+      "id": "aig-resource-a1358d2b",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "AI Isn’t as Smart as You Think … But It Could Be by Jeff Dean",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/ilya_sutskever_the_exciting_perilous_journey_toward_agi",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-capabilities"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI capabilities:"
+    },
+    {
+      "id": "aig-resource-552a8de8",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "The Exciting, Perilous Journey Toward AGI by Ilya Sutskever",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/jennifer_golbeck_is_ai_progress_stuck",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-capabilities"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI capabilities:"
+    },
+    {
+      "id": "aig-resource-c2125aac",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "Is AI Progress Stuck by Jennifer Golbeck",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/noam_brown_ai_won_t_plateau_if_we_give_it_time_to_think",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-capabilities"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI capabilities:"
+    },
+    {
+      "id": "aig-resource-90b62906",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "AI Won’t Plateau – If We Give It Time to Think by Noam Brown",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/ray_kurzweil_the_last_6_decades_of_ai_and_what_comes_next",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-capabilities"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI capabilities:"
+    },
+    {
+      "id": "aig-resource-a9209054",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "The Last 6 Decades of AI – and What Comes Next by Ray Kurzweil",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/sam_harris_can_we_build_ai_without_losing_control_over_it",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-capabilities"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI capabilities:"
+    },
+    {
+      "id": "aig-resource-40ec06e9",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "Can We Build AI Without Losing Control Over It? by Sam Harris",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/gary_marcus_the_urgent_risks_of_runaway_ai_and_what_to_do_about_them",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-governance-risk-and-ethics"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI governance, risk, and ethics:"
+    },
+    {
+      "id": "aig-resource-5217baa6",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "The Urgent Risks of Runaway AI … and What to Do about Them by Gary Marcus",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/sasha_luccioni_ai_is_dangerous_but_not_for_the_reasons_you_think",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-governance-risk-and-ethics"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI governance, risk, and ethics:"
+    },
+    {
+      "id": "aig-resource-8767d68a",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "AI is Dangerous, But Not for the Reasons You Think by Sasha Luccioni",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/rumman_chowdhury_your_right_to_repair_ai_systems",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-governance-risk-and-ethics"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI governance, risk, and ethics:"
+    },
+    {
+      "id": "aig-resource-15d88a6f",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "Your Right to Repair AI Systems by Rumman Chowdhury",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/stuart_russell_3_principles_for_creating_safer_ai",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-governance-risk-and-ethics"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI governance, risk, and ethics:"
+    },
+    {
+      "id": "aig-resource-f9363c2f",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "3 Principles for Creating Safer AI by Stuart Russell",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/max_tegmark_how_to_keep_ai_under_control",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-governance-risk-and-ethics"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI governance, risk, and ethics:"
+    },
+    {
+      "id": "aig-resource-b09369b8",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "How to Keep AI Under Control by Max Tegmark",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/helen_toner_how_to_govern_ai_even_if_it_s_hard_to_predict",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-governance-risk-and-ethics"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI governance, risk, and ethics:"
+    },
+    {
+      "id": "aig-resource-31e67ecc",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "How to Govern AI – Even if it’s Hard to Predict by Helen Toner",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/emilia_gomez_a_musical_approach_to_ai_regulation",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-governance-risk-and-ethics"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI governance, risk, and ethics:"
+    },
+    {
+      "id": "aig-resource-cde8b8a2",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "A Musical Approach to AI Regulation by Emilia Gomez",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/andrew_ng_how_ai_could_empower_any_business",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-governance-risk-and-ethics"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI governance, risk, and ethics:"
+    },
+    {
+      "id": "aig-resource-ee470bfe",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "How AI Could Empower Any Business by Andrew Ng",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/ethan_mollick_ai_s_productivity_paradox_and_what_it_means_for_you",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-s-impact-on-business-life-and-society"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI’s impact on business, life, and society:"
+    },
+    {
+      "id": "aig-resource-ec7727d8",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "AI’s Productivity Paradox – and What It Means for You by Ethan Mollick",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/sal_khan_how_ai_could_save_not_destroy_education",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-s-impact-on-business-life-and-society"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI’s impact on business, life, and society:"
+    },
+    {
+      "id": "aig-resource-c782aee6",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "How AI Could Save (Not Destroy) Education by Sal Khan",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/max_tegmark_how_to_get_empowered_not_overpowered_by_ai",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-s-impact-on-business-life-and-society"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI’s impact on business, life, and society:"
+    },
+    {
+      "id": "aig-resource-75c801aa",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "How to Get Empowered, Not Overpowered, by AI by Max Tegmark",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/reid_hoffman_and_kevin_scott_the_evolution_of_ai_and_how_it_will_impact_human_creativity",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-s-impact-on-business-life-and-society"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI’s impact on business, life, and society:"
+    },
+    {
+      "id": "aig-resource-03bf43bc",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "The Evolution of AI and How It Will Impact Human Creativity by Reid Hoffman/Kevin Scott",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/max_jaderberg_how_ai_is_saving_billions_of_years_of_human_research_time",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-s-impact-on-business-life-and-society"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI’s impact on business, life, and society:"
+    },
+    {
+      "id": "aig-resource-0819d08e",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Public education"
+      ],
+      "title": "How AI is Saving Billions of Years of Human Research Time by Max Jaderberg",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ted.com",
+      "url": "https://www.ted.com/talks/aravind_srinivas_how_ai_will_answer_questions_we_haven_t_thought_to_ask",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-s-impact-on-business-life-and-society"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI’s impact on business, life, and society:"
+    },
+    {
+      "id": "aig-resource-b1a49faa",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Training"
+      ],
+      "title": "How AI Will Answer Questions We Haven’t Thought to Ask by Aravind Srinivas",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "elementsofai.com",
+      "url": "https://www.elementsofai.com/",
+      "tags": [
+        "ai",
+        "c-ted-talks",
+        "governance",
+        "i-learn",
+        "on-ai-s-impact-on-business-life-and-society"
+      ],
+      "pillar": "I. Learn",
+      "category": "C. TED Talks",
+      "group": "On AI’s impact on business, life, and society:"
+    },
+    {
+      "id": "aig-resource-084392c1",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Training"
+      ],
+      "title": "Elements of AI",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "buildingai.elementsofai.com",
+      "url": "https://buildingai.elementsofai.com/",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-foundations-of-ai-and-ai-governance",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For foundations of AI and AI governance:"
+    },
+    {
+      "id": "aig-resource-3c6b8734",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Building AI",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ethics-of-ai.mooc.fi",
+      "url": "https://ethics-of-ai.mooc.fi/",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-foundations-of-ai-and-ai-governance",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For foundations of AI and AI governance:"
+    },
+    {
+      "id": "aig-resource-61fa14aa",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Training"
+      ],
+      "title": "Ethics of AI",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "Coursera",
+      "url": "https://www.coursera.org/google-learn/ai-essentials",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-foundations-of-ai-and-ai-governance",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For foundations of AI and AI governance:"
+    },
+    {
+      "id": "aig-resource-2eb34efb",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Training"
+      ],
+      "title": "AI Essentials",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "Coursera",
+      "url": "https://www.coursera.org/specializations/introduction-to-generative-ai",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-foundations-of-ai-and-ai-governance",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For foundations of AI and AI governance:"
+    },
+    {
+      "id": "aig-resource-1142adf1",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Introduction to Generative AI Specialization",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "youtube.com",
+      "url": "https://www.youtube.com/playlist?list=PLw9kjlF6lD5UqaZvMTbhJB8sV-yuXu5eW",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-foundations-of-ai-and-ai-governance",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For foundations of AI and AI governance:"
+    },
+    {
+      "id": "aig-resource-435ea807",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Training"
+      ],
+      "title": "AGI Safety",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-foundations-of-ai-and-ai-governance",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For foundations of AI and AI governance:"
+    },
+    {
+      "id": "aig-resource-499abd80",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Training"
+      ],
+      "title": "Fundamental AI Concepts",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-foundations-of-ai-and-ai-governance",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For foundations of AI and AI governance:"
+    },
+    {
+      "id": "aig-resource-37833615",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Training"
+      ],
+      "title": "Fundamentals of Machine Learning",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/training/modules/responsible-ai-studio/",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-foundations-of-ai-and-ai-governance",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For foundations of AI and AI governance:"
+    },
+    {
+      "id": "aig-resource-54ee9898",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Training"
+      ],
+      "title": "Fundamentals of Responsible Generative AI",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/training/modules/embrace-responsible-ai-principles-practices/",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-foundations-of-ai-and-ai-governance",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For foundations of AI and AI governance:"
+    },
+    {
+      "id": "aig-resource-6789a1c1",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Training"
+      ],
+      "title": "Embrace Responsible AI Principles & Practices",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "deeplearning.ai",
+      "url": "https://www.deeplearning.ai/courses/ai-for-everyone/",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-foundations-of-ai-and-ai-governance",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For foundations of AI and AI governance:"
+    },
+    {
+      "id": "aig-resource-17c4b819",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Training"
+      ],
+      "title": "3",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "deeplearning.ai",
+      "url": "https://www.deeplearning.ai/courses/generative-ai-for-everyone/",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-foundations-of-ai-and-ai-governance",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For foundations of AI and AI governance:"
+    },
+    {
+      "id": "aig-resource-413c11e2",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "AI for Everyone",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "youtube.com",
+      "url": "https://www.youtube.com/playlist?list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-foundations-of-ai-and-ai-governance",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For foundations of AI and AI governance:"
+    },
+    {
+      "id": "aig-resource-19659cdc",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Training"
+      ],
+      "title": "Generative AI for Everyone",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "Coursera",
+      "url": "https://www.coursera.org/learn/ethics-and-governance-in-the-age-of-generative-ai",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-foundations-of-ai-and-ai-governance",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For foundations of AI and AI governance:"
+    },
+    {
+      "id": "aig-resource-b2f3f315",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Training"
+      ],
+      "title": "Making Friends with Machine Learning (Google; Cassie Kozyrkov)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "Coursera",
+      "url": "https://www.coursera.org/learn/wharton-ai-strategy-governance",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-deeper-or-specific-cuts",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For deeper or specific cuts:"
+    },
+    {
+      "id": "aig-resource-fb2f276c",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Training"
+      ],
+      "title": "Ethics & Governance in the Age of GenAI (Northeastern Univ.)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "Coursera",
+      "url": "https://www.coursera.org/learn/generative-ai-governance-policy-and-emerging-regulation",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-deeper-or-specific-cuts",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For deeper or specific cuts:"
+    },
+    {
+      "id": "aig-resource-b82726c2",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "AI Strategy & Governance (Univ. of Penn)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "linkedin.com",
+      "url": "https://www.linkedin.com/learning/foundations-of-responsible-ai/understanding-responsible-ai",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-deeper-or-specific-cuts",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For deeper or specific cuts:"
+    },
+    {
+      "id": "aig-resource-1a4c5059",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "GenAI: Governance, Policy & Emerging Regulation (Univ. of Michigan)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "linkedin.com",
+      "url": "https://www.linkedin.com/learning/building-a-responsible-ai-program-context-culture-content-and-commitment/actionable-steps-to-responsible-ai",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-deeper-or-specific-cuts",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For deeper or specific cuts:"
+    },
+    {
+      "id": "aig-resource-7b6ebed5",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Foundations of Responsible AI (LinkedIn Learning)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "linkedin.com",
+      "url": "https://www.linkedin.com/learning/understanding-and-implementing-the-nist-ai-risk-management-framework-rmf/implement-the-nist-risk-managment-framework",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-deeper-or-specific-cuts",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For deeper or specific cuts:"
+    },
+    {
+      "id": "aig-resource-4cbb6240",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Building a Responsible AI Program (LinkedIn Learning)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "linkedin.com",
+      "url": "https://www.linkedin.com/learning/navigating-the-eu-ai-act/get-started-with-the-eu-ai-act",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-deeper-or-specific-cuts",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For deeper or specific cuts:"
+    },
+    {
+      "id": "aig-resource-2daf4373",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Understanding & Implementing the NIST AI RMF (LinkedIn Learning)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "linkedin.com",
+      "url": "https://www.linkedin.com/learning/introduction-to-auditing-ai-systems/sources-of-bias-in-data",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-deeper-or-specific-cuts",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For deeper or specific cuts:"
+    },
+    {
+      "id": "aig-resource-ec68f0f1",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Navigating the EU AI Act (LinkedIn Learning)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "linkedin.com",
+      "url": "https://www.linkedin.com/learning/algorithmic-auditing-and-continuous-monitoring/algorithmic-auditing-and-continuous-monitoring-uses",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-deeper-or-specific-cuts",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For deeper or specific cuts:"
+    },
+    {
+      "id": "aig-resource-1e36982c",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Introduction to Auditing AI Systems (LinkedIn Learning)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/Artificial-Intelligence-Guide-Thinking-Humans/dp/0374257833",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-deeper-or-specific-cuts",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For deeper or specific cuts:"
+    },
+    {
+      "id": "aig-resource-65d22178",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Algorithmic Auditing & Continuous Monitoring (LinkedIn Learning)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/Prediction-Machines-Updated-Expanded-Intelligence/dp/1647824672",
+      "tags": [
+        "ai",
+        "d-courses",
+        "for-deeper-or-specific-cuts",
+        "governance",
+        "i-learn"
+      ],
+      "pillar": "I. Learn",
+      "category": "D. Courses",
+      "group": "For deeper or specific cuts:"
+    },
+    {
+      "id": "aig-resource-5e5d3aa9",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "AI: A Guide for Thinking Humans by Margaret Mitchell",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/Citizens-Guide-Artificial-Intelligence/dp/0262044811/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-fundamentals"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI fundamentals:"
+    },
+    {
+      "id": "aig-resource-f1db9d6f",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Prediction Machines by Ajay Agrawal",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418831/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-fundamentals"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI fundamentals:"
+    },
+    {
+      "id": "aig-resource-206c30ae",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "A Citizen’s Guide to AI by John Zerilli",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/Artificial-Unintelligence-Computers-Misunderstand-World/dp/026253701X/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-fundamentals"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI fundamentals:"
+    },
+    {
+      "id": "aig-resource-0d0af6f0",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Weapons of Math Destruction by Cathy O’Neil",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/Atlas-AI-Planetary-Artificial-Intelligence/dp/0300264631/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-limitations-and-concerns"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI limitations and concerns:"
+    },
+    {
+      "id": "aig-resource-dfd46bb2",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Artificial Unintelligence by Meredith Broussard",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/Snake-Oil-Artificial-Intelligence-Difference/dp/B0D8C1KNB6/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-limitations-and-concerns"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI limitations and concerns:"
+    },
+    {
+      "id": "aig-resource-cd743920",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Atlas of AI by Kate Crawford",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/Rebooting-AI-Building-Artificial-Intelligence-ebook/dp/B07MYLGQLB/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-limitations-and-concerns"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI limitations and concerns:"
+    },
+    {
+      "id": "aig-resource-7ca988c1",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "AI Snake Oil by Arvind Narayanan",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/Unmasking-AI-Mission-Protect-Machines/dp/0593241835/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-limitations-and-concerns"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI limitations and concerns:"
+    },
+    {
+      "id": "aig-resource-5c1c9cbf",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Rebooting AI by Gary Marcus",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/Feeding-Machine-Hidden-Powering-I/dp/B0D9YT5272/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-limitations-and-concerns"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI limitations and concerns:"
+    },
+    {
+      "id": "aig-resource-46001e67",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Unmasking AI by Joy Buolamwini",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/Co-Intelligence-Living-Working-Ethan-Mollick/dp/059371671X/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-limitations-and-concerns"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI limitations and concerns:"
+    },
+    {
+      "id": "aig-resource-09067da3",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Feeding the Machine by James Muldoon",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/Mastering-AI-Survival-Superpowered-Future/dp/B0CYJKCFLH/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-limitations-and-concerns"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI limitations and concerns:"
+    },
+    {
+      "id": "aig-resource-e91986f3",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Co-Intelligence by Ethan Mollick",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/Coming-Wave-Power-Our-Future/dp/0593593979/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-strategy-and-impact"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI strategy and impact:"
+    },
+    {
+      "id": "aig-resource-36221bb7",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Mastering AI by Jeremy Khan",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/AI-First-Company-Compete-Artificial-Intelligence/dp/0593330315/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-strategy-and-impact"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI strategy and impact:"
+    },
+    {
+      "id": "aig-resource-c9ff331b",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "The Coming Wave by Mustafa Suleyman",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/Competing-Age-AI-Leadership-Algorithms/dp/1633697622/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-strategy-and-impact"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI strategy and impact:"
+    },
+    {
+      "id": "aig-resource-0e4e1571",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "The AI-First Company by Ash Fontana",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/Algorithmic-Leader-Smart-Machines-Smarter/dp/1989025331/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-strategy-and-impact"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI strategy and impact:"
+    },
+    {
+      "id": "aig-resource-7d71be69",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Competing in the Age of AI by Marco Iansiti",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/The-Singularity-Is-Nearer/dp/B08ZJRMWVS/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-strategy-and-impact"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI strategy and impact:"
+    },
+    {
+      "id": "aig-resource-a0889289",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "The Algorithmic Leader by Mike Walsh",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/Alignment-Problem-Machine-Learning-Values/dp/0393868338/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-strategy-and-impact"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI strategy and impact:"
+    },
+    {
+      "id": "aig-resource-99454fe1",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "The Singularity is Nearer by Ray Kurzweil",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/Guardrails-Guiding-Human-Decisions-Age/dp/B0CR4DP8RY/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-strategy-and-impact"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI strategy and impact:"
+    },
+    {
+      "id": "aig-resource-2cb597c7",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "The Alignment Problem by Brian Christian",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/AI-Needs-You-Change-Future/dp/B0CW27C8TG/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-governance-and-ethics"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI governance and ethics:"
+    },
+    {
+      "id": "aig-resource-2466baa5",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Guardrails by Urs Gasser",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/AI-Mirror-Reclaim-Humanity-Thinking/dp/B0D51TZDRT/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-governance-and-ethics"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI governance and ethics:"
+    },
+    {
+      "id": "aig-resource-1880ea96",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "AI Needs You by Verity Harding",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "amazon.com",
+      "url": "https://www.amazon.com/Human-Rights-Robot-Wrongs-Being/dp/B0D96HKP18/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-governance-and-ethics"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI governance and ethics:"
+    },
+    {
+      "id": "aig-resource-8e5f728a",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "The AI Mirror by Shannon Vallor",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "chatgpt.com",
+      "url": "https://chatgpt.com/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "on-ai-governance-and-ethics"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI governance and ethics:"
+    },
+    {
+      "id": "aig-resource-aab4d7b8",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Model governance"
+      ],
+      "title": "Human Rights, Robot Wrongs by Susie Alegre",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "openai.com",
+      "url": "https://openai.com/policies/row-terms-of-use/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "model",
+        "on-ai-governance-and-ethics"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI governance and ethics:"
+    },
+    {
+      "id": "aig-resource-b4b3bcfc",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Model governance"
+      ],
+      "title": "4",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "openai.com",
+      "url": "https://openai.com/index/gpt-4o-system-card/",
+      "tags": [
+        "ai",
+        "e-books",
+        "governance",
+        "i-learn",
+        "model",
+        "on-ai-governance-and-ethics"
+      ],
+      "pillar": "I. Learn",
+      "category": "E. Books",
+      "group": "On AI governance and ethics:"
+    },
+    {
+      "id": "aig-resource-508508a2",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Model governance"
+      ],
+      "title": "ChatGPT",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "platform.openai.com",
+      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "chatbots",
+        "governance",
+        "ii-try",
+        "model"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Chatbots:"
+    },
+    {
+      "id": "aig-resource-8701e897",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Terms of Use",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "claude.ai",
+      "url": "https://claude.ai/",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "chatbots",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Chatbots:"
+    },
+    {
+      "id": "aig-resource-87cd4a89",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Model governance"
+      ],
+      "title": "System Card",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "anthropic.com",
+      "url": "https://www.anthropic.com/legal/consumer-terms",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "chatbots",
+        "governance",
+        "ii-try",
+        "model"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Chatbots:"
+    },
+    {
+      "id": "aig-resource-4ee8080b",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Model governance"
+      ],
+      "title": "Prompt Guide",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "assets.anthropic.com",
+      "url": "https://assets.anthropic.com/m/785e231869ea8b3b/original/claude-3-7-sonnet-system-card.pdf",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "chatbots",
+        "governance",
+        "ii-try",
+        "model"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Chatbots:"
+    },
+    {
+      "id": "aig-resource-52857be7",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Model governance"
+      ],
+      "title": "Claude",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "docs.anthropic.com",
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "chatbots",
+        "governance",
+        "ii-try",
+        "model"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Chatbots:"
+    },
+    {
+      "id": "aig-resource-96219141",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Model governance"
+      ],
+      "title": "Terms of Service",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "gemini.google.com",
+      "url": "https://gemini.google.com/app",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "chatbots",
+        "governance",
+        "ii-try",
+        "model"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Chatbots:"
+    },
+    {
+      "id": "aig-resource-e94b8252",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "System Card",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "policies.google.com",
+      "url": "https://policies.google.com/terms",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "chatbots",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Chatbots:"
+    },
+    {
+      "id": "aig-resource-3ae6eb9e",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Prompt Guide",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "storage.googleapis.com",
+      "url": "https://storage.googleapis.com/model-cards/documents/gemini-2-flash.pdf",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "chatbots",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Chatbots:"
+    },
+    {
+      "id": "aig-resource-3276deeb",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Gemini",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "services.google.com",
+      "url": "https://services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "chatbots",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Chatbots:"
+    },
+    {
+      "id": "aig-resource-a2ecf158",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Terms of Service",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "search.google",
+      "url": "https://search.google/ways-to-search/ai-overviews/",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "chatbots",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Chatbots:"
+    },
+    {
+      "id": "aig-resource-e94b8252",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Model Card",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "policies.google.com",
+      "url": "https://policies.google.com/terms",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "chatbots",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Chatbots:"
+    },
+    {
+      "id": "aig-resource-73ffeaa4",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Prompt Guide",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "perplexity.ai",
+      "url": "https://www.perplexity.ai/",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "chatbots",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Chatbots:"
+    },
+    {
+      "id": "aig-resource-8fa11606",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Google AI Overviews (Terms of Service)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "perplexity.ai",
+      "url": "https://www.perplexity.ai/hub/legal/terms-of-service",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "search"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Search:"
+    },
+    {
+      "id": "aig-resource-8e5f728a",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Perplexity (Terms of Service)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "chatgpt.com",
+      "url": "https://chatgpt.com/",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "search"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Search:"
+    },
+    {
+      "id": "aig-resource-af204def",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Model governance"
+      ],
+      "title": "OpenAI Deep Research in ChatGPT (System Card)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "openai.com",
+      "url": "https://openai.com/index/deep-research-system-card/",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "model",
+        "research"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Research:"
+    },
+    {
+      "id": "aig-resource-3225bce7",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Model governance"
+      ],
+      "title": "Google Deep Research",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "gemini.google",
+      "url": "https://gemini.google/overview/deep-research/?hl=en",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "model",
+        "research"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Research:"
+    },
+    {
+      "id": "aig-resource-8e5f728a",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "DALL·E in ChatGPT (System Card)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "chatgpt.com",
+      "url": "https://chatgpt.com/",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "image-generation"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Image Generation:"
+    },
+    {
+      "id": "aig-resource-d130ee01",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Model governance"
+      ],
+      "title": "Midjourney",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "openai.com",
+      "url": "https://openai.com/index/dall-e-3-system-card/",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "image-generation",
+        "model"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Image Generation:"
+    },
+    {
+      "id": "aig-resource-b83a3d35",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Model governance"
+      ],
+      "title": "Terms of Service",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "midjourney.com",
+      "url": "https://www.midjourney.com/home",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "image-generation",
+        "model"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Image Generation:"
+    },
+    {
+      "id": "aig-resource-2f6491d7",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Model governance"
+      ],
+      "title": "Prompt Basics",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "docs.midjourney.com",
+      "url": "https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "image-generation",
+        "model"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Image Generation:"
+    },
+    {
+      "id": "aig-resource-a9781595",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Model governance"
+      ],
+      "title": "Runway",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "docs.midjourney.com",
+      "url": "https://docs.midjourney.com/hc/en-us/articles/32023408776205-Prompt-Basics",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "model",
+        "video-generation"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Video Generation:"
+    },
+    {
+      "id": "aig-resource-ca1174f4",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Terms of Use",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "runwayml.com",
+      "url": "https://runwayml.com/",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "video-generation"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Video Generation:"
+    },
+    {
+      "id": "aig-resource-216b0fd4",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Prompt Guide",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "runwayml.com",
+      "url": "https://runwayml.com/terms-of-use",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "video-generation"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Video Generation:"
+    },
+    {
+      "id": "aig-resource-de211bcd",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Synthesia (Terms of Service)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "help.runwayml.com",
+      "url": "https://help.runwayml.com/hc/en-us/articles/30586818553107-Gen-3-Alpha-Prompting-Guide",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "video-generation"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Video Generation:"
+    },
+    {
+      "id": "aig-resource-f07e7b2e",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Sora ($)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "synthesia.io",
+      "url": "https://www.synthesia.io/",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "video-generation"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Video Generation:"
+    },
+    {
+      "id": "aig-resource-01964482",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "ElevenLabs",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "synthesia.io",
+      "url": "https://www.synthesia.io/legal/user-terms-of-service",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "voice-music-generation"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Voice & Music Generation:"
+    },
+    {
+      "id": "aig-resource-e3bde61f",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Terms of Service",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "sora.com",
+      "url": "https://sora.com/",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "voice-music-generation"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Voice & Music Generation:"
+    },
+    {
+      "id": "aig-resource-baff5960",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Prompt Guide",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "elevenlabs.io",
+      "url": "https://elevenlabs.io/",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "voice-music-generation"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Voice & Music Generation:"
+    },
+    {
+      "id": "aig-resource-3b3e88f5",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Suno (Terms of Service)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "elevenlabs.io",
+      "url": "https://elevenlabs.io/terms-of-use",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "voice-music-generation"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Voice & Music Generation:"
+    },
+    {
+      "id": "aig-resource-8e5fca77",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Presentations.AI (Terms of Service)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "elevenlabs.io",
+      "url": "https://elevenlabs.io/docs/best-practices/prompting/controls",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "presentations"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Presentations:"
+    },
+    {
+      "id": "aig-resource-3bcc48e5",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Gamma (Terms of Use)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "suno.com",
+      "url": "https://suno.com/home",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "presentations"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Presentations:"
+    },
+    {
+      "id": "aig-resource-ea743180",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "5",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "suno.com",
+      "url": "https://suno.com/terms",
+      "tags": [
+        "a-ai-tools",
+        "ai",
+        "governance",
+        "ii-try",
+        "presentations"
+      ],
+      "pillar": "II. Try",
+      "category": "A. AI Tools",
+      "group": "Presentations:"
+    },
+    {
+      "id": "aig-resource-b86868b3",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Prompt Engineering for ChatGPT",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "presentations.ai",
+      "url": "https://www.presentations.ai/",
+      "tags": [
+        "ai",
+        "b-prompt-courses",
+        "governance",
+        "ii-try",
+        "vanderbilt"
+      ],
+      "pillar": "II. Try",
+      "category": "B. Prompt Courses",
+      "group": "Vanderbilt:"
+    },
+    {
+      "id": "aig-resource-fd398b0b",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Advanced Prompt Engineering for Everyone",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "presentations.ai",
+      "url": "https://www.presentations.ai/terms",
+      "tags": [
+        "ai",
+        "b-prompt-courses",
+        "governance",
+        "ii-try",
+        "vanderbilt"
+      ],
+      "pillar": "II. Try",
+      "category": "B. Prompt Courses",
+      "group": "Vanderbilt:"
+    },
+    {
+      "id": "aig-resource-5961eb78",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Prompt Engineering for Law",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "gamma.app",
+      "url": "https://gamma.app/",
+      "tags": [
+        "ai",
+        "b-prompt-courses",
+        "governance",
+        "ii-try",
+        "vanderbilt"
+      ],
+      "pillar": "II. Try",
+      "category": "B. Prompt Courses",
+      "group": "Vanderbilt:"
+    },
+    {
+      "id": "aig-resource-781985f2",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "ChatGPT 101: A Guide to Your Super Assistant",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "gamma.app",
+      "url": "https://gamma.app/terms",
+      "tags": [
+        "ai",
+        "b-prompt-courses",
+        "governance",
+        "ii-try",
+        "openai-academy"
+      ],
+      "pillar": "II. Try",
+      "category": "B. Prompt Courses",
+      "group": "OpenAI Academy:"
+    },
+    {
+      "id": "aig-resource-dd52324e",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Training"
+      ],
+      "title": "ChatGPT 102: Leveraging AI to Do Your Best Work",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "Coursera",
+      "url": "https://www.coursera.org/learn/prompt-engineering",
+      "tags": [
+        "ai",
+        "b-prompt-courses",
+        "governance",
+        "ii-try",
+        "openai-academy"
+      ],
+      "pillar": "II. Try",
+      "category": "B. Prompt Courses",
+      "group": "OpenAI Academy:"
+    },
+    {
+      "id": "aig-resource-e46c4533",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Training"
+      ],
+      "title": "Advanced Prompt Engineering",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "Coursera",
+      "url": "https://www.coursera.org/learn/advanced-prompt-engineering-for-everyone",
+      "tags": [
+        "ai",
+        "b-prompt-courses",
+        "governance",
+        "ii-try",
+        "openai-academy"
+      ],
+      "pillar": "II. Try",
+      "category": "B. Prompt Courses",
+      "group": "OpenAI Academy:"
+    },
+    {
+      "id": "aig-resource-a355fd20",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Training"
+      ],
+      "title": "How to Research & Write Using GenAI",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "Coursera",
+      "url": "https://www.coursera.org/specializations/prompt-engineering-for-law",
+      "tags": [
+        "ai",
+        "b-prompt-courses",
+        "governance",
+        "ii-try",
+        "linkedin-learning"
+      ],
+      "pillar": "II. Try",
+      "category": "B. Prompt Courses",
+      "group": "LinkedIn Learning:"
+    },
+    {
+      "id": "aig-resource-779e8aa1",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Model governance"
+      ],
+      "title": "Top 10 AI Prompts",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "academy.openai.com",
+      "url": "https://academy.openai.com/home",
+      "tags": [
+        "ai",
+        "b-prompt-courses",
+        "governance",
+        "ii-try",
+        "linkedin-learning",
+        "model"
+      ],
+      "pillar": "II. Try",
+      "category": "B. Prompt Courses",
+      "group": "LinkedIn Learning:"
+    },
+    {
+      "id": "aig-resource-116584a0",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Model governance"
+      ],
+      "title": "1. Glossaries",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "academy.openai.com",
+      "url": "https://academy.openai.com/home/videos/chatgpt-101-a-guide-to-your-super-assistant-2025-02-13",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try",
+        "model"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": null
+    },
+    {
+      "id": "aig-resource-37371378",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Model governance"
+      ],
+      "title": "IAPP",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "academy.openai.com",
+      "url": "https://academy.openai.com/home/videos/chatgpt-102-leveraging-ai-to-do-your-best-work-2025-02-13",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try",
+        "model"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": null
+    },
+    {
+      "id": "aig-resource-b82f0be3",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Model governance"
+      ],
+      "title": "NIST",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "academy.openai.com",
+      "url": "https://academy.openai.com/home/videos/advanced-prompt-engineering-2025-02-13",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try",
+        "model"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": null
+    },
+    {
+      "id": "aig-resource-62f685b7",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "2. Key Repositories",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "linkedin.com",
+      "url": "https://www.linkedin.com/learning/how-to-research-and-write-using-generative-ai-tools/meet-your-ai-creative-collaborator",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": null
+    },
+    {
+      "id": "aig-resource-7a6d824e",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "MIT AI Risk Repository",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "linkedin.com",
+      "url": "https://www.linkedin.com/learning/top-ten-ai-prompts/get-the-top-10-most-in-demand-ai-prompts",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": null
+    },
+    {
+      "id": "aig-resource-768bc839",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Privacy and AI governance"
+      ],
+      "title": "AI Standards Hub",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "iapp.org",
+      "url": "https://iapp.org/resources/article/key-terms-for-ai-governance/",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "iapp",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": null
+    },
+    {
+      "id": "aig-resource-62b1d6c3",
+      "date": "2025-04-14",
+      "jurisdiction": "US",
+      "region": "US",
+      "topics": [
+        "AI governance",
+        "Risk management"
+      ],
+      "title": "OECD Catalogue of Tools & Metrics for Trustworthy AI",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "airc.nist.gov",
+      "url": "https://airc.nist.gov/glossary/",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try",
+        "us"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": null
+    },
+    {
+      "id": "aig-resource-b0f4ff6f",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Risk management"
+      ],
+      "title": "AI Incident Database",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "airisk.mit.edu",
+      "url": "https://airisk.mit.edu/",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": null
+    },
+    {
+      "id": "aig-resource-14121f16",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "OECD AI Incidents Monitor",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "aistandardshub.org",
+      "url": "https://aistandardshub.org/ai-standards-search/",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": null
+    },
+    {
+      "id": "aig-resource-d3453c17",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "AI incidents"
+      ],
+      "title": "3. Jurisdictional Approaches & Industry Standards",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "oecd.ai",
+      "url": "https://oecd.ai/en/",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": null
+    },
+    {
+      "id": "aig-resource-056db792",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "AI incidents"
+      ],
+      "title": "AI Act",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "incidentdatabase.ai",
+      "url": "https://incidentdatabase.ai/",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "european-union",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "European Union:"
+    },
+    {
+      "id": "aig-resource-15676b44",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "AI incidents"
+      ],
+      "title": "AI Pact",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "oecd.ai",
+      "url": "https://oecd.ai/en/incidents",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "european-union",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "European Union:"
+    },
+    {
+      "id": "aig-resource-40bdc44a",
+      "date": "2025-04-14",
+      "jurisdiction": "EU",
+      "region": "EU",
+      "topics": [
+        "AI governance",
+        "EU AI Act"
+      ],
+      "title": "AI Office",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "digital-strategy.ec.europa.eu",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "eu",
+        "european-union",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "European Union:"
+    },
+    {
+      "id": "aig-resource-36a31de2",
+      "date": "2025-01-23",
+      "jurisdiction": "EU",
+      "region": "EU",
+      "topics": [
+        "AI governance",
+        "EU AI Act"
+      ],
+      "title": "Executive Order 14179 (January 23, 2025)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "digital-strategy.ec.europa.eu",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-pact",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "eu",
+        "governance",
+        "ii-try",
+        "united-states"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "United States:"
+    },
+    {
+      "id": "aig-resource-4a9d7b6a",
+      "date": "2025-04-14",
+      "jurisdiction": "EU",
+      "region": "EU",
+      "topics": [
+        "AI governance",
+        "EU AI Act"
+      ],
+      "title": "NIST AI Hub",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "digital-strategy.ec.europa.eu",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "eu",
+        "governance",
+        "ii-try",
+        "united-states"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "United States:"
+    },
+    {
+      "id": "aig-resource-585f463c",
+      "date": "2025-04-14",
+      "jurisdiction": "US",
+      "region": "US",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "AI Risk Management Framework",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "whitehouse.gov",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/01/removing-barriers-to-american-leadership-in-artificial-intelligence/",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try",
+        "united-states",
+        "us"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "United States:"
+    },
+    {
+      "id": "aig-resource-ed74ac10",
+      "date": "2025-04-14",
+      "jurisdiction": "US",
+      "region": "US",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "AI RMF Generative AI Profile",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "nist.gov",
+      "url": "https://www.nist.gov/artificial-intelligence",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try",
+        "united-states",
+        "us"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "United States:"
+    },
+    {
+      "id": "aig-resource-4e8dd1cf",
+      "date": "2025-04-14",
+      "jurisdiction": "US",
+      "region": "US",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "AI RMF Playbook",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "nist.gov",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try",
+        "united-states",
+        "us"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "United States:"
+    },
+    {
+      "id": "aig-resource-4c17f4ad",
+      "date": "2025-04-14",
+      "jurisdiction": "US",
+      "region": "US",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "ARIA Program",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "nvlpubs.nist.gov",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try",
+        "united-states",
+        "us"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "United States:"
+    },
+    {
+      "id": "aig-resource-e74cf90e",
+      "date": "2025-04-14",
+      "jurisdiction": "US",
+      "region": "US",
+      "topics": [
+        "AI governance",
+        "Risk management"
+      ],
+      "title": "AI Safety Institute",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "airc.nist.gov",
+      "url": "https://airc.nist.gov/airmf-resources/playbook/",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try",
+        "united-states",
+        "us"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "United States:"
+    },
+    {
+      "id": "aig-resource-e47cd9e5",
+      "date": "2025-04-14",
+      "jurisdiction": "US",
+      "region": "US",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "6",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ai-challenges.nist.gov",
+      "url": "https://ai-challenges.nist.gov/aria",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try",
+        "united-states",
+        "us"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "United States:"
+    },
+    {
+      "id": "aig-resource-f4b06dcd",
+      "date": "2025-04-14",
+      "jurisdiction": "US",
+      "region": "US",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "22989: AI Concepts & Terminology",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "nist.gov",
+      "url": "https://www.nist.gov/aisi",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try",
+        "iso-iec",
+        "us"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "ISO/IEC:"
+    },
+    {
+      "id": "aig-resource-8ed3c41b",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Standards"
+      ],
+      "title": "42001: AI Management System ($)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "iso.org",
+      "url": "https://www.iso.org/standard/74296.html",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try",
+        "iso-iec",
+        "standards"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "ISO/IEC:"
+    },
+    {
+      "id": "aig-resource-a837c10b",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Standards"
+      ],
+      "title": "4. Key Industry Reports",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "iso.org",
+      "url": "https://www.iso.org/standard/81230.html",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try",
+        "iso-iec",
+        "standards"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "ISO/IEC:"
+    },
+    {
+      "id": "aig-resource-3dbc5718",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Stanford AI Index Report (annual)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "hai.stanford.edu",
+      "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try",
+        "iso-iec"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "ISO/IEC:"
+    },
+    {
+      "id": "aig-resource-bbd5bb61",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "McKinsey State of AI (annual)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "mckinsey.com",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try",
+        "iso-iec"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "ISO/IEC:"
+    },
+    {
+      "id": "aig-resource-4a528518",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Air Street Capital State of AI (annual)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "stateof.ai",
+      "url": "https://www.stateof.ai/",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try",
+        "iso-iec"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "ISO/IEC:"
+    },
+    {
+      "id": "aig-resource-e5a8ca16",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Google AI Business Trends (annual)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "cloud.google.com",
+      "url": "https://cloud.google.com/resources/ai-trends-report",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try",
+        "iso-iec"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "ISO/IEC:"
+    },
+    {
+      "id": "aig-resource-085e2acc",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Microsoft Work Trends Index (annual)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "microsoft.com",
+      "url": "https://www.microsoft.com/en-us/worklab/work-trend-index",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try",
+        "iso-iec"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "ISO/IEC:"
+    },
+    {
+      "id": "aig-resource-49419da3",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "LinkedIn Skills on the Rise (annual)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "linkedin.com",
+      "url": "https://www.linkedin.com/business/talent/blog/learning-and-development/skills-on-the-rise",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "ii-try",
+        "iso-iec"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "ISO/IEC:"
+    },
+    {
+      "id": "aig-resource-7fbc3ff3",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Privacy and AI governance"
+      ],
+      "title": "5. Legislation Trackers",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "iapp.org",
+      "url": "https://iapp.org/resources/article/global-ai-legislation-tracker/",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "governance",
+        "iapp",
+        "ii-try",
+        "iso-iec"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "ISO/IEC:"
+    },
+    {
+      "id": "aig-resource-4bd60e0b",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "IAPP",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "techieray.com",
+      "url": "https://www.techieray.com/GlobalAIRegulationTracker",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "for-global-developments",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "For global developments:"
+    },
+    {
+      "id": "aig-resource-7a8d9dc6",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Privacy and AI governance"
+      ],
+      "title": "Raymond Sun",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "iapp.org",
+      "url": "https://iapp.org/resources/article/us-state-ai-governance-legislation-tracker/",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "for-global-developments",
+        "governance",
+        "iapp",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "For global developments:"
+    },
+    {
+      "id": "aig-resource-8a6530f8",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "IAPP",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "huschblackwell.com",
+      "url": "https://www.huschblackwell.com/2024-ai-state-law-tracker",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "for-us-state-developments",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "For US state developments:"
+    },
+    {
+      "id": "aig-resource-c10ed7e4",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Husch Blackwell",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ai-law-center.orrick.com",
+      "url": "https://ai-law-center.orrick.com/",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "for-us-state-developments",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "For US state developments:"
+    },
+    {
+      "id": "aig-resource-b9483b2e",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Orrick",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "blogs.gwu.edu",
+      "url": "https://blogs.gwu.edu/law-eti/ai-litigation-database/",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "for-us-state-developments",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "For US state developments:"
+    },
+    {
+      "id": "aig-resource-fe1cc8ca",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "6. US Litigation Trackers",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "bakerlaw.com",
+      "url": "https://www.bakerlaw.com/services/artificial-intelligence-ai/case-tracker-artificial-intelligence-copyrights-and-class-actions/",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "for-us-state-developments",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "For US state developments:"
+    },
+    {
+      "id": "aig-resource-65589971",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "George Washington Law",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "alltechishuman.org",
+      "url": "https://alltechishuman.org/responsible-ai",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "for-us-state-developments",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "For US state developments:"
+    },
+    {
+      "id": "aig-resource-4064f78a",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "BakerHostetler",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ethicalintelligence.co",
+      "url": "https://www.ethicalintelligence.co/ei-network",
+      "tags": [
+        "ai",
+        "c-ai-governance",
+        "for-us-state-developments",
+        "governance",
+        "ii-try"
+      ],
+      "pillar": "II. Try",
+      "category": "C. AI Governance",
+      "group": "For US state developments:"
+    },
+    {
+      "id": "aig-resource-daf12aaf",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "All Tech is Human",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "forhumanity.center",
+      "url": "https://forhumanity.center/get-involved/",
+      "tags": [
+        "a-active-communities",
+        "ai",
+        "governance",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "A. Active Communities",
+      "group": null
+    },
+    {
+      "id": "aig-resource-1403cff9",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Privacy and AI governance"
+      ],
+      "title": "Ethical Intelligence Network",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "iapp.org",
+      "url": "https://iapp.org/",
+      "tags": [
+        "a-active-communities",
+        "ai",
+        "governance",
+        "iapp",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "A. Active Communities",
+      "group": null
+    },
+    {
+      "id": "aig-resource-9fbcbbea",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "ForHumanity",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "iaaa-algorithmicauditors.org",
+      "url": "https://iaaa-algorithmicauditors.org/join-iaaa-revolution",
+      "tags": [
+        "a-active-communities",
+        "ai",
+        "governance",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "A. Active Communities",
+      "group": null
+    },
+    {
+      "id": "aig-resource-0c7d317f",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Model governance"
+      ],
+      "title": "IAPP ($ membership)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "forum.openai.com",
+      "url": "https://forum.openai.com/home",
+      "tags": [
+        "a-active-communities",
+        "ai",
+        "governance",
+        "iii-volunteer",
+        "model"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "A. Active Communities",
+      "group": null
+    },
+    {
+      "id": "aig-resource-b4e94c81",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "International Association of Algorithmic Auditors ($ membership)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "genai.owasp.org",
+      "url": "https://genai.owasp.org/",
+      "tags": [
+        "a-active-communities",
+        "ai",
+        "governance",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "A. Active Communities",
+      "group": null
+    },
+    {
+      "id": "aig-resource-ae456b5d",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "OpenAI Forum",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "womeninai.co",
+      "url": "https://www.womeninai.co/",
+      "tags": [
+        "a-active-communities",
+        "ai",
+        "governance",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "A. Active Communities",
+      "group": null
+    },
+    {
+      "id": "aig-resource-071ecbcc",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "OWASP",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "womeninaiethics.org",
+      "url": "https://womeninaiethics.org/",
+      "tags": [
+        "a-active-communities",
+        "ai",
+        "governance",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "A. Active Communities",
+      "group": null
+    },
+    {
+      "id": "aig-resource-79ed2c55",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Women in AI",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "wiaig.com",
+      "url": "https://www.wiaig.com/mentorship-1-1-2-1",
+      "tags": [
+        "a-active-communities",
+        "ai",
+        "governance",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "A. Active Communities",
+      "group": null
+    },
+    {
+      "id": "aig-resource-36a2afa9",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Women in AI Ethics",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ai4good.org",
+      "url": "https://ai4good.org/get-involved/volunteer/",
+      "tags": [
+        "a-active-communities",
+        "ai",
+        "governance",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "A. Active Communities",
+      "group": null
+    },
+    {
+      "id": "aig-resource-65589971",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Women in AI Governance ($ membership)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "alltechishuman.org",
+      "url": "https://alltechishuman.org/responsible-ai",
+      "tags": [
+        "a-active-communities",
+        "ai",
+        "governance",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "A. Active Communities",
+      "group": null
+    },
+    {
+      "id": "aig-resource-5ed0405f",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "AI for Good",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "betterimagesofai.org",
+      "url": "https://betterimagesofai.org/about",
+      "tags": [
+        "ai",
+        "b-active-projects",
+        "governance",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "B. Active Projects",
+      "group": null
+    },
+    {
+      "id": "aig-resource-43560093",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "All Tech is Human",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "ethical.institute",
+      "url": "https://ethical.institute/network.html",
+      "tags": [
+        "ai",
+        "b-active-projects",
+        "governance",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "B. Active Projects",
+      "group": null
+    },
+    {
+      "id": "aig-resource-daf12aaf",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Better Images of AI",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "forhumanity.center",
+      "url": "https://forhumanity.center/get-involved/",
+      "tags": [
+        "ai",
+        "b-active-projects",
+        "governance",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "B. Active Projects",
+      "group": null
+    },
+    {
+      "id": "aig-resource-83aa479d",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Ethical AI Network",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "fairlearn.org",
+      "url": "https://fairlearn.org/v0.11/contributor_guide/index.html",
+      "tags": [
+        "ai",
+        "b-active-projects",
+        "governance",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "B. Active Projects",
+      "group": null
+    },
+    {
+      "id": "aig-resource-ab2923c7",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "7",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "goodlylabs.org",
+      "url": "https://www.goodlylabs.org/projects",
+      "tags": [
+        "ai",
+        "b-active-projects",
+        "governance",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "B. Active Projects",
+      "group": null
+    },
+    {
+      "id": "aig-resource-6d655cc6",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Privacy and AI governance"
+      ],
+      "title": "ForHumanity",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "iapp.org",
+      "url": "https://iapp.org/connect/volunteer/",
+      "tags": [
+        "ai",
+        "b-active-projects",
+        "governance",
+        "iapp",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "B. Active Projects",
+      "group": null
+    },
+    {
+      "id": "aig-resource-d8490d8d",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Fairlearn",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "standards.ieee.org",
+      "url": "https://standards.ieee.org/participate/",
+      "tags": [
+        "ai",
+        "b-active-projects",
+        "governance",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "B. Active Projects",
+      "group": null
+    },
+    {
+      "id": "aig-resource-effc7e9e",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Goodly Labs",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "rails.legal",
+      "url": "https://rails.legal/working-groups-overview/",
+      "tags": [
+        "ai",
+        "b-active-projects",
+        "governance",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "B. Active Projects",
+      "group": null
+    },
+    {
+      "id": "aig-resource-43b9a3e9",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "IAPP",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "womeninai.co",
+      "url": "https://www.womeninai.co/projects-3",
+      "tags": [
+        "ai",
+        "b-active-projects",
+        "governance",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "B. Active Projects",
+      "group": null
+    },
+    {
+      "id": "aig-resource-0f0c4fcf",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "IEEE Standards",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "wiaig.com",
+      "url": "https://www.wiaig.com/get-involved",
+      "tags": [
+        "ai",
+        "b-active-projects",
+        "governance",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "B. Active Projects",
+      "group": null
+    },
+    {
+      "id": "aig-resource-73949fd9",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance",
+        "Privacy and AI governance"
+      ],
+      "title": "Responsible AI in Legal Services",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "iapp.org",
+      "url": "https://iapp.org/certify/aigp/",
+      "tags": [
+        "ai",
+        "b-active-projects",
+        "governance",
+        "iapp",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "B. Active Projects",
+      "group": null
+    },
+    {
+      "id": "aig-resource-53cd35ae",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Women in AI",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "linkedin.com",
+      "url": "https://www.linkedin.com/posts/kevinfumai_aigp-activity-7208448530611384320-IScq",
+      "tags": [
+        "ai",
+        "b-active-projects",
+        "governance",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "B. Active Projects",
+      "group": null
+    },
+    {
+      "id": "aig-resource-28baf8b0",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "Women in AI Governance",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "forhumanity.center",
+      "url": "https://forhumanity.center/forhumanity-ai-education-and-training-center/",
+      "tags": [
+        "ai",
+        "b-active-projects",
+        "governance",
+        "iii-volunteer"
+      ],
+      "pillar": "III. Volunteer",
+      "category": "B. Active Projects",
+      "group": null
+    },
+    {
+      "id": "aig-resource-9177c1b9",
+      "date": "2025-04-14",
+      "jurisdiction": "Global",
+      "region": "Global",
+      "topics": [
+        "AI governance"
+      ],
+      "title": "IAPP AI Governance Professional (read all my tips)",
+      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
+      "source": "engagestandards.ieee.org",
+      "url": "https://engagestandards.ieee.org/ieeecertifaied.html",
+      "tags": [
+        "ai",
+        "governance",
+        "iv-train"
+      ],
+      "pillar": "IV. Train",
+      "category": null,
+      "group": null
+    }
+  ]
+}]
+    }
+  ]
+}
+
     
 }
