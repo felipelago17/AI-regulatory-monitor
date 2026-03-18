@@ -115,7 +115,7 @@ function render(){
 }
  
 async function init(){
-  const res=await fetch('data/updates.json', { cache: 'no-store' });
+  const res = await fetch('data/updates.json', { cache: 'no-store' });
   const payload=await res.json();
   state.items=payload.items||[];
   el('lastUpdated').textContent='Data generated: '+(payload.generated_at||'—');
