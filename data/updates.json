@@ -23,5 +23,49 @@
       "url": "https://www.adgm.com/media/announcements",
       "tags": ["third-party risk"]
     }
-  ]
+{
+  "id": "ai-governance-2026-uae",
+  "date": "2026-02-28",
+  "jurisdiction": "UAE",
+  "topics": ["Responsible AI", "Governance"],
+  "title": "UAE guidance on responsible AI governance expectations",
+  "summary": "UAE authorities issued guidance emphasising transparency, human oversight, and accountability in AI deployment. Organisations should map AI use cases, implement governance controls, and document risk assessments.",
+  "source": "UAE Government",
+  "url": "https://u.ae",
+  "tags": ["AI", "governance", "ethics"]
+}
+{
+  "id": "crossborder-2026-export-controls",
+  "date": "2026-03-05",
+  "jurisdiction": "US / EU",
+  "topics": ["Export controls", "Cross‑border data"],
+  "title": "Expanded export control scrutiny for cross‑border technology transfers",
+  "summary": "Regulators are increasing scrutiny of cross‑border technology transfers involving advanced computing, data access, and cloud infrastructure. Companies should reassess vendor access, data residency, and licensing requirements.",
+  "source": "Regulatory analysis",
+  "url": "https://www.bis.gov",
+  "tags": ["export controls", "cross-border", "technology"]
+}
+ {
+  "id": "uk-pinsent-2026-data",
+  "date": "2026-01-22",
+  "jurisdiction": "United Kingdom",
+  "topics": ["Data protection", "Regulatory guidance"],
+  "title": "UK regulator signals stricter approach to data governance",
+  "summary": "Pinsent Masons reports on UK regulatory signals indicating increased enforcement focus on data governance and accountability. Organisations should review data handling policies and escalation procedures.",
+  "source": "Pinsent Masons – Out‑Law",
+  "url": "https://www.pinsentmasons.com/out-law",
+  "tags": ["UK", "data protection", "regulatory"]
+}
+{
+  "id": "difc-2026-judgment-xyz",
+  "date": "2026-02-10",
+  "jurisdiction": "UAE (DIFC Courts)",
+  "topics": ["Judgments", "Regulatory enforcement"],
+  "title": "DIFC Courts judgment on regulatory compliance breach",
+  "summary": "The DIFC Courts issued a judgment addressing compliance failures in a regulated entity. The case highlights expectations around governance, internal controls, and regulatory disclosures within the DIFC framework.",
+  "source": "DIFC Courts",
+  "url": "https://www.difccourts.ae/rules-decisions/judgments-orders",
+  "tags": ["DIFC", "enforcement", "governance"]
+} ]
+    
 }
