@@ -589,6 +589,81 @@ function initExportControlsToggle() {
     });
   }
 }
+
+async function loadAndRenderDataPrivacy() {
+  try {
+    const res = await fetch('data/data-privacy.json', { cache: 'no-store' });
+    const dpData = await res.json();
+    
+    // Render sources
+    const sourcesContainer = el('dataPrivacySources');
+    sourcesContainer.innerHTML = '';
+    for (const source of dpData.data_privacy_sources) {
+      const card = document.createElement('div');
+      card.className = 'data-privacy-source';
+      
+      let resourcesHtml = '';
+      if (source.resources && source.resources.length > 0) {
+        resourcesHtml = '<div class="data-privacy-resource-list">';
+        for (const res of source.resources) {
+          const resType = res.jurisdiction ? ` (${res.jurisdiction})` : '';
+          resourcesHtml += `<div class="data-privacy-resource-item">
+            <a href="${res.url}" target="_blank" rel="noreferrer">${res.name}</a>
+            <div class="data-privacy-resource-type">${res.type.replace(/-/g, ' ').toUpperCase()}${resType}</div>
+          </div>`;
+        }
+        resourcesHtml += '</div>';
+      }
+      
+      card.innerHTML = `
+        <div class="data-privacy-source-org">🔐 ${source.organization}</div>
+        <div class="data-privacy-source-desc">${source.description}</div>
+        <div class="data-privacy-source-best"><strong>Best for:</strong> ${source.best_for}</div>
+        ${resourcesHtml}
+      `;
+      sourcesContainer.appendChild(card);
+    }
+    
+    // Render topics
+    const topicsContainer = el('dataPrivacyTopics');
+    topicsContainer.innerHTML = '';
+    for (const topic of dpData.key_topics) {
+      const tagEl = document.createElement('div');
+      tagEl.className = 'topic-tag';
+      tagEl.textContent = topic;
+      topicsContainer.appendChild(tagEl);
+    }
+    
+    // Set compliance note
+    el('dataPrivacyComplianceNote').textContent = dpData.compliance_note;
+    
+    // Show Data Privacy section button
+    el('showDataPrivacyBtn').style.display = 'block';
+  } catch (err) {
+    console.error('Error loading data privacy data:', err);
+  }
+}
+
+function initDataPrivacyToggle() {
+  const showBtn = el('showDataPrivacyBtn');
+  const dpSection = el('dataPrivacySection');
+  const closeBtn = el('dataPrivacyPanelToggle');
+  
+  if (showBtn) {
+    showBtn.addEventListener('click', () => {
+      dpSection.style.display = 'block';
+      showBtn.style.display = 'none';
+      window.scrollTo({ top: dpSection.offsetTop - 100, behavior: 'smooth' });
+    });
+  }
+  
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      dpSection.style.display = 'none';
+      showBtn.style.display = 'block';
+    });
+  }
+}
  
 async function init(){
   const res = await fetch('data/updates.json', { cache: 'no-store' });
@@ -628,6 +703,10 @@ async function init(){
   // Load Export Controls data
   await loadAndRenderExportControls();
   initExportControlsToggle();
+  
+  // Load Data Privacy data
+  await loadAndRenderDataPrivacy();
+  initDataPrivacyToggle();
   
   // Close insights panel
   el('closeInsights').addEventListener('click', () => {

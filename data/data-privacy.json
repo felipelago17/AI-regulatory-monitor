@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-03-25T10:45:00Z",
+  "monitoring_period": "March 2026",
+  "data_privacy_sources": [
+    {
+      "id": "iapp",
+      "category": "global-foundations",
+      "organization": "International Association of Privacy Professionals (IAPP)",
+      "description": "Global privacy laws, regulatory enforcement, guidance, and professional analysis",
+      "best_for": "Strategic updates, practical interpretation, global coverage",
+      "resources": [
+        {
+          "name": "IAPP Main Site",
+          "url": "https://iapp.org",
+          "type": "primary"
+        },
+        {
+          "name": "Daily Dashboard (News & Updates)",
+          "url": "https://iapp.org/news/",
+          "type": "updates"
+        },
+        {
+          "name": "Global Privacy Law & DPA Database",
+          "url": "https://www.iapp.org/resources/article/global-comprehensive-privacy-law-mapping-chart/",
+          "type": "reference"
+        },
+        {
+          "name": "GDPR & EU Focus",
+          "url": "https://iapp.org/resources/topics/gdpr/",
+          "type": "regional"
+        }
+      ]
+    },
+    {
+      "id": "edpb",
+      "category": "eu-authorities",
+      "organization": "European Data Protection Board (EDPB)",
+      "description": "EU‑wide GDPR interpretation, binding decisions, guidelines",
+      "best_for": "EU regulatory direction and supervisory authority alignment",
+      "resources": [
+        {
+          "name": "EDPB Main Site",
+          "url": "https://edpb.europa.eu",
+          "type": "primary"
+        },
+        {
+          "name": "Guidelines & Recommendations",
+          "url": "https://edpb.europa.eu/our-work-tools/our-documents_en",
+          "type": "guidance"
+        }
+      ]
+    },
+    {
+      "id": "national-dpa",
+      "category": "eu-authorities",
+      "organization": "National Data Protection Authorities",
+      "description": "Enforcement trends and localized guidance from key European regulators",
+      "best_for": "Regional enforcement trends and jurisdiction-specific interpretations",
+      "resources": [
+        {
+          "name": "UK ICO (Information Commissioner's Office)",
+          "url": "https://ico.org.uk",
+          "type": "national",
+          "jurisdiction": "UK"
+        },
+        {
+          "name": "CNIL (France)",
+          "url": "https://www.cnil.fr",
+          "type": "national",
+          "jurisdiction": "France"
+        },
+        {
+          "name": "BfDI (Germany – Federal DPA)",
+          "url": "https://www.bfdi.bund.de",
+          "type": "national",
+          "jurisdiction": "Germany"
+        },
+        {
+          "name": "AP (Netherlands Autoriteit Persoonsgegevens)",
+          "url": "https://autoriteitpersoonsgegevens.nl",
+          "type": "national",
+          "jurisdiction": "Netherlands"
+        }
+      ]
+    },
+    {
+      "id": "eu-regulatory",
+      "category": "eu-authorities",
+      "organization": "Official EU Regulatory Sources",
+      "description": "Primary EU legislative texts, amendments, and policy frameworks",
+      "best_for": "Authoritative regulatory text and EU Commission policy direction",
+      "resources": [
+        {
+          "name": "EUR‑Lex (EU legislation & amendments)",
+          "url": "https://eur-lex.europa.eu",
+          "type": "legislation"
+        },
+        {
+          "name": "European Commission – Data Protection & Privacy",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection_en",
+          "type": "policy"
+        }
+      ]
+    },
+    {
+      "id": "uae-privacy",
+      "category": "me-asia-authorities",
+      "organization": "UAE Data Protection & Digital Authorities",
+      "description": "UAE PDPL, sectoral guidance, and digital market framework",
+      "best_for": "UAE regulatory compliance and Middle East privacy direction",
+      "resources": [
+        {
+          "name": "UAE Ministry of Economy – Data Protection",
+          "url": "https://www.moec.gov.ae/en/data-protection",
+          "type": "primary",
+          "jurisdiction": "UAE"
+        },
+        {
+          "name": "Abu Dhabi Global Market (ADGM) Data Protection Office",
+          "url": "https://www.adgm.com/legal-framework/data-protection",
+          "type": "regulatory",
+          "jurisdiction": "UAE"
+        },
+        {
+          "name": "DIFC Data Protection",
+          "url": "https://www.difc.ae/business/laws-and-regulations/data-protection-law",
+          "type": "regulatory",
+          "jurisdiction": "UAE"
+        }
+      ]
+    },
+    {
+      "id": "us-ftc",
+      "category": "us-authorities",
+      "organization": "U.S. Federal Trade Commission (FTC)",
+      "description": "Privacy, data security enforcement, AI‑related consumer protection",
+      "best_for": "U.S. enforcement trends and consumer privacy guidance",
+      "resources": [
+        {
+          "name": "FTC Privacy & Security Guidance",
+          "url": "https://www.ftc.gov/business-guidance/privacy-security",
+          "type": "primary",
+          "jurisdiction": "USA"
+        }
+      ]
+    },
+    {
+      "id": "us-commerce",
+      "category": "us-authorities",
+      "organization": "U.S. Department of Commerce",
+      "description": "Data security, cross‑border data transfers, export controls",
+      "best_for": "Cross-border data transfer frameworks and international data governance",
+      "resources": [
+        {
+          "name": "Privacy Shield & Data Transfer Frameworks",
+          "url": "https://www.commerce.gov/issues/privacy-shield",
+          "type": "primary",
+          "jurisdiction": "USA"
+        }
+      ]
+    },
+    {
+      "id": "oecd",
+      "category": "international-frameworks",
+      "organization": "OECD – Privacy & Data Governance",
+      "description": "International principles and government‑level guidance on privacy policy",
+      "best_for": "International principles and cross-government coordination",
+      "resources": [
+        {
+          "name": "OECD Privacy & Data Governance",
+          "url": "https://www.oecd.org/sti/ieconomy/privacy.htm",
+          "type": "reference",
+          "scope": "International"
+        }
+      ]
+    },
+    {
+      "id": "wef",
+      "category": "international-frameworks",
+      "organization": "World Economic Forum (WEF) – Data & AI Governance",
+      "description": "Policy trends, cross‑border data frameworks, and emerging governance models",
+      "best_for": "Forward-looking policy trends and multi-stakeholder perspectives",
+      "resources": [
+        {
+          "name": "WEF Data & AI Governance",
+          "url": "https://www.weforum.org/topics/data-governance/",
+          "type": "policy-trends",
+          "scope": "International"
+        }
+      ]
+    },
+    {
+      "id": "law-firms",
+      "category": "advisory-trackers",
+      "organization": "Leading Law Firm Privacy Trackers",
+      "description": "Practical impact assessments, enforcement trends, and jurisdiction-specific guidance",
+      "best_for": "Practical implementation guidance and cross-jurisdictional analysis",
+      "resources": [
+        {
+          "name": "DLA Piper – Global Data Protection Laws of the World",
+          "url": "https://www.dlapiperdataprotection.com",
+          "type": "tracker",
+          "firm": "DLA Piper"
+        },
+        {
+          "name": "Hogan Lovells – Privacy & Cybersecurity",
+          "url": "https://www.hoganlovells.com/en/industries/privacy-and-cybersecurity",
+          "type": "advisory",
+          "firm": "Hogan Lovells"
+        },
+        {
+          "name": "Baker McKenzie – Global Privacy Blog",
+          "url": "https://www.globalprivacyblog.com",
+          "type": "analysis",
+          "firm": "Baker McKenzie"
+        }
+      ]
+    }
+  ],
+  "key_topics": [
+    "GDPR Compliance",
+    "Data Subject Rights",
+    "Cross-Border Data Transfers",
+    "Data Protection Impact Assessment",
+    "Privacy by Design",
+    "Data Breach Notification",
+    "AI & Automated Decision Making",
+    "Data Localization Requirements",
+    "Third-Party Processor Management",
+    "International Privacy Standards"
+  ],
+  "compliance_note": "Data privacy regulations vary significantly across jurisdictions. Organizations operating globally must monitor GDPR (EU), UAE PDPL (Middle East), regional DPA guidance (national authorities), U.S. state/federal frameworks, and international standards (OECD). Regular horizon scanning across these sources is essential for regulatory compliance."
+}
