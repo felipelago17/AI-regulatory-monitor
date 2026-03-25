@@ -7,12 +7,27 @@ function toCSV(rows){
     const s=String(v??'');
     return /[\",\n]/.test(s)?'"'+s.replaceAll('"','""')+'"':s;
   };
-  const headers=['date','jurisdiction','topics','title','summary','source','url','tags'];
+  const headers=['date','jurisdiction','topics','title','summary','source','url','tags','impact_scenario','probability_percent','financial_loss_range','reputational_exposure','regulatory_disruption','confidence_level'];
   const lines=[headers.join(',')];
   for(const r of rows){
     lines.push(headers.map(h=>{
-      const v=Array.isArray(r[h])?r[h].join(' | '):r[h];
-      return esc(v);
+      if(h==='impact_scenario'){
+        return esc(r.impact_assessment?.scenario||'');
+      }else if(h==='probability_percent'){
+        return esc(r.impact_assessment?.probability_percent||'');
+      }else if(h==='financial_loss_range'){
+        if(r.impact_assessment)return esc(`$${r.impact_assessment.financial_loss_low_millions}M–$${r.impact_assessment.financial_loss_likely_millions}M–$${r.impact_assessment.financial_loss_high_millions}M`);
+        return '';
+      }else if(h==='reputational_exposure'){
+        return esc(r.impact_assessment?.reputational_exposure||'');
+      }else if(h==='regulatory_disruption'){
+        return esc(r.impact_assessment?.regulatory_disruption_days||'');
+      }else if(h==='confidence_level'){
+        return esc(r.impact_assessment?.confidence_level||'');
+      }else{
+        const v=Array.isArray(r[h])?r[h].join(' | '):r[h];
+        return esc(v);
+      }
     }).join(','));
   }
   return lines.join('\n');
@@ -127,19 +142,91 @@ function render(){
     card.appendChild(meta);
     card.appendChild(h);
     card.appendChild(p);
+    
+    // Render impact assessment if present
+    if(it.impact_assessment){
+      const ia = it.impact_assessment;
+      const riskBox = document.createElement('div');
+      riskBox.style.cssText = 'margin-top:12px;padding:10px;background:rgba(255,59,92,.08);border:1px solid rgba(255,59,92,.2);border-radius:8px;font-size:11px;';
+      
+      let riskHTML = '<strong style="color:#ffd6df;">Impact Assessment (Hubbard calibration)</strong><br/>';
+      riskHTML += `<em style="color:rgba(255,214,223,.7);">${ia.scenario}</em><br/>`;
+      riskHTML += `<span style="color:#a9b8da;">Probability: ${ia.probability_percent}%</span><br/>`;
+      riskHTML += `<span style="color:#a9b8da;">Financial loss: $${ia.financial_loss_low_millions}–${ia.financial_loss_likely_millions}–${ia.financial_loss_high_millions}M</span><br/>`;
+      riskHTML += `<span style="color:#a9b8da;">Reputational: ${ia.reputational_exposure}</span><br/>`;
+      riskHTML += `<span style="color:#a9b8da;">Disruption: ${ia.regulatory_disruption_days} days</span><br/>`;
+      riskHTML += `<span style="color:rgba(169,184,218,.6);font-size:10px;">Confidence: ${ia.confidence_level}</span>`;
+      
+      riskBox.innerHTML = riskHTML;
+      card.appendChild(riskBox);
+    }
+    
     card.appendChild(a);
     card.appendChild(s);
  
     cards.appendChild(card);
   }
  
-  el('export').onclick=()=>download('aiq-regulatory-monitor.csv',toCSV(rows),'text/csv');
+  el('export').onclick=()=>download('ai-regulatory-monitor.csv',toCSV(rows),'text/csv');
+}
+
+function computeKPIs(items) {
+  const now = new Date();
+  const thirtyDaysAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
+  
+  const total = items.length;
+  
+  const newItems = items.filter(item => {
+    const itemDate = new Date(item.date);
+    return itemDate >= thirtyDaysAgo;
+  }).length;
+  
+  const highImpact = items.filter(item => item.impact === 'high' || item.impact === 'critical').length;
+  
+  const uaeItems = items.filter(item => {
+    const jur = (item.jurisdiction || '').toUpperCase();
+    const region = (item.region || '').toUpperCase();
+    return jur.includes('UAE') || region.includes('UAE');
+  }).length;
+  
+  const ukItems = items.filter(item => {
+    const jur = (item.jurisdiction || '').toUpperCase();
+    return jur.includes('UK') || jur.includes('UNITED KINGDOM');
+  }).length;
+  
+  const aiItems = items.filter(item => {
+    const topicsText = (item.topics || []).join(' ').toLowerCase();
+    const tagsText = (item.tags || []).join(' ').toLowerCase();
+    const titleText = (item.title || '').toLowerCase();
+    const summaryText = (item.summary || '').toLowerCase();
+    const hay = [topicsText, tagsText, titleText, summaryText].join(' ');
+    return hay.includes('ai') || hay.includes('artificial intelligence') || hay.includes('responsible ai') || hay.includes('ai governance');
+  }).length;
+  
+  return {
+    total,
+    newItems30d: newItems,
+    highImpact,
+    uae: uaeItems,
+    uk: ukItems,
+    ai: aiItems
+  };
+}
+
+function paintKPIs(kpis) {
+  el('kpiTotal').textContent = kpis.total;
+  el('kpiNew').textContent = kpis.newItems30d;
+  el('kpiHigh').textContent = kpis.highImpact;
+  el('kpiUAE').textContent = kpis.uae;
+  el('kpiUK').textContent = kpis.uk;
+  el('kpiAI').textContent = kpis.ai;
 }
  
 async function init(){
   const res = await fetch('data/updates.json', { cache: 'no-store' });
   const payload=await res.json();
   state.items=payload.items||[];
+  paintKPIs(computeKPIs(state.items));
   el('lastUpdated').textContent='Data generated: '+(payload.generated_at||'—');
   buildFilters();
   render();

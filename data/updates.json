@@ -16,7 +16,17 @@
       "tags": [
         "enforcement",
         "sanctions"
-      ]
+      ],
+      "impact_assessment": {
+        "scenario": "Enforcement action triggered by screening gaps or USD exposure",
+        "probability_percent": 45,
+        "financial_loss_low_millions": 2,
+        "financial_loss_likely_millions": 15,
+        "financial_loss_high_millions": 45,
+        "reputational_exposure": "Medium-High",
+        "regulatory_disruption_days": "30–90",
+        "confidence_level": "High (calibrated from enforcement patterns)"
+      }
     },
     {
       "id": "adgm-2026-alert",
@@ -31,7 +41,17 @@
       "url": "https://www.adgm.com/media/announcements",
       "tags": [
         "third-party risk"
-      ]
+      ],
+      "impact_assessment": {
+        "scenario": "Counterparty failure or reputational damage from association with false-licensed entity",
+        "probability_percent": 35,
+        "financial_loss_low_millions": 1,
+        "financial_loss_likely_millions": 5,
+        "financial_loss_high_millions": 25,
+        "reputational_exposure": "High",
+        "regulatory_disruption_days": "14–45",
+        "confidence_level": "High (proactive alert)"
+      }
     },
     {
       "id": "ai-governance-2026-uae",
@@ -49,7 +69,17 @@
         "AI",
         "governance",
         "ethics"
-      ]
+      ],
+      "impact_assessment": {
+        "scenario": "Operational AI system deemed non-compliant with governance standards",
+        "probability_percent": 60,
+        "financial_loss_low_millions": 0.5,
+        "financial_loss_likely_millions": 8,
+        "financial_loss_high_millions": 35,
+        "reputational_exposure": "High (market perception)",
+        "regulatory_disruption_days": "45–180",
+        "confidence_level": "Medium-High (guidance interpretation variance exists)"
+      }
     },
     {
       "id": "crossborder-2026-export-controls",
@@ -67,7 +97,17 @@
         "export controls",
         "cross-border",
         "technology"
-      ]
+      ],
+      "impact_assessment": {
+        "scenario": "Undisclosed technology transfer or failure to obtain export license",
+        "probability_percent": 30,
+        "financial_loss_low_millions": 5,
+        "financial_loss_likely_millions": 30,
+        "financial_loss_high_millions": 120,
+        "reputational_exposure": "Critical (criminal exposure possible)",
+        "regulatory_disruption_days": "90–365",
+        "confidence_level": "High (enforcement trend visible)"
+      }
     },
     {
       "id": "uk-pinsent-2026-data",

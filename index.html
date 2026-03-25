@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AIQ Regulatory Monitor</title>
+  <title>AI Regulatory Monitor</title>
  
   <!-- Correct: link the stylesheet (do NOT paste CSS text into HTML) -->
   <link rel="stylesheet" href="styles.css" />
@@ -14,17 +14,25 @@
     <div class="brand">
       <span class="dot"></span>
       <div>
-        <div class="title">AIQ Regulatory Monitor</div>
+        <div class="title">AI Regulatory Monitor</div>
         <div class="subtitle">Export controls · Data privacy · Data residency · Responsible AI (US · UAE · UK)</div>
       </div>
     </div>
     <div class="badges">
-      <span class="badge confidential">CONFIDENTIAL</span>
+      <span class="badge" id="badgeMode">Public sources • Internal summaries</span>
       <span class="badge" id="lastUpdated">Loading…</span>
     </div>
   </div>
  
   <main class="container">
+    <section class="kpis" aria-label="Key stats">
+  <div class="kpi"><div class="kpiLabel">Total</div><div class="kpiValue" id="kpiTotal">—</div></div>
+  <div class="kpi"><div class="kpiLabel">New (30d)</div><div class="kpiValue" id="kpiNew">—</div></div>
+  <div class="kpi"><div class="kpiLabel">High impact</div><div class="kpiValue" id="kpiHigh">—</div></div>
+  <div class="kpi"><div class="kpiLabel">UAE</div><div class="kpiValue" id="kpiUAE">—</div></div>
+  <div class="kpi"><div class="kpiLabel">UK</div><div class="kpiValue" id="kpiUK">—</div></div>
+  <div class="kpi"><div class="kpiLabel">AI</div><div class="kpiValue" id="kpiAI">—</div></div>
+</section>
     <section class="hero">
       <h1>Horizon scanning for regulatory and enforcement developments</h1>
       <p>
@@ -41,6 +49,12 @@
         <div class="filter">
           <label for="q">Search</label>
           <input id="q" type="search" placeholder="Search titles, summaries, tags…" />
+        <p class="micro">
+  Impact ratings are internal estimates for triage purposes only. Where quantified, the approach applies
+  “measurement as uncertainty reduction” and calibrated estimation concepts popularised by Douglas W. Hubbard
+  (How to Measure Anything). Estimates are expressed as ranges and probabilities, not certainty, and should be
+  reviewed by the compliance owner before action.
+</p>
         </div>
  
         <div class="filter">
