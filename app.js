@@ -250,7 +250,154 @@ function render(){
     cards.appendChild(card);
   }
  
-  el('export').onclick=()=>download('ai-regulatory-monitor.csv',toCSV(rows),'text/csv');
+  el('insights').onclick=()=>generateInsights(rows);
+}
+
+async function generateInsights(items) {
+  /**
+   * Generate AI insights using Claude API
+   * Shows infographic and identifies related public sources
+   */
+  if (items.length === 0) {
+    alert('No items to analyze. Please adjust your filters.');
+    return;
+  }
+  
+  const panel = el('insightsPanel');
+  const content = el('insightsContent');
+  
+  panel.style.display = 'flex';
+  content.innerHTML = '<div class="loading-spinner">Analyzing with Claude AI<br/><small>This may take a moment...</small></div>';
+  
+  try {
+    // Prepare summary of items for Claude
+    const itemSummaries = items.slice(0, 5).map(it => ({
+      title: it.title,
+      category: it.category,
+      summary: it.summary,
+      jurisdiction: it.jurisdiction,
+      topics: it.topics,
+      date: it.date,
+      risk_score: it.risk_score
+    }));
+    
+    const prompt = `You are a regulatory intelligence analyst. Analyze these regulatory/enforcement items and provide:
+
+1. A concise summary (2-3 sentences) of the key themes and implications
+2. A list of 4-6 related public sources (regulatory bodies, news outlets, research institutes) that cover similar topics
+3. Key takeaways for compliance teams
+
+Items to analyze:
+${JSON.stringify(itemSummaries, null, 2)}
+
+Please format your response as JSON with these fields:
+{
+  "summary": "...",
+  "key_takeaways": ["takeaway1", "takeaway2", ...],
+  "related_sources": [
+    {"name": "Source Name", "type": "Category", "description": "Brief description", "relevance": "how it's relevant"}
+  ],
+  "infographic_description": "Description of ideal infographic for this topic"
+}`;
+
+    // Call Claude API
+    const response = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': localStorage.getItem('claude_api_key') || '',
+        'anthropic-version': '2023-06-01'
+      },
+      body: JSON.stringify({
+        model: 'claude-3-5-sonnet-20241022',
+        max_tokens: 1024,
+        messages: [
+          {
+            role: 'user',
+            content: prompt
+          }
+        ]
+      })
+    });
+    
+    if (!response.ok) {
+      if (response.status === 401) {
+        throw new Error('Claude API key not configured. Set your API key in browser console: localStorage.setItem("claude_api_key", "sk-...")');
+      }
+      throw new Error(`API Error: ${response.status}`);
+    }
+    
+    const data = await response.json();
+    const responseText = data.content[0].text;
+    
+    // Parse JSON response from Claude
+    const jsonMatch = responseText.match(/\{[\s\S]*\}/);
+    const insights = jsonMatch ? JSON.parse(jsonMatch[0]) : {
+      summary: responseText,
+      key_takeaways: [],
+      related_sources: [],
+      infographic_description: 'Compliance dashboard'
+    };
+    
+    // Render insights
+    let html = `
+      <div class="insights-section">
+        <div class="insights-title">📊 Analysis Summary</div>
+        <div class="insights-summary">${insights.summary}</div>
+      </div>
+      
+      <div class="insights-section">
+        <div class="insights-title">🎯 Key Takeaways</div>
+        <ul style="margin:8px 0;padding-left:20px;">
+    `;
+    
+    for (const takeaway of insights.key_takeaways) {
+      html += `<li style="margin:6px 0;color:var(--text);font-size:12px;">${takeaway}</li>`;
+    }
+    
+    html += `</ul></div>`;
+    
+    if (insights.related_sources && insights.related_sources.length > 0) {
+      html += `<div class="insights-section">
+        <div class="insights-title">🔗 Related Public Sources</div>
+        <div class="insights-sources">`;
+      
+      for (const source of insights.related_sources.slice(0, 6)) {
+        html += `
+          <div class="insights-source">
+            <div class="insights-source-title">${source.name}</div>
+            <div class="insights-source-desc"><strong>Type:</strong> ${source.type}</div>
+            <div class="insights-source-desc">${source.description}</div>
+            <div class="insights-source-desc"><em>Relevance:</em> ${source.relevance}</div>
+          </div>
+        `;
+      }
+      
+      html += `</div></div>`;
+    }
+    
+    if (insights.infographic_description) {
+      html += `<div class="insights-section">
+        <div class="insights-title">📈 Recommended Infographic</div>
+        <div class="insights-infographic">
+          <div style="padding:16px;background:rgba(0,174,239,.05);border-radius:8px;">
+            <strong style="color:var(--navy);">Infographic Theme:</strong>
+            <p style="margin:8px 0;color:var(--text);font-size:12px;">${insights.infographic_description}</p>
+            <p style="margin:8px 0;color:var(--muted);font-size:11px;">✓ Visual representation recommended</p>
+          </div>
+        </div>
+      </div>`;
+    }
+    
+    content.innerHTML = html;
+    
+  } catch (err) {
+    content.innerHTML = `<div class="insights-error">
+      <strong>⚠️ Error:</strong> ${err.message}<br/>
+      <small style="margin-top:8px;display:block;">To use Claude insights, set your API key:<br/>
+      <code style="background:#f0f0f0;padding:4px 6px;border-radius:3px;font-size:11px;">localStorage.setItem('claude_api_key', 'sk-...')</code></small>
+    </div>`;
+  }
 }
 
 function computeKPIs(items) {
@@ -413,6 +560,18 @@ async function init(){
   // Load BIS Affiliate Rules monitoring data
   await loadAndRenderBIS();
   initBISToggle();
+  
+  // Close insights panel
+  el('closeInsights').addEventListener('click', () => {
+    el('insightsPanel').style.display = 'none';
+  });
+  
+  // Close insights when clicking outside
+  el('insightsPanel').addEventListener('click', (e) => {
+    if (e.target === el('insightsPanel')) {
+      el('insightsPanel').style.display = 'none';
+    }
+  });
 }
  
 init().catch(err=>{

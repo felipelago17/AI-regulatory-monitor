@@ -81,7 +81,7 @@
  
         <div class="filter actions">
           <button id="reset" class="btn secondary">Reset</button>
-          <button id="export" class="btn">Export CSV</button>
+          <button id="insights" class="btn">💡 Obtain Further Insights</button>
         </div>
       </div>
 
@@ -124,6 +124,17 @@
       <button id="showBisBtn" class="btn" style="width:100%;margin-bottom:16px;display:none;">
         📋 View BIS Affiliate Rules (Weekly Update)
       </button>
+
+      <!-- Insights Modal/Panel -->
+      <div id="insightsPanel" class="insights-panel" style="display:none;">
+        <div class="insights-header">
+          <h2>🔍 AI-Generated Insights</h2>
+          <button id="closeInsights" class="btn secondary" style="padding:8px 12px;">Close</button>
+        </div>
+        <div id="insightsContent" class="insights-content">
+          <div class="loading-spinner">Analyzing with Claude AI<br/><small>This may take a moment...</small></div>
+        </div>
+      </div>
 
       <!-- Required containers for app.js -->
       <div id="cards" class="grid"></div>
