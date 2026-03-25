@@ -288,6 +288,96 @@ function paintKPIs(kpis) {
   el('kpiHighRisk').textContent = kpis.highRisk;
   el('kpiNew').textContent = kpis.newItems30d;
 }
+
+async function loadAndRenderBIS() {
+  try {
+    const res = await fetch('data/bis-monitoring.json', { cache: 'no-store' });
+    const bisData = await res.json();
+    
+    // Update period display
+    el('bisPeriod').textContent = `Monitoring Period: ${bisData.monitoring_period}`;
+    
+    // Render highlights
+    const highlightsContainer = el('bisHighlights');
+    highlightsContainer.innerHTML = '';
+    for (const highlight of bisData.week.highlights) {
+      const card = document.createElement('div');
+      card.className = 'bis-highlight';
+      
+      const statusClass = `bis-status-${highlight.priority}`;
+      let html = `<div style="display:flex;justify-content:space-between;align-items:flex-start;">
+        <div class="bis-highlight-title">${highlight.title}</div>
+        <span class="bis-status-badge ${statusClass}">${highlight.priority.toUpperCase()}</span>
+      </div>`;
+      
+      const details = highlight.details;
+      for (const [key, value] of Object.entries(details)) {
+        if (key === 'risk_level') continue;
+        const displayKey = key.replace(/_/g, ' ').charAt(0).toUpperCase() + key.replace(/_/g, ' ').slice(1);
+        html += `<p><strong>${displayKey}:</strong> ${value}</p>`;
+      }
+      
+      card.innerHTML = html;
+      highlightsContainer.appendChild(card);
+    }
+    
+    // Render action items
+    const actionsContainer = el('bisActionItems');
+    actionsContainer.innerHTML = '';
+    for (const item of bisData.action_items) {
+      const actionEl = document.createElement('div');
+      actionEl.className = `bis-action-item ${item.priority}`;
+      actionEl.innerHTML = `
+        <div class="bis-action-item-title">✓ ${item.title}</div>
+        <div class="bis-action-item-desc">${item.description}</div>
+        <div class="bis-action-item-deadline">Deadline: ${item.deadline}</div>
+      `;
+      actionsContainer.appendChild(actionEl);
+    }
+    
+    // Render resources
+    const resourcesContainer = el('bisResources');
+    resourcesContainer.innerHTML = '';
+    for (const resource of bisData.monitoring_resources) {
+      const resourceEl = document.createElement('div');
+      resourceEl.className = 'bis-resource';
+      resourceEl.innerHTML = `
+        <a href="${resource.url}" target="_blank" rel="noreferrer">${resource.name}</a>
+        <div class="bis-resource-type">${resource.type}</div>
+      `;
+      resourcesContainer.appendChild(resourceEl);
+    }
+    
+    // Set compliance note
+    el('bisComplianceNote').textContent = bisData.compliance_notes;
+    
+    // Show BIS section button
+    el('showBisBtn').style.display = 'block';
+  } catch (err) {
+    console.error('Error loading BIS data:', err);
+  }
+}
+
+function initBISToggle() {
+  const showBtn = el('showBisBtn');
+  const bisSection = el('bisSection');
+  const closeBtn = el('bisPanelToggle');
+  
+  if (showBtn) {
+    showBtn.addEventListener('click', () => {
+      bisSection.style.display = 'block';
+      showBtn.style.display = 'none';
+      window.scrollTo({ top: bisSection.offsetTop - 100, behavior: 'smooth' });
+    });
+  }
+  
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      bisSection.style.display = 'none';
+      showBtn.style.display = 'block';
+    });
+  }
+}
  
 async function init(){
   const res = await fetch('data/updates.json', { cache: 'no-store' });
@@ -319,6 +409,10 @@ async function init(){
       render();
     });
   });
+  
+  // Load BIS Affiliate Rules monitoring data
+  await loadAndRenderBIS();
+  initBISToggle();
 }
  
 init().catch(err=>{

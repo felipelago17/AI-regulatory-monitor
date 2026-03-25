@@ -1,0 +1,92 @@
+{
+  "generated_at": "2026-03-25",
+  "monitoring_period": "March 18 – March 25, 2026",
+  "week": {
+    "date": "March 25, 2026",
+    "highlights": [
+      {
+        "title": "BIS Affiliates Rule (90 FR 47201) – Suspension Countdown",
+        "status": "active",
+        "priority": "critical",
+        "details": {
+          "current_status": "Rule remains in one-year suspension window",
+          "re_imposition_date": "November 10, 2026",
+          "core_mechanism": "Any foreign entity owned 50% or more in aggregate by parties on Entity List (EL), MEU List, or certain SDN lists will be automatically captured by same licensing requirements as owners",
+          "weekly_focus": "Use preparation period to conduct ownership penetration screening. Beneficial ownership tracing is required because name-based screening is no longer sufficient.",
+          "risk_level": "HIGH"
+        }
+      },
+      {
+        "title": "Digital & Cloud Controls (The Cloud Loophole)",
+        "status": "active",
+        "priority": "high",
+        "details": {
+          "rasa_update": "Following RASA (Remote Access Security Act) and January 2026 Final Rule, providing remote access to high-end U.S. compute clusters is legally classified as export of hardware capability",
+          "iaas_liability": "IaaS providers liable for 'knowing' identity of remote users; requires granular IP logs and payment verification",
+          "compute_aggregation": "Monitoring must focus on Total Processing Performance (TPP) across entire clusters, not individual chips. Linking non-controlled chips to exceed thresholds (e.g., 4,800 TOPS for ECCN 3A090.a) triggers license requirements",
+          "risk_level": "CRITICAL"
+        }
+      },
+      {
+        "title": "Technical Thresholds & ECCN Watch",
+        "status": "active",
+        "priority": "high",
+        "details": {
+          "eccn_5a002": "Hardware with strong encryption (secure-element chips, processors) requires License Exception ENC analysis even if accessed via API or cloud services",
+          "open_source_nuance": "Software in private or 'gated' repositories (like Llama 2/3) is generally subject to EAR because it is not available for 'further dissemination without restriction'",
+          "de_minimis_rule": "For most destinations, foreign-made items with >10% controlled U.S. content remain subject to U.S. jurisdiction",
+          "risk_level": "MEDIUM-HIGH"
+        }
+      }
+    ]
+  },
+  "action_items": [
+    {
+      "id": "jv-audit",
+      "title": "JV Structure Audit",
+      "description": "Review all joint ventures for aggregate listed-entity ownership crossing the 50% threshold",
+      "deadline": "April 8, 2026",
+      "priority": "critical",
+      "status": "pending"
+    },
+    {
+      "id": "contract-updates",
+      "title": "Contractual Updates",
+      "description": "Insert ownership-change notification clauses and EAR compliance warranties into all new supply agreements",
+      "deadline": "April 15, 2026",
+      "priority": "high",
+      "status": "pending"
+    },
+    {
+      "id": "red-flag-check",
+      "title": "Red Flag Check",
+      "description": "Identify counterparties where a restricted entity holds indicia of control (board seats, veto rights), as these are now mandatory red flags",
+      "deadline": "April 1, 2026",
+      "priority": "critical",
+      "status": "pending"
+    }
+  ],
+  "monitoring_resources": [
+    {
+      "name": "Official BIS Rule (90 FR 47201)",
+      "url": "https://www.federalregister.gov/documents/2025/09/30/2025-21013/expansion-of-end-user-controls-to-cover-affiliates-of-certain-listed-entities",
+      "type": "Federal Register"
+    },
+    {
+      "name": "BIS Encryption Guidance (5A002)",
+      "url": "https://www.bis.gov/learn-support/encryption-controls/5a002-a.1-a.5",
+      "type": "BIS Guidance"
+    },
+    {
+      "name": "Wassenaar Arrangement Updates",
+      "url": "https://www.wassenaar.org",
+      "type": "International"
+    },
+    {
+      "name": "BIS Regulations (EAR)",
+      "url": "https://www.bis.doc.gov/index.php/regulations/export-administration-regulations-ear",
+      "type": "Regulations"
+    }
+  ],
+  "compliance_notes": "The 2026 landscape is defined by traceability. Whether you are shipping physical hardware or providing digital login credentials, the legal distinction between these modes has effectively evaporated. Always verify beneficial ownership before proceeding with transactions in sensitive regions like China."
+}

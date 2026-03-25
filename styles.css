@@ -111,6 +111,60 @@ select{cursor:pointer}
 .footer{margin-top:32px;background:rgba(240,244,248,.5);border-top:1px solid var(--border)}
 .footer p{margin:0;color:var(--muted)}
 
+/* BIS Affiliate Rules Monitoring Section */
+.bis-panel{padding:24px;background:linear-gradient(135deg, rgba(0,174,239,.05) 0%, rgba(0,86,179,.05) 100%);border:2px solid var(--electric);border-radius:var(--radius);margin-bottom:20px;backdrop-filter:blur(10px)}
+.bis-header{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid var(--electric)}
+.bis-header h2{margin:0;font-size:24px;color:var(--navy);font-weight:700}
+.bis-header-content{flex:1}
+.bis-period{margin:4px 0 0;font-size:12px;color:var(--muted);font-weight:600}
+
+.bis-highlights{display:grid;gap:16px;margin-bottom:24px}
+.bis-highlight{background:rgba(255,255,255,.7);border:1px solid var(--border);border-radius:12px;padding:16px;backdrop-filter:blur(10px);transition:all 200ms}
+.bis-highlight:hover{border-color:var(--electric);box-shadow:0 4px 12px rgba(0,174,239,.15)}
+.bis-highlight-title{font-size:14px;font-weight:600;color:var(--navy);display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.bis-status-badge{display:inline-block;padding:4px 8px;border-radius:999px;font-size:10px;font-weight:600;}
+.bis-status-critical{background:rgba(211,47,47,.2);color:#d32f2f;border:1px solid rgba(211,47,47,.3)}
+.bis-status-high{background:rgba(255,193,7,.2);color:#f57f17;border:1px solid rgba(255,193,7,.3)}
+.bis-status-medium{background:rgba(33,150,243,.2);color:#1976d2;border:1px solid rgba(33,150,243,.3)}
+
+.bis-highlight p{margin:6px 0;font-size:12px;color:var(--text);line-height:1.5}
+.bis-highlight strong{color:var(--cobalt);font-weight:600}
+
+.bis-section{margin-bottom:24px}
+.bis-section h3{margin:0 0 12px;font-size:16px;color:var(--navy);font-weight:700;padding-bottom:8px;border-bottom:1px solid var(--electric)}
+
+.bis-action-items{display:grid;gap:12px}
+.bis-action-item{background:rgba(255,255,255,.6);border-left:3px solid var(--electric);padding:12px;border-radius:8px;backdrop-filter:blur(10px)}
+.bis-action-item.critical{border-left-color:#d32f2f}
+.bis-action-item.high{border-left-color:var(--electric)}
+.bis-action-item-title{font-size:13px;font-weight:600;color:var(--navy);margin-bottom:4px}
+.bis-action-item-desc{font-size:11px;color:var(--muted);margin-bottom:6px;line-height:1.4}
+.bis-action-item-deadline{font-size:10px;color:var(--cobalt);font-weight:600}
+
+.bis-resources{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.bis-resource{background:rgba(255,255,255,.6);border:1px solid var(--border);padding:12px;border-radius:8px;transition:all 200ms;backdrop-filter:blur(10px)}
+.bis-resource:hover{border-color:var(--electric);box-shadow:0 2px 8px rgba(0,174,239,.1)}
+.bis-resource a{display:block;color:var(--cobalt);text-decoration:none;font-weight:600;font-size:12px;margin-bottom:4px}
+.bis-resource a:hover{color:var(--electric);text-decoration:underline}
+.bis-resource-type{font-size:10px;color:var(--muted);font-weight:500}
+
+.bis-compliance-note{background:rgba(0,174,239,.1);border:1px solid rgba(0,174,239,.3);border-left:3px solid var(--electric);padding:16px;border-radius:8px;margin-top:20px}
+.bis-compliance-note strong{color:var(--navy);font-size:13px}
+.bis-compliance-note p{margin:8px 0 0;color:var(--text);font-size:12px;line-height:1.5}
+
+#showBisBtn{margin-top:16px !important}
+#showBisBtn:hover{box-shadow:0 6px 20px rgba(0,174,239,.3)}
+
+@media (max-width:980px){
+  .bis-resources{grid-template-columns:1fr}
+}
+
+@media (max-width:560px){
+  .bis-header{flex-direction:column;align-items:stretch}
+  .bis-header h2{font-size:20px}
+  .bis-resources{grid-template-columns:1fr}
+}
+
 @media (max-width:560px){
   .grid{grid-template-columns:1fr}
   .topbar{flex-direction:column;align-items:flex-start;gap:12px}

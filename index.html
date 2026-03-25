@@ -92,7 +92,39 @@
         <button type="button" class="btn secondary" data-view="NEWS">News</button>
         <button type="button" class="btn secondary" data-view="HIGH-RISK">High Risk</button>
       </div>
- 
+
+      <!-- BIS Affiliate Rules Section -->
+      <div id="bisSection" class="bis-panel" style="display:none;">
+        <div class="bis-header">
+          <div class="bis-header-content">
+            <h2>📋 BIS Affiliate Rules Monitoring</h2>
+            <p class="bis-period" id="bisPeriod">Loading monitoring period...</p>
+          </div>
+          <button id="bisPanelToggle" class="btn secondary" style="align-self: flex-start;">Close</button>
+        </div>
+
+        <div class="bis-highlights" id="bisHighlights"></div>
+
+        <div class="bis-section">
+          <h3>🎯 Action Items</h3>
+          <div class="bis-action-items" id="bisActionItems"></div>
+        </div>
+
+        <div class="bis-section">
+          <h3>📚 Essential Resources</h3>
+          <div class="bis-resources" id="bisResources"></div>
+        </div>
+
+        <div class="bis-compliance-note">
+          <strong>⚠️ Compliance Note:</strong>
+          <p id="bisComplianceNote">Loading...</p>
+        </div>
+      </div>
+
+      <button id="showBisBtn" class="btn" style="width:100%;margin-bottom:16px;display:none;">
+        📋 View BIS Affiliate Rules (Weekly Update)
+      </button>
+
       <!-- Required containers for app.js -->
       <div id="cards" class="grid"></div>
       <div id="empty" class="empty" hidden>No items match your filters.</div>
