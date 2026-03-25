@@ -525,6 +525,70 @@ function initBISToggle() {
     });
   }
 }
+
+async function loadAndRenderExportControls() {
+  try {
+    const res = await fetch('data/export-controls.json', { cache: 'no-store' });
+    const ecData = await res.json();
+    
+    // Render resources
+    const resourcesContainer = el('exportControlsResources');
+    resourcesContainer.innerHTML = '';
+    for (const resource of ecData.export_control_resources) {
+      const card = document.createElement('div');
+      card.className = 'export-control-resource';
+      card.innerHTML = `
+        <div class="export-control-resource-title">${resource.name}</div>
+        <div class="export-control-resource-org">${resource.organization}</div>
+        <div class="export-control-resource-desc">${resource.description}</div>
+        <div>
+          <span class="export-control-resource-category">${resource.category.replace(/-/g, ' ').toUpperCase()}</span>
+          <a href="${resource.url}" target="_blank" rel="noreferrer" style="margin-left: 8px;">Visit →</a>
+        </div>
+      `;
+      resourcesContainer.appendChild(card);
+    }
+    
+    // Render topics
+    const topicsContainer = el('exportControlsTopics');
+    topicsContainer.innerHTML = '';
+    for (const topic of ecData.key_topics) {
+      const tagEl = document.createElement('div');
+      tagEl.className = 'topic-tag';
+      tagEl.textContent = topic;
+      topicsContainer.appendChild(tagEl);
+    }
+    
+    // Set compliance note
+    el('exportControlsComplianceNote').textContent = ecData.compliance_note;
+    
+    // Show Export Controls section button
+    el('showExportControlsBtn').style.display = 'block';
+  } catch (err) {
+    console.error('Error loading export controls data:', err);
+  }
+}
+
+function initExportControlsToggle() {
+  const showBtn = el('showExportControlsBtn');
+  const ecSection = el('exportControlsSection');
+  const closeBtn = el('exportControlsPanelToggle');
+  
+  if (showBtn) {
+    showBtn.addEventListener('click', () => {
+      ecSection.style.display = 'block';
+      showBtn.style.display = 'none';
+      window.scrollTo({ top: ecSection.offsetTop - 100, behavior: 'smooth' });
+    });
+  }
+  
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      ecSection.style.display = 'none';
+      showBtn.style.display = 'block';
+    });
+  }
+}
  
 async function init(){
   const res = await fetch('data/updates.json', { cache: 'no-store' });
@@ -560,6 +624,10 @@ async function init(){
   // Load BIS Affiliate Rules monitoring data
   await loadAndRenderBIS();
   initBISToggle();
+  
+  // Load Export Controls data
+  await loadAndRenderExportControls();
+  initExportControlsToggle();
   
   // Close insights panel
   el('closeInsights').addEventListener('click', () => {

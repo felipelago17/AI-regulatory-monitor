@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-03-25T10:30:00Z",
+  "monitoring_period": "March 2026",
+  "export_control_resources": [
+    {
+      "id": "bis-main",
+      "organization": "U.S. Bureau of Industry and Security (BIS)",
+      "name": "BIS News & Updates",
+      "url": "https://www.bis.gov/news-updates",
+      "description": "Official U.S. export control enforcement, regulations, and strategic trade announcements",
+      "category": "primary-authority"
+    },
+    {
+      "id": "uae-iec-main",
+      "organization": "UAE – International Economic Council",
+      "name": "UAE International Economic Council",
+      "url": "https://www.uaeiec.gov.ae/en-us/",
+      "description": "UAE export policy and strategic economic regulations",
+      "category": "regional-authority"
+    },
+    {
+      "id": "uae-iec-news",
+      "organization": "UAE – International Economic Council",
+      "name": "UAE IEC News & Announcements",
+      "url": "https://www.uaeiec.gov.ae/en-us/news",
+      "description": "UAE regulatory updates and policy changes affecting trade",
+      "category": "regional-authority"
+    },
+    {
+      "id": "doj-export-control",
+      "organization": "U.S. Department of Justice",
+      "name": "DOJ Export Control News",
+      "url": "https://www.justice.gov/nsd/export-control-news",
+      "description": "Enforcement actions and legal updates on export control violations",
+      "category": "enforcement"
+    },
+    {
+      "id": "baker-mckenzie-sanctions",
+      "organization": "Baker McKenzie",
+      "name": "Sanctions News & Analysis",
+      "url": "https://sanctionsnews.bakermckenzie.com/",
+      "description": "Professional legal analysis of export controls and sanctions regulations",
+      "category": "professional-analysis"
+    },
+    {
+      "id": "export-compliance-daily",
+      "organization": "Export Compliance Daily",
+      "name": "Export Compliance Daily",
+      "url": "https://exportcompliancedaily.com/",
+      "description": "Daily updates and analysis on export compliance matters",
+      "category": "specialized-news"
+    },
+    {
+      "id": "str-trade-report",
+      "organization": "STR Global Trade",
+      "name": "STR Trade Report – Digital Trade & Exports",
+      "url": "https://www.strtrade.com/trade-news-resources/str-trade-report/trade-report/march/legislative-update-digital-trade-exports-shipping",
+      "description": "Legislative updates on digital trade, exports, and shipping regulations",
+      "category": "industry-report"
+    },
+    {
+      "id": "wassenaar-arrangement",
+      "organization": "Wassenaar Arrangement",
+      "name": "Wassenaar Arrangement Blog",
+      "url": "https://www.wassenaar.org/blog/",
+      "description": "Multilateral export control regime updates and technical guidelines",
+      "category": "international-regime"
+    }
+  ],
+  "key_topics": [
+    "Export Controls",
+    "Strategic Trade",
+    "Sanctions Compliance",
+    "Technology Transfer Restrictions",
+    "Dual-Use Items",
+    "ECCN Classifications",
+    "License Requirements",
+    "Enforcement Actions"
+  ],
+  "compliance_note": "Export controls are enforced across multiple jurisdictions. Monitor BIS (US), UAE IEC (Emirates), DOJ (enforcement), and international regimes (Wassenaar) for changing restrictions on technology, equipment, and services."
+}
