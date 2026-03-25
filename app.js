@@ -672,6 +672,81 @@ function initDataPrivacyToggle() {
     });
   }
 }
+
+async function loadAndRenderDataResidency() {
+  try {
+    const res = await fetch('data/data-residency.json', { cache: 'no-store' });
+    const drData = await res.json();
+    
+    // Render sources
+    const sourcesContainer = el('dataResidencySources');
+    sourcesContainer.innerHTML = '';
+    for (const source of drData.data_residency_sources) {
+      const card = document.createElement('div');
+      card.className = 'data-residency-source';
+      
+      let resourcesHtml = '';
+      if (source.resources && source.resources.length > 0) {
+        resourcesHtml = '<div class="data-residency-resource-list">';
+        for (const res of source.resources) {
+          const resType = res.jurisdiction ? ` (${res.jurisdiction})` : (res.scope ? ` (${res.scope})` : '');
+          resourcesHtml += `<div class="data-residency-resource-item">
+            <div class="data-residency-resource-org">${res.organization}</div>
+            <a href="${res.url}" target="_blank" rel="noreferrer">${res.title}</a>
+            <div class="data-residency-resource-type">${res.type.replace(/-/g, ' ').toUpperCase()}${resType}</div>
+          </div>`;
+        }
+        resourcesHtml += '</div>';
+      }
+      
+      card.innerHTML = `
+        <div class="data-residency-source-category">🏛️ ${source.name}</div>
+        <div class="data-residency-source-desc">${source.description}</div>
+        ${resourcesHtml}
+      `;
+      sourcesContainer.appendChild(card);
+    }
+    
+    // Render topics
+    const topicsContainer = el('dataResidencyTopics');
+    topicsContainer.innerHTML = '';
+    for (const topic of drData.key_topics) {
+      const tagEl = document.createElement('div');
+      tagEl.className = 'topic-tag';
+      tagEl.textContent = topic;
+      topicsContainer.appendChild(tagEl);
+    }
+    
+    // Set compliance note
+    el('dataResidencyComplianceNote').textContent = drData.compliance_note;
+    
+    // Show Data Residency section button
+    el('showDataResidencyBtn').style.display = 'block';
+  } catch (err) {
+    console.error('Error loading data residency data:', err);
+  }
+}
+
+function initDataResidencyToggle() {
+  const showBtn = el('showDataResidencyBtn');
+  const drSection = el('dataResidencySection');
+  const closeBtn = el('dataResidencyPanelToggle');
+  
+  if (showBtn) {
+    showBtn.addEventListener('click', () => {
+      drSection.style.display = 'block';
+      showBtn.style.display = 'none';
+      window.scrollTo({ top: drSection.offsetTop - 100, behavior: 'smooth' });
+    });
+  }
+  
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      drSection.style.display = 'none';
+      showBtn.style.display = 'block';
+    });
+  }
+}
  
 async function init(){
   const res = await fetch('data/updates.json', { cache: 'no-store' });
@@ -715,6 +790,10 @@ async function init(){
   // Load Data Privacy data
   await loadAndRenderDataPrivacy();
   initDataPrivacyToggle();
+  
+  // Load Data Residency data
+  await loadAndRenderDataResidency();
+  initDataResidencyToggle();
   
   // Close insights panel
   el('closeInsights').addEventListener('click', () => {

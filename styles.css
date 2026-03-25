@@ -243,6 +243,36 @@ select{cursor:pointer}
 #showDataPrivacyBtn{margin-top:16px !important}
 #showDataPrivacyBtn:hover{box-shadow:0 6px 20px rgba(52,168,219,.3)}
 
+/* Data Residency & Sovereignty Panel */
+.data-residency-panel{padding:24px;background:linear-gradient(135deg, rgba(45,138,127,.08) 0%, rgba(52,168,183,.05) 100%);border:2px solid #2d8a7f;border-radius:var(--radius);margin-bottom:20px;backdrop-filter:blur(10px)}
+.data-residency-header{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid #2d8a7f}
+.data-residency-header h2{margin:0;font-size:24px;color:var(--navy);font-weight:700}
+.data-residency-header-content{flex:1}
+.data-residency-intro{margin:4px 0 0;font-size:12px;color:var(--muted);font-weight:600}
+
+.data-residency-sources{display:grid;gap:14px;margin-bottom:24px}
+.data-residency-source{background:rgba(255,255,255,.7);border:1px solid var(--border);border-radius:12px;padding:16px;backdrop-filter:blur(10px);transition:all 200ms}
+.data-residency-source:hover{border-color:#2d8a7f;box-shadow:0 4px 12px rgba(45,138,127,.15)}
+.data-residency-source-category{font-size:14px;font-weight:600;color:var(--navy);margin-bottom:4px;display:flex;align-items:center;gap:6px}
+.data-residency-source-desc{font-size:12px;color:var(--text);line-height:1.5;margin:6px 0 10px}
+.data-residency-resource-list{display:grid;gap:8px}
+.data-residency-resource-item{background:rgba(45,138,127,.05);border-left:3px solid #2d8a7f;padding:10px 12px;border-radius:6px;font-size:11px}
+.data-residency-resource-org{font-weight:600;color:#2d8a7f;margin-bottom:3px}
+.data-residency-resource-title{color:var(--text);text-decoration:none;font-weight:600;display:block;margin-bottom:3px}
+.data-residency-resource-item a{color:#2d8a7f;text-decoration:none;font-weight:600;word-break:break-word}
+.data-residency-resource-item a:hover{text-decoration:underline;color:var(--electric)}
+.data-residency-resource-type{font-size:10px;color:var(--muted);margin-top:3px;font-weight:500}
+
+.data-residency-topics{margin-bottom:24px}
+.data-residency-topics h3{margin:0 0 12px;font-size:16px;color:var(--navy);font-weight:700;padding-bottom:8px;border-bottom:1px solid #2d8a7f}
+
+.data-residency-compliance-note{background:rgba(45,138,127,.1);border:1px solid rgba(45,138,127,.3);border-left:3px solid #2d8a7f;padding:16px;border-radius:8px;margin-top:20px}
+.data-residency-compliance-note strong{color:var(--navy);font-size:13px}
+.data-residency-compliance-note p{margin:8px 0 0;color:var(--text);font-size:12px;line-height:1.5}
+
+#showDataResidencyBtn{margin-top:16px !important}
+#showDataResidencyBtn:hover{box-shadow:0 6px 20px rgba(45,138,127,.3)}
+
 /* Insights Panel & Modal */
 .insights-panel{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);backdrop-filter:blur(4px);z-index:1000;display:flex;align-items:flex-start;justify-content:center;padding-top:40px;overflow-y:auto}
 .insights-panel[style*="display: block"]{display:flex !important}

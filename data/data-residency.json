@@ -1,0 +1,320 @@
+{
+  "generated_at": "2026-03-25T11:00:00Z",
+  "monitoring_period": "March 2026",
+  "data_residency_sources": [
+    {
+      "id": "data-residency-localization",
+      "category": "global-regulators",
+      "name": "Data Residency & Data Localisation",
+      "description": "Global and regional frameworks governing data storage, localization requirements, and cross-border data flows",
+      "resources": [
+        {
+          "organization": "European Commission",
+          "title": "Data Flows & Localisation",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection_en",
+          "type": "regulatory",
+          "jurisdiction": "EU"
+        },
+        {
+          "organization": "European Data Protection Board (EDPB)",
+          "title": "EDPB Main Site",
+          "url": "https://edpb.europa.eu",
+          "type": "authority",
+          "jurisdiction": "EU"
+        },
+        {
+          "organization": "OECD",
+          "title": "Cross‑Border Data Flows",
+          "url": "https://www.oecd.org/sti/ieconomy/cross-border-data-flows.htm",
+          "type": "policy",
+          "scope": "International"
+        },
+        {
+          "organization": "UNCTAD",
+          "title": "Data Protection & Digital Economy",
+          "url": "https://unctad.org/topic/ecommerce-and-digital-economy/data-protection-and-privacy-legislation",
+          "type": "policy",
+          "scope": "International"
+        },
+        {
+          "organization": "UAE Ministry of Economy",
+          "title": "UAE Data Protection Law (PDPL)",
+          "url": "https://www.moec.gov.ae/en/data-protection",
+          "type": "regulatory",
+          "jurisdiction": "UAE"
+        },
+        {
+          "organization": "ADGM",
+          "title": "ADGM Data Protection Office",
+          "url": "https://www.adgm.com/legal-framework/data-protection",
+          "type": "regulatory",
+          "jurisdiction": "UAE"
+        },
+        {
+          "organization": "DIFC",
+          "title": "DIFC Data Protection Commissioner",
+          "url": "https://www.difc.ae/business/laws-and-regulations/data-protection-law",
+          "type": "regulatory",
+          "jurisdiction": "UAE"
+        }
+      ]
+    },
+    {
+      "id": "data-centres-cloud",
+      "category": "infrastructure-governance",
+      "name": "Data Centres, Cloud Regulation & Infrastructure Sovereignty",
+      "description": "Standards, frameworks, and regulations for cloud security, data center sovereignty, and information infrastructure",
+      "resources": [
+        {
+          "organization": "ISO",
+          "title": "ISO/IEC 27001 & 27017 (Cloud Security)",
+          "url": "https://www.iso.org/committee/45306.html",
+          "type": "standard",
+          "scope": "Global"
+        },
+        {
+          "organization": "ISO",
+          "title": "ISO/IEC 27799 (Sensitive Sectors Information Security)",
+          "url": "https://www.iso.org/standard/62777.html",
+          "type": "standard",
+          "scope": "Global"
+        },
+        {
+          "organization": "Cloud Security Alliance (CSA)",
+          "title": "Cloud Security Alliance",
+          "url": "https://cloudsecurityalliance.org",
+          "type": "advisory",
+          "scope": "Global"
+        },
+        {
+          "organization": "ENISA",
+          "title": "Cloud & Data Centre Security",
+          "url": "https://www.enisa.europa.eu/topics/cloud-and-big-data",
+          "type": "authority",
+          "jurisdiction": "EU"
+        },
+        {
+          "organization": "UAE Government",
+          "title": "UAE Information Assurance (IA) Regulation",
+          "url": "https://u.ae/en/about-the-uae/digital-uae/information-assurance",
+          "type": "regulatory",
+          "jurisdiction": "UAE"
+        },
+        {
+          "organization": "UAE National Cybersecurity Council",
+          "title": "National Cybersecurity Council",
+          "url": "https://ncs.gov.ae",
+          "type": "authority",
+          "jurisdiction": "UAE"
+        }
+      ]
+    },
+    {
+      "id": "digital-sovereignty",
+      "category": "sovereign-infrastructure",
+      "name": "Digital Embassies & Sovereign Digital Infrastructure",
+      "description": "Government digital sovereignty frameworks, digital embassies, and independent digital infrastructure models",
+      "resources": [
+        {
+          "organization": "Estonia",
+          "title": "Digital Embassy Program",
+          "url": "https://e-estonia.com/solutions/e-governance/digital-embassy/",
+          "type": "policy",
+          "jurisdiction": "Estonia"
+        },
+        {
+          "organization": "OECD",
+          "title": "Digital Government & Sovereignty",
+          "url": "https://www.oecd.org/gov/digital-government/",
+          "type": "policy",
+          "scope": "International"
+        },
+        {
+          "organization": "World Economic Forum",
+          "title": "Digital Sovereignty",
+          "url": "https://www.weforum.org/topics/digital-sovereignty/",
+          "type": "policy",
+          "scope": "International"
+        }
+      ]
+    },
+    {
+      "id": "data-sovereignty-frameworks",
+      "category": "governance-frameworks",
+      "name": "Data Sovereignty & National Control Frameworks",
+      "description": "International and jurisdiction-specific frameworks for data governance, national control, and data sovereignty",
+      "resources": [
+        {
+          "organization": "OECD",
+          "title": "Data Governance & Sovereignty",
+          "url": "https://www.oecd.org/sti/ieconomy/data-governance.htm",
+          "type": "policy",
+          "scope": "International"
+        },
+        {
+          "organization": "UNESCO",
+          "title": "Data Governance & AI",
+          "url": "https://www.unesco.org/en/artificial-intelligence",
+          "type": "policy",
+          "scope": "International"
+        },
+        {
+          "organization": "World Economic Forum",
+          "title": "Data Free Flow with Trust (DFFT)",
+          "url": "https://www.weforum.org/projects/data-free-flow-with-trust/",
+          "type": "policy",
+          "scope": "International"
+        },
+        {
+          "organization": "European Union",
+          "title": "GAIA‑X (Sovereign Cloud Framework)",
+          "url": "https://gaia-x.eu",
+          "type": "framework",
+          "jurisdiction": "EU"
+        },
+        {
+          "organization": "U.S. Department of Commerce",
+          "title": "Data Security & ICT Supply Chain",
+          "url": "https://www.commerce.gov/ict-supply-chain",
+          "type": "regulatory",
+          "jurisdiction": "USA"
+        }
+      ]
+    },
+    {
+      "id": "data-classification",
+      "category": "security-standards",
+      "name": "Data Classification, Sensitive Data & National Security",
+      "description": "Standards and frameworks for data classification, sensitive data handling, and national security requirements",
+      "resources": [
+        {
+          "organization": "NIST",
+          "title": "NIST SP 800‑53 (Security Controls)",
+          "url": "https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final",
+          "type": "standard",
+          "jurisdiction": "USA"
+        },
+        {
+          "organization": "NIST",
+          "title": "NIST SP 800‑60 (Data Categorisation)",
+          "url": "https://csrc.nist.gov/publications/detail/sp/800-60/vol-1-rev-1/final",
+          "type": "standard",
+          "jurisdiction": "USA"
+        },
+        {
+          "organization": "NATO",
+          "title": "NATO Information Classification",
+          "url": "https://www.nato.int/cps/en/natohq/declassified.htm",
+          "type": "standard",
+          "scope": "International"
+        },
+        {
+          "organization": "ISO",
+          "title": "ISO/IEC 27002 – Information Classification",
+          "url": "https://www.iso.org/standard/75652.html",
+          "type": "standard",
+          "scope": "Global"
+        },
+        {
+          "organization": "UAE National Cyber Authority",
+          "title": "UAE National Data Classification Policy",
+          "url": "https://nca.gov.ae",
+          "type": "regulatory",
+          "jurisdiction": "UAE"
+        },
+        {
+          "organization": "ADGM",
+          "title": "ADGM Information Security Standards",
+          "url": "https://www.adgm.com/operating-in-adgm/information-security",
+          "type": "standard",
+          "jurisdiction": "UAE"
+        },
+        {
+          "organization": "DIFC",
+          "title": "DIFC Information Security Standards",
+          "url": "https://www.difc.ae/business/laws-and-regulations/",
+          "type": "standard",
+          "jurisdiction": "UAE"
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity-critical",
+      "category": "critical-infrastructure",
+      "name": "Cybersecurity (National & Critical Infrastructure)",
+      "description": "National cybersecurity frameworks, critical infrastructure protection, and comprehensive security standards",
+      "resources": [
+        {
+          "organization": "NIST",
+          "title": "NIST Cybersecurity Framework (CSF 2.0)",
+          "url": "https://www.nist.gov/cyberframework",
+          "type": "framework",
+          "jurisdiction": "USA"
+        },
+        {
+          "organization": "ENISA",
+          "title": "Cybersecurity Policy & Operations",
+          "url": "https://www.enisa.europa.eu/topics",
+          "type": "authority",
+          "jurisdiction": "EU"
+        },
+        {
+          "organization": "ISO",
+          "title": "ISO/IEC 27001 (ISMS)",
+          "url": "https://www.iso.org/isoiec-27001-information-security.html",
+          "type": "standard",
+          "scope": "Global"
+        },
+        {
+          "organization": "UAE National Cybersecurity Council",
+          "title": "UAE National Cybersecurity Strategy",
+          "url": "https://ncs.gov.ae",
+          "type": "strategy",
+          "jurisdiction": "UAE"
+        }
+      ]
+    },
+    {
+      "id": "export-control-tech",
+      "category": "export-control",
+      "name": "Intelligence‑Grade & Export‑Control‑Sensitive Technology",
+      "description": "Export controls and restrictions on intelligence-grade technology including AI models, cloud platforms, and encryption",
+      "resources": [
+        {
+          "organization": "U.S. Bureau of Industry and Security",
+          "title": "Export Administration Regulations (EAR)",
+          "url": "https://www.bis.gov/regulations/ear",
+          "type": "regulatory",
+          "jurisdiction": "USA"
+        },
+        {
+          "organization": "U.S. Department of Commerce",
+          "title": "Consolidated Screening List",
+          "url": "https://www.trade.gov/consolidated-screening-list",
+          "type": "reference",
+          "jurisdiction": "USA"
+        },
+        {
+          "organization": "European Commission",
+          "title": "EU Dual‑Use Regulation",
+          "url": "https://policy.trade.ec.europa.eu/dual-use-controls_en",
+          "type": "regulatory",
+          "jurisdiction": "EU"
+        }
+      ]
+    }
+  ],
+  "key_topics": [
+    "Data Localization Requirements",
+    "Cloud Infrastructure Sovereignty",
+    "Information Classification Standards",
+    "Critical Infrastructure Protection",
+    "Export Control Restrictions",
+    "Digital Embassy Frameworks",
+    "National Security Data Handling",
+    "Cross-Border Data Flows",
+    "Data Center Sovereignty",
+    "Sensitive Technology Controls"
+  ],
+  "compliance_note": "Data residency, classification, and reliability requirements vary significantly across jurisdictions and are increasingly tied to national security considerations. Organizations must comply with EU data localization requirements, UAE PDPL residency rules, ISO security standards, NIST frameworks, and export control regulations on sensitive technologies including AI and encryption systems."
+}
