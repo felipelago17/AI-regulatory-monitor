@@ -144,6 +144,14 @@ function render(){
   cards.innerHTML='';
   const rows=state.items.filter(matches).sort((a,b)=>(b.date||'').localeCompare(a.date||''));
   empty.hidden=rows.length!==0;
+  
+  // Show/hide enforcement header banner
+  const enforcementBanner = el('enforcementHeaderBanner');
+  const hasEnforcements = rows.some(item => item.category === 'enforcement');
+  const isEnforcementView = state.view === 'ENFORCEMENT';
+  if (enforcementBanner) {
+    enforcementBanner.style.display = (isEnforcementView || hasEnforcements) ? 'block' : 'none';
+  }
  
   for(const it of rows){
     const card=document.createElement('article');
