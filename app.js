@@ -1,6 +1,53 @@
-const state = { items: [], q: '', jurisdiction: '', topic: '', source: '', view: 'ALL' };;
+const state = { items: [], q: '', jurisdiction: '', topic: '', source: '', view: 'ALL', category: '' };;
 const el=id=>document.getElementById(id);
 const uniq=a=>[...new Set(a)].filter(Boolean).sort((x,y)=>x.localeCompare(y));
+
+function generateInfographicSVG(item) {
+  /**
+   * Generate a clean infographic SVG summarizing key takeaways
+   * Matches the Corporate Tech blue palette
+   */
+  const risk = item.risk_score || 50;
+  const ia = item.impact_assessment;
+  const prob = ia ? ia.probability_percent : 0;
+  const repExp = ia ? (ia.reputational_exposure?.includes('High') || ia.reputational_exposure?.includes('Critical') ? 'High' : 'Medium') : 'Unknown';
+  
+  // Determine severity color
+  let sevColor = '#00AEEF'; // Electric blue - default
+  if (risk < 40) sevColor = '#0056B3'; // Cobalt - low
+  else if (risk < 65) sevColor = '#00AEEF'; // Electric - medium
+  else sevColor = '#d32f2f'; // Red - high
+
+  const svg = `<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" style="background:linear-gradient(135deg,#F0F4F8,#ffffff);border-radius:8px;">
+    <!-- Glass effect background -->
+    <rect width="200" height="120" fill="rgba(255,255,255,0.15)" rx="8"/>
+    
+    <!-- Title -->
+    <text x="100" y="16" font-size="11" font-weight="700" text-anchor="middle" fill="#002D62">Risk Overview</text>
+    
+    <!-- Risk Meter -->
+    <rect x="15" y="24" width="170" height="4" fill="#E0E7F1" rx="2"/>
+    <rect x="15" y="24" width="${170 * risk / 100}" height="4" fill="${sevColor}" rx="2"/>
+    <text x="190" y="33" font-size="10" font-weight="700" fill="#0056B3">${risk}</text>
+    
+    <!-- Probability -->
+    <circle cx="35" cy="55" r="18" fill="rgba(0,86,179,0.08)" stroke="#0056B3" stroke-width="2"/>
+    <text x="35" y="52" font-size="12" font-weight="700" text-anchor="middle" fill="#0056B3">${prob}%</text>
+    <text x="35" y="70" font-size="9" text-anchor="middle" fill="#002D62">Probability</text>
+    
+    <!-- Reputational Impact -->
+    <circle cx="100" cy="55" r="18" fill="rgba(0,174,239,0.08)" stroke="#00AEEF" stroke-width="2"/>
+    <text x="100" y="59" font-size="10" text-anchor="middle" fill="#0056B3" font-weight="600">${repExp.charAt(0)}</text>
+    <text x="100" y="70" font-size="9" text-anchor="middle" fill="#002D62">Rep Risk</text>
+    
+    <!-- Category Badge -->
+    <rect x="165" y="44" width="20" height="22" fill="${item.category === 'enforcement' ? '#d32f2f' : item.category === 'update' ? '#0056B3' : '#00AEEF'}" rx="3"/>
+    <text x="175" y="59" font-size="14" font-weight="700" text-anchor="middle" fill="white">${item.category?.charAt(0).toUpperCase() || 'N'}</text>
+  </svg>`;
+
+  return svg;
+}
+
  
 function toCSV(rows){
   const esc=v=>{
@@ -63,28 +110,23 @@ function buildFilters(){
 }
  
 function matches(it){
-  // Quick View preset filters
-  const jur = ((it.jurisdiction || '') + ' ' + (it.region || '')).toUpperCase();
-  const topicsText = (it.topics || []).join(' ').toLowerCase();
-  const tagsText = (it.tags || []).join(' ').toLowerCase();
-  const titleText = (it.title || '').toLowerCase();
-  const summaryText = (it.summary || '').toLowerCase();
- 
-  if (state.view === 'UAE') {
-    if (!jur.includes('UAE')) return false;
+  // Category filter
+  if(state.category && it.category !== state.category) return false;
+  
+  // Quick View preset filters based on category
+  const cat = (it.category || '').toUpperCase();
+  
+  if (state.view === 'ENFORCEMENT') {
+    if (cat !== 'ENFORCEMENT') return false;
+  } else if (state.view === 'UPDATE') {
+    if (cat !== 'UPDATE') return false;
+  } else if (state.view === 'NEWS') {
+    if (cat !== 'NEWS') return false;
+  } else if (state.view === 'HIGH-RISK') {
+    const riskScore = it.risk_score || 0;
+    if (riskScore < 65) return false;
   }
- 
-  if (state.view === 'UK') {
-    if (!jur.includes('UK') && !jur.includes('UNITED KINGDOM')) return false;
-  }
- 
-  if (state.view === 'AI') {
-    const hay = [topicsText, tagsText, titleText, summaryText].join(' ');
-    // Match broad AI governance content
-    if (!(hay.includes(' ai ') || hay.includes('artificial intelligence') || hay.includes('responsible ai') || hay.includes('ai governance'))) {
-      return false;
-    }
-  }
+  
   const q=state.q.trim().toLowerCase();
   if(q){
     const hay=[it.title,it.summary,it.source,(it.tags||[]).join(' '),(it.topics||[]).join(' ')].join(' ').toLowerCase();
@@ -116,10 +158,17 @@ function render(){
       s.textContent=t;
       return s;
     };
- 
+    
+    // Add category pill
+    const categoryClass = 'pill ' + (it.category || 'news');
+    meta.appendChild(pill((it.category || 'news').toUpperCase(), categoryClass));
+    
+    // Add date and jurisdiction
     meta.appendChild(pill(it.date||'—','pill accent'));
     meta.appendChild(pill(it.jurisdiction||'—','pill jur'));
-    (it.topics||[]).slice(0,3).forEach(t=>meta.appendChild(pill(t)));
+    
+    // Add first 2 topics
+    (it.topics||[]).slice(0,2).forEach(t=>meta.appendChild(pill(t)));
  
     const h=document.createElement('h4');
     h.textContent=it.title;
@@ -127,41 +176,75 @@ function render(){
     const p=document.createElement('p');
     p.textContent=it.summary;
  
+    card.appendChild(meta);
+    card.appendChild(h);
+    card.appendChild(p);
+    
+    // Risk score with meter
+    if(it.risk_score !== undefined){
+      const riskBox = document.createElement('div');
+      riskBox.className = 'risk-score';
+      
+      const label = document.createElement('span');
+      label.className = 'risk-score-label';
+      label.textContent = 'Risk:';
+      
+      const value = document.createElement('span');
+      value.className = 'risk-score-value';
+      value.textContent = it.risk_score;
+      
+      const meter = document.createElement('div');
+      meter.className = 'risk-meter';
+      
+      const fill = document.createElement('div');
+      fill.className = 'risk-meter-fill';
+      fill.style.width = it.risk_score + '%';
+      
+      meter.appendChild(fill);
+      
+      riskBox.appendChild(label);
+      riskBox.appendChild(value);
+      riskBox.appendChild(meter);
+      
+      card.appendChild(riskBox);
+    }
+    
+    // Render impact assessment if present
+    if(it.impact_assessment){
+      const ia = it.impact_assessment;
+      const impactBox = document.createElement('div');
+      impactBox.className = 'impact-box';
+      
+      let impactHTML = '<strong>Hubbard Calibration</strong>';
+      impactHTML += `<em>${ia.scenario}</em>`;
+      impactHTML += `<span>Probability: <strong>${ia.probability_percent}%</strong></span>`;
+      impactHTML += `<span>Financial: $${ia.financial_loss_low_millions}M–${ia.financial_loss_likely_millions}M–${ia.financial_loss_high_millions}M</span>`;
+      impactHTML += `<span>Reputational: ${ia.reputational_exposure}</span>`;
+      impactHTML += `<span>Disruption: ${ia.regulatory_disruption_days}</span>`;
+      impactHTML += `<span style="font-size:10px;">Confidence: ${ia.confidence_level}</span>`;
+      
+      impactBox.innerHTML = impactHTML;
+      card.appendChild(impactBox);
+      
+      // Add infographic
+      const infoDom = document.createElement('div');
+      infoDom.style.marginTop = '10px';
+      infoDom.innerHTML = generateInfographicSVG(it);
+      card.appendChild(infoDom);
+    }
+    
     const a=document.createElement('a');
     a.href=it.url;
     a.target='_blank';
     a.rel='noreferrer';
     a.textContent='Open source →';
- 
+    card.appendChild(a);
+    
     const s=document.createElement('div');
     s.style.marginTop='10px';
     s.style.fontSize='11px';
-    s.style.color='rgba(169,184,218,.8)';
+    s.style.color='var(--muted)';
     s.textContent=it.source;
- 
-    card.appendChild(meta);
-    card.appendChild(h);
-    card.appendChild(p);
-    
-    // Render impact assessment if present
-    if(it.impact_assessment){
-      const ia = it.impact_assessment;
-      const riskBox = document.createElement('div');
-      riskBox.style.cssText = 'margin-top:12px;padding:10px;background:rgba(255,59,92,.08);border:1px solid rgba(255,59,92,.2);border-radius:8px;font-size:11px;';
-      
-      let riskHTML = '<strong style="color:#ffd6df;">Impact Assessment (Hubbard calibration)</strong><br/>';
-      riskHTML += `<em style="color:rgba(255,214,223,.7);">${ia.scenario}</em><br/>`;
-      riskHTML += `<span style="color:#a9b8da;">Probability: ${ia.probability_percent}%</span><br/>`;
-      riskHTML += `<span style="color:#a9b8da;">Financial loss: $${ia.financial_loss_low_millions}–${ia.financial_loss_likely_millions}–${ia.financial_loss_high_millions}M</span><br/>`;
-      riskHTML += `<span style="color:#a9b8da;">Reputational: ${ia.reputational_exposure}</span><br/>`;
-      riskHTML += `<span style="color:#a9b8da;">Disruption: ${ia.regulatory_disruption_days} days</span><br/>`;
-      riskHTML += `<span style="color:rgba(169,184,218,.6);font-size:10px;">Confidence: ${ia.confidence_level}</span>`;
-      
-      riskBox.innerHTML = riskHTML;
-      card.appendChild(riskBox);
-    }
-    
-    card.appendChild(a);
     card.appendChild(s);
  
     cards.appendChild(card);
@@ -181,45 +264,29 @@ function computeKPIs(items) {
     return itemDate >= thirtyDaysAgo;
   }).length;
   
-  const highImpact = items.filter(item => item.impact === 'high' || item.impact === 'critical').length;
+  const enforcement = items.filter(item => item.category === 'enforcement').length;
+  const updates = items.filter(item => item.category === 'update').length;
+  const news = items.filter(item => item.category === 'news').length;
   
-  const uaeItems = items.filter(item => {
-    const jur = (item.jurisdiction || '').toUpperCase();
-    const region = (item.region || '').toUpperCase();
-    return jur.includes('UAE') || region.includes('UAE');
-  }).length;
-  
-  const ukItems = items.filter(item => {
-    const jur = (item.jurisdiction || '').toUpperCase();
-    return jur.includes('UK') || jur.includes('UNITED KINGDOM');
-  }).length;
-  
-  const aiItems = items.filter(item => {
-    const topicsText = (item.topics || []).join(' ').toLowerCase();
-    const tagsText = (item.tags || []).join(' ').toLowerCase();
-    const titleText = (item.title || '').toLowerCase();
-    const summaryText = (item.summary || '').toLowerCase();
-    const hay = [topicsText, tagsText, titleText, summaryText].join(' ');
-    return hay.includes('ai') || hay.includes('artificial intelligence') || hay.includes('responsible ai') || hay.includes('ai governance');
-  }).length;
+  const highRisk = items.filter(item => item.risk_score && item.risk_score >= 65).length;
   
   return {
     total,
     newItems30d: newItems,
-    highImpact,
-    uae: uaeItems,
-    uk: ukItems,
-    ai: aiItems
+    enforcement,
+    updates,
+    news,
+    highRisk
   };
 }
 
 function paintKPIs(kpis) {
   el('kpiTotal').textContent = kpis.total;
+  el('kpiEnforcement').textContent = kpis.enforcement;
+  el('kpiUpdates').textContent = kpis.updates;
+  el('kpiNews').textContent = kpis.news;
+  el('kpiHighRisk').textContent = kpis.highRisk;
   el('kpiNew').textContent = kpis.newItems30d;
-  el('kpiHigh').textContent = kpis.highImpact;
-  el('kpiUAE').textContent = kpis.uae;
-  el('kpiUK').textContent = kpis.uk;
-  el('kpiAI').textContent = kpis.ai;
 }
  
 async function init(){
@@ -236,24 +303,25 @@ async function init(){
   el('topic').addEventListener('change',e=>{state.topic=e.target.value;render();});
   el('source').addEventListener('change',e=>{state.source=e.target.value;render();});
   el('reset').addEventListener('click',()=>{
-    state.q='';state.jurisdiction='';state.topic='';state.source='';
+    state.q='';state.jurisdiction='';state.topic='';state.source='';state.view='ALL';
     el('q').value='';el('jurisdiction').value='';el('topic').value='';el('source').value='';
+    document.querySelectorAll('[data-view]').forEach(b => b.classList.remove('active'));
+    document.querySelector('[data-view="ALL"]').classList.add('active');
     render();
   });
-}
- 
-init(// Quick view buttons
+  
+  // Quick view buttons
   document.querySelectorAll('[data-view]').forEach(btn => {
     btn.addEventListener('click', () => {
       state.view = btn.getAttribute('data-view') || 'ALL';
- 
-      // Highlight active button
       document.querySelectorAll('[data-view]').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
- 
       render();
     });
-  })).catch(err=>{
+  });
+}
+ 
+init().catch(err=>{
   console.error(err);
   el('lastUpdated').textContent='Failed to load data.';
 });

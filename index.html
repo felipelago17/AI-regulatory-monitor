@@ -26,21 +26,22 @@
  
   <main class="container">
     <section class="kpis" aria-label="Key stats">
-  <div class="kpi"><div class="kpiLabel">Total</div><div class="kpiValue" id="kpiTotal">—</div></div>
-  <div class="kpi"><div class="kpiLabel">New (30d)</div><div class="kpiValue" id="kpiNew">—</div></div>
-  <div class="kpi"><div class="kpiLabel">High impact</div><div class="kpiValue" id="kpiHigh">—</div></div>
-  <div class="kpi"><div class="kpiLabel">UAE</div><div class="kpiValue" id="kpiUAE">—</div></div>
-  <div class="kpi"><div class="kpiLabel">UK</div><div class="kpiValue" id="kpiUK">—</div></div>
-  <div class="kpi"><div class="kpiLabel">AI</div><div class="kpiValue" id="kpiAI">—</div></div>
-</section>
+      <div class="kpi"><div class="kpiLabel">Total</div><div class="kpiValue" id="kpiTotal">—</div></div>
+      <div class="kpi"><div class="kpiLabel">Enforcement</div><div class="kpiValue" id="kpiEnforcement">—</div></div>
+      <div class="kpi"><div class="kpiLabel">Updates</div><div class="kpiValue" id="kpiUpdates">—</div></div>
+      <div class="kpi"><div class="kpiLabel">News</div><div class="kpiValue" id="kpiNews">—</div></div>
+      <div class="kpi"><div class="kpiLabel">High Risk</div><div class="kpiValue" id="kpiHighRisk">—</div></div>
+      <div class="kpi"><div class="kpiLabel">Last 30d</div><div class="kpiValue" id="kpiNew">—</div></div>
+    </section>
+
     <section class="hero">
-      <h1>Horizon scanning for regulatory and enforcement developments</h1>
+      <h1>Regulatory Intelligence & Enforcement Monitoring</h1>
       <p>
-        This is a lightweight, Netlify-friendly monitor designed for compliance teams. It stores
-        <em>metadata and internal summaries</em>.
+        Professional-grade horizon scanning for AI, FinTech, and Data Governance regulations. Powered by Douglas W.
+        Hubbard calibrated impact assessment methodology.
       </p>
-      <p class="disclaimer">
-        <strong>Licensing note:</strong> do not republish paywalled content (e.g., subscription services) unless your licence permits.
+      <p style="font-size:12px; color:rgba(255,255,255,.7);">
+        <strong>Methodology:</strong> Impact ratings use quantified uncertainty reduction principles. Each scenario includes probability-weighted financial exposure ranges and confidence levels based on historical patterns.
       </p>
     </section>
  
@@ -81,12 +82,15 @@
         <div class="filter actions">
           <button id="reset" class="btn secondary">Reset</button>
           <button id="export" class="btn">Export CSV</button>
-        <div class="quickviews" aria-label="Quick views">
-  <button type="button" class="btn secondary active" data-view="ALL">All</button>
-  <button type="button" class="btn secondary" data-view="UAE">UAE</button>
-  <button type="button" class="btn secondary" data-view="UK">UK</button>
-  <button type="button" class="btn secondary" data-view="AI">AI only</button>
-</div>
+        </div>
+      </div>
+
+      <div class="quickviews" aria-label="Quick views">
+        <button type="button" class="btn secondary active" data-view="ALL">All</button>
+        <button type="button" class="btn secondary" data-view="ENFORCEMENT">Enforcements</button>
+        <button type="button" class="btn secondary" data-view="UPDATE">Updates</button>
+        <button type="button" class="btn secondary" data-view="NEWS">News</button>
+        <button type="button" class="btn secondary" data-view="HIGH-RISK">High Risk</button>
       </div>
  
       <!-- Required containers for app.js -->
@@ -95,10 +99,8 @@
     </section>
  
     <section class="panel footer">
-      <p style="font-size:12px; color:#a9b8da; line-height:1.5;">
-        This monitor provides high‑level regulatory intelligence for internal informational purposes only.
-        Individual entries reflect publicly available information as at the date shown.
-        Users should consult original regulatory publications and obtain legal advice before taking action.
+      <p style="font-size:11px; color:var(--muted); line-height:1.6;">
+        <strong>Disclaimer:</strong> This monitor provides high‑level regulatory intelligence for internal informational purposes only. Individual entries reflect publicly available information as at the date shown. Users should consult original regulatory publications and obtain legal advice before taking action. Impact assessments are calibrated estimates for triage purposes only, not certainty predictions.
       </p>
     </section>
   </main>
