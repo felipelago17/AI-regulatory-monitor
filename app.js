@@ -832,21 +832,28 @@ function renderSparkline(canvasId, data, color = '#00AEEF') {
 }
 
 function paintKPIs(kpis, items) {
-  // Use CountUp.js for animated counter cards
+  // Use CountUp.js for animated counter cards, fallback if not available
   const animateCounter = (elementId, endValue) => {
-    const options = {
-      duration: 1.2,
-      useEasing: true,
-      separator: ','
-    };
-    const counter = new window.countUp.CountUp(elementId, endValue, options);
-    if (!counter.error) {
-      counter.start();
+    const el = document.getElementById(elementId);
+    if (!el) return;
+    if (window.countUp && typeof window.countUp.CountUp === 'function') {
+      const options = {
+        duration: 1.2,
+        useEasing: true,
+        separator: ','
+      };
+      const counter = new window.countUp.CountUp(elementId, endValue, options);
+      if (!counter.error) {
+        counter.start();
+      } else {
+        el.textContent = endValue;
+      }
     } else {
-      document.getElementById(elementId).textContent = endValue;
+      // Fallback: just set the value directly
+      el.textContent = endValue;
     }
   };
-  
+
   animateCounter('kpiTotal', kpis.total);
   animateCounter('kpiEnforcement', kpis.enforcement);
   animateCounter('kpiUpdates', kpis.updates);
