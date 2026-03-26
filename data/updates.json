@@ -1,6 +1,214 @@
 {
-  "generated_at": "2026-03-18",
+  "generated_at": "2026-03-25",
   "items": [
+    {
+      "id": "bis-affiliate-rules-2026-03",
+      "date": "2026-03-25",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliate Rules",
+        "Technology Regulation"
+      ],
+      "title": "BIS Affiliate Rules (90 FR 47201) \u2013 Critical Suspension Countdown (Nov 10, 2026)",
+      "summary": "BIS Affiliate Rules remains in one-year suspension window. Any foreign entity owned 50%+ in aggregate by Entity List/MEU List parties will be automatically captured. Weekly focus: beneficial ownership tracing and screening. Re-imposition date: November 10, 2026.",
+      "source": "BIS \u2013 Affiliate Rules Monitoring",
+      "url": "https://www.bis.gov",
+      "tags": [
+        "bis",
+        "affiliate-rules",
+        "export-controls",
+        "entity-list"
+      ],
+      "category": "update",
+      "risk_score": 78,
+      "impact_assessment": {
+        "scenario": "Foreign affiliate entity ownership crossing 50% threshold triggers automatic licensing requirements",
+        "probability_percent": 65,
+        "financial_loss_low_millions": 5,
+        "financial_loss_likely_millions": 25,
+        "financial_loss_high_millions": 75,
+        "reputational_exposure": "High",
+        "regulatory_disruption_days": "90\u2013180",
+        "confidence_level": "Very High (statutory requirement)"
+      }
+    },
+    {
+      "id": "bis-cloud-controls-2026-03",
+      "date": "2026-03-25",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "Cloud Computing",
+        "AI Infrastructure"
+      ],
+      "title": "Digital & Cloud Controls: Remote Access to US Compute Clusters (AI/ML Servers)",
+      "summary": "Following RASA and January 2026 Final Rule: providing remote access to high-end US compute clusters is classified as export of hardware capability. IaaS providers are liable for 'knowing' remote user identity. Compute aggregation monitoring required across entire clusters, not individual chips.",
+      "source": "BIS \u2013 Cloud & Digital Infrastructure Controls",
+      "url": "https://www.bis.gov",
+      "tags": [
+        "bis",
+        "export-controls",
+        "cloud-computing",
+        "ai-infrastructure",
+        "rasa"
+      ],
+      "category": "update",
+      "risk_score": 85,
+      "impact_assessment": {
+        "scenario": "Cloud provider liability for unauthorized remote access to controlled computing resources",
+        "probability_percent": 55,
+        "financial_loss_low_millions": 10,
+        "financial_loss_likely_millions": 40,
+        "financial_loss_high_millions": 100,
+        "reputational_exposure": "Critical",
+        "regulatory_disruption_days": "180\u2013365",
+        "confidence_level": "Very High (regulatory change)"
+      }
+    },
+    {
+      "id": "bis-eccn-tech-2026-03",
+      "date": "2026-03-24",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "Encryption",
+        "Technical Standards"
+      ],
+      "title": "ECCN & Technical Thresholds: Encryption, Open Source, De Minimis Analysis",
+      "summary": "Hardware with strong encryption (5A002) requires License Exception ENC analysis. Software in private repositories (Llama 2/3) is subject to EAR. De minimis rule: foreign items with >10% controlled US content remain under US jurisdiction for most destinations.",
+      "source": "BIS \u2013 Export Administration Regulations",
+      "url": "https://www.bis.gov",
+      "tags": [
+        "bis",
+        "export-controls",
+        "eccn",
+        "encryption",
+        "open-source"
+      ],
+      "category": "update",
+      "risk_score": 62,
+      "impact_assessment": {
+        "scenario": "Unauthorized export or provision of controlled encryption or open-source software",
+        "probability_percent": 40,
+        "financial_loss_low_millions": 3,
+        "financial_loss_likely_millions": 15,
+        "financial_loss_high_millions": 50,
+        "reputational_exposure": "High",
+        "regulatory_disruption_days": "60\u2013120",
+        "confidence_level": "High (regulatory guidance)"
+      }
+    },
+    {
+      "id": "justsecurity-ai-regulation-2026-03",
+      "date": "2026-03-20",
+      "jurisdiction": "United States",
+      "topics": [
+        "Artificial Intelligence",
+        "AI Governance",
+        "Regulatory Policy"
+      ],
+      "title": "US AI Executive Order Implementation: 90-Day Review & Emerging Standards",
+      "summary": "Just Security analysis of the US Administration's AI executive order progress, focusing on federal AI governance, agency coordination, and emerging international regulatory alignment. Covers implementation timelines and compliance expectations for organizations interacting with US federal systems.",
+      "source": "Just Security \u2013 AI & Emerging Technology",
+      "url": "https://www.justsecurity.org/category/ai-emerging-technology/artificial-intelligence/",
+      "tags": [
+        "ai-governance",
+        "executive-order",
+        "us-regulation",
+        "compliance"
+      ],
+      "category": "news",
+      "risk_score": 35
+    },
+    {
+      "id": "justsecurity-ai-geopolitics-2026-03",
+      "date": "2026-03-18",
+      "jurisdiction": "Global",
+      "topics": [
+        "AI Governance",
+        "Geopolitical Risk",
+        "Technology Competition"
+      ],
+      "title": "AI Geopolitics: US-China Competition & Third Country Regulatory Dynamics",
+      "summary": "Analysis of how US-China AI competition is shaping global regulatory responses. Examines export controls, talent competition, and how regional jurisdictions (EU, UK, UAE, Singapore) are positioning themselves in the AI governance landscape.",
+      "source": "Just Security \u2013 AI & Emerging Technology",
+      "url": "https://www.justsecurity.org/category/ai-emerging-technology/artificial-intelligence/",
+      "tags": [
+        "ai-governance",
+        "geopolitics",
+        "export-controls",
+        "international-policy"
+      ],
+      "category": "news",
+      "risk_score": 52
+    },
+    {
+      "id": "justsecurity-ai-sec-standards-2026-03",
+      "date": "2026-03-15",
+      "jurisdiction": "United States",
+      "topics": [
+        "Artificial Intelligence",
+        "Security Standards",
+        "Regulatory Compliance"
+      ],
+      "title": "NIST AI RMF Implementation: Security & Risk Management in Practice",
+      "summary": "Just Security's guide to implementing NIST AI Risk Management Framework within organizations. Includes case studies of regulatory compliance, third-party integration, and practical security assessment methodologies for AI systems.",
+      "source": "Just Security \u2013 AI & Emerging Technology",
+      "url": "https://www.justsecurity.org/category/ai-emerging-technology/artificial-intelligence/",
+      "tags": [
+        "nist",
+        "ai-rmf",
+        "security",
+        "risk-management"
+      ],
+      "category": "news",
+      "risk_score": 45
+    },
+    {
+      "id": "justsecurity-ai-liability-2026-03",
+      "date": "2026-03-12",
+      "jurisdiction": "United States",
+      "topics": [
+        "AI Liability",
+        "Corporate Governance",
+        "Legal Risk"
+      ],
+      "title": "Corporate Liability for AI Systems: Board-Level Governance & Risk Oversight",
+      "summary": "Analysis of emerging corporate liability frameworks for AI systems, including board oversight responsibilities, disclosure requirements, and insurance implications. Covers recent SEC guidance and emerging enforcement actions.",
+      "source": "Just Security \u2013 AI & Emerging Technology",
+      "url": "https://www.justsecurity.org/category/ai-emerging-technology/artificial-intelligence/",
+      "tags": [
+        "liability",
+        "board-governance",
+        "disclosure",
+        "sec"
+      ],
+      "category": "update",
+      "risk_score": 58
+    },
+    {
+      "id": "justsecurity-ai-data-2026-03",
+      "date": "2026-03-10",
+      "jurisdiction": "Global",
+      "topics": [
+        "Data Governance",
+        "AI Training",
+        "Privacy Regulation"
+      ],
+      "title": "Data Rights in AI Training: Privacy Regulator Views & Emerging Frameworks",
+      "summary": "Comprehensive overview of how privacy regulators (EU, UK, California) are addressing data rights in AI training and large language models. Includes analysis of consent frameworks, training data licensing, and cross-border transfer constraints.",
+      "source": "Just Security \u2013 AI & Emerging Technology",
+      "url": "https://www.justsecurity.org/category/ai-emerging-technology/artificial-intelligence/",
+      "tags": [
+        "data-privacy",
+        "gdpr",
+        "llm",
+        "training-data"
+      ],
+      "category": "news",
+      "risk_score": 67
+    },
     {
       "id": "ofac-2026-03-17",
       "date": "2026-03-17",
@@ -11,7 +219,7 @@
       ],
       "title": "OFAC enforcement settlement with TradeStation Securities",
       "summary": "OFAC announced a settlement related to sanctions compliance failures. Firms should review screening controls, escalation procedures, and exposure to US persons and USD clearing.",
-      "source": "OFAC – Recent Actions",
+      "source": "OFAC \u2013 Recent Actions",
       "url": "https://ofac.treasury.gov/recent-actions",
       "tags": [
         "enforcement",
@@ -24,7 +232,7 @@
         "financial_loss_likely_millions": 15,
         "financial_loss_high_millions": 45,
         "reputational_exposure": "Medium-High",
-        "regulatory_disruption_days": "30–90",
+        "regulatory_disruption_days": "30\u201390",
         "confidence_level": "High (calibrated from enforcement patterns)"
       },
       "category": "enforcement",
@@ -51,7 +259,7 @@
         "financial_loss_likely_millions": 5,
         "financial_loss_high_millions": 25,
         "reputational_exposure": "High",
-        "regulatory_disruption_days": "14–45",
+        "regulatory_disruption_days": "14\u201345",
         "confidence_level": "High (proactive alert)"
       },
       "category": "update",
@@ -81,7 +289,7 @@
         "financial_loss_likely_millions": 8,
         "financial_loss_high_millions": 35,
         "reputational_exposure": "High (market perception)",
-        "regulatory_disruption_days": "45–180",
+        "regulatory_disruption_days": "45\u2013180",
         "confidence_level": "Medium-High (guidance interpretation variance exists)"
       },
       "category": "update",
@@ -93,10 +301,10 @@
       "jurisdiction": "US / EU",
       "topics": [
         "Export controls",
-        "Cross‑border data"
+        "Cross\u2011border data"
       ],
-      "title": "Expanded export control scrutiny for cross‑border technology transfers",
-      "summary": "Regulators are increasing scrutiny of cross‑border technology transfers involving advanced computing, data access, and cloud infrastructure. Companies should reassess vendor access, data residency, and licensing requirements.",
+      "title": "Expanded export control scrutiny for cross\u2011border technology transfers",
+      "summary": "Regulators are increasing scrutiny of cross\u2011border technology transfers involving advanced computing, data access, and cloud infrastructure. Companies should reassess vendor access, data residency, and licensing requirements.",
       "source": "Regulatory analysis",
       "url": "https://www.bis.gov",
       "tags": [
@@ -111,7 +319,7 @@
         "financial_loss_likely_millions": 30,
         "financial_loss_high_millions": 120,
         "reputational_exposure": "Critical (criminal exposure possible)",
-        "regulatory_disruption_days": "90–365",
+        "regulatory_disruption_days": "90\u2013365",
         "confidence_level": "High (enforcement trend visible)"
       },
       "category": "news",
@@ -127,7 +335,7 @@
       ],
       "title": "UK regulator signals stricter approach to data governance",
       "summary": "Pinsent Masons reports on UK regulatory signals indicating increased enforcement focus on data governance and accountability. Organisations should review data handling policies and escalation procedures.",
-      "source": "Pinsent Masons – Out‑Law",
+      "source": "Pinsent Masons \u2013 Out\u2011Law",
       "url": "https://www.pinsentmasons.com/out-law",
       "tags": [
         "UK",
@@ -440,7 +648,7 @@
         "AI governance",
         "Responsible AI"
       ],
-      "title": "What is AI Verify – AI Verify Foundation",
+      "title": "What is AI Verify \u2013 AI Verify Foundation",
       "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
       "source": "aiverifyfoundation.sg",
       "url": "https://aiverifyfoundation.sg/what-is-ai-verify/",
@@ -736,7 +944,7 @@
         "AI governance",
         "Responsible AI"
       ],
-      "title": "US and UK refuse to sign Paris summit declaration on ‘inclusive’ AI | Artificial intelligence (AI) | The Guardian",
+      "title": "US and UK refuse to sign Paris summit declaration on \u2018inclusive\u2019 AI | Artificial intelligence (AI) | The Guardian",
       "summary": "Source captured from the AI governance reading list for horizon scanning. Add an internal note summarising the compliance signal and any actions for UAE/UK/US operations.",
       "source": "urldefense.com",
       "url": "https://urldefense.com/v3/__https:/www.theguardian.com/technology/2025/feb/11/us-uk-paris-ai-summit-artificial-intelligence-declaration?utm_source=chatgpt.com__;!!HTp9Kzo!glpDSDE684e0x23vFhMMtp-EjFPCnA2nQD7gacFWSaFJLNU5XMC4KxK9zZ8fsYv_aP6DodNdh0QXurIjY34P2HvG8fj1YoQXS35UmOg$",
@@ -1394,7 +1602,7 @@
         "AI governance",
         "Public education"
       ],
-      "title": "AI Isn’t as Smart as You Think … But It Could Be by Jeff Dean",
+      "title": "AI Isn\u2019t as Smart as You Think \u2026 But It Could Be by Jeff Dean",
       "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
       "source": "ted.com",
       "url": "https://www.ted.com/talks/ilya_sutskever_the_exciting_perilous_journey_toward_agi",
@@ -1466,7 +1674,7 @@
         "AI governance",
         "Public education"
       ],
-      "title": "AI Won’t Plateau – If We Give It Time to Think by Noam Brown",
+      "title": "AI Won\u2019t Plateau \u2013 If We Give It Time to Think by Noam Brown",
       "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
       "source": "ted.com",
       "url": "https://www.ted.com/talks/ray_kurzweil_the_last_6_decades_of_ai_and_what_comes_next",
@@ -1490,7 +1698,7 @@
         "AI governance",
         "Public education"
       ],
-      "title": "The Last 6 Decades of AI – and What Comes Next by Ray Kurzweil",
+      "title": "The Last 6 Decades of AI \u2013 and What Comes Next by Ray Kurzweil",
       "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
       "source": "ted.com",
       "url": "https://www.ted.com/talks/sam_harris_can_we_build_ai_without_losing_control_over_it",
@@ -1538,7 +1746,7 @@
         "AI governance",
         "Public education"
       ],
-      "title": "The Urgent Risks of Runaway AI … and What to Do about Them by Gary Marcus",
+      "title": "The Urgent Risks of Runaway AI \u2026 and What to Do about Them by Gary Marcus",
       "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
       "source": "ted.com",
       "url": "https://www.ted.com/talks/sasha_luccioni_ai_is_dangerous_but_not_for_the_reasons_you_think",
@@ -1658,7 +1866,7 @@
         "AI governance",
         "Public education"
       ],
-      "title": "How to Govern AI – Even if it’s Hard to Predict by Helen Toner",
+      "title": "How to Govern AI \u2013 Even if it\u2019s Hard to Predict by Helen Toner",
       "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
       "source": "ted.com",
       "url": "https://www.ted.com/talks/emilia_gomez_a_musical_approach_to_ai_regulation",
@@ -1719,7 +1927,7 @@
       ],
       "pillar": "I. Learn",
       "category": "news",
-      "group": "On AI’s impact on business, life, and society:"
+      "group": "On AI\u2019s impact on business, life, and society:"
     },
     {
       "id": "aig-resource-ec7727d8",
@@ -1730,7 +1938,7 @@
         "AI governance",
         "Public education"
       ],
-      "title": "AI’s Productivity Paradox – and What It Means for You by Ethan Mollick",
+      "title": "AI\u2019s Productivity Paradox \u2013 and What It Means for You by Ethan Mollick",
       "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
       "source": "ted.com",
       "url": "https://www.ted.com/talks/sal_khan_how_ai_could_save_not_destroy_education",
@@ -1743,7 +1951,7 @@
       ],
       "pillar": "I. Learn",
       "category": "news",
-      "group": "On AI’s impact on business, life, and society:"
+      "group": "On AI\u2019s impact on business, life, and society:"
     },
     {
       "id": "aig-resource-c782aee6",
@@ -1767,7 +1975,7 @@
       ],
       "pillar": "I. Learn",
       "category": "news",
-      "group": "On AI’s impact on business, life, and society:"
+      "group": "On AI\u2019s impact on business, life, and society:"
     },
     {
       "id": "aig-resource-75c801aa",
@@ -1791,7 +1999,7 @@
       ],
       "pillar": "I. Learn",
       "category": "news",
-      "group": "On AI’s impact on business, life, and society:"
+      "group": "On AI\u2019s impact on business, life, and society:"
     },
     {
       "id": "aig-resource-03bf43bc",
@@ -1815,7 +2023,7 @@
       ],
       "pillar": "I. Learn",
       "category": "news",
-      "group": "On AI’s impact on business, life, and society:"
+      "group": "On AI\u2019s impact on business, life, and society:"
     },
     {
       "id": "aig-resource-0819d08e",
@@ -1839,7 +2047,7 @@
       ],
       "pillar": "I. Learn",
       "category": "news",
-      "group": "On AI’s impact on business, life, and society:"
+      "group": "On AI\u2019s impact on business, life, and society:"
     },
     {
       "id": "aig-resource-b1a49faa",
@@ -1850,7 +2058,7 @@
         "AI governance",
         "Training"
       ],
-      "title": "How AI Will Answer Questions We Haven’t Thought to Ask by Aravind Srinivas",
+      "title": "How AI Will Answer Questions We Haven\u2019t Thought to Ask by Aravind Srinivas",
       "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
       "source": "elementsofai.com",
       "url": "https://www.elementsofai.com/",
@@ -1863,7 +2071,7 @@
       ],
       "pillar": "I. Learn",
       "category": "news",
-      "group": "On AI’s impact on business, life, and society:"
+      "group": "On AI\u2019s impact on business, life, and society:"
     },
     {
       "id": "aig-resource-084392c1",
@@ -2460,7 +2668,7 @@
       "topics": [
         "AI governance"
       ],
-      "title": "A Citizen’s Guide to AI by John Zerilli",
+      "title": "A Citizen\u2019s Guide to AI by John Zerilli",
       "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
       "source": "amazon.com",
       "url": "https://www.amazon.com/Artificial-Unintelligence-Computers-Misunderstand-World/dp/026253701X/",
@@ -2483,7 +2691,7 @@
       "topics": [
         "AI governance"
       ],
-      "title": "Weapons of Math Destruction by Cathy O’Neil",
+      "title": "Weapons of Math Destruction by Cathy O\u2019Neil",
       "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
       "source": "amazon.com",
       "url": "https://www.amazon.com/Atlas-AI-Planetary-Artificial-Intelligence/dp/0300264631/",
@@ -3329,7 +3537,7 @@
       "topics": [
         "AI governance"
       ],
-      "title": "DALL·E in ChatGPT (System Card)",
+      "title": "DALL\u00b7E in ChatGPT (System Card)",
       "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
       "source": "chatgpt.com",
       "url": "https://chatgpt.com/",

@@ -7,6 +7,17 @@
  
   <!-- Correct: link the stylesheet (do NOT paste CSS text into HTML) -->
   <link rel="stylesheet" href="styles.css" />
+  
+  <!-- Visualization Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.7.2/countUp.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cal-heatmap/4.4.4/cal-heatmap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cal-heatmap/4.4.4/cal-heatmap.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" />
 </head>
  
 <body>
@@ -22,16 +33,75 @@
       <span class="badge" id="badgeMode">Public sources • Internal summaries</span>
       <span class="badge" id="lastUpdated">Loading…</span>
     </div>
+    <div style="display:flex;gap:8px;margin-left:auto;">
+      <button id="tourBtn" class="badge" style="border:none;background:rgba(0,174,239,.2);cursor:pointer;border:1px solid rgba(0,174,239,.4);padding:8px 12px;border-radius:999px;color:var(--white);font-weight:600;" title="Start interactive tour">
+        🎯 Tour
+      </button>
+      <button id="howItWorksBtn" class="badge" style="border:none;background:rgba(0,174,239,.2);cursor:pointer;border:1px solid rgba(0,174,239,.4);padding:8px 12px;border-radius:999px;color:var(--white);font-weight:600;" title="Learn how this works">
+        ❓ How It Works
+      </button>
+      <a href="quick-check.html" class="badge" style="border:none;background:rgba(76,175,80,.2);cursor:pointer;border:1px solid rgba(76,175,80,.4);padding:8px 12px;border-radius:999px;color:var(--white);font-weight:600;text-decoration:none;display:flex;align-items:center;" title="Quick diagnostic check">
+        ✓ Quick Check
+      </a>
+    </div>
   </div>
+
+  <!-- Prominent Disclaimer Banner -->
+  <div id="disclaimerBanner" style="background:linear-gradient(135deg, rgba(211,47,47,.1) 0%, rgba(244,67,54,.08) 100%);border-bottom:2px solid #d32f2f;padding:16px 22px;display:none;">
+    <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;gap:16px;">
+      <span style="font-size:24px;">⚠️</span>
+      <div>
+        <strong style="color:#d32f2f;display:block;">Important Disclaimer:</strong>
+        <p style="margin:4px 0 0;color:#666;font-size:13px;">Impact ratings are internal estimates for triage purposes only—not certainty predictions. Financial and reputational exposure figures represent probability-weighted scenarios. Consult original regulatory sources and obtain legal counsel before taking action.</p>
+      </div>
+      <button id="closeDisclaimer" style="background:none;border:none;cursor:pointer;font-size:20px;color:#d32f2f;margin-left:auto;">×</button>
+    </div>
+  </div>
+
+  <!-- Debug Console (Hidden by default) -->
+  <div id="debugConsole" style="background:#1e1e1e;color:#d4d4d4;padding:12px;margin:0 0 16px;border-radius:6px;font-family:monospace;font-size:11px;line-height:1.4;max-height:150px;overflow-y:auto;display:none;border:1px solid #404040;">
+    <div style="display:flex;justify-content:space-between;margin-bottom:8px;">
+      <strong style="color:#4ec9b0;">Debug Console</strong>
+      <button onclick="document.getElementById('debugConsole').style.display='none'" style="background:none;border:none;color:#d4d4d4;cursor:pointer;font-weight:bold;">✕</button>
+    </div>
+    <div id="debugLog"></div>
+  </div>
+  <button id="toggleDebug" onclick="document.getElementById('debugConsole').style.display=document.getElementById('debugConsole').style.display==='none'?'block':'none'" style="position:fixed;bottom:20px;right:20px;padding:8px 12px;background:#404040;color:#d4d4d4;border:1px solid #606060;border-radius:6px;cursor:pointer;font-size:11px;z-index:9999;display:none;">
+    🔧 Debug
+  </button>
  
   <main class="container">
     <section class="kpis" aria-label="Key stats">
-      <div class="kpi"><div class="kpiLabel">Total</div><div class="kpiValue" id="kpiTotal">—</div></div>
-      <div class="kpi"><div class="kpiLabel">Enforcement</div><div class="kpiValue" id="kpiEnforcement">—</div></div>
-      <div class="kpi"><div class="kpiLabel">Updates</div><div class="kpiValue" id="kpiUpdates">—</div></div>
-      <div class="kpi"><div class="kpiLabel">News</div><div class="kpiValue" id="kpiNews">—</div></div>
-      <div class="kpi"><div class="kpiLabel">High Risk</div><div class="kpiValue" id="kpiHighRisk">—</div></div>
-      <div class="kpi"><div class="kpiLabel">Last 30d</div><div class="kpiValue" id="kpiNew">—</div></div>
+      <div class="kpi">
+        <div class="kpiLabel">Total</div>
+        <div class="kpiValue" id="kpiTotal">—</div>
+        <canvas id="sparklineTotal" class="kpiSparkline"></canvas>
+      </div>
+      <div class="kpi">
+        <div class="kpiLabel">Enforcement</div>
+        <div class="kpiValue" id="kpiEnforcement">—</div>
+        <canvas id="sparklineEnforcement" class="kpiSparkline"></canvas>
+      </div>
+      <div class="kpi">
+        <div class="kpiLabel">Updates</div>
+        <div class="kpiValue" id="kpiUpdates">—</div>
+        <canvas id="sparklineUpdates" class="kpiSparkline"></canvas>
+      </div>
+      <div class="kpi">
+        <div class="kpiLabel">News</div>
+        <div class="kpiValue" id="kpiNews">—</div>
+        <canvas id="sparklineNews" class="kpiSparkline"></canvas>
+      </div>
+      <div class="kpi">
+        <div class="kpiLabel">High Risk</div>
+        <div class="kpiValue" id="kpiHighRisk">—</div>
+        <canvas id="sparklineHighRisk" class="kpiSparkline"></canvas>
+      </div>
+      <div class="kpi">
+        <div class="kpiLabel">Last 30d</div>
+        <div class="kpiValue" id="kpiNew">—</div>
+        <canvas id="sparklineNew" class="kpiSparkline"></canvas>
+      </div>
     </section>
 
     <section class="hero">
@@ -48,53 +118,66 @@
     <section class="panel">
       <div class="filters">
         <div class="filter">
-          <label for="q">Search</label>
+          <label for="q">
+            Search 
+            <span class="tooltip-help" title="Search across titles, summaries, tags, and topics">?</span>
+          </label>
           <input id="q" type="search" placeholder="Search titles, summaries, tags…" />
         <p class="micro">
   Impact ratings are internal estimates for triage purposes only. Where quantified, the approach applies
-  “measurement as uncertainty reduction” and calibrated estimation concepts popularised by Douglas W. Hubbard
+  "measurement as uncertainty reduction" and calibrated estimation concepts popularised by Douglas W. Hubbard
   (How to Measure Anything). Estimates are expressed as ranges and probabilities, not certainty, and should be
   reviewed by the compliance owner before action.
 </p>
         </div>
  
         <div class="filter">
-          <label for="jurisdiction">Jurisdiction</label>
+          <label for="jurisdiction">
+            Jurisdiction
+            <span class="tooltip-help" title="Filter by regulatory jurisdiction">?</span>
+          </label>
           <select id="jurisdiction">
             <option value="">All</option>
           </select>
         </div>
  
         <div class="filter">
-          <label for="topic">Topic</label>
+          <label for="topic">
+            Topic
+            <span class="tooltip-help" title="Filter by regulatory topic">?</span>
+          </label>
           <select id="topic">
             <option value="">All</option>
           </select>
         </div>
  
         <div class="filter">
-          <label for="source">Source</label>
+          <label for="source">
+            Source
+            <span class="tooltip-help" title="Filter by information source">?</span>
+          </label>
           <select id="source">
             <option value="">All</option>
           </select>
         </div>
  
         <div class="filter actions">
-          <button id="reset" class="btn secondary">Reset</button>
+          <button id="reset" class="btn secondary" title="Clear all active filters and searches">Clear All Filters</button>
         </div>
       </div>
 
-      <div class="quickviews" aria-label="Quick views">
+      <!-- Active Filters Display -->
+      <div id="activeFilters" style="display:none;padding:12px 16px;background:rgba(0,174,239,.08);border-radius:8px;margin:0 16px 12px;font-size:13px;border-left:3px solid var(--electric);">
+        <strong style="color:var(--navy);display:block;margin-bottom:8px;">🔍 Active Filters:</strong>
+        <div id="filterTags" style="display:flex;gap:8px;flex-wrap:wrap;"></div>
+      </div>
+
+      <div class="quickviews" id="quickviewsContainer" aria-label="Quick views">
         <button type="button" class="btn secondary active" data-view="ALL">All</button>
         <button type="button" class="btn secondary" data-view="ENFORCEMENT">Enforcements</button>
         <button type="button" class="btn secondary" data-view="UPDATE">Updates</button>
         <button type="button" class="btn secondary" data-view="NEWS">News</button>
         <button type="button" class="btn secondary" data-view="HIGH-RISK">High Risk</button>
-      </div>
-
-      <!-- Enforcement Header Image -->
-      <div id="enforcementHeaderBanner" class="enforcement-header-banner" style="display:none;">
-        <img src="assets/enforcement.png" alt="Regulatory Enforcement & Legal Oversight" />
       </div>
 
       <!-- BIS Affiliate Rules Section -->
@@ -210,6 +293,100 @@
         🏛️ Data Residency & Sovereignty (7 Source Categories)
       </button>
 
+      <!-- Enforcement Calendar Heatmap -->
+      <div class="heatmap-section">
+        <h3 style="margin:0 0 12px;color:var(--navy);font-size:16px;">📅 Enforcement Activity Heatmap (12 Months)</h3>
+        <p style="margin:0 0 16px;color:var(--muted);font-size:12px;">Darker cells indicate higher regulatory enforcement frequency</p>
+        <div id="enforcementHeatmap" style="background:rgba(255,255,255,.5);padding:16px;border-radius:12px;border:1px solid var(--border);"></div>
+      </div>
+
+      <!-- Jurisdiction Risk Heatmap -->
+      <div class="heatmap-section" style="margin-top:20px;">
+        <h3 style="margin:0 0 12px;color:var(--navy);font-size:16px;">🗺️ Jurisdiction Risk Intensity Map</h3>
+        <p style="margin:0 0 16px;color:var(--muted);font-size:12px;">Risk intensity by regulatory jurisdiction (Red: Enforcement | Amber: Updates | Green: Stable)</p>
+        <div id="jurisdictionHeatmap" style="background:rgba(255,255,255,.5);padding:16px;border-radius:12px;border:1px solid var(--border);height:400px;"></div>
+      </div>
+
+      <!-- Regulatory Activity Timeline -->
+      <div class="timeline-section" style="margin-top:20px;">
+        <h3 style="margin:0 0 12px;color:var(--navy);font-size:16px;">📈 Regulatory Activity Timeline</h3>
+        <p style="margin:0 0 16px;color:var(--muted);font-size:12px;">Timeline of enforcement events, updates, and regulatory milestones</p>
+        <div id="regulatoryTimeline" style="background:rgba(255,255,255,.5);padding:16px;border-radius:12px;border:1px solid var(--border);height:250px;"></div>
+      </div>
+
+      <!-- How It Works Modal -->
+      <div id="howItWorksModal" class="modal" style="display:none;">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>📚 How This Works</h2>
+            <button class="modal-close" onclick="el('howItWorksModal').style.display='none'">×</button>
+          </div>
+          <div class="modal-body">
+            <h3>Impact Ratings & Scoring</h3>
+            <p>Each regulatory item receives a <strong>Risk Score (0-100)</strong> based on the Hubbard Calibration methodology—a quantified approach to uncertainty reduction:</p>
+            <ul>
+              <li><strong>Probability:</strong> % likelihood of impact occurring</li>
+              <li><strong>Financial Impact:</strong> Low, Likely, and High estimates ($M)</li>
+              <li><strong>Reputational Risk:</strong> Potential damage to brand/operations</li>
+              <li><strong>Regulatory Disruption:</strong> Days of operational downtime</li>
+            </ul>
+            <p style="background:rgba(211,47,47,.08);padding:12px;border-radius:8px;border-left:3px solid #d32f2f;margin:12px 0;">
+              <strong>⚠️ Important:</strong> These are <em>estimates for triage</em>, not predictions of certainty. Always consult original regulatory sources and legal counsel.
+            </p>
+
+            <h3 style="margin-top:24px;">Search & Filter Features</h3>
+            <ul>
+              <li><strong>Search:</strong> Finds keywords in titles, summaries, and tags across all items</li>
+              <li><strong>Jurisdiction:</strong> Filter by regulatory region (US, EU, UK, UAE, etc.)</li>
+              <li><strong>Topic:</strong> Filter by regulatory domain (Export Controls, Data Privacy, AI Governance)</li>
+              <li><strong>Source:</strong> Filter by the regulatory body or publication</li>
+              <li><strong>Quick Views:</strong> All, Enforcements (penalties), Updates (new rules), News, High Risk (65+)</li>
+            </ul>
+
+            <h3 style="margin-top:24px;">Visualizations</h3>
+            <ul>
+              <li><strong>Sparklines:</strong> 30-day trend of activity (under KPI cards)</li>
+              <li><strong>Enforcement Heatmap:</strong> Activity intensity over 365 days</li>
+              <li><strong>Jurisdiction Map:</strong> Risk distribution by regulatory region</li>
+              <li><strong>Timeline:</strong> Chronological view of regulatory events</li>
+              <li><strong>Risk Bubble Chart:</strong> Probability vs Financial Impact (in AI Insights)</li>
+            </ul>
+
+            <h3 style="margin-top:24px;">AI-Generated Insights</h3>
+            <p>Click "Generate AI Insights" to analyze the currently filtered regulatory items. Claude AI will:</p>
+            <ul>
+              <li>Summarize key themes and implications</li>
+              <li>Identify related public sources for deeper research</li>
+              <li>Provide compliance team takeaways</li>
+              <li>Visualize risk distribution via bubble chart</li>
+            </ul>
+            <p style="font-size:12px;color:var(--muted);margin-top:12px;">
+              Note: AI Insights require an API key. Set via browser console: <code>localStorage.setItem('claude_api_key', 'sk-...')</code>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interactive Tour Modal -->
+      <div id="tourModal" class="modal" style="display:none;">
+        <div class="modal-content" style="max-width:600px;">
+          <div class="modal-header">
+            <h2>🎯 Quick Tour</h2>
+            <button class="modal-close" onclick="el('tourModal').style.display='none'">×</button>
+          </div>
+          <div class="modal-body">
+            <div id="tourStep" style="min-height:200px;">
+              <div style="text-align:center;padding:20px;">
+                <div style="font-size:48px;margin-bottom:12px;">👋</div>
+                <h3>Welcome to the AI Regulatory Monitor!</h3>
+                <p>This tool helps you stay on top of regulatory changes across AI, FinTech, and Data Governance.</p>
+                <button id="startTour" class="btn" style="margin-top:16px;">Start the Tour</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Insights Modal/Panel -->
       <div id="insightsPanel" class="insights-panel" style="display:none;">
         <div class="insights-header">
@@ -219,6 +396,13 @@
         <div id="insightsContent" class="insights-content">
           <div class="loading-spinner">Analyzing with Claude AI<br/><small>This may take a moment...</small></div>
         </div>
+      </div>
+
+      <!-- Insights Generator Button -->
+      <div style="margin-bottom:20px;display:flex;gap:10px;justify-content:center;">
+        <button id="insights" class="btn" style="font-size:14px;padding:10px 20px;">
+          🤖 Generate AI Insights
+        </button>
       </div>
 
       <!-- Required containers for app.js -->

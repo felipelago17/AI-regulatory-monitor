@@ -2,51 +2,233 @@ const state = { items: [], q: '', jurisdiction: '', topic: '', source: '', view:
 const el=id=>document.getElementById(id);
 const uniq=a=>[...new Set(a)].filter(Boolean).sort((x,y)=>x.localeCompare(y));
 
-function generateInfographicSVG(item) {
-  /**
-   * Generate a clean infographic SVG summarizing key takeaways
-   * Matches the Corporate Tech blue palette
-   */
-  const risk = item.risk_score || 50;
-  const ia = item.impact_assessment;
-  const prob = ia ? ia.probability_percent : 0;
-  const repExp = ia ? (ia.reputational_exposure?.includes('High') || ia.reputational_exposure?.includes('Critical') ? 'High' : 'Medium') : 'Unknown';
+// Setup debug console
+const debugLog = el('debugLog');
+const originalLog = console.log;
+const originalError = console.error;
+const originalWarn = console.warn;
+
+function addDebugLog(msg, type = 'log') {
+  if (!debugLog) return;
+  const line = document.createElement('div');
+  const colors = { log: '#d4d4d4', error: '#f48771', warn: '#dcdcaa' };
+  line.style.color = colors[type] || colors.log;
+  line.textContent = msg;
+  debugLog.appendChild(line);
+  debugLog.parentElement.scrollTop = debugLog.parentElement.scrollHeight;
   
-  // Determine severity color
-  let sevColor = '#00AEEF'; // Electric blue - default
-  if (risk < 40) sevColor = '#0056B3'; // Cobalt - low
-  else if (risk < 65) sevColor = '#00AEEF'; // Electric - medium
-  else sevColor = '#d32f2f'; // Red - high
-
-  const svg = `<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" style="background:linear-gradient(135deg,#F0F4F8,#ffffff);border-radius:8px;">
-    <!-- Glass effect background -->
-    <rect width="200" height="120" fill="rgba(255,255,255,0.15)" rx="8"/>
-    
-    <!-- Title -->
-    <text x="100" y="16" font-size="11" font-weight="700" text-anchor="middle" fill="#002D62">Risk Overview</text>
-    
-    <!-- Risk Meter -->
-    <rect x="15" y="24" width="170" height="4" fill="#E0E7F1" rx="2"/>
-    <rect x="15" y="24" width="${170 * risk / 100}" height="4" fill="${sevColor}" rx="2"/>
-    <text x="190" y="33" font-size="10" font-weight="700" fill="#0056B3">${risk}</text>
-    
-    <!-- Probability -->
-    <circle cx="35" cy="55" r="18" fill="rgba(0,86,179,0.08)" stroke="#0056B3" stroke-width="2"/>
-    <text x="35" y="52" font-size="12" font-weight="700" text-anchor="middle" fill="#0056B3">${prob}%</text>
-    <text x="35" y="70" font-size="9" text-anchor="middle" fill="#002D62">Probability</text>
-    
-    <!-- Reputational Impact -->
-    <circle cx="100" cy="55" r="18" fill="rgba(0,174,239,0.08)" stroke="#00AEEF" stroke-width="2"/>
-    <text x="100" y="59" font-size="10" text-anchor="middle" fill="#0056B3" font-weight="600">${repExp.charAt(0)}</text>
-    <text x="100" y="70" font-size="9" text-anchor="middle" fill="#002D62">Rep Risk</text>
-    
-    <!-- Category Badge -->
-    <rect x="165" y="44" width="20" height="22" fill="${item.category === 'enforcement' ? '#d32f2f' : item.category === 'update' ? '#0056B3' : '#00AEEF'}" rx="3"/>
-    <text x="175" y="59" font-size="14" font-weight="700" text-anchor="middle" fill="white">${item.category?.charAt(0).toUpperCase() || 'N'}</text>
-  </svg>`;
-
-  return svg;
+  // Show debug button if we have logs
+  const debugBtn = el('toggleDebug');
+  if (debugBtn) debugBtn.style.display = 'block';
 }
+
+console.log = function(...args) {
+  originalLog.apply(console, args);
+  addDebugLog(args.join(' '), 'log');
+};
+
+console.error = function(...args) {
+  originalError.apply(console, args);
+  addDebugLog('❌ ' + args.join(' '), 'error');
+};
+
+console.warn = function(...args) {
+  originalWarn.apply(console, args);
+  addDebugLog('⚠️ ' + args.join(' '), 'warn');
+};
+
+// UI/UX Enhancements
+function updateActiveFilters() {
+  /**
+   * Display active filters with ability to clear individually
+   */
+  const filters = [];
+  if (state.q) filters.push({ label: `Search: "${state.q}"`, key: 'q' });
+  if (state.jurisdiction) filters.push({ label: `Jurisdiction: ${state.jurisdiction}`, key: 'jurisdiction' });
+  if (state.topic) filters.push({ label: `Topic: ${state.topic}`, key: 'topic' });
+  if (state.source) filters.push({ label: `Source: ${state.source}`, key: 'source' });
+  if (state.view !== 'ALL') filters.push({ label: `View: ${state.view}`, key: 'view' });
+  
+  const container = el('activeFilters');
+  const filterTags = el('filterTags');
+  
+  if (filters.length === 0) {
+    container.style.display = 'none';
+    return;
+  }
+  
+  container.style.display = 'block';
+  filterTags.innerHTML = filters.map(f => `
+    <span class="filter-tag">
+      ${f.label}
+      <button onclick="clearFilter('${f.key}')" title="Remove this filter">✕</button>
+    </span>
+  `).join('');
+}
+
+function clearFilter(key) {
+  if (key === 'q') state.q = '';
+  else if (key === 'jurisdiction') state.jurisdiction = '';
+  else if (key === 'topic') state.topic = '';
+  else if (key === 'source') state.source = '';
+  else if (key === 'view') state.view = 'ALL';
+  
+  el('q').value = state.q;
+  el('jurisdiction').value = state.jurisdiction;
+  el('topic').value = state.topic;
+  el('source').value = state.source;
+  document.querySelectorAll('[data-view]').forEach(b => b.classList.remove('active'));
+  document.querySelector('[data-view="ALL"]').classList.add('active');
+  
+  updateActiveFilters();
+  render();
+}
+
+function showDisclaimer() {
+  /**
+   * Show disclaimer banner on first visit
+   */
+  if (!localStorage.getItem('disclaimerShown2026')) {
+    el('disclaimerBanner').style.display = 'block';
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const closeBtn = el('closeDisclaimer');
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      el('disclaimerBanner').style.display = 'none';
+      localStorage.setItem('disclaimerShown2026', 'true');
+    });
+  }
+  
+  // How It Works button
+  const howItWorksBtn = el('howItWorksBtn');
+  if (howItWorksBtn) {
+    howItWorksBtn.addEventListener('click', () => {
+      el('howItWorksModal').style.display = 'flex';
+    });
+  }
+  
+  // Tour button
+  const tourBtn = el('tourBtn');
+  if (tourBtn) {
+    tourBtn.addEventListener('click', () => {
+      el('tourModal').style.display = 'flex';
+      startInteractiveTour();
+    });
+  }
+  
+  // Close modals on outside click
+  document.querySelectorAll('.modal').forEach(modal => {
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.style.display = 'none';
+      }
+    });
+  });
+});
+
+function startInteractiveTour() {
+  /**
+   * Interactive tour highlighting key features
+   */
+  const steps = [
+    {
+      element: 'kpiTotal',
+      title: '📊 Key Performance Indicators',
+      description: 'Real-time counts of regulatory items. The charts below show 30-day trends.',
+      position: 'bottom'
+    },
+    {
+      element: 'q',
+      title: '🔍 Search & Filter',
+      description: 'Search by keywords or filter by jurisdiction, topic, and source. View active filters below the search bar.',
+      position: 'bottom'
+    },
+    {
+      element: 'quickviewsContainer',
+      title: '⚡ Quick Views',
+      description: 'Jump to specific categories: All items, Enforcements (penalties), Updates (new rules), News, or items with high risk scores.',
+      position: 'bottom'
+    },
+    {
+      element: 'enforcementHeatmap',
+      title: '📅 Enforcement Heatmap',
+      description: 'See 365 days of enforcement activity intensity. Darker cells mean more regulatory action.',
+      position: 'top'
+    },
+    {
+      element: 'jurisdictionHeatmap',
+      title: '🗺️ Jurisdiction Risk Map',
+      description: 'Red/Amber/Green circles show risk intensity by regulatory region. Click for details.',
+      position: 'top'
+    },
+    {
+      element: 'regulatoryTimeline',
+      title: '📈 Activity Timeline',
+      description: 'Chronological view of regulatory events. Color-coded by enforcement (red), updates (blue), or news (cyan).',
+      position: 'top'
+    },
+    {
+      element: 'insights',
+      title: '🤖 AI-Generated Insights',
+      description: 'Click to analyze filtered items with Claude AI. Get summaries, related sources, and risk visualization.',
+      position: 'top'
+    },
+    {
+      element: 'cards',
+      title: '📋 Regulatory Items',
+      description: 'Each card shows a regulatory event with risk scores, impact assessment, and source links.',
+      position: 'top'
+    }
+  ];
+  
+  let currentStep = 0;
+  
+  function showTourStep(stepIndex) {
+    if (stepIndex >= steps.length) {
+      el('tourModal').style.display = 'none';
+      alert('Tour complete! Explore the monitor and use "How It Works" for more details.');
+      return;
+    }
+    
+    const step = steps[stepIndex];
+    const elem = el(step.element);
+    const stepDiv = el('tourStep');
+    
+    if (!elem) {
+      showTourStep(stepIndex + 1);
+      return;
+    }
+    
+    stepDiv.innerHTML = `
+      <div style="padding:20px;">
+        <div style="font-size:36px;margin-bottom:12px;">${step.title.split(' ')[0]}</div>
+        <h3 style="color:var(--navy);margin:0 0 12px;">${step.title}</h3>
+        <p style="color:var(--text);margin:0 0 16px;line-height:1.6;">${step.description}</p>
+        <div style="display:flex;gap:8px;justify-content:flex-end;">
+          <button onclick="event.stopPropagation()" style="padding:8px 12px;background:var(--cool-gray);border:none;border-radius:6px;color:white;cursor:pointer;font-weight:600;" onclick="document.getElementById('tourModal').style.display='none'">Skip</button>
+          <button onclick="event.stopPropagation()" style="padding:8px 12px;background:var(--electric);border:none;border-radius:6px;color:white;cursor:pointer;font-weight:600;" onclick="window.tourNext()">Next</button>
+        </div>
+        <div style="margin-top:12px;font-size:12px;color:var(--muted);text-align:center;">Step ${stepIndex + 1} of ${steps.length}</div>
+      </div>
+    `;
+    
+    currentStep = stepIndex;
+  }
+  
+  window.tourNext = function() {
+    showTourStep(currentStep + 1);
+  };
+  
+  const startBtn = el('startTour');
+  if (startBtn) {
+    startBtn.onclick = () => showTourStep(0);
+  }
+}
+
+
 
  
 function toCSV(rows){
@@ -91,22 +273,46 @@ function download(name,content,type='text/plain'){
 }
  
 function buildFilters(){
+  console.log('[buildFilters] Starting...');
+  console.log('[buildFilters] state.items.length:', state.items.length);
+  
   const jurisdictions=uniq(state.items.map(i=>i.jurisdiction));
   const topics=uniq(state.items.flatMap(i=>i.topics||[]));
   const sources=uniq(state.items.map(i=>i.source));
+  
+  console.log('[buildFilters] jurisdictions:', jurisdictions.length);
+  console.log('[buildFilters] topics:', topics.length);
+  console.log('[buildFilters] sources:', sources.length);
+  
   const add=(sel,vals)=>{
-    const first=sel.querySelector('option[value=""]');
-    sel.innerHTML='';
-    sel.appendChild(first);
+    console.log('[buildFilters.add] Building #' + sel.id + ' with ' + vals.length + ' values');
+    if (!sel) {
+      console.error('[buildFilters.add] Element #' + sel.id + ' not found!');
+      return;
+    }
+    
+    // Clear and recreate All option
+    sel.innerHTML = '';
+    const allOpt = document.createElement('option');
+    allOpt.value = '';
+    allOpt.textContent = 'All';
+    sel.appendChild(allOpt);
+    
+    // Add new options
     for(const v of vals){
       const o=document.createElement('option');
-      o.value=v; o.textContent=v;
+      o.value=v; 
+      o.textContent=v;
       sel.appendChild(o);
     }
+    console.log('[buildFilters.add] #' + sel.id + ' complete: ' + sel.options.length + ' total options');
   };
+  
   add(el('jurisdiction'),jurisdictions);
   add(el('topic'),topics);
   add(el('source'),sources);
+  
+  console.log('[buildFilters] DONE!');
 }
  
 function matches(it){
@@ -141,21 +347,19 @@ function matches(it){
 function render(){
   const cards=el('cards');
   const empty=el('empty');
-  cards.innerHTML='';
   const rows=state.items.filter(matches).sort((a,b)=>(b.date||'').localeCompare(a.date||''));
   empty.hidden=rows.length!==0;
   
-  // Show/hide enforcement header banner
-  const enforcementBanner = el('enforcementHeaderBanner');
-  const hasEnforcements = rows.some(item => item.category === 'enforcement');
-  const isEnforcementView = state.view === 'ENFORCEMENT';
-  if (enforcementBanner) {
-    enforcementBanner.style.display = (isEnforcementView || hasEnforcements) ? 'block' : 'none';
-  }
+  // Update active filters display
+  updateActiveFilters();
+  
+  // Use DocumentFragment for better performance
+  const fragment = document.createDocumentFragment();
  
   for(const it of rows){
     const card=document.createElement('article');
     card.className='card';
+    card.style.animation = `slideInUp ${200 + Math.random() * 200}ms ease-out forwards`;
  
     const meta=document.createElement('div');
     meta.className='meta';
@@ -233,12 +437,6 @@ function render(){
       
       impactBox.innerHTML = impactHTML;
       card.appendChild(impactBox);
-      
-      // Add infographic
-      const infoDom = document.createElement('div');
-      infoDom.style.marginTop = '10px';
-      infoDom.innerHTML = generateInfographicSVG(it);
-      card.appendChild(infoDom);
     }
     
     const a=document.createElement('a');
@@ -255,10 +453,150 @@ function render(){
     s.textContent=it.source;
     card.appendChild(s);
  
-    cards.appendChild(card);
+    fragment.appendChild(card);
   }
+  
+  // Clear and append all at once
+  cards.innerHTML='';
+  cards.appendChild(fragment);
  
-  el('insights').onclick=()=>generateInsights(rows);
+  const insightsBtn = el('insights');
+  if (insightsBtn) {
+    insightsBtn.onclick = () => generateInsights(rows);
+  }
+}
+
+function renderRegulatoryTimeline(items) {
+  /**
+   * Timeline visualization of regulatory events using vis-timeline
+   */
+  const container = el('regulatoryTimeline');
+  if (!container || !window.vis) return;
+  
+  // Prepare timeline data
+  const timelineItems = items
+    .filter(item => item.date)
+    .slice(0, 50) // Limit to 50 most recent items
+    .map((item, idx) => ({
+      id: idx,
+      content: `<div style="font-size:11px;padding:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${item.title.substring(0, 40)}</div>`,
+      start: new Date(item.date),
+      className: `timeline-${item.category || 'news'}`,
+      title: item.title
+    }))
+    .sort((a, b) => a.start - b.start);
+  
+  const dataset = new vis.DataSet(timelineItems);
+  
+  const options = {
+    responsive: true,
+    margin: {
+      item: { horizontal: 0, vertical: 5 },
+      axis: 10
+    },
+    orientation: {
+      axis: 'bottom',
+      item: 'bottom'
+    },
+    template: null,
+    groupTemplate: null,
+    cluster: { enable: false },
+    horizontalScroll: true,
+    zoomKey: 'ctrlKey',
+    stack: false,
+    timeaxis: {
+      scale: 'month',
+      step: 1
+    }
+  };
+  
+  container.innerHTML = '';
+  new vis.Timeline(container, dataset, options);
+}
+
+function renderInsightRiskBubble(contentDiv, items) {
+  /**
+   * Render a risk bubble chart in the insights panel
+   * X-axis: Probability | Y-axis: Financial Loss | Size: Risk Score
+   */
+  const canvasId = 'insightBubbleChart_' + Date.now();
+  const bubbleHtml = `
+    <div class="insights-section">
+      <div class="insights-title">🫧 Risk Assessment Matrix (Probability vs Financial Impact)</div>
+      <canvas id="${canvasId}" style="max-height:300px;"></canvas>
+    </div>
+  `;
+  
+  // Insert at beginning of content
+  contentDiv.innerHTML = bubbleHtml + contentDiv.innerHTML;
+  
+  setTimeout(() => {
+    const canvas = document.getElementById(canvasId);
+    if (!canvas) return;
+    
+    const bubbleData = items
+      .filter(item => item.impact_assessment)
+      .map(item => {
+        const ia = item.impact_assessment;
+        return {
+          x: ia.probability_percent || 50,
+          y: ia.financial_loss_likely_millions || 10,
+          r: (item.risk_score || 50) / 3,
+          label: item.title.substring(0, 30),
+          category: item.category
+        };
+      });
+    
+    if (bubbleData.length === 0) return;
+    
+    const categoryColors = {
+      enforcement: '#d32f2f',
+      update: '#0056B3',
+      news: '#00AEEF'
+    };
+    
+    new Chart(canvas, {
+      type: 'bubble',
+      data: {
+        datasets: [{
+          label: 'Risk Scenarios',
+          data: bubbleData,
+          backgroundColor: bubbleData.map(d => categoryColors[d.category] || '#00AEEF'),
+          borderColor: bubbleData.map(d => categoryColors[d.category] || '#00AEEF'),
+          borderWidth: 2,
+          opacity: 0.6
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: true, position: 'top' },
+          tooltip: {
+            callbacks: {
+              label: (context) => {
+                const item = bubbleData[context.dataIndex];
+                return `Probability: ${item.x}% | Financial Risk: $${item.y}M`;
+              }
+            }
+          }
+        },
+        scales: {
+          x: {
+            type: 'linear',
+            position: 'bottom',
+            title: { display: true, text: 'Probability of Impact (%)' },
+            min: 0,
+            max: 100
+          },
+          y: {
+            title: { display: true, text: 'Financial Loss Range ($M)' },
+            min: 0
+          }
+        }
+      }
+    });
+  }, 100);
 }
 
 async function generateInsights(items) {
@@ -276,6 +614,11 @@ async function generateInsights(items) {
   
   panel.style.display = 'flex';
   content.innerHTML = '<div class="loading-spinner">Analyzing with Claude AI<br/><small>This may take a moment...</small></div>';
+  
+  // Render risk bubble chart while loading insights
+  setTimeout(() => {
+    renderInsightRiskBubble(content, items.slice(0, 10));
+  }, 500);
   
   try {
     // Prepare summary of items for Claude
@@ -384,18 +727,7 @@ Please format your response as JSON with these fields:
       html += `</div></div>`;
     }
     
-    if (insights.infographic_description) {
-      html += `<div class="insights-section">
-        <div class="insights-title">📈 Recommended Infographic</div>
-        <div class="insights-infographic">
-          <div style="padding:16px;background:rgba(0,174,239,.05);border-radius:8px;">
-            <strong style="color:var(--navy);">Infographic Theme:</strong>
-            <p style="margin:8px 0;color:var(--text);font-size:12px;">${insights.infographic_description}</p>
-            <p style="margin:8px 0;color:var(--muted);font-size:11px;">✓ Visual representation recommended</p>
-          </div>
-        </div>
-      </div>`;
-    }
+
     
     content.innerHTML = html;
     
@@ -435,13 +767,112 @@ function computeKPIs(items) {
   };
 }
 
-function paintKPIs(kpis) {
-  el('kpiTotal').textContent = kpis.total;
-  el('kpiEnforcement').textContent = kpis.enforcement;
-  el('kpiUpdates').textContent = kpis.updates;
-  el('kpiNews').textContent = kpis.news;
-  el('kpiHighRisk').textContent = kpis.highRisk;
-  el('kpiNew').textContent = kpis.newItems30d;
+function generateSparklineData(items, category, days = 30) {
+  /**
+   * Generate 30-day trend data for sparklines
+   * Returns array of daily counts
+   */
+  const now = new Date();
+  const data = [];
+  
+  for (let i = days - 1; i >= 0; i--) {
+    const date = new Date(now.getTime() - i * 24 * 60 * 60 * 1000);
+    const dateStr = date.toISOString().split('T')[0];
+    
+    let count = 0;
+    if (category === 'all') {
+      count = items.filter(item => item.date === dateStr).length;
+    } else {
+      count = items.filter(item => item.date === dateStr && item.category === category).length;
+    }
+    data.push(count);
+  }
+  return data;
+}
+
+function renderSparkline(canvasId, data, color = '#00AEEF') {
+  /**
+   * Render a simple sparkline chart using Chart.js
+   */
+  const canvas = document.getElementById(canvasId);
+  if (!canvas) return;
+  
+  const ctx = canvas.getContext('2d');
+  if (!ctx) return;
+  
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: Array.from({length: data.length}, (_, i) => i),
+      datasets: [{
+        label: '',
+        data: data,
+        borderColor: color,
+        backgroundColor: color + '15',
+        borderWidth: 1.5,
+        fill: true,
+        pointRadius: 0,
+        tension: 0.4,
+        spanGaps: true
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: { enabled: false }
+      },
+      scales: {
+        x: { display: false },
+        y: { display: false, beginAtZero: true }
+      }
+    }
+  });
+}
+
+function paintKPIs(kpis, items) {
+  // Use CountUp.js for animated counter cards
+  const animateCounter = (elementId, endValue) => {
+    const options = {
+      duration: 1.2,
+      useEasing: true,
+      separator: ','
+    };
+    const counter = new window.countUp.CountUp(elementId, endValue, options);
+    if (!counter.error) {
+      counter.start();
+    } else {
+      document.getElementById(elementId).textContent = endValue;
+    }
+  };
+  
+  animateCounter('kpiTotal', kpis.total);
+  animateCounter('kpiEnforcement', kpis.enforcement);
+  animateCounter('kpiUpdates', kpis.updates);
+  animateCounter('kpiNews', kpis.news);
+  animateCounter('kpiHighRisk', kpis.highRisk);
+  animateCounter('kpiNew', kpis.newItems30d);
+  
+  // Generate sparklines with 30-day trend data
+  if (items && items.length > 0) {
+    setTimeout(() => {
+      renderSparkline('sparklineTotal', generateSparklineData(items, 'all'), '#00AEEF');
+      renderSparkline('sparklineEnforcement', generateSparklineData(items, 'enforcement'), '#d32f2f');
+      renderSparkline('sparklineUpdates', generateSparklineData(items, 'update'), '#0056B3');
+      renderSparkline('sparklineNews', generateSparklineData(items, 'news'), '#00AEEF');
+      
+      const highRiskData = generateSparklineData(items, 'all').map((_, i) => {
+        const allData = generateSparklineData(items, 'all');
+        const date = new Date();
+        date.setDate(date.getDate() - (29 - i));
+        const dateStr = date.toISOString().split('T')[0];
+        return items.filter(item => item.date === dateStr && item.risk_score >= 65).length;
+      });
+      renderSparkline('sparklineHighRisk', highRiskData, '#ff6b6b');
+      renderSparkline('sparklineNew', generateSparklineData(items, 'all'), '#4ecdc4');
+    }, 100);
+  }
 }
 
 async function loadAndRenderBIS() {
@@ -748,24 +1179,226 @@ function initDataResidencyToggle() {
   }
 }
  
+function renderEnforcementHeatmap(items) {
+  /**
+   * Cal-heatmap style calendar showing enforcement frequency by date
+   */
+  const container = el('enforcementHeatmap');
+  if (!container) return;
+  
+  // Group items by date
+  const dateMap = {};
+  items.forEach(item => {
+    if (item.category === 'enforcement') {
+      dateMap[item.date] = (dateMap[item.date] || 0) + 1;
+    }
+  });
+  
+  // Get last 365 days
+  const today = new Date();
+  const maxCount = Math.max(1, ...Object.values(dateMap));
+  const weeks = [];
+  let currentWeek = [];
+  
+  for (let i = 365; i >= 0; i--) {
+    const date = new Date(today.getTime() - i * 24 * 60 * 60 * 1000);
+    const dateStr = date.toISOString().split('T')[0];
+    const count = dateMap[dateStr] || 0;
+    
+    const intensity = Math.min(5, Math.floor((count / maxCount) * 5));
+    const colors = ['#f0f0f0', '#fee5d9', '#fcae91', '#fb6a4a', '#de2d26', '#a50f15'];
+    
+    const cell = document.createElement('div');
+    cell.className = 'heatmap-cell';
+    cell.style.cssText = `
+      display:inline-block;
+      width:14px;
+      height:14px;
+      margin:2px;
+      border-radius:3px;
+      background:${colors[intensity]};
+      border:1px solid #e0e0e0;
+      cursor:pointer;
+      transition:all 200ms;
+    `;
+    cell.title = `${dateStr}: ${count} enforcement action${count !== 1 ? 's' : ''}`;
+    cell.addEventListener('mouseenter', () => {
+      cell.style.transform = 'scale(1.4)';
+      cell.style.boxShadow = '0 2px 6px rgba(0,0,0,0.2)';
+    });
+    cell.addEventListener('mouseleave', () => {
+      cell.style.transform = 'scale(1)';
+      cell.style.boxShadow = 'none';
+    });
+    
+    currentWeek.push(cell);
+    if (currentWeek.length === 7) {
+      const weekDiv = document.createElement('div');
+      weekDiv.style.cssText = 'margin-bottom:4px;';
+      currentWeek.forEach(c => weekDiv.appendChild(c));
+      weeks.push(weekDiv);
+      currentWeek = [];
+    }
+  }
+  
+  if (currentWeek.length > 0) {
+    const weekDiv = document.createElement('div');
+    weekDiv.style.cssText = 'margin-bottom:4px;';
+    currentWeek.forEach(c => weekDiv.appendChild(c));
+    weeks.push(weekDiv);
+  }
+  
+  container.innerHTML = `
+    <div style="display:flex;gap:8px;align-items:flex-start;overflow-x:auto;padding:8px;">
+      <div style="display:flex;flex-direction:column;gap:4px;white-space:nowrap;font-size:10px;color:var(--muted);">
+        <div>Jan</div><div>Apr</div><div>Jul</div><div>Oct</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:4px;">
+  `;
+  
+  weeks.forEach(w => {
+    const div = document.createElement('div');
+    div.appendChild(w);
+    container.appendChild(div);
+  });
+  
+  container.innerHTML += '</div></div>';
+}
+
+function renderJurisdictionHeatmap(items) {
+  /**
+   * Animated jurisdiction risk intensity map
+   * Shows enforcement intensity by jurisdiction
+   */
+  const container = el('jurisdictionHeatmap');
+  if (!container || !window.L) return;
+  
+  // Initialize Leaflet map
+  const mapId = 'jurisdictionMap_' + Date.now();
+  container.innerHTML = `<div id="${mapId}" style="width:100%;height:100%;"></div>`;
+  
+  setTimeout(() => {
+    const map = L.map(mapId).setView([20, 0], 2);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap',
+      maxZoom: 19,
+      style: { filter: 'grayscale(30%)' }
+    }).addTo(map);
+    
+    // Count items by jurisdiction
+    const jurisdictionCounts = {};
+    const jurisdictionRisks = {};
+    
+    items.forEach(item => {
+      const jur = item.jurisdiction || 'Global';
+      jurisdictionCounts[jur] = (jurisdictionCounts[jur] || 0) + 1;
+      
+      const risk = item.risk_score || 50;
+      jurisdictionRisks[jur] = (jurisdictionRisks[jur] || 0) + risk;
+    });
+    
+    // Major jurisdiction coordinates
+    const jurisdictionCoords = {
+      'United States': [37.0902, -95.7129],
+      'European Union': [54.5260, 15.2551],
+      'United Kingdom': [55.3781, -3.4360],
+      'UAE': [23.4241, 53.8478],
+      'China': [35.8617, 104.1954],
+      'Global': [20, 0]
+    };
+    
+    // Add markers for each jurisdiction
+    Object.entries(jurisdictionRisks).forEach(([jur, riskSum]) => {
+      const count = jurisdictionCounts[jur] || 0;
+      const avgRisk = count > 0 ? Math.round(riskSum / count) : 50;
+      
+      const coords = jurisdictionCoords[jur] || [0, 0];
+      const color = avgRisk >= 65 ? '#d32f2f' : avgRisk >= 50 ? '#ff9800' : '#4caf50';
+      const radius = Math.min(30, Math.max(8, count * 2));
+      
+      L.circleMarker(coords, {
+        radius: radius,
+        fillColor: color,
+        color: color,
+        weight: 2,
+        opacity: 0.8,
+        fillOpacity: 0.6,
+        className: 'jur-marker'
+      }).bindPopup(`
+        <div style="font-size:12px;">
+          <strong>${jur}</strong><br/>
+          Items: ${count}<br/>
+          Avg Risk: ${avgRisk}<br/>
+          Category: ${avgRisk >= 65 ? 'High Risk' : avgRisk >= 50 ? 'Medium Risk' : 'Stable'}
+        </div>
+      `).addTo(map);
+    });
+  }, 100);
+}
+
 async function init(){
-  const res = await fetch('data/updates.json', { cache: 'no-store' });
-  const payload=await res.json();
-  state.items=payload.items||[];
-  paintKPIs(computeKPIs(state.items));
-  el('lastUpdated').textContent='Data generated: '+(payload.generated_at||'—');
-  buildFilters();
-  render();
+  // Show disclaimer banner on first visit
+  showDisclaimer();
+  
+  console.log('[INIT] Fetching data/updates.json...');
+  try {
+    const res = await fetch('data/updates.json', { cache: 'no-store' });
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status}: Failed to fetch updates.json`);
+    }
+    const payload=await res.json();
+    state.items=payload.items||[];
+    console.log('[INIT] Loaded', state.items.length, 'items');
+    
+    const kpis = computeKPIs(state.items);
+    console.log('[INIT] KPIs calculated:', kpis);
+    
+    paintKPIs(kpis, state.items);
+    console.log('[INIT] KPIs painted');
+    
+    el('lastUpdated').textContent='Data generated: '+(payload.generated_at||'—');
+    console.log('[INIT] lastUpdated set to:', payload.generated_at);
+    
+    console.log('[INIT] Before buildFilters, state.items:', state.items.length);
+    buildFilters();
+    console.log('[INIT] Filters built - jurisdiction:', el('jurisdiction').options.length, 'options');
+    
+    render();
+    console.log('[INIT] Main grid rendered with', state.items.length, 'items');
+  } catch (err) {
+    console.error('[INIT] Error loading main data:', err);
+    console.error('[INIT] Error stack:', err.stack);
+    el('lastUpdated').textContent = 'Error: ' + err.message;
+    throw err;
+  }
+  
+  // Render visualizations with error handling
+  try {
+    renderEnforcementHeatmap(state.items);
+  } catch (e) {
+    console.warn('Enforcement heatmap failed:', e);
+  }
+  try {
+    renderJurisdictionHeatmap(state.items);
+  } catch (e) {
+    console.warn('Jurisdiction heatmap failed:', e);
+  }
+  try {
+    renderRegulatoryTimeline(state.items);
+  } catch (e) {
+    console.warn('Regulatory timeline failed:', e);
+  }
  
-  el('q').addEventListener('input',e=>{state.q=e.target.value;render();});
-  el('jurisdiction').addEventListener('change',e=>{state.jurisdiction=e.target.value;render();});
-  el('topic').addEventListener('change',e=>{state.topic=e.target.value;render();});
-  el('source').addEventListener('change',e=>{state.source=e.target.value;render();});
+  el('q').addEventListener('input',e=>{state.q=e.target.value;updateActiveFilters();render();});
+  el('jurisdiction').addEventListener('change',e=>{state.jurisdiction=e.target.value;updateActiveFilters();render();});
+  el('topic').addEventListener('change',e=>{state.topic=e.target.value;updateActiveFilters();render();});
+  el('source').addEventListener('change',e=>{state.source=e.target.value;updateActiveFilters();render();});
   el('reset').addEventListener('click',()=>{
     state.q='';state.jurisdiction='';state.topic='';state.source='';state.view='ALL';
     el('q').value='';el('jurisdiction').value='';el('topic').value='';el('source').value='';
     document.querySelectorAll('[data-view]').forEach(b => b.classList.remove('active'));
     document.querySelector('[data-view="ALL"]').classList.add('active');
+    updateActiveFilters();
     render();
   });
   
@@ -775,25 +1408,42 @@ async function init(){
       state.view = btn.getAttribute('data-view') || 'ALL';
       document.querySelectorAll('[data-view]').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
+      updateActiveFilters();
       render();
     });
   });
   
   // Load BIS Affiliate Rules monitoring data
-  await loadAndRenderBIS();
-  initBISToggle();
+  try {
+    await loadAndRenderBIS();
+    initBISToggle();
+  } catch (err) {
+    console.warn('[INIT] Error loading BIS data:', err);
+  }
   
   // Load Export Controls data
-  await loadAndRenderExportControls();
-  initExportControlsToggle();
+  try {
+    await loadAndRenderExportControls();
+    initExportControlsToggle();
+  } catch (err) {
+    console.warn('[INIT] Error loading Export Controls data:', err);
+  }
   
   // Load Data Privacy data
-  await loadAndRenderDataPrivacy();
-  initDataPrivacyToggle();
+  try {
+    await loadAndRenderDataPrivacy();
+    initDataPrivacyToggle();
+  } catch (err) {
+    console.warn('[INIT] Error loading Data Privacy data:', err);
+  }
   
   // Load Data Residency data
-  await loadAndRenderDataResidency();
-  initDataResidencyToggle();
+  try {
+    await loadAndRenderDataResidency();
+    initDataResidencyToggle();
+  } catch (err) {
+    console.warn('[INIT] Error loading Data Residency data:', err);
+  }
   
   // Close insights panel
   el('closeInsights').addEventListener('click', () => {
@@ -807,8 +1457,30 @@ async function init(){
     }
   });
 }
- 
-init().catch(err=>{
-  console.error(err);
-  el('lastUpdated').textContent='Failed to load data.';
-});
+
+// Initialize immediately since script is at end of <body>
+// This ensures DOM is fully loaded before init() runs
+(async () => {
+  try {
+    console.log('[APP INIT] Starting application...');
+    await init();
+    console.log('[APP INIT] Application initialized successfully');
+  } catch (err) {
+    console.error('[APP INIT] Fatal error:', err);
+    console.error('[APP INIT] Stack:', err.stack);
+    const lastUpdated = document.getElementById('lastUpdated');
+    if (lastUpdated) {
+      lastUpdated.textContent = 'Error: ' + (err.message || 'Unknown error');
+      lastUpdated.title = err.stack || err.toString();
+    }
+    // Also log to page for easier debugging
+    const empty = document.getElementById('empty');
+    if (empty) {
+      empty.hidden = false;
+      empty.textContent = 'Data loading failed: ' + err.message + '\n\nCheck browser console for details.';
+      empty.style.whiteSpace = 'pre-wrap';
+      empty.style.color = '#d32f2f';
+      empty.style.padding = '16px';
+    }
+  }
+})();
