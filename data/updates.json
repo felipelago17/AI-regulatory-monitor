@@ -153,8 +153,8 @@
         "OpenAI",
         "Government Contract"
       ],
-      "title": "OpenAI–US Department of War Agreement: Contractual AI Red Lines for Military Deployment",
-      "summary": "OpenAI published the terms of its agreement with the US Department of War (DoD), explicitly prohibiting use of its technology for mass surveillance of US persons, targeting nationals, directing autonomous weapon systems, or high-stakes automated decisions (e.g., social credit scoring). The agreement includes cloud-based, personnel-in-the-loop deployment requirements. OpenAI describes the arrangement as a new industry standard for responsible government AI use, contrasting with the Anthropic-DoD dispute. More than 30 Google DeepMind employees publicly endorsed these limits.",
+      "title": "OpenAI–US Department of Defense (DoD) Agreement: Contractual AI Red Lines for Military Deployment",
+      "summary": "OpenAI published the terms of its agreement with the US Department of Defense (DoD), explicitly prohibiting use of its technology for mass surveillance of US persons, targeting nationals, directing autonomous weapon systems, or high-stakes automated decisions (e.g., social credit scoring). The agreement includes cloud-based, personnel-in-the-loop deployment requirements. OpenAI describes the arrangement as a new industry standard for responsible government AI use, contrasting with the Anthropic-DoD dispute. More than 30 Google DeepMind employees publicly endorsed these limits.",
       "source": "OpenAI / TechCrunch / CNBC",
       "url": "https://openai.com/index/our-agreement-with-the-department-of-war/",
       "tags": [
