@@ -1,12 +1,4 @@
-name: Daily Regulatory Monitoring Update
-
-on:
-  schedule:
-    - cron: "0 3 * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
+name: Daily Regulatory Monitoring Updatename:
 
 jobs:
   update:
@@ -21,17 +13,20 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Run monitoring update script
+      - name: Run monitoring update
         run: |
           python tools/check_site.py
 
-- name: Commit updates if data changed
-  run: |
-    git config user.name "github-actions[bot]"
-    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-    git add data/*.json
-
-    git commit -m "chore: daily monitoring data update" || echo "No data changes to commit"
-    git push || echo "No commit pushed"
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          git commit -m "chore: daily monitoring data update" || echo "No data changes"
+          git push || echo "No commit pushed"
 ``
+
+on:
+  workflow_dispatch:
+
+permissions:
