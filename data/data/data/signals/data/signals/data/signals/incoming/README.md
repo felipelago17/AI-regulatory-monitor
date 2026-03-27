@@ -1,0 +1,13 @@
+# Incoming Data (Unpublished)
+
+This directory contains raw AI governance-related inputs collected through automated or scheduled processes.
+
+Content here is:
+- not reviewed
+- not curated
+- not published to the site
+
+Items in this directory must be manually assessed before being promoted into `data/signals/`.
+
+This design prevents accidental publication of incorrect or misleading regulatory information.
+``
