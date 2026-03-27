@@ -1,0 +1,23 @@
+id: eu-ai-act
+title: EU Artificial Intelligence Act
+
+content_type: regulation
+jurisdiction: EU
+instrument_type: law
+status: adopted
+
+summary: >
+  The EU Artificial Intelligence Act establishes a risk-based framework
+  governing the development, deployment, and use of artificial
+  intelligence systems within the European Union.
+
+source_url: https://eur-lex.europa.eu/
+
+publication_date: 2024-07-12
+effective_date: 2025-08-01
+last_updated: 2026-03-15
+
+impact_note: >
+  This regulation is expected to have significant impact on providers
+  of general-purpose and high-risk AI systems operating in the EU.
+``
