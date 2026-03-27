@@ -1,4 +1,4 @@
-# Incoming Data (Unpublished)
+Incoming data directory and documentation
 
 This directory contains raw AI governance-related inputs collected through automated or scheduled processes.
 
