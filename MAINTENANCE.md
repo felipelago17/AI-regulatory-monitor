@@ -13,7 +13,7 @@ The workflow runs four steps in sequence each day:
 | 3 | inline `python -c …` | Parses `data/updates.json` to confirm it is valid JSON before any commit. |
 | 4 | `tools/check_site.py` | Checks for broken local references in `index.html` / `styles.css` (non-blocking — `continue-on-error: true`). |
 
-If any new items were found, the workflow commits `data/updates.json` with the message `chore: daily regulatory data update [YYYY-MM-DD]` and pushes to the default branch. If nothing changed, the commit step exits cleanly with no commit.
+If any new items were found, the workflow commits `data/updates.json` with the message `chore: daily regulatory data update [YYYY-MM-DD]` and pushes to the default branch. If nothing changed, `data/updates.json` is left untouched and the commit step exits cleanly with no commit.
 
 ### Files involved
 

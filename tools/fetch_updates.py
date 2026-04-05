@@ -230,17 +230,14 @@ def main() -> None:
                 added += 1
         print(f"  \u2192 {added} new item(s) from {source['source_label']}")
 
-    # Always update generated_at so the commit reflects today's run
-    data["generated_at"] = TODAY
-
     if new_items:
+        data["generated_at"] = TODAY
         data["items"] = new_items + existing_items
         print(f"\n\u2705 {len(new_items)} new item(s) added. generated_at \u2192 {TODAY}.")
+        with UPDATES_FILE.open("w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
     else:
-        print(f"\n\u2705 No new items found. generated_at \u2192 {TODAY}.")
-
-    with UPDATES_FILE.open("w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+        print(f"\n\u2705 No new items found. data/updates.json unchanged.")
 
 
 if __name__ == "__main__":
