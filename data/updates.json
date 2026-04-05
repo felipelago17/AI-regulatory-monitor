@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T10:57:42+00:00",
+  "generated_at": "2026-04-05T11:14:12+00:00",
   "items": [
     {
       "id": "bis-affiliate-rules-2026-03",
@@ -184,7 +184,7 @@
         "disclosure",
         "sec"
       ],
-      "category": "update",
+      "category": "enforcement",
       "risk_score": 58
     },
     {
@@ -5551,6 +5551,806 @@
       "pillar": "IV. Train",
       "category": "news",
       "group": null
+    },
+    {
+      "id": "b104cac390f5c617",
+      "date": "2026-03-30",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Researchers Develop Photonic Chip Packaging That Can Withstand Extreme Environments",
+      "summary": "The advance could allow these technologies to operate in deep-space probes, inside nuclear reactors, in ultrahigh vacuum systems, and at temperatures both near absolute zero and in scorchingly hot industrial settings.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/03/nist-researchers-develop-photonic-chip-packaging-can-withstand-extreme",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "7dfc77cd72abdd5d",
+      "date": "2026-03-23",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Helps Fingerprint Examiners With New Data and Software Release",
+      "summary": "The new tools are an annotated collection of 10,000 fingerprints and a software program that can sort fingerprints according to their quality.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/03/nist-helps-fingerprint-examiners-new-data-and-software-release",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "9e1a53443fad1038",
+      "date": "2026-03-19",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Submits Annual Report to Congress Summarizing FY 2025 Progress on National Construction Safety Team Investigations",
+      "summary": "The report includes an overview of work completed on the Champlain Towers South investigation.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/03/nist-submits-annual-report-congress-summarizing-fy-2025-progress-national",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "enforcement"
+    },
+    {
+      "id": "be530ad751890741",
+      "date": "2026-02-19",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "2 Health Care Organizations Will Receive 2025 Baldrige National Quality Awards",
+      "summary": "The award highlights organizations that focus on resilience.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/02/2-health-care-organizations-will-receive-2025-baldrige-national-quality",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "f8fd13e7bc706bf3",
+      "date": "2026-02-17",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Announcing the &quot;AI Agent Standards Initiative&quot; for Interoperable and Secure Innovation",
+      "summary": "The Initiative will ensure that the next generation of AI is widely adopted with confidence, can function securely on behalf of its users, and can interoperate smoothly across the digital ecosystem.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "72492f9240b6b313",
+      "date": "2026-02-17",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Releases New Forensic Genetic Reference Material to Help Crime Laboratories Analyze Challenging Cases",
+      "summary": "The reference material is the first to include mixtures of high-quality and degraded DNA from different individuals.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/02/nist-releases-new-forensic-genetic-reference-material-help-crime",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "257e0f319be37d4d",
+      "date": "2026-02-10",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Allocates Over $3 Million to Small Businesses Advancing AI, Biotechnology, Semiconductors, Quantum and More",
+      "summary": "NIST is allocating funding to eight small businesses in seven states under the Small Business Innovation Research (SBIR) program.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/02/nist-allocates-over-3-million-small-businesses-advancing-ai-biotechnology",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "2b31a5bad83ca9b0",
+      "date": "2026-02-09",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Space: The Final Frontier for Standards",
+      "summary": "Seven NIST reference materials, including house dust and freeze-dried human liver tissue, have been flown to the International Space Station.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/02/space-final-frontier-standards",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "e28a2a44050f435e",
+      "date": "2026-01-12",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "CAISI Issues Request for Information About Securing AI Agent Systems",
+      "summary": "The Center for AI Standards and Innovation (CAISI) at the U.S. Department of Commerce’s National Institute of Standards and Technology (NIST) has published a Request for Information (RFI) seeking insights from industry, academia, and the security",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/01/caisi-issues-request-information-about-securing-ai-agent-systems",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "7ecf131aeb752cc3",
+      "date": "2025-12-22",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Launches Centers for AI in Manufacturing and Critical Infrastructure",
+      "summary": "NIST has expanded its collaboration with the nonprofit MITRE Corporation as part of its efforts to ensure U.S. leadership in artificial intelligence.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/12/nist-launches-centers-ai-manufacturing-and-critical-infrastructure",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "384fe2c3c1aad012",
+      "date": "2025-12-18",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Physicists Bring Unruly Molecules to the Quantum Party",
+      "summary": "Molecules can serve as versatile building blocks for quantum technologies, but they are much harder to control than atoms.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/12/nist-physicists-bring-unruly-molecules-quantum-party",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "20310bf6948d5056",
+      "date": "2025-12-17",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Securing Smart Speakers for Home Health Care: NIST Offers New Guidelines",
+      "summary": "Cybersecurity and privacy risks can threaten patient confidentiality.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/12/securing-smart-speakers-home-health-care-nist-offers-new-guidelines",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "6307e87c7b632efe",
+      "date": "2025-12-16",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Draft NIST Guidelines Rethink Cybersecurity for the AI Era",
+      "summary": "New guidelines can help an organization determine ways to incorporate AI into its operations while mitigating cybersecurity risks.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "319d1028addbb267",
+      "date": "2025-12-11",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Department of Commerce Announces Transition of Baldrige Performance Excellence Program",
+      "summary": "Beginning with the 2026 award cycle, the Alliance for Performance Excellence and the Baldrige Foundation will take on most operations for the program.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/12/department-commerce-announces-transition-baldrige-performance-excellence",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "05a214def797e855",
+      "date": "2025-12-01",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "What Time Is It on Mars? NIST Physicists Have the Answer.",
+      "summary": "This calculation is necessary for future space navigation and communication networks.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/12/what-time-it-mars-nist-physicists-have-answer",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "f9b614b264720347",
+      "date": "2025-11-20",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Building a Sustainable Metals Infrastructure: NIST Report Highlights Key Strategies",
+      "summary": "Making metals processing more sustainable and resilient will support U.S industrial innovation and competitiveness.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/11/building-sustainable-metals-infrastructure-nist-report-highlights-key",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "6fff3a795bde2863",
+      "date": "2025-09-30",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "CAISI Evaluation of DeepSeek AI Models Finds Shortcomings and Risks",
+      "summary": "The Center for AI Standards and Innovation at NIST evaluated several leading models from DeepSeek, an AI company based in the People’s Republic of China.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/09/caisi-evaluation-deepseek-ai-models-finds-shortcomings-and-risks",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "c4e9a231a586598e",
+      "date": "2025-09-29",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Engineers Design 5 New Ways to Connect Concrete Pieces for More Resilient Buildings",
+      "summary": "One of the biggest challenges with precast concrete is connecting the concrete pieces at a job site.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/09/nist-engineers-design-5-new-ways-connect-concrete-pieces-more-resilient",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "3cab981cb7c14f04",
+      "date": "2025-09-24",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Issues Broad Agency Announcement for Proposals to Advance Microelectronics Technologies",
+      "summary": "The CHIPS for America funding opportunity will support critical research, prototyping and commercial solutions that advance microelectronics technology in the United States.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/09/nist-issues-broad-agency-announcement-proposals-advance-microelectronics",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "914a8266afbacc43",
+      "date": "2025-09-17",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Awards More Than $3 Million to Support Cybersecurity Workforce Development Across 13 States",
+      "summary": "There are currently more than 514,000 cybersecurity job openings in the U.S.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/09/nist-awards-more-3-million-support-cybersecurity-workforce-development",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "98621fcf4678939a",
+      "date": "2025-09-10",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "In Quantum Sensing, What Beats Beating Noise? Meeting Noise Halfway.",
+      "summary": "A team including scientists at NIST may have found a new way of dealing with noise at the microscopic scales where quantum physics reigns.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/09/quantum-sensing-what-beats-beating-noise-meeting-noise-halfway",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "b9322f2b23e3066b",
+      "date": "2025-09-09",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Champlain Towers South Investigation Nears Completion of Technical Work",
+      "summary": "Investigators share likely failure scenarios, advance indicators of building’s distress.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/09/champlain-towers-south-investigation-nears-completion-technical-work",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "enforcement"
+    },
+    {
+      "id": "0f878e68c0e26cfa",
+      "date": "2025-09-08",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST’s ‘Living Reference Material’ Could Accelerate R&amp;D of Lifesaving Biological Drugs",
+      "summary": "The NIST reference material, called NISTCHO, will help the biopharmaceutical industry develop new drugs more quickly and ensure that they are safe and effective.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/09/nists-living-reference-material-could-accelerate-rd-lifesaving-biological",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "7bbb9eda06497752",
+      "date": "2025-09-02",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Some Air Cleaners Release Harmful By-Products. Now We Have a Way to Measure Them.",
+      "summary": "Many types of air cleaners can generate small amounts of air pollution. Until now, there was no standard way to measure these negative by-products.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/09/some-air-cleaners-release-harmful-products-now-we-have-way-measure-them",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "2f41f36498cbb358",
+      "date": "2025-08-27",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Revises Security and Privacy Control Catalog to Improve Software Update and Patch Releases",
+      "summary": "The catalog revision is part of NIST’s response to a recent executive order on strengthening the nation’s cybersecurity.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/08/nist-revises-security-and-privacy-control-catalog-improve-software-update",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "85c325d02bd4c9c9",
+      "date": "2025-08-21",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "New Technique for Measuring DNA Damage Could Improve Cancer Therapy and Radiological Emergency Response",
+      "summary": "The technology, which may someday be as portable as a smartphone, promises faster and more accurate measurements of radiation exposure, potentially saving lives in critical situations.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/08/new-technique-measuring-dna-damage-could-improve-cancer-therapy-and",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "41ce7732cdfed8e4",
+      "date": "2025-08-20",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Researchers Develop More Accurate Formula for Measuring Particle Concentration",
+      "summary": "The new method will be useful in various fields, including nanomedicine, food science, environmental science and advanced manufacturing.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/08/nist-researchers-develop-more-accurate-formula-measuring-particle",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "5477ff78e91b4f40",
+      "date": "2025-08-18",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Guidelines Can Help Organizations Detect Face Photo Morphs, Deter Identity Fraud",
+      "summary": "Face morphing software, which combines photos of different people into a single image, is being used to commit identity fraud.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/08/nist-guidelines-can-help-organizations-detect-face-photo-morphs-deter",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "59f462977b8edffa",
+      "date": "2025-08-18",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Awards Over $1.8 Million to Small Businesses Advancing AI, Semiconductors, Additive Manufacturing and More",
+      "summary": "The winning projects were competitively selected following a call for innovative proposals that address technical needs related to NIST’s research areas.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/08/nist-awards-over-18-million-small-businesses-advancing-ai-semiconductors",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "b63c24053c8d98dc",
+      "date": "2025-08-13",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Finalizes ‘Lightweight Cryptography’ Standard to Protect Small Devices",
+      "summary": "Four related algorithms are now ready for use to protect data created and transmitted by the Internet of Things and other electronics.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/08/nist-finalizes-lightweight-cryptography-standard-protect-small-devices",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "b712f183751b81dd",
+      "date": "2025-08-06",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST to Provide Updates on Construction Safety Team Investigations in September Advisory Committee Meeting",
+      "summary": "The public meetings will include updates on NIST’s investigations into the impacts of Hurricane Maria and the partial collapse of the Champlain Towers South.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/08/nist-provide-updates-construction-safety-team-investigations-september",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "enforcement"
+    },
+    {
+      "id": "46a4de9c2ce5d4c6",
+      "date": "2025-07-31",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "New NIST Reference Material to Strengthen Quality Control for Biological Drugs",
+      "summary": "Impurities in these drugs can cause undesirable immune responses in patients and can significantly drive up costs for drug manufacturers.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/07/new-nist-reference-material-strengthen-quality-control-biological-drugs",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "df6c5b2e3018887e",
+      "date": "2025-07-30",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Consortium and Draft Guidelines Aim to Improve Security in Software Development",
+      "summary": "NIST is soliciting comments from the public on the draft until Sept. 12, and the agency is planning a virtual event to showcase the project and gather feedback on Aug. 27.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/07/nist-consortium-and-draft-guidelines-aim-improve-security-software",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "15d27c30ca91abde",
+      "date": "2025-07-24",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Makes First Detection of Cannabis in Breath From Edibles",
+      "summary": "Currently there are no reliable roadside tests to determine when a person consumed cannabis or how intoxicated they are as a result.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/07/nist-makes-first-detection-cannabis-breath-edibles",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "bd27aea3c967f416",
+      "date": "2025-07-17",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST’s Alex Maranghides Receives Service to America Medal",
+      "summary": "The award recognizes Maranghides for 25 years of work investigating devastating wildfires in the United States and creating actionable guidelines on how to save lives and property.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/07/nists-alex-maranghides-receives-service-america-medal",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "552970b1329b440d",
+      "date": "2025-07-16",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Releases Trove of Genetic Data to Spur Cancer Research",
+      "summary": "NIST and collaborating institutions have released extensive data about the genome of pancreatic cancer cells.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/07/nist-releases-trove-genetic-data-spur-cancer-research",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "15d130556d70ccb0",
+      "date": "2025-07-14",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Shares Preliminary Findings From Hurricane Maria Investigation",
+      "summary": "As NIST’s National Construction Safety Team nears the end of its investigation, it has released a video update that highlights significant milestones and preliminary findings.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/07/nist-shares-preliminary-findings-hurricane-maria-investigation",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "enforcement"
+    },
+    {
+      "id": "841d7d34ac735ab9",
+      "date": "2025-07-14",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Ion Clock Sets New Record for Most Accurate Clock in the World",
+      "summary": "This new result contributes to the international effort to define the second with a much greater level of accuracy than before, enabling new scientific and technological advances.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/07/nist-ion-clock-sets-new-record-most-accurate-clock-world",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "e01c9dd58ec9cd89",
+      "date": "2025-07-08",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "New NIST Method Precisely Measures Radioactivity in Tiny Samples",
+      "summary": "This development could support improved cancer treatments, nuclear fuel reprocessing for advanced reactors and other fields.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/07/new-nist-method-precisely-measures-radioactivity-tiny-samples",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "00988a4f7dce76f3",
+      "date": "2025-06-24",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Bioinspired Materials Can Take a Punch",
+      "summary": "Scientists develop new impact-resistant material based on the exoskeleton of the mantis shrimp.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2025/06/bioinspired-materials-can-take-punch",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "c04efff93ae1a2b9",
+      "date": "2026-03-31",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Have your say on the Digital Fairness Act",
+      "summary": "<span>Have your say on the Digital Fairness Act</span>\n<span><span>Anonymous (not verified)</span></span>\n<span><time datetime=\"2026-03-31T16:44:17+02:00\" title=\"Tuesday, March 31, 2026 - 16:44\">Tue, 03/31/2026 - 16:44</time>\n</span>\n\n<div>\n  <div class=\"cnt-thumbnail-media ecl-u-type-m cnt-content-wrapper\">\n        \n              <div class=\"cnt-teaser ecl-u-type-m ecl-u-mb-xl\">\n                              <ul class=\"ecl-unordered-list ecl-unordered-list--no-bullet ecl-u-mb-xl\">\n      <li class=\"cnt-nr-item-metadata ecl-u-mt-l ecl-u-d-flex ecl-u-align-items-center ecl-unordered-list__item\">\n      <span class=\"wt-icon--calendar ecl-icon ecl-icon--fluid ecl-icon--calendar\" aria-hidden=\"true\"></span>&nbsp;\n      Opening: 31 March 2026\n    </li>\n    <li class=\"cnt-nr-item-metadata ecl-u-mt-l ecl-u-d-flex ecl-u-align-items-center ecl-unordered-list__item\">\n      <span class=\"wt-icon--calendar ecl-icon ecl-icon--fluid ecl-icon--calendar\" aria-hidden=\"true\"></span>&nbsp;\n      Closing: 26 April 2026\n    </li>\n  \n  </ul>\n\n                <p class=\"ecl-page-header-standardised__description\">The European Union wants children and teenagers to have safe and positive experiences when using apps, websites, games and social media, so it is creating a new law called the Digital Fairness Act. To help shape this law, the EU wants to hear from children and teenagers aged 12 to 17 about their experiences as consumers, including how apps and websites treat them when they choose, use or pay for things online.</p>\n\n  \n              </div>\n      <div class=\"cnt-image cnt-media\">\n                     \n            <div>\n\n\n\n\n\n          \n    \n    \n      <div class=\"ecl-media-container\"><figure class=\"ecl-media-container__figure\"><picture class=\"ecl-picture ecl-media-container__picture\"><source><img class=\"ecl-media-container__media\" src=\"https://digital-strategy.ec.europa.eu/sites/default/files/styles/newsroom_large/public/newsroom/items/ProtectingYoungPeopleOnline_600x400_colours_1DSA_5cL65D0GeFGgd2OHKluktgkaQ_230024.jpg?itok=sJMW48bq\" alt=\"Illustration of online safety for young people, showing a phone with a lock shield, age icons, and two people walking beside it.\"></picture></figure></div>  </div>\n      \n  \n      </div>\n    \n    <div class=\"cnt-main-body ecl-u-type-m\">\n                          \n  <div>\n    <h4>Main link</h4>\n              <div><a href=\"https://eu-for-children.europa.eu/activities-news/latest/have-your-say-on-digital-fairness-act_en\">https://eu-for-children.europa.eu/activities-news/latest/have-your-say-on-digit…</a></div>\n          </div>\n\n          \n          </div>\n    <div class=\"cnt-aside ecl-u-type-m\">\n      <aside class=\"ecl-u-height-100\">\n                              <h3>Related topics</h3>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=159\" class=\"ecl-tag ecl-u-mb-xs\">Media and democracy</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=154\" class=\"ecl-tag ecl-u-mb-xs\">   Better Internet for Children</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=153\" class=\"ecl-tag ecl-u-mb-xs\">Strengthening trust and security</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=150\" class=\"ecl-tag ecl-u-mb-xs\">Online platforms and e-commerce</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=174\" class=\"ecl-tag ecl-u-mb-xs\">Social media and networks, innovation and policy</a>\n\n  \n              </aside>\n    </div>\n\n        <div class=\"cnt-bottom ecl-u-pv-xl\">\n      <div class=\"ecl-u-mb-3xl\">\n                      \n                      </div>\n    </div>\n  </div>\n</div>\n  <div class=\"layout layout--onecol\">\n    <div class=\"layout__region layout__region--content\">\n          <div>\n  \n    \n        <div class=\"ecl-u-type-m\">\n    <section class=\"cnct-page-footer ecl-u-mv-2xl\">\n                    <div class=\"ecl-social-media-share\">\n          <script type=\"application/json\">{\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}</script>\n        </div>\n            \n      \n          </section>\n  </div>\n\n  </div>\n\n    </div>\n  </div>\n<div class=\"node_view\"></div>",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/consultations/have-your-say-digital-fairness-act",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "7049e070091d2950",
+      "date": "2026-03-26",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Commission preliminarily finds Pornhub, Stripchat, XNXX and XVideos in breach of the Digital Services Act for allowing minors to access their services",
+      "summary": "<span>Commission preliminarily finds Pornhub, Stripchat, XNXX and XVideos in breach of the Digital Services Act for allowing minors to access their services</span>\n<span><span>Anonymous (not verified)</span></span>\n<span><time datetime=\"2026-03-26T09:39:00+01:00\" title=\"Thursday, March 26, 2026 - 09:39\">Thu, 03/26/2026 - 09:39</time>\n</span>\n\n<div>\n  <div class=\"cnt-thumbnail-media ecl-u-type-m cnt-content-wrapper\">\n        \n              <div class=\"cnt-teaser ecl-u-type-m ecl-u-mb-xl\">\n                                    <p class=\"ecl-page-header-standardised__description\">The European Commission preliminarily found Pornhub, Stripchat, XNXX and XVideos in breach of the Digital Services Act (DSA) for failing to protect minors from being exposed to pornographic content on their services.</p>\n\n  \n              </div>\n      <div class=\"cnt-image cnt-media\">\n                     \n            <div>\n\n\n\n\n\n          \n    \n    \n      <div class=\"ecl-media-container\"><figure class=\"ecl-media-container__figure\"><picture class=\"ecl-picture ecl-media-container__picture\"><source><img class=\"ecl-media-container__media\" src=\"https://digital-strategy.ec.europa.eu/sites/default/files/styles/newsroom_large/public/newsroom/items/DSA_variation_v3_11y21tItivwBombUfpVJkmGi0_229088.png?itok=FSDcZ1nI\" alt=\"Text &quot;Digital Services Act&quot; inside a white triangle inside a white triangle against a purple background.\"></picture></figure></div>  </div>\n      \n  \n      </div>\n    \n    <div class=\"cnt-main-body ecl-u-type-m\">\n                          <div class=\"ecl\"><p>In exercising their right of defence, XVideos, XNXX, Pornhub and Stripchat now have the possibility to examine the documents in the Commission's investigation files and reply in writing to the Commission's preliminary findings.</p>\n<p>Read the <a href=\"https://ec.europa.eu/commission/presscorner/detail/en/ip_26_722\">full press release</a> and find further information about the:</p>\n<ul>\n<li><a href=\"https://digital-strategy.ec.europa.eu/en/policies/digital-services-act\">Digital Services Act</a> - main aspects of the regulation</li>\n<li><a href=\"https://digital-strategy.ec.europa.eu/en/factpages/user-rights-under-digital-services-act\">User rights under the Digital Services Act</a> - an overview</li>\n<li><a href=\"https://digital-strategy.ec.europa.eu/en/policies/protecting-young-people-online#\">Protecting and empowering young people online</a></li>\n<li><a href=\"https://digital-strategy.ec.europa.eu/en/policies/list-designated-vlops-and-vloses\">Supervision of the designated very large online platforms and search engines under DSA</a></li>\n</ul></div>\n\n          \n          </div>\n    <div class=\"cnt-aside ecl-u-type-m\">\n      <aside class=\"ecl-u-height-100\">\n                              <h3>Related topics</h3>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=154\" class=\"ecl-tag ecl-u-mb-xs\">   Better Internet for Children</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=153\" class=\"ecl-tag ecl-u-mb-xs\">Strengthening trust and security</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=150\" class=\"ecl-tag ecl-u-mb-xs\">Online platforms and e-commerce</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=193\" class=\"ecl-tag ecl-u-mb-xs\">DSA - Digital Services Act</a>\n\n  \n              </aside>\n    </div>\n\n        <div class=\"cnt-bottom ecl-u-pv-xl\">\n      <div class=\"ecl-u-mb-3xl\">\n                      \n                      </div>\n    </div>\n  </div>\n</div>\n  <div class=\"layout layout--onecol\">\n    <div class=\"layout__region layout__region--content\">\n          <div>\n  \n    \n        <div class=\"ecl-u-type-m\">\n    <section class=\"cnct-page-footer ecl-u-mv-2xl\">\n                    <div class=\"ecl-social-media-share\">\n          <script type=\"application/json\">{\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}</script>\n        </div>\n            \n      \n          </section>\n  </div>\n\n  </div>\n\n    </div>\n  </div>\n<div class=\"node_view\"></div>",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-pornhub-stripchat-xnxx-and-xvideos-breach-digital-services-act",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "enforcement"
+    },
+    {
+      "id": "c9070d1261fbf0db",
+      "date": "2026-03-26",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Commission investigates Snapchat's compliance with child protection rules under the Digital Services Act",
+      "summary": "<span>Commission investigates Snapchat's compliance with child protection rules under the Digital Services Act</span>\n<span><span>Anonymous (not verified)</span></span>\n<span><time datetime=\"2026-03-26T09:39:00+01:00\" title=\"Thursday, March 26, 2026 - 09:39\">Thu, 03/26/2026 - 09:39</time>\n</span>\n\n<div>\n  <div class=\"cnt-thumbnail-media ecl-u-type-m cnt-content-wrapper\">\n        \n              <div class=\"cnt-teaser ecl-u-type-m ecl-u-mb-xl\">\n                                    <p class=\"ecl-page-header-standardised__description\">The European Commission has opened formal proceedings to investigate if Snapchat is ensuring a high level of safety, privacy and security for children online, in compliance with the Digital Services Act (DSA).</p>\n\n  \n              </div>\n      <div class=\"cnt-image cnt-media\">\n                     \n            <div>\n\n\n\n\n\n          \n    \n    \n      <div class=\"ecl-media-container\"><figure class=\"ecl-media-container__figure\"><picture class=\"ecl-picture ecl-media-container__picture\"><source><img class=\"ecl-media-container__media\" src=\"printable:///var/www/html/web/sites/default/files/styles/newsroom_large/public/newsroom/items/DSA_variation_v4_rdewUhP5Bt9SwLE755yZ2rzhdyk_229087.png?itok=S7SkyXZW\" alt=\"Text &quot;Digital Services Act&quot; inside a white triangle inside a white triangle against a green background.\"></picture></figure></div>  </div>\n      \n  \n      </div>\n    \n    <div class=\"cnt-main-body ecl-u-type-m\">\n                          <div class=\"ecl\"><p>Snapchat may have breached the DSA by exposing minors to grooming attempts and recruitment for criminal purposes, as well as to information about the sale of illegal goods, like drugs, or age-restricted products, such as vapes and alcohol.</p>\n<p>The investigation will focus on five areas.</p>\n<p>Read the <a href=\"https://ec.europa.eu/commission/presscorner/detail/en/ip_26_723\">full press release</a> and more information about the <a href=\"https://digital-strategy.ec.europa.eu/en/news/commission-services-and-dutch-digital-services-coordinator-join-forces-investigate-snapchat\">Commission services and Dutch Digital Services Coordinator joint investigation</a>.</p>\n<p>Find further information about the:</p>\n<ul>\n<li><a href=\"https://digital-strategy.ec.europa.eu/en/policies/digital-services-act\">Digital Services Act</a>- main aspects of the regulation</li>\n<li><a href=\"https://digital-strategy.ec.europa.eu/en/factpages/user-rights-under-digital-services-act\">User rights under the Digital Services Act</a>- an overview</li>\n<li><a href=\"https://digital-strategy.ec.europa.eu/en/policies/protecting-young-people-online#\">Protecting and empowering young people online</a></li>\n<li><a href=\"https://digital-strategy.ec.europa.eu/en/policies/list-designated-vlops-and-vloses\">Supervision of the designated very large online platforms and search engines under DSA</a></li>\n</ul></div>\n\n          \n          </div>\n    <div class=\"cnt-aside ecl-u-type-m\">\n      <aside class=\"ecl-u-height-100\">\n                              <h3>Related topics</h3>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=154\" class=\"ecl-tag ecl-u-mb-xs\">   Better Internet for Children</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=153\" class=\"ecl-tag ecl-u-mb-xs\">Strengthening trust and security</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=150\" class=\"ecl-tag ecl-u-mb-xs\">Online platforms and e-commerce</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=193\" class=\"ecl-tag ecl-u-mb-xs\">DSA - Digital Services Act</a>\n\n  \n              </aside>\n    </div>\n\n        <div class=\"cnt-bottom ecl-u-pv-xl\">\n      <div class=\"ecl-u-mb-3xl\">\n                      \n                      </div>\n    </div>\n  </div>\n</div>\n  <div class=\"layout layout--onecol\">\n    <div class=\"layout__region layout__region--content\">\n          <div>\n  \n    \n        <div class=\"ecl-u-type-m\">\n    <section class=\"cnct-page-footer ecl-u-mv-2xl\">\n                    <div class=\"ecl-social-media-share\">\n          <script type=\"application/json\">{\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}</script>\n        </div>\n            \n      \n          </section>\n  </div>\n\n  </div>\n\n    </div>\n  </div>\n<div class=\"node_view\"></div>",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-investigates-snapchats-compliance-child-protection-rules-under-digital-services-act",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "enforcement"
+    },
+    {
+      "id": "2aefd62c5c64cd92",
+      "date": "2026-03-19",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "The European Union – the media freedom hub",
+      "summary": "<span>The European Union – the media freedom hub</span>\n<span><span>marsrgi</span></span>\n<span><time datetime=\"2026-03-19T08:58:00+01:00\" title=\"Thursday, March 19, 2026 - 08:58\">Thu, 03/19/2026 - 08:58</time>\n</span>\n\n<div>\n  <div class=\"cnt-thumbnail-media ecl-u-type-m cnt-content-wrapper\">\n        \n              <div class=\"cnt-teaser ecl-u-type-m ecl-u-mb-xl\">\n                              <ul class=\"ecl-unordered-list ecl-unordered-list--no-bullet ecl-u-mb-xl\">\n      <li class=\"cnt-nr-item-metadata ecl-u-mt-l ecl-u-d-flex ecl-u-align-items-center ecl-unordered-list__item\">\n      <span class=\"wt-icon--calendar ecl-icon ecl-icon--fluid ecl-icon--calendar\" aria-hidden=\"true\"></span>&nbsp;\n      Opening: 16 April 2026\n    </li>\n    <li class=\"cnt-nr-item-metadata ecl-u-mt-l ecl-u-d-flex ecl-u-align-items-center ecl-unordered-list__item\">\n      <span class=\"wt-icon--calendar ecl-icon ecl-icon--fluid ecl-icon--calendar\" aria-hidden=\"true\"></span>&nbsp;\n      Closing: 28 May 2026\n    </li>\n  \n  </ul>\n\n                <p class=\"ecl-page-header-standardised__description\">The overall goal of this preparatory action is to continue the activities of the ongoing Free Media Hub EAST project, i.e. to sustain and improve existing financial and other kinds of support to exiled independent media from Russia, Belarus, as well as media from Ukraine that has relocated in the EU, and to foster the coordination and consolidation of a pan-European platform or network of media hubs to promote the preservation of a pluralistic media environment.</p>\n\n  \n              </div>\n      <div class=\"cnt-image cnt-media\">\n                     \n            <div>\n\n    \n\n  \n\n          \n    \n    \n      <div class=\"ecl-media-container\"><figure class=\"ecl-media-container__figure\"><picture class=\"ecl-picture ecl-media-container__picture\"><source><img class=\"ecl-media-container__media\" src=\"https://digital-strategy.ec.europa.eu/sites/default/files/styles/newsroom_large/public/newsroom/items/GettyImages__Mihajlo_Maricic_1v5ZgzgUEGoIhZxlMFE5FSqMQ_227922.jpg?itok=n3u30RIM\" alt=\"Torso of female journalist holding 2 microphones while taking notes in a notepad\"></picture><figcaption class=\"ecl-media-container__caption\">          GettyImages © Mihajlo Maricic\n          </figcaption></figure></div>  </div>\n      \n  \n      </div>\n    \n    <div class=\"cnt-main-body ecl-u-type-m\">\n                          \n  <div>\n    <h4>Main link</h4>\n              <div><a href=\"https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/PPPA-2026-MEDIA-FREEDOM-HUB?isExactMatch=true&amp;status=31094501,31094502,31094503&amp;programmePeriod=2021%20-%202027&amp;frameworkProgramme=43637601&amp;order=DESC&amp;pageNumber=1&amp;pageSize=50&amp;sortBy=startDate\">https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportuni…</a></div>\n          </div>\n\n          \n          </div>\n    <div class=\"cnt-aside ecl-u-type-m\">\n      <aside class=\"ecl-u-height-100\">\n                              <h3>Related topics</h3>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=159\" class=\"ecl-tag ecl-u-mb-xs\">Media and democracy</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=171\" class=\"ecl-tag ecl-u-mb-xs\">Media freedom and pluralism</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=146\" class=\"ecl-tag ecl-u-mb-xs\">International relations</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=98\" class=\"ecl-tag ecl-u-mb-xs\">Funding for Digital</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=191\" class=\"ecl-tag ecl-u-mb-xs\">   Actions to Support Ukraine</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=249\" class=\"ecl-tag ecl-u-mb-xs\">Democracy in the digital age</a>\n\n  \n              </aside>\n    </div>\n\n        <div class=\"cnt-bottom ecl-u-pv-xl\">\n      <div class=\"ecl-u-mb-3xl\">\n                      \n                      </div>\n    </div>\n  </div>\n</div>\n  <div class=\"layout layout--onecol\">\n    <div class=\"layout__region layout__region--content\">\n          <div>\n  \n    \n        <div class=\"ecl-u-type-m\">\n    <section class=\"cnct-page-footer ecl-u-mv-2xl\">\n                    <div class=\"ecl-social-media-share\">\n          <script type=\"application/json\">{\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}</script>\n        </div>\n            \n      \n          </section>\n  </div>\n\n  </div>\n\n    </div>\n  </div>\n<div class=\"node_view\"></div>",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/european-union-media-freedom-hub-0",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "93588dd70cffc4e7",
+      "date": "2026-03-18",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "CEF-Digital Info Session: 2026 Calls",
+      "summary": "<span>CEF-Digital Info Session: 2026 Calls</span>\n<span><span>Anonymous (not verified)</span></span>\n<span><time datetime=\"2026-03-18T10:35:33+01:00\" title=\"Wednesday, March 18, 2026 - 10:35\">Wed, 03/18/2026 - 10:35</time>\n</span>\n\n<div>\n  <div class=\"cnt-thumbnail-media ecl-u-type-m cnt-content-wrapper\">\n        \n              <div class=\"cnt-teaser ecl-u-type-m ecl-u-mb-xl\">\n                              <ul class=\"ecl-unordered-list ecl-unordered-list--no-bullet ecl-u-mb-xl\">\n      <li class=\"cnt-nr-item-metadata ecl-u-mt-l ecl-u-d-flex ecl-u-align-items-center ecl-unordered-list__item\">\n      <span class=\"wt-icon--calendar ecl-icon ecl-icon--fluid ecl-icon--calendar\" aria-hidden=\"true\"></span>&nbsp;\n      26 March 2026\n  </li>\n  \n    <li class=\"cnt-nr-item-metadata ecl-u-mt-l ecl-u-d-flex ecl-u-align-items-center ecl-unordered-list__item\">\n    <span class=\"wt-icon--location ecl-icon ecl-icon--fluid ecl-icon--location\" aria-hidden=\"true\"></span>&nbsp;\n        Online\n      </li>\n  </ul>\n\n                <p class=\"ecl-page-header-standardised__description\">Learn more about the calls \"Equipment for smart European cable systems\" (CEF-DIG-2026-SMART-CABLES) and \"Backbone connectivity for Digital Global Gateways\" (CEF-DIG-2026-GATEWAYS).</p>\n\n  \n              </div>\n      <div class=\"cnt-image cnt-media\">\n                     \n            <div>\n\n    \n\n  \n\n          \n    \n    \n      <div class=\"ecl-media-container\"><figure class=\"ecl-media-container__figure\"><picture class=\"ecl-picture ecl-media-container__picture\"><source><img class=\"ecl-media-container__media\" src=\"https://digital-strategy.ec.europa.eu/sites/default/files/styles/newsroom_large/public/newsroom/items/GettyImages1415445439__Dragon_Claws_1920px_KWnWEauIyklQ9f7J2PE0DO7aJs_2279181_Z3eNAe0bArOyXEX7juLsr6YOU_228097.jpg?itok=thla60h1\" alt=\"CEF-Digital Info Session: 2026 Calls\"></picture><figcaption class=\"ecl-media-container__caption\">          GettyImages © Dragon Claws\n          </figcaption></figure></div>  </div>\n      \n  \n      </div>\n    \n    <div class=\"cnt-main-body ecl-u-type-m\">\n                          \n  <div>\n    <h4>Main link</h4>\n              <div><a href=\"https://hadea.ec.europa.eu/events/cef-digital-info-session-2026-calls-2026-03-26_en\">https://hadea.ec.europa.eu/events/cef-digital-info-session-2026-calls-2026-03-2…</a></div>\n          </div>\n\n          \n          </div>\n    <div class=\"cnt-aside ecl-u-type-m\">\n      <aside class=\"ecl-u-height-100\">\n                              <h3>Related topics</h3>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=107\" class=\"ecl-tag ecl-u-mb-xs\">Connecting Europe Facility</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=98\" class=\"ecl-tag ecl-u-mb-xs\">Funding for Digital</a>\n\n  \n              </aside>\n    </div>\n\n        <div class=\"cnt-bottom ecl-u-pv-xl\">\n      <div class=\"ecl-u-mb-3xl\">\n                              <h2>Related content</h2>\n\n      \n  <article class=\"ecl-content-item ecl-content-item--divider ecl-u-mb-xl\"><div class=\"ecl-content-block ecl-content-item__content-block\" data-ecl-auto-init=\"ContentBlock\" data-ecl-content-block><ul class=\"ecl-content-block__primary-meta-container\"><li class=\"ecl-content-block__primary-meta-item\">Press release</li><li class=\"ecl-content-block__primary-meta-item\">17 March 2026</li></ul><div class=\"ecl-content-block__title\"><a href=\"https://digital-strategy.ec.europa.eu/en/news/commission-makes-available-eu200-million-submarine-cable-and-digital-infrastructure-projects\" class=\"ecl-link ecl-link--standalone\" data-ecl-title-link>Commission makes available €200 million for submarine cable and digital infrastructure projects</a></div><div class=\"ecl-content-block__description\">The European Commission has opened two new Connecting Europe Facility (CEF) calls worth €200 million for projects in high-capacity networks, including submarine cables.</div></div></article>  \n\n  \n                      </div>\n    </div>\n  </div>\n</div>\n  <div class=\"layout layout--onecol\">\n    <div class=\"layout__region layout__region--content\">\n          <div>\n  \n    \n        <div class=\"ecl-u-type-m\">\n    <section class=\"cnct-page-footer ecl-u-mv-2xl\">\n                    <div class=\"ecl-social-media-share\">\n          <script type=\"application/json\">{\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}</script>\n        </div>\n            \n      \n          </section>\n  </div>\n\n  </div>\n\n    </div>\n  </div>\n<div class=\"node_view\"></div>",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/cef-digital-info-session-2026-calls",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "ed499c2014ceb8a1",
+      "date": "2026-03-17",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Equipment for smart European cable systems - Works",
+      "summary": "<span>Equipment for smart European cable systems - Works</span>\n<span><span>Anonymous (not verified)</span></span>\n<span><time datetime=\"2026-03-17T08:45:00+01:00\" title=\"Tuesday, March 17, 2026 - 08:45\">Tue, 03/17/2026 - 08:45</time>\n</span>\n\n<div>\n  <div class=\"cnt-thumbnail-media ecl-u-type-m cnt-content-wrapper\">\n        \n              <div class=\"cnt-teaser ecl-u-type-m ecl-u-mb-xl\">\n                              <ul class=\"ecl-unordered-list ecl-unordered-list--no-bullet ecl-u-mb-xl\">\n      <li class=\"cnt-nr-item-metadata ecl-u-mt-l ecl-u-d-flex ecl-u-align-items-center ecl-unordered-list__item\">\n      <span class=\"wt-icon--calendar ecl-icon ecl-icon--fluid ecl-icon--calendar\" aria-hidden=\"true\"></span>&nbsp;\n      Opening: 17 March 2026\n    </li>\n    <li class=\"cnt-nr-item-metadata ecl-u-mt-l ecl-u-d-flex ecl-u-align-items-center ecl-unordered-list__item\">\n      <span class=\"wt-icon--calendar ecl-icon ecl-icon--fluid ecl-icon--calendar\" aria-hidden=\"true\"></span>&nbsp;\n      Closing: 30 June 2026\n    </li>\n  \n  </ul>\n\n                <p class=\"ecl-page-header-standardised__description\">This call supports the upgrade of existing submarine telecommunications/digital infrastructures to “smart capabilities” enabling applications that monitor them as well as other surrounding critical infrastructures (e.g. power cables, pipelines, etc.) and/or their vicinity.</p>\n\n  \n              </div>\n      <div class=\"cnt-image cnt-media\">\n                     \n            <div>\n\n\n\n\n\n          \n    \n    \n      <div class=\"ecl-media-container\"><figure class=\"ecl-media-container__figure\"><picture class=\"ecl-picture ecl-media-container__picture\"><source><img class=\"ecl-media-container__media\" src=\"https://digital-strategy.ec.europa.eu/sites/default/files/styles/newsroom_large/public/newsroom/items/POSTCARD_Quantum_Hf0N0UBGnfIcTa5ntTY0fmYzxGI_227960.png?itok=ZLKK3E_R\" alt=\"glowing orange and blue light trails swirling in a circular motion against a dark background, resembling fiber optics or digital data flow\"></picture></figure></div>  </div>\n      \n  \n      </div>\n    \n    <div class=\"cnt-main-body ecl-u-type-m\">\n                          \n  <div>\n    <h4>Main link</h4>\n              <div><a href=\"https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cef-dig-2026-smart-cables\">https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportuni…</a></div>\n          </div>\n\n          \n          </div>\n    <div class=\"cnt-aside ecl-u-type-m\">\n      <aside class=\"ecl-u-height-100\">\n                              <h3>Related topics</h3>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=103\" class=\"ecl-tag ecl-u-mb-xs\">Digital connectivity</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=107\" class=\"ecl-tag ecl-u-mb-xs\">Connecting Europe Facility</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=98\" class=\"ecl-tag ecl-u-mb-xs\">Funding for Digital</a>\n\n  \n              </aside>\n    </div>\n\n        <div class=\"cnt-bottom ecl-u-pv-xl\">\n      <div class=\"ecl-u-mb-3xl\">\n                      \n                      </div>\n    </div>\n  </div>\n</div>\n  <div class=\"layout layout--onecol\">\n    <div class=\"layout__region layout__region--content\">\n          <div>\n  \n    \n        <div class=\"ecl-u-type-m\">\n    <section class=\"cnct-page-footer ecl-u-mv-2xl\">\n                    <div class=\"ecl-social-media-share\">\n          <script type=\"application/json\">{\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}</script>\n        </div>\n            \n      \n          </section>\n  </div>\n\n  </div>\n\n    </div>\n  </div>\n<div class=\"node_view\"></div>",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/equipment-smart-european-cable-systems-works",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "93ca29f58eff3594",
+      "date": "2026-03-17",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Backbone connectivity for Digital Global Gateways - Studies",
+      "summary": "<span>Backbone connectivity for Digital Global Gateways - Studies</span>\n<span><span>Anonymous (not verified)</span></span>\n<span><time datetime=\"2026-03-17T08:19:00+01:00\" title=\"Tuesday, March 17, 2026 - 08:19\">Tue, 03/17/2026 - 08:19</time>\n</span>\n\n<div>\n  <div class=\"cnt-thumbnail-media ecl-u-type-m cnt-content-wrapper\">\n        \n              <div class=\"cnt-teaser ecl-u-type-m ecl-u-mb-xl\">\n                              <ul class=\"ecl-unordered-list ecl-unordered-list--no-bullet ecl-u-mb-xl\">\n      <li class=\"cnt-nr-item-metadata ecl-u-mt-l ecl-u-d-flex ecl-u-align-items-center ecl-unordered-list__item\">\n      <span class=\"wt-icon--calendar ecl-icon ecl-icon--fluid ecl-icon--calendar\" aria-hidden=\"true\"></span>&nbsp;\n      Opening: 17 March 2026\n    </li>\n    <li class=\"cnt-nr-item-metadata ecl-u-mt-l ecl-u-d-flex ecl-u-align-items-center ecl-unordered-list__item\">\n      <span class=\"wt-icon--calendar ecl-icon ecl-icon--fluid ecl-icon--calendar\" aria-hidden=\"true\"></span>&nbsp;\n      Closing: 30 June 2026\n    </li>\n  \n  </ul>\n\n                <p class=\"ecl-page-header-standardised__description\">This call for proposals will fund studies related to the deployment/significant upgrade of backbone networks that address risks, vulnerabilities and dependencies in the EU backbone infrastructure.</p>\n\n  \n              </div>\n      <div class=\"cnt-image cnt-media\">\n                     \n            <div>\n\n    \n\n  \n\n          \n    \n    \n      <div class=\"ecl-media-container\"><figure class=\"ecl-media-container__figure\"><picture class=\"ecl-picture ecl-media-container__picture\"><source><img class=\"ecl-media-container__media\" src=\"https://digital-strategy.ec.europa.eu/sites/default/files/styles/newsroom_large/public/newsroom/items/GettyImages1415445439__Dragon_Claws_1920px_qQo4IziSyCSSBy8dxjcGUZnYI_227919.jpg?itok=-VicPBSm\" alt=\"illustration of a submarine cable\"></picture><figcaption class=\"ecl-media-container__caption\">          GettyImages © Dragon Claws\n          </figcaption></figure></div>  </div>\n      \n  \n      </div>\n    \n    <div class=\"cnt-main-body ecl-u-type-m\">\n                          \n  <div>\n    <h4>Main link</h4>\n              <div><a href=\"https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cef-dig-2026-gateways\">https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportuni…</a></div>\n          </div>\n\n          \n          </div>\n    <div class=\"cnt-aside ecl-u-type-m\">\n      <aside class=\"ecl-u-height-100\">\n                              <h3>Related topics</h3>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=103\" class=\"ecl-tag ecl-u-mb-xs\">Digital connectivity</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=107\" class=\"ecl-tag ecl-u-mb-xs\">Connecting Europe Facility</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=98\" class=\"ecl-tag ecl-u-mb-xs\">Funding for Digital</a>\n\n  \n              </aside>\n    </div>\n\n        <div class=\"cnt-bottom ecl-u-pv-xl\">\n      <div class=\"ecl-u-mb-3xl\">\n                      \n                      </div>\n    </div>\n  </div>\n</div>\n  <div class=\"layout layout--onecol\">\n    <div class=\"layout__region layout__region--content\">\n          <div>\n  \n    \n        <div class=\"ecl-u-type-m\">\n    <section class=\"cnct-page-footer ecl-u-mv-2xl\">\n                    <div class=\"ecl-social-media-share\">\n          <script type=\"application/json\">{\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}</script>\n        </div>\n            \n      \n          </section>\n  </div>\n\n  </div>\n\n    </div>\n  </div>\n<div class=\"node_view\"></div>",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/backbone-connectivity-digital-global-gateways-studies-0",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "1cc0f8cc7c076843",
+      "date": "2026-03-16",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Open EU Foundry status granted to innovative chiplet facility",
+      "summary": "<span>Open EU Foundry status granted to innovative chiplet facility</span>\n<span><span>Anonymous (not verified)</span></span>\n<span><time datetime=\"2026-03-16T10:40:00+01:00\" title=\"Monday, March 16, 2026 - 10:40\">Mon, 03/16/2026 - 10:40</time>\n</span>\n\n<div>\n  <div class=\"cnt-thumbnail-media ecl-u-type-m cnt-content-wrapper\">\n        \n              <div class=\"cnt-teaser ecl-u-type-m ecl-u-mb-xl\">\n                                    <p class=\"ecl-page-header-standardised__description\">The Commission has granted the Open EU Foundry (OEF) status to Silicon Box in Novara, Italy.</p>\n\n  \n              </div>\n      <div class=\"cnt-image cnt-media\">\n                     \n            <div>\n\n    \n\n  \n\n          \n    \n    \n      <div class=\"ecl-media-container\"><figure class=\"ecl-media-container__figure\"><picture class=\"ecl-picture ecl-media-container__picture\"><source><img class=\"ecl-media-container__media\" src=\"https://digital-strategy.ec.europa.eu/sites/default/files/styles/newsroom_large/public/newsroom/items/GettyImages1206919144__Nikola_Ilic__E_via_Getty_Images_Plus_MEDIUM_pOSnILAImQ7ZWqAlZSsewAMTU_227850.jpg?itok=19S_uitc\" alt=\"Green printed circuit board (PCB) featuring various black microchips\"></picture><figcaption class=\"ecl-media-container__caption\">          GettyImages © Nikola Ilic - E+\n          </figcaption></figure></div>  </div>\n      \n  \n      </div>\n    \n    <div class=\"cnt-main-body ecl-u-type-m\">\n                          <div class=\"ecl\"><p>Under the <a href=\"https://digital-strategy.ec.europa.eu/en/policies/european-chips-act\">European Chips Act</a>, the OEF status is granted to new or upgraded innovative semiconductor manufacturing facilities.</p>\n<p>The status provides benefits to semiconductor facilities including administrative support, faster construction approvals and priority access to pilot lines under the <a href=\"https://digital-strategy.ec.europa.eu/en/factpages/european-chips-act-chips-europe-initiative\">Chips for Europe Initiative</a>. This helps deepen European semiconductor supply chain resilience and boost innovation.</p>\n<p>Silicon Box’s project is a significant milestone in strengthening Europe’s semiconductor industry through its new advanced semiconductor packaging and testing facility. The facility will integrate multiple dies or chiplets - small, modular semiconductor blocks that perform specific functions - into a single package, effectively creating a multi-chip module that behaves like a single chip, using panel level packaging.</p>\n<p>Panel level packaging uses a more efficient large-panel approach to packaging, enabling higher output and lower cost compared to traditional methods in the final stage of the chip making process. The facility will also test chips at panel-level, grouping multiple chiplets into a single panel, enabling more comprehensive quality verification before final assembly.</p>\n<p>The project will provide an important base in Europe for developing innovative technologies, products and system solutions for the semiconductors key to powering AI, electric and autonomous vehicles, data centres, as well as supercomputing applications. The plant is expected to reach full capacity in 2033.</p>\n<p>This OEF status recognition follows <a href=\"https://digital-strategy.ec.europa.eu/en/news/milestone-strengthening-europes-semiconductor-manufacturing-capacity-under-chips-act-reached\">four semiconductor projects</a> across the EU which have previously been awarded OEF or IPF (integrated production facility) status in October 2025:</p>\n<ul>\n<li>ESMC in Germany (OEF)</li>\n<li>Ams-OSRAM in Austria (IPF)</li>\n<li>Infineon Technologies Dresden in Germany (IPF)</li>\n<li>STMicroelectronics in Italy</li>\n</ul>\n<p>The decision to grant OEF follows the <a href=\"https://ec.europa.eu/commission/presscorner/detail/en/ip_24_6436\">Commission state aid decision concerning Silicon Box</a>.</p></div>\n\n          \n          </div>\n    <div class=\"cnt-aside ecl-u-type-m\">\n      <aside class=\"ecl-u-height-100\">\n                              <h3>Related topics</h3>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=117\" class=\"ecl-tag ecl-u-mb-xs\">Advanced Digital Technologies</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=53\" class=\"ecl-tag ecl-u-mb-xs\">Electronics</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=200\" class=\"ecl-tag ecl-u-mb-xs\">Chips Act</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=243\" class=\"ecl-tag ecl-u-mb-xs\">Semiconductors</a>\n\n  \n              </aside>\n    </div>\n\n        <div class=\"cnt-bottom ecl-u-pv-xl\">\n      <div class=\"ecl-u-mb-3xl\">\n                      \n                      </div>\n    </div>\n  </div>\n</div>\n  <div class=\"layout layout--onecol\">\n    <div class=\"layout__region layout__region--content\">\n          <div>\n  \n    \n        <div class=\"ecl-u-type-m\">\n    <section class=\"cnct-page-footer ecl-u-mv-2xl\">\n                    <div class=\"ecl-social-media-share\">\n          <script type=\"application/json\">{\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}</script>\n        </div>\n            \n      \n          </section>\n  </div>\n\n  </div>\n\n    </div>\n  </div>\n<div class=\"node_view\"></div>",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/open-eu-foundry-status-granted-innovative-chiplet-facility",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "a3b29b344a6f53a0",
+      "date": "2026-03-05",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Apply AI webinars sectoral deep dive - Agrifood, climate & environment",
+      "summary": "<span>Apply AI webinars sectoral deep dive - Agrifood, climate &amp; environment</span>\n<span><span>Anonymous (not verified)</span></span>\n<span><time datetime=\"2026-03-05T14:30:59+01:00\" title=\"Thursday, March 5, 2026 - 14:30\">Thu, 03/05/2026 - 14:30</time>\n</span>\n\n<div>\n  <div class=\"cnt-thumbnail-media ecl-u-type-m cnt-content-wrapper\">\n        \n              <div class=\"cnt-teaser ecl-u-type-m ecl-u-mb-xl\">\n                              <ul class=\"ecl-unordered-list ecl-unordered-list--no-bullet ecl-u-mb-xl\">\n      <li class=\"cnt-nr-item-metadata ecl-u-mt-l ecl-u-d-flex ecl-u-align-items-center ecl-unordered-list__item\">\n      <span class=\"wt-icon--calendar ecl-icon ecl-icon--fluid ecl-icon--calendar\" aria-hidden=\"true\"></span>&nbsp;\n      19 March 2026\n  </li>\n  \n  </ul>\n\n                <p class=\"ecl-page-header-standardised__description\">This session focuses on how the Commission, together with the private sector, aims to accelerate AI adoption across the agrifood sector, as well as the intersection between AI, climate and environment.</p>\n\n  \n              </div>\n      <div class=\"cnt-image cnt-media\">\n                     \n            <div>\n\n\n\n\n\n          \n    \n    \n      <div class=\"ecl-media-container\"><figure class=\"ecl-media-container__figure\"><picture class=\"ecl-picture ecl-media-container__picture\"><source><img class=\"ecl-media-container__media\" src=\"https://digital-strategy.ec.europa.eu/sites/default/files/styles/newsroom_large/public/newsroom/items/web_Agrifood_Climate__Environment_n1VWLgke0ayIeLvJhgE4V5yIK8_227408.jpg?itok=AGha1w6O\" alt=\"Photos of moderator Andrea Hak. Speakers  Doris Marquardt, Pierluigi Londero, Martin Bailey, and Tsitlakidis Charalampos\"></picture></figure></div>  </div>\n      \n  \n      </div>\n    \n    <div class=\"cnt-main-body ecl-u-type-m\">\n                          <div class=\"ecl\"><p>This is part of a series of <a href=\"https://digital-strategy.ec.europa.eu/en/policies/apply-ai-events\">Apply AI thematic webinars</a>. Join the <a href=\"https://www.youtube.com/watch?v=uyjonPztcJM\">live stream on our YouTube channel</a> to find out how farmers, industry, researchers and other stakeholders can contribute to shaping priorities for Europe’s agrifood, climate and environment ecosystems. Engage in the conversation by <a href=\"https://app.sli.do/event/pqGnH3z2KzMdzYg8cZasGE/live/questions\">submitting questions in advance or during the session via Slido</a>.</p>\n<h2>Agenda</h2>\n<div class=\"ecl-table-responsive\"><table class=\"ecl-table\">\n<tbody class=\"ecl-table__body\">\n<tr class=\"ecl-table__row\">\n<td>14:00 - 14:45 (CET)</td>\n<td>Apply AI Agrifood</td>\n</tr>\n<tr class=\"ecl-table__row\">\n<td>14:45 - 15:00 (CET)</td>\n<td>Short break</td>\n</tr>\n<tr class=\"ecl-table__row\">\n<td>15:00 - 15:45 (CET)</td>\n<td>Apply AI Climate &amp; Environment</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Download the slides</strong> for both sessions below.</p>\n<h3>Moderator</h3>\n<p>Andrea Hak, Stakeholder Communication Expert at the AI Office, DG CONNECT</p>\n<h3>Speakers - Agrifood</h3>\n<ul>\n<li>Pierluigi Londero, Head of Unit Data Governance, DG AGRI</li>\n<li>Doris Marquardt, Programme Officer EU Policies, Contact person for Agriculture in the DG, DG CONNECT</li>\n</ul>\n<h3>Speakers - Climate &amp; Environment</h3>\n<ul>\n<li>Tsitlakidis Charalampos, Head of Sector, Destination Earth, DG CONNECT</li>\n<li>Irina Sandu, Director of Destination Earth (DestinE), European Centre for Medium-Range Weather Forecasts (ECMWF)</li>\n</ul>\n<h2>Agrifood</h2>\n<p>The webinar will discuss how the Commission aims to accelerate AI adoption across the agrifood sector and translate innovation into impact on the ground, enhancing sectorial competitiveness and public goods. Among others, a marketplace for AI-based solutions for the agri-food sector will be introduced and funding will be devoted to capacity building in the development of agriculture specific foundation models (e.g., LLMs).</p>\n<p>AI is already reshaping agricultural production and can transform the way food is produced, benefiting the environment, climate and people. AI supports farmers, for instance through AI-driven advisory tools and handy applications that turn data into tailored recommendations. These help producers to make better and faster decisions accounting for local conditions, and increasing resource efficiency, e.g. saving water, and effectiveness. A new wave of opportunities is emerging, boosting precision farming, powering robots, and smartening machinery for field work. AI can also contribute to reducing reporting obligations and other administrative burdens.</p>\n<h2>Climate &amp; Environment</h2>\n<p>AI has a long track record in environmental monitoring, forecasting, and Earth observation. It can enhance early-warning systems and aid disaster response as well as decision-making for resilience and climate preparedness. Ground-breaking initiatives such as <a href=\"https://digital-strategy.ec.europa.eu/en/policies/destination-earth\">Destination Earth</a> provide high-resolution and interactive simulations with unprecedented predictive power through AI-driven applications.</p></div>\n\n              \n<h2>Downloads</h2>\n<div data-ecl-auto-init=\"FileDownload\" class=\"ecl-u-mt-m ecl-u-mt-lg-xl ecl-file\" data-ecl-file=\"true\" data-ecl-auto-initialized=\"true\">\n  <div class=\"ecl-file__container\">\n    <span class=\"wt-icon--file ecl-icon ecl-icon--2xl ecl-icon--file\" aria-hidden=\"true\"></span>    <div class=\"ecl-file__info\">\n      <div class=\"ecl-file__title\">Apply AI Agrifood (PPT)</div>\n    </div>\n    <a download href=\"https://ec.europa.eu/newsroom/dae/redirection/document/126430\" class=\"ecl-u-mt-xl ecl-file__download ecl-link ecl-link--standalone ecl-link--icon ecl-link--icon-after\">\n      <span class=\"ecl-link__label\">Download</span>&nbsp;\n      <span class=\"wt-icon--download ecl-icon ecl-icon--fluid ecl-icon--download\" aria-hidden=\"true\"></span>    </a>\n  </div>\n</div>\n<div data-ecl-auto-init=\"FileDownload\" class=\"ecl-u-mt-m ecl-u-mt-lg-xl ecl-file\" data-ecl-file=\"true\" data-ecl-auto-initialized=\"true\">\n  <div class=\"ecl-file__container\">\n    <span class=\"wt-icon--file ecl-icon ecl-icon--2xl ecl-icon--file\" aria-hidden=\"true\"></span>    <div class=\"ecl-file__info\">\n      <div class=\"ecl-file__title\">Apply AI Climate &amp; Environment (PDF)</div>\n    </div>\n    <a download href=\"https://ec.europa.eu/newsroom/dae/redirection/document/126132\" class=\"ecl-u-mt-xl ecl-file__download ecl-link ecl-link--standalone ecl-link--icon ecl-link--icon-after\">\n      <span class=\"ecl-link__label\">Download</span>&nbsp;\n      <span class=\"wt-icon--download ecl-icon ecl-icon--fluid ecl-icon--download\" aria-hidden=\"true\"></span>    </a>\n  </div>\n</div>\n\n      \n          </div>\n    <div class=\"cnt-aside ecl-u-type-m\">\n      <aside class=\"ecl-u-height-100\">\n                              <h3>Related topics</h3>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=75\" class=\"ecl-tag ecl-u-mb-xs\">Creating a digital society</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=87\" class=\"ecl-tag ecl-u-mb-xs\">      Environment</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=85\" class=\"ecl-tag ecl-u-mb-xs\">Smart and Sustainable Communities</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=119\" class=\"ecl-tag ecl-u-mb-xs\">Artificial intelligence</a>\n\n  \n              </aside>\n    </div>\n\n        <div class=\"cnt-bottom ecl-u-pv-xl\">\n      <div class=\"ecl-u-mb-3xl\">\n                      \n                      </div>\n    </div>\n  </div>\n</div>\n  <div class=\"layout layout--onecol\">\n    <div class=\"layout__region layout__region--content\">\n          <div>\n  \n    \n        <div class=\"ecl-u-type-m\">\n    <section class=\"cnct-page-footer ecl-u-mv-2xl\">\n                    <div class=\"ecl-social-media-share\">\n          <script type=\"application/json\">{\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}</script>\n        </div>\n            \n      \n          </section>\n  </div>\n\n  </div>\n\n    </div>\n  </div>\n<div class=\"node_view\"></div>",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/apply-ai-webinars-sectoral-deep-dive-agrifood-climate-environment",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "70d51aa1fc078481",
+      "date": "2026-03-05",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Commission holds first meeting of Special Panel on child safety online",
+      "summary": "<span>Commission holds first meeting of Special Panel on child safety online</span>\n<span><span>Anonymous (not verified)</span></span>\n<span><time datetime=\"2026-03-05T08:08:00+01:00\" title=\"Thursday, March 5, 2026 - 08:08\">Thu, 03/05/2026 - 08:08</time>\n</span>\n\n<div>\n  <div class=\"cnt-thumbnail-media ecl-u-type-m cnt-content-wrapper\">\n        \n              <div class=\"cnt-teaser ecl-u-type-m ecl-u-mb-xl\">\n                                    <p class=\"ecl-page-header-standardised__description\">European Commission President Ursula von der Leyen hosted the first meeting of the Special Panel on child safety online.</p>\n\n  \n              </div>\n      <div class=\"cnt-image cnt-media\">\n                     \n            <div>\n\n    \n\n  \n\n          \n    \n    \n      <div class=\"ecl-media-container\"><figure class=\"ecl-media-container__figure\"><picture class=\"ecl-picture ecl-media-container__picture\"><source><img class=\"ecl-media-container__media\" src=\"https://digital-strategy.ec.europa.eu/sites/default/files/styles/newsroom_large/public/newsroom/items/AdobeStock_424340263myboysme_ratio32_9H3z843DzkJUUlO0Q23t9U3LUGQ_226623.jpg?itok=XpJW25-K\" alt=\"Child with head tucked in arms next to smartphone. Various negative speech bubbles and angry emojis floating, depicting cyberbullying.\"></picture><figcaption class=\"ecl-media-container__caption\">          AdobeStock ©myboys\n          </figcaption></figure></div>  </div>\n      \n  \n      </div>\n    \n    <div class=\"cnt-main-body ecl-u-type-m\">\n                          <div class=\"ecl\"><p>The panel, announced in the&nbsp;<a href=\"https://ec.europa.eu/commission/presscorner/detail/ov/SPEECH_25_2053\">2025 State of the Union address</a>, will provide expert recommendations to better protect and empower children online and will explore the need for potential harmonised age restrictions to access social media.</p>\n<p>President Ursula&nbsp;von der Leyen said:&nbsp;</p>\n<blockquote>\n<p>For decades, we have made the real world safer for children and we must do the same in the digital world. The positive opportunities that technology offers cannot come at the cost of their safety, health or happiness. In Europe, tech platforms already have a responsibility to ensure the safety of users and we will continue to ensure they do so. But we must also do more to protect and empower our young people online. That is why I have convened this panel: to forge a strong, realistic, European approach to keep our children safe in the digital age.</p>\n</blockquote>\n<p>Read the <a href=\"https://ec.europa.eu/commission/presscorner/detail/en/ip_26_540\">full press release</a> and find further information about the <a href=\"https://digital-strategy.ec.europa.eu/en/policies/panel-child-safety-online\">special panel on child safety online</a>.</p>\n<p>Related to child safety online, you can also read more about:</p>\n<ul>\n<li>the <a href=\"https://digital-strategy.ec.europa.eu/en/policies/digital-services-act\">Digital Services Act (DSA)</a>&nbsp;and its&nbsp;<a href=\"https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-protection-minors\">Guidelines on the protection of minors</a></li>\n<li>the&nbsp;<a href=\"https://better-internet-for-kids.europa.eu/en/sic\">Safer Internet Centres</a>&nbsp;under the&nbsp;<a href=\"https://better-internet-for-kids.europa.eu/en\">Better Internet for Kids Strategy (BIK+)</a>&nbsp;</li>\n<li>the <a href=\"https://digital-strategy.ec.europa.eu/en/policies/cyberbullying\">Cyberbullying Action Plan</a></li>\n<li>the <a href=\"https://digital-strategy.ec.europa.eu/en/news-redirect/892508\">EU Age Verification solution</a></li>\n<li>the <a href=\"https://commission.europa.eu/topics/public-health/european-health-union/comprehensive-approach-mental-health_en\">Communication on a comprehensive approach to mental health</a></li>\n<li>the EU rules to <a href=\"https://home-affairs.ec.europa.eu/policies/internal-security/protecting-children-sexual-abuse_en\">combat child sexual abuse online</a></li>\n</ul></div>\n\n          \n          </div>\n    <div class=\"cnt-aside ecl-u-type-m\">\n      <aside class=\"ecl-u-height-100\">\n                              <h3>Related topics</h3>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=154\" class=\"ecl-tag ecl-u-mb-xs\">   Better Internet for Children</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=153\" class=\"ecl-tag ecl-u-mb-xs\">Strengthening trust and security</a>\n  <a href=\"https://digital-strategy.ec.europa.eu/en/related-content?topic=150\" class=\"ecl-tag ecl-u-mb-xs\">Online platforms and e-commerce</a>\n\n  \n              </aside>\n    </div>\n\n        <div class=\"cnt-bottom ecl-u-pv-xl\">\n      <div class=\"ecl-u-mb-3xl\">\n                      \n                      </div>\n    </div>\n  </div>\n</div>\n  <div class=\"layout layout--onecol\">\n    <div class=\"layout__region layout__region--content\">\n          <div>\n  \n    \n        <div class=\"ecl-u-type-m\">\n    <section class=\"cnct-page-footer ecl-u-mv-2xl\">\n                    <div class=\"ecl-social-media-share\">\n          <script type=\"application/json\">{\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}</script>\n        </div>\n            \n      \n          </section>\n  </div>\n\n  </div>\n\n    </div>\n  </div>\n<div class=\"node_view\"></div>",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-holds-first-meeting-special-panel-child-safety-online",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "update"
     }
   ]
 }
