@@ -36,4 +36,4 @@ Every day at **06:00 UTC** (cron schedule `0 6 * * *`).
 Navigate to **Actions → Daily Regulatory Monitoring Update → Run workflow** in the GitHub repository UI and click **Run workflow**. No additional inputs are required.
 
 ### Post-deployment health check
-After the first scheduled run, go to **Actions → Daily Regulatory Monitoring Update** and confirm the most recent run shows a green ✅ status. A passing run will include a commit on the default branch with a message of the form `chore: daily regulatory data update [YYYY-MM-DD]` (or the message `No data changes to commit` if no new items were found that day).
+After the first scheduled run, go to **Actions → Daily Regulatory Monitoring Update** and confirm the most recent run shows a green ✅ status. A passing run that discovered new items will include a commit on the default branch with a message of the form `chore: daily regulatory data update [YYYY-MM-DD]`. On days with no new items the run still passes but makes no commit and leaves `data/updates.json` untouched.
