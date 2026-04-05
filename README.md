@@ -17,7 +17,7 @@ Content is curated and structured to separate factual updates from interpretive 
 
 ## Daily Update
 
-**Status: complete and production-ready. No further implementation is required for unattended daily operation.**
+**Status: this repository includes a configured GitHub Actions workflow for unattended daily updates. Expected operation depends on repository settings, Actions permissions, and upstream source availability.**
 
 ### What runs
 A GitHub Actions workflow (`.github/workflows/daily-update.yml`) automatically:
