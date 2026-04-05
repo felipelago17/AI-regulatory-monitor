@@ -2,6 +2,27 @@
   "generated_at": "2026-04-05T11:14:12+00:00",
   "items": [
     {
+      "id": "eu-ai-act-risk-classification",
+      "title": "EU AI Act outlines risk-based obligations",
+      "date": "2026-03-31",
+      "jurisdiction": "European Union",
+      "topics": ["Responsible AI"],
+      "category": "update",
+      "enforceability": "Pending",
+      "affected_parties": ["AI developers", "AI deployers"],
+      "severity": "High",
+      "likelihood": "Medium",
+      "impact": "High",
+      "confidence": "Medium",
+      "summary": "The EU AI Act formalises a risk-based framework imposing governance, documentation, and oversight duties.",
+      "description": "The EU AI Act formalises a risk-based framework imposing governance, documentation, and oversight duties.",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu",
+      "source_url": "https://digital-strategy.ec.europa.eu",
+      "tags": ["eu", "ai-act", "responsible-ai", "governance"],
+      "risk_score": 72
+    },
+    {
       "id": "bis-affiliate-rules-2026-03",
       "date": "2026-03-25",
       "jurisdiction": "United States",
