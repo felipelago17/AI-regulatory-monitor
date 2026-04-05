@@ -1,0 +1,48 @@
+name: Daily Regulatory Monitoring Update
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # Runs daily at 06:00 UTC
+  workflow_dispatch:      # Allows manual runs from the Actions UI
+
+permissions:
+  contents: write         # Required to commit and push changes
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch regulatory updates
+        run: python tools/fetch_updates.py
+
+      - name: Categorize items and compute risk scores
+        run: python tools/categorize_items.py
+
+      - name: Validate updates.json
+        run: |
+          python - <<'EOF'
+          import json
+          json.load(open("data/updates.json"))
+          print("✅ data/updates.json is valid JSON")
+          EOF
+
+      - name: Validate site integrity (non-blocking)
+        run: python tools/check_site.py
+        continue-on-error: true
+
+      - name: Commit and push updates
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/updates.json
+          git commit -m "chore: daily regulatory data update [$(date -u '+%Y-%m-%d')]" || echo "No changes to commit"
+          git push || echo "Nothing to push"
