@@ -27,6 +27,11 @@ jobs:
       - name: Categorize items and compute risk scores
         run: python tools/categorize_items.py
 
+      - name: Verify required frontend assets
+        run: |
+          test -f index.html && test -f app.js && test -f styles.css
+          echo "✅ Required frontend assets present"
+
       - name: Validate updates.json
         run: |
           python - <<'EOF'

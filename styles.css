@@ -27,6 +27,9 @@ body{margin:0;font-family:'Inter','Roboto',system-ui,-apple-system,Segoe UI,Helv
 .badges{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .badge{font-size:11px;padding:8px 10px;border-radius:999px;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.3);color:var(--white);backdrop-filter:blur(5px)}
 .badge.confidential{background:rgba(255,200,200,.15);border-color:rgba(255,200,200,.3);color:#fff}
+.severity-high{background:#ffcccc;color:#7a0000;border-color:#ffaaaa}
+.severity-medium{background:#fff0b3;color:#5a4000;border-color:#ffe066}
+.severity-low{background:#ccffcc;color:#004400;border-color:#88ee88}
  
 .container{max-width:1200px;margin:0 auto;padding:22px 18px 60px}
 .hero{background:linear-gradient(135deg, var(--cobalt) 0%, rgba(0,86,179,.8) 100%);border:1px solid rgba(0,174,239,.3);border-radius:var(--radius);padding:32px;box-shadow:0 8px 24px rgba(0,45,98,.15);backdrop-filter:blur(20px);position:relative;overflow:hidden}
