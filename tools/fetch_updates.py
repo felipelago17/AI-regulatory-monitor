@@ -11,7 +11,8 @@ Sources polled:
 
 Deduplication is URL-based: any item whose URL already exists in
 data/updates.json is skipped. New items are prepended so the list stays
-newest-first. The top-level "generated_at" date is always updated to today.
+newest-first. The top-level "generated_at" date is updated only when new
+items are added; if nothing new is found, data/updates.json is left unchanged.
 """
 
 import hashlib
@@ -230,17 +231,15 @@ def main() -> None:
                 added += 1
         print(f"  \u2192 {added} new item(s) from {source['source_label']}")
 
-    # Always update generated_at so the commit reflects today's run
-    data["generated_at"] = TODAY
-
     if new_items:
         data["items"] = new_items + existing_items
+        data["generated_at"] = TODAY
         print(f"\n\u2705 {len(new_items)} new item(s) added. generated_at \u2192 {TODAY}.")
-    else:
-        print(f"\n\u2705 No new items found. generated_at \u2192 {TODAY}.")
 
-    with UPDATES_FILE.open("w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+        with UPDATES_FILE.open("w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+    else:
+        print(f"\n\u2705 No new items found. data/updates.json unchanged.")
 
 
 if __name__ == "__main__":

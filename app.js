@@ -1465,6 +1465,73 @@ async function init(){
   });
 }
 
+// Basic HTML sanitizer + fallback
+function sanitizeAndRender(rawContent) {
+  if (!rawContent) return "";
+
+  // Always strip to plain text via a temporary DOM element to avoid
+  // regex-based sanitization bypasses and XSS risks
+  const temp = document.createElement("div");
+  temp.innerHTML = rawContent;
+  return (temp.textContent || temp.innerText || "").trim();
+}
+
+function escapeHtml(str) {
+  if (!str) return "";
+  const map = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
+  return String(str).replace(/[&<>"']/g, ch => map[ch]);
+}
+
+function renderInsight(containerId, update) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+
+  let content = sanitizeAndRender(update.description);
+
+  if (!content) {
+    content = "Details unavailable. Please refer to the original source.";
+  }
+
+  // Validate source_url to allow only safe http/https URLs
+  const safeUrl = /^https?:\/\//i.test(update.source_url || "") ? update.source_url : "#";
+
+  container.innerHTML = `
+    <h3>${escapeHtml(update.title)}</h3>
+    <p class="meta">
+      ${escapeHtml(new Date(update.date).toDateString())} · ${escapeHtml(update.jurisdiction)}
+    </p>
+    <p>${escapeHtml(content)}</p>
+    <a href="${escapeHtml(safeUrl)}" target="_blank" rel="noreferrer">View official source</a>
+  `;
+}
+
+function filterByCategory(updates, category) {
+  const results = updates.filter(u => u.category === category);
+
+  if (results.length === 0) {
+    return [{
+      title: "No Responsible AI regulatory updates today",
+      description: "",
+      date: new Date().toISOString(),
+      jurisdiction: "",
+      source_url: "#"
+    }];
+  }
+
+  return results;
+}
+
+function renderRiskBadges(update) {
+  const badges = [];
+  if (update.severity) {
+    badges.push(`<span class="badge severity-${escapeHtml(update.severity.toLowerCase())}">${escapeHtml(update.severity)}</span>`);
+  }
+  if (update.likelihood) {
+    badges.push(`<span class="badge severity-${escapeHtml(update.likelihood.toLowerCase())}">${escapeHtml(update.likelihood)}</span>`);
+  }
+  return badges.join(" ");
+}
+
 // Initialize immediately since script is at end of <body>
 // This ensures DOM is fully loaded before init() runs
 (async () => {

@@ -2,11 +2,11 @@ name: Daily Regulatory Monitoring Update
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # 06:00 UTC every day
-  workflow_dispatch:        # allow manual runs
+    - cron: "0 6 * * *"   # Runs daily at 06:00 UTC
+  workflow_dispatch:      # Allows manual runs from the Actions UI
 
 permissions:
-  contents: write
+  contents: write         # Required to commit and push changes
 
 jobs:
   update:
@@ -27,17 +27,27 @@ jobs:
       - name: Categorize items and compute risk scores
         run: python tools/categorize_items.py
 
-      - name: Validate data JSON
-        run: python -c "import json; json.load(open('data/updates.json')); print('data/updates.json is valid JSON')"
+      - name: Verify required frontend assets
+        run: |
+          test -f index.html && test -f app.js && test -f styles.css
+          echo "✅ Required frontend assets present"
 
-      - name: Validate site integrity
+      - name: Validate updates.json
+        run: |
+          python - <<'EOF'
+          import json
+          json.load(open("data/updates.json"))
+          print("✅ data/updates.json is valid JSON")
+          EOF
+
+      - name: Validate site integrity (non-blocking)
         run: python tools/check_site.py
         continue-on-error: true
 
-      - name: Commit updated data
+      - name: Commit and push updates
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
           git add data/updates.json
-          git commit -m "chore: daily regulatory data update [$(date -u '+%Y-%m-%d')]" || echo "No data changes to commit"
+          git commit -m "chore: daily regulatory data update [$(date -u '+%Y-%m-%d')]" || echo "No changes to commit"
           git push || echo "Nothing to push"
