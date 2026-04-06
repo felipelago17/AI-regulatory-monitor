@@ -690,11 +690,11 @@ Please format your response as JSON with these fields:
       infographic_description: 'Compliance dashboard'
     };
     
-    // Render insights
+    // Render insights — all dynamic values are escaped to prevent raw HTML display
     let html = `
       <div class="insights-section">
         <div class="insights-title">📊 Analysis Summary</div>
-        <div class="insights-summary">${insights.summary}</div>
+        <div class="insights-summary">${escapeHtml(insights.summary)}</div>
       </div>
       
       <div class="insights-section">
@@ -703,7 +703,7 @@ Please format your response as JSON with these fields:
     `;
     
     for (const takeaway of insights.key_takeaways) {
-      html += `<li style="margin:6px 0;color:var(--text);font-size:12px;">${takeaway}</li>`;
+      html += `<li style="margin:6px 0;color:var(--text);font-size:12px;">${escapeHtml(takeaway)}</li>`;
     }
     
     html += `</ul></div>`;
@@ -716,10 +716,10 @@ Please format your response as JSON with these fields:
       for (const source of insights.related_sources.slice(0, 6)) {
         html += `
           <div class="insights-source">
-            <div class="insights-source-title">${source.name}</div>
-            <div class="insights-source-desc"><strong>Type:</strong> ${source.type}</div>
-            <div class="insights-source-desc">${source.description}</div>
-            <div class="insights-source-desc"><em>Relevance:</em> ${source.relevance}</div>
+            <div class="insights-source-title">${escapeHtml(source.name)}</div>
+            <div class="insights-source-desc"><strong>Type:</strong> ${escapeHtml(source.type)}</div>
+            <div class="insights-source-desc">${escapeHtml(source.description)}</div>
+            <div class="insights-source-desc"><em>Relevance:</em> ${escapeHtml(source.relevance)}</div>
           </div>
         `;
       }
@@ -1185,7 +1185,82 @@ function initDataResidencyToggle() {
     });
   }
 }
- 
+
+async function loadAndRenderResponsibleAI() {
+  try {
+    const res = await fetch('data/responsible-ai.json', { cache: 'no-store' });
+    const raiData = await res.json();
+
+    // Render source categories
+    const categoriesContainer = el('responsibleAICategories');
+    categoriesContainer.innerHTML = '';
+    for (const source of raiData.responsible_ai_sources) {
+      const card = document.createElement('div');
+      card.className = 'responsible-ai-category';
+
+      let resourcesHtml = '';
+      if (source.resources && source.resources.length > 0) {
+        resourcesHtml = '<div class="responsible-ai-resource-list">';
+        for (const res of source.resources) {
+          const scopeLabel = res.jurisdiction ? ` (${res.jurisdiction})` : (res.scope ? ` (${res.scope})` : '');
+          resourcesHtml += `<div class="responsible-ai-resource-item">
+            <div class="responsible-ai-resource-org">${escapeHtml(res.organization)}</div>
+            <a href="${escapeHtml(res.url)}" target="_blank" rel="noreferrer">${escapeHtml(res.title)}</a>
+            <div class="responsible-ai-resource-type">${escapeHtml(res.type.replace(/-/g, ' ').toUpperCase())}${escapeHtml(scopeLabel)}</div>
+          </div>`;
+        }
+        resourcesHtml += '</div>';
+      }
+
+      card.innerHTML = `
+        <div class="responsible-ai-category-name">🔹 ${escapeHtml(source.name)}</div>
+        <div class="responsible-ai-category-desc">${escapeHtml(source.description)}</div>
+        ${resourcesHtml}
+      `;
+      categoriesContainer.appendChild(card);
+    }
+
+    // Render key topics
+    const topicsContainer = el('responsibleAITopics');
+    topicsContainer.innerHTML = '';
+    for (const topic of raiData.key_topics) {
+      const tagEl = document.createElement('div');
+      tagEl.className = 'topic-tag';
+      tagEl.textContent = topic;
+      topicsContainer.appendChild(tagEl);
+    }
+
+    // Set compliance note
+    el('responsibleAIComplianceNote').textContent = raiData.compliance_note;
+
+    // Show Responsible AI button
+    el('showResponsibleAIBtn').style.display = 'block';
+  } catch (err) {
+    console.error('Error loading Responsible AI data:', err);
+  }
+}
+
+function initResponsibleAIToggle() {
+  const showBtn = el('showResponsibleAIBtn');
+  const raiSection = el('responsibleAISection');
+  const closeBtn = el('responsibleAIPanelToggle');
+
+  if (showBtn) {
+    showBtn.addEventListener('click', () => {
+      raiSection.style.display = 'block';
+      showBtn.style.display = 'none';
+      window.scrollTo({ top: raiSection.offsetTop - 100, behavior: 'smooth' });
+    });
+  }
+
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      raiSection.style.display = 'none';
+      showBtn.style.display = 'block';
+    });
+  }
+}
+
 function renderEnforcementHeatmap(items) {
   /**
    * Cal-heatmap style calendar showing enforcement frequency by date
@@ -1450,6 +1525,14 @@ async function init(){
     initDataResidencyToggle();
   } catch (err) {
     console.warn('[INIT] Error loading Data Residency data:', err);
+  }
+
+  // Load Responsible AI data
+  try {
+    await loadAndRenderResponsibleAI();
+    initResponsibleAIToggle();
+  } catch (err) {
+    console.warn('[INIT] Error loading Responsible AI data:', err);
   }
   
   // Close insights panel

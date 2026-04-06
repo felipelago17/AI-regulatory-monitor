@@ -1,0 +1,215 @@
+{
+  "generated_at": "2026-04-06T00:00:00Z",
+  "monitoring_period": "2026",
+  "responsible_ai_sources": [
+    {
+      "id": "ai-governance",
+      "category": "governance",
+      "name": "AI Governance & Accountability Frameworks",
+      "description": "International and national frameworks establishing governance structures, accountability requirements, and oversight mechanisms for AI systems",
+      "resources": [
+        {
+          "organization": "OECD",
+          "title": "OECD AI Principles & Policy Observatory",
+          "url": "https://oecd.ai",
+          "type": "policy",
+          "scope": "International"
+        },
+        {
+          "organization": "UNESCO",
+          "title": "Recommendation on the Ethics of Artificial Intelligence",
+          "url": "https://unesdoc.unesco.org/ark:/48223/pf0000381137",
+          "type": "framework",
+          "scope": "International"
+        },
+        {
+          "organization": "European Commission",
+          "title": "EU AI Act — Governance & Compliance Requirements",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "type": "regulatory",
+          "jurisdiction": "EU"
+        },
+        {
+          "organization": "NIST",
+          "title": "AI Risk Management Framework (AI RMF 1.0)",
+          "url": "https://www.nist.gov/system/files/documents/2023/01/26/AI%20RMF%201.0.pdf",
+          "type": "framework",
+          "jurisdiction": "United States"
+        },
+        {
+          "organization": "UAE TDRA",
+          "title": "UAE National AI Strategy & Governance",
+          "url": "https://ai.gov.ae",
+          "type": "policy",
+          "jurisdiction": "UAE"
+        },
+        {
+          "organization": "UK DSIT",
+          "title": "UK AI Regulation: A pro-innovation approach",
+          "url": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+          "type": "policy",
+          "jurisdiction": "United Kingdom"
+        }
+      ]
+    },
+    {
+      "id": "bias-fairness",
+      "category": "bias-fairness",
+      "name": "Bias, Fairness & Non-Discrimination",
+      "description": "Standards and guidance for identifying, measuring, and mitigating bias in AI systems to ensure fair and equitable outcomes across all groups",
+      "resources": [
+        {
+          "organization": "NIST",
+          "title": "Towards a Standard for Identifying and Managing Bias in Artificial Intelligence (NIST SP 1270)",
+          "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf",
+          "type": "standard",
+          "jurisdiction": "United States"
+        },
+        {
+          "organization": "IEEE",
+          "title": "IEEE Ethically Aligned Design — Bias Considerations",
+          "url": "https://standards.ieee.org/industry-connections/ec/autonomous-systems/",
+          "type": "standard",
+          "scope": "Global"
+        },
+        {
+          "organization": "European Commission",
+          "title": "Assessment List for Trustworthy AI (ALTAI) — Diversity & Fairness",
+          "url": "https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment",
+          "type": "framework",
+          "jurisdiction": "EU"
+        },
+        {
+          "organization": "Alan Turing Institute",
+          "title": "Understanding artificial intelligence ethics and safety",
+          "url": "https://www.turing.ac.uk/research/publications/understanding-artificial-intelligence-ethics-and-safety",
+          "type": "research",
+          "jurisdiction": "United Kingdom"
+        }
+      ]
+    },
+    {
+      "id": "explainability",
+      "category": "explainability",
+      "name": "Explainability & Transparency",
+      "description": "Requirements and best practices for making AI decision-making processes understandable, interpretable, and auditable by affected parties and regulators",
+      "resources": [
+        {
+          "organization": "NIST",
+          "title": "Four Principles of Explainable Artificial Intelligence (NISTIR 8312)",
+          "url": "https://doi.org/10.6028/NIST.IR.8312",
+          "type": "standard",
+          "jurisdiction": "United States"
+        },
+        {
+          "organization": "European Commission",
+          "title": "EU AI Act — High-Risk AI Transparency Obligations",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "type": "regulatory",
+          "jurisdiction": "EU"
+        },
+        {
+          "organization": "ICO (UK)",
+          "title": "Explaining decisions made with AI",
+          "url": "https://ico.org.uk/for-organisations/guide-to-data-protection/key-dp-themes/explaining-decisions-made-with-artificial-intelligence/",
+          "type": "guidance",
+          "jurisdiction": "United Kingdom"
+        },
+        {
+          "organization": "PDPC (Singapore)",
+          "title": "Model AI Governance Framework — Explainability",
+          "url": "https://www.pdpc.gov.sg/help-and-resources/2020/01/model-ai-governance-framework",
+          "type": "framework",
+          "scope": "International"
+        }
+      ]
+    },
+    {
+      "id": "human-oversight",
+      "category": "human-oversight",
+      "name": "Human Oversight & Control",
+      "description": "Mechanisms ensuring meaningful human supervision over AI systems, especially in high-stakes decisions affecting rights, safety, and fundamental freedoms",
+      "resources": [
+        {
+          "organization": "European Commission",
+          "title": "EU AI Act — Human Oversight Requirements (Article 14)",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+          "type": "regulatory",
+          "jurisdiction": "EU"
+        },
+        {
+          "organization": "Council of Europe",
+          "title": "Framework Convention on AI and Human Rights",
+          "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
+          "type": "framework",
+          "scope": "International"
+        },
+        {
+          "organization": "NIST",
+          "title": "AI RMF — GOVERN & MANAGE Functions",
+          "url": "https://airc.nist.gov/Docs/1",
+          "type": "framework",
+          "jurisdiction": "United States"
+        },
+        {
+          "organization": "ISO/IEC",
+          "title": "ISO/IEC 42001 — AI Management System Standard",
+          "url": "https://www.iso.org/standard/81230.html",
+          "type": "standard",
+          "scope": "Global"
+        }
+      ]
+    },
+    {
+      "id": "accountability",
+      "category": "accountability",
+      "name": "Accountability & Liability",
+      "description": "Legal and regulatory frameworks establishing who is responsible for AI-related harms, including liability rules for AI developers, deployers, and operators",
+      "resources": [
+        {
+          "organization": "European Commission",
+          "title": "AI Liability Directive (Proposal)",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022PC0496",
+          "type": "regulatory",
+          "jurisdiction": "EU"
+        },
+        {
+          "organization": "FTC (US)",
+          "title": "Aiming for Truth, Fairness, and Equity in Your Company's Use of AI",
+          "url": "https://www.ftc.gov/business-guidance/blog/2021/04/aiming-truth-fairness-equity-your-companys-use-ai",
+          "type": "guidance",
+          "jurisdiction": "United States"
+        },
+        {
+          "organization": "G7",
+          "title": "Hiroshima AI Process — International Code of Conduct",
+          "url": "https://www.g7hiroshima.go.jp/documents/pdf/ai_process_231030_en.pdf",
+          "type": "policy",
+          "scope": "International"
+        },
+        {
+          "organization": "UAE MOCAI",
+          "title": "UAE AI Principles & Ethics Guidelines",
+          "url": "https://ai.gov.ae/wp-content/uploads/2021/07/UAE-AI-Principles-Guidelines.pdf",
+          "type": "policy",
+          "jurisdiction": "UAE"
+        }
+      ]
+    }
+  ],
+  "key_topics": [
+    "AI Governance",
+    "Accountability",
+    "Algorithmic Bias",
+    "Fairness",
+    "Explainability",
+    "Transparency",
+    "Human Oversight",
+    "AI Liability",
+    "Trustworthy AI",
+    "EU AI Act",
+    "NIST AI RMF",
+    "AI Ethics"
+  ],
+  "compliance_note": "Responsible AI obligations vary by jurisdiction and deployment context. High-risk AI systems under the EU AI Act require conformity assessments, technical documentation, and human oversight measures. Consult legal counsel to determine applicable requirements for your AI use cases."
+}
