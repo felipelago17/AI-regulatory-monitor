@@ -302,6 +302,49 @@
           "jurisdiction": "EU"
         }
       ]
+    },
+    {
+      "id": "vendor-sovereignty-resources",
+      "category": "industry-advisory",
+      "name": "Vendor & Industry Data Sovereignty Resources",
+      "description": "Practitioner-facing resources from technology vendors and compliance specialists on data sovereignty, jurisdictional control, and cross-border data residency obligations",
+      "resources": [
+        {
+          "organization": "IBM",
+          "title": "Data Sovereignty vs Data Residency — Key Distinctions",
+          "url": "https://www.ibm.com/think/topics/data-sovereignty-vs-data-residency",
+          "type": "advisory",
+          "scope": "Global"
+        },
+        {
+          "organization": "Oracle",
+          "title": "Data Sovereignty & Residency in Cloud Environments",
+          "url": "https://www.oracle.com/security/saas-security/data-sovereignty/data-sovereignty-data-residency/",
+          "type": "advisory",
+          "scope": "Global"
+        },
+        {
+          "organization": "VMware (Broadcom)",
+          "title": "Sovereign Cloud & Jurisdictional Control",
+          "url": "https://blogs.vmware.com/cloud-foundation/",
+          "type": "advisory",
+          "scope": "Global"
+        },
+        {
+          "organization": "Kiteworks",
+          "title": "Data Sovereignty for Law Firms & International Practice",
+          "url": "https://www.kiteworks.com/regulatory-compliance/data-sovereignty-law-firms-international/",
+          "type": "compliance-guide",
+          "scope": "Global"
+        },
+        {
+          "organization": "Dhruva Consultants",
+          "title": "Data Residency vs Sovereignty — UAE Context (2025)",
+          "url": "https://dhruvaconsultants.com/wp-content/uploads/2025/08/Data-residency-vs-sovereignty.pdf",
+          "type": "reference",
+          "jurisdiction": "UAE"
+        }
+      ]
     }
   ],
   "key_topics": [
@@ -314,7 +357,10 @@
     "National Security Data Handling",
     "Cross-Border Data Flows",
     "Data Center Sovereignty",
-    "Sensitive Technology Controls"
+    "Sensitive Technology Controls",
+    "Data Sovereignty",
+    "Sovereign Cloud",
+    "Jurisdictional Control"
   ],
   "compliance_note": "Data residency, classification, and reliability requirements vary significantly across jurisdictions and are increasingly tied to national security considerations. Organizations must comply with EU data localization requirements, UAE PDPL residency rules, ISO security standards, NIST frameworks, and export control regulations on sensitive technologies including AI and encryption systems."
 }

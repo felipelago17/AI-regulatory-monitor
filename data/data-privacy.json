@@ -192,8 +192,8 @@
     {
       "id": "law-firms",
       "category": "advisory-trackers",
-      "organization": "Leading Law Firm Privacy Trackers",
-      "description": "Practical impact assessments, enforcement trends, and jurisdiction-specific guidance",
+      "organization": "Leading Law Firm Data Privacy & Cybersecurity Practices",
+      "description": "Practical impact assessments, enforcement trends, and jurisdiction-specific guidance covering data privacy and cybersecurity",
       "best_for": "Practical implementation guidance and cross-jurisdictional analysis",
       "resources": [
         {
@@ -213,6 +213,49 @@
           "url": "https://www.globalprivacyblog.com",
           "type": "analysis",
           "firm": "Baker McKenzie"
+        },
+        {
+          "name": "DLA Piper – Data Privacy & Cybersecurity Practice",
+          "url": "https://www.dlapiper.com/en-us/capabilities/practice-area/data-privacy-and-cybersecurity",
+          "type": "advisory",
+          "firm": "DLA Piper"
+        },
+        {
+          "name": "Gibson Dunn – Privacy, Cybersecurity & Data Innovation",
+          "url": "https://www.gibsondunn.com/practice/privacy-cybersecurity-and-data-innovation/",
+          "type": "advisory",
+          "firm": "Gibson Dunn"
+        },
+        {
+          "name": "Greenberg Traurig – Data Privacy & Cybersecurity",
+          "url": "https://www.gtlaw.com/en/capabilities/data-privacy-cybersecurity",
+          "type": "advisory",
+          "firm": "Greenberg Traurig"
+        },
+        {
+          "name": "McDermott Will & Emery – Data Privacy & Cybersecurity",
+          "url": "https://www.mcdermottlaw.com/services/data-privacy-cybersecurity/",
+          "type": "advisory",
+          "firm": "McDermott Will & Emery"
+        }
+      ]
+    },
+    {
+      "id": "analysis-platforms",
+      "category": "advisory-trackers",
+      "organization": "Legal & Regulatory Analysis Platforms",
+      "description": "Authoritative platforms for law, technology, and data governance analysis integrated across privacy and cybersecurity disciplines",
+      "best_for": "Cross-disciplinary research combining legal commentary, regulatory intelligence, and cyber risk insights",
+      "resources": [
+        {
+          "name": "Thomson Reuters – Law & Technology",
+          "url": "https://legal.thomsonreuters.com/blog/",
+          "type": "analysis"
+        },
+        {
+          "name": "Wolters Kluwer – Privacy & Cyber Risk Insights",
+          "url": "https://www.wolterskluwer.com/en/expert-insights",
+          "type": "analysis"
         }
       ]
     }
@@ -229,5 +272,7 @@
     "Third-Party Processor Management",
     "International Privacy Standards"
   ],
-  "compliance_note": "Data privacy regulations vary significantly across jurisdictions. Organizations operating globally must monitor GDPR (EU), UAE PDPL (Middle East), regional DPA guidance (national authorities), U.S. state/federal frameworks, and international standards (OECD). Regular horizon scanning across these sources is essential for regulatory compliance."
+  "compliance_note": "Data privacy regulations vary significantly across jurisdictions. Organizations operating globally must monitor GDPR (EU), UAE PDPL (Middle East), regional DPA guidance (national authorities), U.S. state/federal frameworks, and international standards (OECD). Regular horizon scanning across these sources is essential for regulatory compliance.",
+  "section_title": "Data Privacy & Cybersecurity",
+  "section_description": "Authoritative sources for GDPR, UAE PDPL, U.S. state privacy laws, and cybersecurity regulation — treated as integrated disciplines"
 }
