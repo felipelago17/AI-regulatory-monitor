@@ -195,6 +195,79 @@
           "jurisdiction": "UAE"
         }
       ]
+    },
+    {
+      "id": "eu-global-regulatory",
+      "category": "regulatory-landscape",
+      "name": "EU & Global AI Regulatory Landscape",
+      "description": "Professional analysis of the EU AI Act, global regulatory divergence, and compliance readiness frameworks from leading advisory firms",
+      "resources": [
+        {
+          "organization": "EY (Ernst & Young)",
+          "title": "Global AI Regulatory Landscape",
+          "url": "https://www.ey.com/en_gl/insights/ai",
+          "type": "advisory",
+          "scope": "Global"
+        },
+        {
+          "organization": "PwC",
+          "title": "Responsible AI & Regulatory Readiness",
+          "url": "https://www.pwc.com/us/en/tech-effect/ai-analytics/responsible-ai-regulatory-readiness.html",
+          "type": "advisory",
+          "scope": "Global"
+        }
+      ]
+    },
+    {
+      "id": "consulting-ai-governance",
+      "category": "implementation",
+      "name": "AI Governance & Implementation",
+      "description": "Consulting-led frameworks for operationalising AI governance, bias mitigation, and accountability structures within enterprises",
+      "resources": [
+        {
+          "organization": "Accenture",
+          "title": "Responsible AI Governance",
+          "url": "https://www.accenture.com/services/data-ai/responsible-ai",
+          "type": "framework",
+          "scope": "Global"
+        },
+        {
+          "organization": "IBM Consulting",
+          "title": "AI Governance",
+          "url": "https://www.ibm.com/consulting/ai-governance",
+          "type": "framework",
+          "scope": "Global"
+        },
+        {
+          "organization": "Boston Consulting Group (BCG)",
+          "title": "Responsible AI",
+          "url": "https://www.bcg.com/capabilities/artificial-intelligence/responsible-ai",
+          "type": "advisory",
+          "scope": "Global"
+        }
+      ]
+    },
+    {
+      "id": "legal-ai-interpretation",
+      "category": "legal-enforcement",
+      "name": "Legal Interpretation & AI Enforcement",
+      "description": "Law firm analysis of AI regulation enforcement, liability exposure, and jurisdiction-specific compliance obligations",
+      "resources": [
+        {
+          "organization": "Norton Rose Fulbright",
+          "title": "Inside Tech Law — AI Regulation & Enforcement",
+          "url": "https://www.insidetechlaw.com/blog",
+          "type": "legal-analysis",
+          "scope": "Global"
+        },
+        {
+          "organization": "DLA Piper",
+          "title": "Technology's Legal Edge — AI & Data",
+          "url": "https://www.technologyslegaledge.com/",
+          "type": "legal-analysis",
+          "scope": "Global"
+        }
+      ]
     }
   ],
   "key_topics": [
@@ -209,7 +282,10 @@
     "Trustworthy AI",
     "EU AI Act",
     "NIST AI RMF",
-    "AI Ethics"
+    "AI Ethics",
+    "EU AI Act Compliance",
+    "Responsible AI Governance",
+    "AI Liability & Enforcement"
   ],
   "compliance_note": "Responsible AI obligations vary by jurisdiction and deployment context. High-risk AI systems under the EU AI Act require conformity assessments, technical documentation, and human oversight measures. Consult legal counsel to determine applicable requirements for your AI use cases."
 }
