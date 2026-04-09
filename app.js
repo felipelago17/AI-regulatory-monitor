@@ -181,6 +181,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (status) { status.textContent = '⚠️ Please enter an API key.'; status.className = 'status-clear'; }
         return;
       }
+      // sessionStorage is used intentionally: the key must be readable by JS to be sent
+      // in the Authorization header. Unlike localStorage, sessionStorage is cleared when
+      // the tab closes, limiting the exposure window.
       sessionStorage.setItem('claude_api_key', key);
       if (input) input.value = '';
       if (status) { status.textContent = '✅ Key saved for this session. It will be cleared when you close this tab.'; status.className = 'status-ok'; }
@@ -1635,7 +1638,9 @@ async function init(){
     paintKPIs(kpis, state.items);
     console.log('[INIT] KPIs painted');
 
-    // Format "Last Updated" badge from data
+    // Format "Last Updated" badge from data.
+    // generated_at / lastUpdated are expected to be ISO 8601 (e.g. "2026-04-09T07:11:25+00:00" or "2026-04-09").
+    // Splitting on 'T' safely extracts the YYYY-MM-DD date portion in both formats.
     const rawDate = payload.generated_at || payload.lastUpdated || '';
     const formattedDate = rawDate ? rawDate.split('T')[0] : '';
     el('lastUpdated').textContent = formattedDate
@@ -1900,7 +1905,7 @@ function renderRiskBadges(update) {
       empty.innerHTML = `
         <div class="empty-icon">⚠️</div>
         <p class="empty-title">Data unavailable — check update pipeline</p>
-        <p class="empty-subtitle">${(err.message || 'Unknown error')}</p>
+        <p class="empty-subtitle">${escapeHtml(err.message || 'Unknown error')}</p>
       `;
     }
   }
