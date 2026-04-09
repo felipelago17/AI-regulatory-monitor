@@ -1,40 +1,47 @@
-const state = { items: [], q: '', jurisdiction: '', topic: '', source: '', view: 'ALL', category: '' };;
+const state = { items: [], q: '', jurisdiction: '', topic: '', source: '', view: 'ALL', category: '', groupBy: 'none' };
 const el=id=>document.getElementById(id);
 const uniq=a=>[...new Set(a)].filter(Boolean).sort((x,y)=>x.localeCompare(y));
 
-// Setup debug console
+// ── Debug mode: only active when ?debug=true is in the URL ──
+const DEBUG_MODE = new URLSearchParams(location.search).get('debug') === 'true';
+
+// Setup debug console (only intercepts console when debug mode is on)
 const debugLog = el('debugLog');
 const originalLog = console.log;
 const originalError = console.error;
 const originalWarn = console.warn;
 
 function addDebugLog(msg, type = 'log') {
-  if (!debugLog) return;
+  if (!DEBUG_MODE || !debugLog) return;
   const line = document.createElement('div');
   const colors = { log: '#d4d4d4', error: '#f48771', warn: '#dcdcaa' };
   line.style.color = colors[type] || colors.log;
   line.textContent = msg;
   debugLog.appendChild(line);
   debugLog.parentElement.scrollTop = debugLog.parentElement.scrollHeight;
-  
-  // Show debug button if we have logs
+
+  // Show debug button and console only in debug mode
   const debugBtn = el('toggleDebug');
   if (debugBtn) debugBtn.style.display = 'block';
+  const debugConsole = el('debugConsole');
+  if (debugConsole && debugConsole.style.display === 'none') {
+    debugConsole.style.display = 'block';
+  }
 }
 
 console.log = function(...args) {
   originalLog.apply(console, args);
-  addDebugLog(args.join(' '), 'log');
+  if (DEBUG_MODE) addDebugLog(args.join(' '), 'log');
 };
 
 console.error = function(...args) {
   originalError.apply(console, args);
-  addDebugLog('❌ ' + args.join(' '), 'error');
+  if (DEBUG_MODE) addDebugLog('❌ ' + args.join(' '), 'error');
 };
 
 console.warn = function(...args) {
   originalWarn.apply(console, args);
-  addDebugLog('⚠️ ' + args.join(' '), 'warn');
+  if (DEBUG_MODE) addDebugLog('⚠️ ' + args.join(' '), 'warn');
 };
 
 // UI/UX Enhancements
@@ -118,13 +125,101 @@ document.addEventListener('DOMContentLoaded', () => {
       startInteractiveTour();
     });
   }
-  
-  // Close modals on outside click
+
+  // Welcome banner: show once per session (localStorage flag)
+  if (!localStorage.getItem('welcomeBannerDismissed')) {
+    const banner = el('welcomeBanner');
+    if (banner) banner.style.display = 'flex';
+  }
+  const welcomeStart = el('welcomeStartTour');
+  if (welcomeStart) {
+    welcomeStart.addEventListener('click', () => {
+      el('welcomeBanner').style.display = 'none';
+      localStorage.setItem('welcomeBannerDismissed', 'true');
+      el('tourModal').style.display = 'flex';
+      startInteractiveTour();
+    });
+  }
+  const welcomeDismiss = el('welcomeDismiss');
+  if (welcomeDismiss) {
+    welcomeDismiss.addEventListener('click', () => {
+      el('welcomeBanner').style.display = 'none';
+      localStorage.setItem('welcomeBannerDismissed', 'true');
+    });
+  }
+
+  // ⚙️ API Settings modal
+  const apiSettingsBtn = el('apiSettingsBtn');
+  if (apiSettingsBtn) {
+    apiSettingsBtn.addEventListener('click', () => {
+      const modal = el('apiSettingsModal');
+      if (modal) {
+        modal.style.display = 'flex';
+        // Show whether a key is already stored
+        const hasKey = !!sessionStorage.getItem('claude_api_key');
+        const status = el('apiKeyStatus');
+        if (status) {
+          status.textContent = hasKey ? '✅ API key is saved for this session.' : '';
+          status.className = hasKey ? 'status-ok' : '';
+        }
+      }
+    });
+  }
+  const closeApiSettings = el('closeApiSettings');
+  if (closeApiSettings) {
+    closeApiSettings.addEventListener('click', () => {
+      el('apiSettingsModal').style.display = 'none';
+    });
+  }
+  const saveApiKey = el('saveApiKey');
+  if (saveApiKey) {
+    saveApiKey.addEventListener('click', () => {
+      const input = el('apiKeyInput');
+      const key = (input ? input.value : '').trim();
+      const status = el('apiKeyStatus');
+      if (!key) {
+        if (status) { status.textContent = '⚠️ Please enter an API key.'; status.className = 'status-clear'; }
+        return;
+      }
+      sessionStorage.setItem('claude_api_key', key);
+      if (input) input.value = '';
+      if (status) { status.textContent = '✅ Key saved for this session. It will be cleared when you close this tab.'; status.className = 'status-ok'; }
+    });
+  }
+  const clearApiKey = el('clearApiKey');
+  if (clearApiKey) {
+    clearApiKey.addEventListener('click', () => {
+      sessionStorage.removeItem('claude_api_key');
+      const input = el('apiKeyInput');
+      if (input) input.value = '';
+      const status = el('apiKeyStatus');
+      if (status) { status.textContent = '🗑️ API key cleared.'; status.className = 'status-clear'; }
+    });
+  }
+  // Close API Settings modal on outside click
+  const apiModal = el('apiSettingsModal');
+  if (apiModal) {
+    apiModal.addEventListener('click', e => {
+      if (e.target === apiModal) apiModal.style.display = 'none';
+    });
+  }
+
+  // Close other modals on outside click
   document.querySelectorAll('.modal').forEach(modal => {
     modal.addEventListener('click', (e) => {
       if (e.target === modal) {
         modal.style.display = 'none';
       }
+    });
+  });
+
+  // View-group toggle (Regional / Topic)
+  document.querySelectorAll('[data-groupby]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      state.groupBy = btn.getAttribute('data-groupby') || 'none';
+      document.querySelectorAll('[data-groupby]').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      render();
     });
   });
 });
@@ -236,7 +331,7 @@ function toCSV(rows){
     const s=String(v??'');
     return /[\",\n]/.test(s)?'"'+s.replaceAll('"','""')+'"':s;
   };
-  const headers=['date','jurisdiction','topics','title','summary','source','url','tags','impact_scenario','probability_percent','financial_loss_range','reputational_exposure','regulatory_disruption','confidence_level'];
+  const headers=['date','jurisdiction','topics','title','status','keyTakeaway','summary','source','url','originalSourceUrl','tags','impact_scenario','probability_percent','financial_loss_range','reputational_exposure','regulatory_disruption','confidence_level'];
   const lines=[headers.join(',')];
   for(const r of rows){
     lines.push(headers.map(h=>{
@@ -335,7 +430,7 @@ function matches(it){
   
   const q=state.q.trim().toLowerCase();
   if(q){
-    const hay=[it.title,it.summary,it.source,(it.tags||[]).join(' '),(it.topics||[]).join(' ')].join(' ').toLowerCase();
+    const hay=[it.title,it.summary,it.source,it.keyTakeaway,it.businessImpact,(it.tags||[]).join(' '),(it.topics||[]).join(' ')].join(' ').toLowerCase();
     if(!hay.includes(q)) return false;
   }
   if(state.jurisdiction && it.jurisdiction!==state.jurisdiction) return false;
@@ -353,17 +448,61 @@ function render(){
   // Update active filters display
   updateActiveFilters();
   
-  // Use DocumentFragment for better performance
-  const fragment = document.createDocumentFragment();
- 
-  for(const it of rows){
+  cards.innerHTML='';
+  // Remove grid class when using grouped layout
+  if (state.groupBy === 'none') {
+    cards.classList.add('grid');
+  } else {
+    cards.classList.remove('grid');
+  }
+
+  if (rows.length === 0) return;
+
+  if (state.groupBy === 'none') {
+    // Flat list
+    const fragment = document.createDocumentFragment();
+    for (const it of rows) fragment.appendChild(buildCard(it));
+    cards.appendChild(fragment);
+  } else {
+    // Grouped list
+    const groups = {};
+    for (const it of rows) {
+      const keys = state.groupBy === 'region'
+        ? [it.jurisdiction || 'Global']
+        : (it.topics && it.topics.length > 0 ? it.topics : ['Uncategorised']);
+      for (const key of keys) {
+        if (!groups[key]) groups[key] = [];
+        groups[key].push(it);
+      }
+    }
+    const sortedKeys = Object.keys(groups).sort((a, b) => a.localeCompare(b));
+    for (const key of sortedKeys) {
+      const header = document.createElement('div');
+      header.className = 'view-group-header';
+      header.textContent = key + ' (' + groups[key].length + ')';
+      cards.appendChild(header);
+      const groupGrid = document.createElement('div');
+      groupGrid.className = 'grid';
+      groupGrid.style.padding = '0 0 8px';
+      for (const it of groups[key]) groupGrid.appendChild(buildCard(it));
+      cards.appendChild(groupGrid);
+    }
+  }
+
+  const insightsBtn = el('insights');
+  if (insightsBtn) {
+    insightsBtn.onclick = () => generateInsights(rows);
+  }
+}
+
+function buildCard(it) {
     const card=document.createElement('article');
     card.className='card';
     card.style.animation = `slideInUp ${200 + Math.random() * 200}ms ease-out forwards`;
- 
+
     const meta=document.createElement('div');
     meta.className='meta';
- 
+
     const pill=(t,c='pill')=>{
       const s=document.createElement('span');
       s.className=c;
@@ -375,22 +514,51 @@ function render(){
     const categoryClass = 'pill ' + (it.category || 'news');
     meta.appendChild(pill((it.category || 'news').toUpperCase(), categoryClass));
     
+    // Lifecycle status badge
+    if (it.status) {
+      meta.appendChild(pill(it.status, 'pill status-' + it.status.toLowerCase().replace(/\s+/g,'-')));
+    }
+    
     // Add date and jurisdiction
     meta.appendChild(pill(it.date||'—','pill accent'));
     meta.appendChild(pill(it.jurisdiction||'—','pill jur'));
     
     // Add first 2 topics
     (it.topics||[]).slice(0,2).forEach(t=>meta.appendChild(pill(t)));
- 
+
     const h=document.createElement('h4');
     h.textContent=it.title;
- 
+
+    card.appendChild(meta);
+
+    // Key Takeaway callout — shown before narrative summary
+    const takeaway = it.keyTakeaway || it.businessImpact;
+    if (takeaway) {
+      const ktBox = document.createElement('div');
+      ktBox.className = 'key-takeaway';
+      const ktLabel = document.createElement('div');
+      ktLabel.className = 'key-takeaway-label';
+      ktLabel.textContent = 'Key Takeaway for Compliance';
+      const ktP = document.createElement('p');
+      ktP.textContent = takeaway;
+      ktBox.appendChild(ktLabel);
+      ktBox.appendChild(ktP);
+      card.appendChild(ktBox);
+    }
+
+    card.appendChild(h);
+
     const p=document.createElement('p');
     p.textContent=it.summary;
- 
-    card.appendChild(meta);
-    card.appendChild(h);
     card.appendChild(p);
+
+    // Consultation deadline
+    if (it.consultationDeadline) {
+      const dl = document.createElement('div');
+      dl.className = 'consultation-deadline';
+      dl.textContent = '📅 Consultation closes: ' + it.consultationDeadline;
+      card.appendChild(dl);
+    }
     
     // Risk score with meter
     if(it.risk_score !== undefined){
@@ -445,6 +613,19 @@ function render(){
     a.rel='noreferrer';
     a.textContent='Open source →';
     card.appendChild(a);
+
+    // Original source URL
+    const srcUrl = it.originalSourceUrl || it.source_url;
+    if (srcUrl && srcUrl !== it.url && /^https?:\/\//i.test(srcUrl)) {
+      const origA = document.createElement('a');
+      origA.href = srcUrl;
+      origA.target = '_blank';
+      origA.rel = 'noreferrer';
+      origA.className = 'original-source-link';
+      origA.textContent = '📄 Original Regulatory Source →';
+      origA.style.display = 'block';
+      card.appendChild(origA);
+    }
     
     const s=document.createElement('div');
     s.style.marginTop='10px';
@@ -452,18 +633,8 @@ function render(){
     s.style.color='var(--muted)';
     s.textContent=it.source;
     card.appendChild(s);
- 
-    fragment.appendChild(card);
-  }
-  
-  // Clear and append all at once
-  cards.innerHTML='';
-  cards.appendChild(fragment);
- 
-  const insightsBtn = el('insights');
-  if (insightsBtn) {
-    insightsBtn.onclick = () => generateInsights(rows);
-  }
+
+    return card;
 }
 
 function renderRegulatoryTimeline(items) {
@@ -472,6 +643,10 @@ function renderRegulatoryTimeline(items) {
    */
   const container = el('regulatoryTimeline');
   if (!container || !window.vis) return;
+  
+  // Remove skeleton loader
+  const loader = el('timelineLoader');
+  if (loader) loader.remove();
   
   // Prepare timeline data
   const timelineItems = items
@@ -656,7 +831,7 @@ Please format your response as JSON with these fields:
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'x-api-key': localStorage.getItem('claude_api_key') || '',
+        'x-api-key': sessionStorage.getItem('claude_api_key') || '',
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
@@ -673,7 +848,7 @@ Please format your response as JSON with these fields:
     
     if (!response.ok) {
       if (response.status === 401) {
-        throw new Error('Claude API key not configured. Set your API key in browser console: localStorage.setItem("claude_api_key", "sk-...")');
+        throw new Error('Claude API key not configured or invalid. Click ⚙️ API Settings in the top bar to enter your key.');
       }
       throw new Error(`API Error: ${response.status}`);
     }
@@ -733,9 +908,8 @@ Please format your response as JSON with these fields:
     
   } catch (err) {
     content.innerHTML = `<div class="insights-error">
-      <strong>⚠️ Error:</strong> ${err.message}<br/>
-      <small style="margin-top:8px;display:block;">To use Claude insights, set your API key:<br/>
-      <code style="background:#f0f0f0;padding:4px 6px;border-radius:3px;font-size:11px;">localStorage.setItem('claude_api_key', 'sk-...')</code></small>
+      <strong>⚠️ Error:</strong> ${escapeHtml(err.message)}<br/>
+      <small style="margin-top:8px;display:block;">To use Claude insights, click <strong>⚙️ API Settings</strong> in the top bar to enter your API key securely.</small>
     </div>`;
   }
 }
@@ -1268,6 +1442,10 @@ function renderEnforcementHeatmap(items) {
   const container = el('enforcementHeatmap');
   if (!container) return;
   
+  // Remove skeleton loader
+  const loader = el('enforcementHeatmapLoader');
+  if (loader) loader.remove();
+
   // Group items by date
   const dateMap = {};
   items.forEach(item => {
@@ -1355,6 +1533,10 @@ function renderJurisdictionHeatmap(items) {
   const container = el('jurisdictionHeatmap');
   if (!container || !window.L) return;
   
+  // Remove skeleton loader
+  const loader = el('jurisdictionHeatmapLoader');
+  if (loader) loader.remove();
+  
   // Initialize Leaflet map
   const mapId = 'jurisdictionMap_' + Date.now();
   container.innerHTML = `<div id="${mapId}" style="width:100%;height:100%;"></div>`;
@@ -1423,8 +1605,23 @@ async function init(){
   showDisclaimer();
   
   console.log('[INIT] Fetching data/updates.json...');
+
+  // Show KPI skeleton shimmer while loading
+  ['kpiTotal','kpiEnforcement','kpiUpdates','kpiNews','kpiHighRisk','kpiNew'].forEach(id => {
+    const kpiEl = el(id);
+    if (kpiEl) kpiEl.innerHTML = '<span class="kpi-skeleton"></span>';
+  });
+
   try {
-    const res = await fetch('data/updates.json', { cache: 'no-store' });
+    // Fetch with 8-second timeout
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 8000);
+    let res;
+    try {
+      res = await fetch('data/updates.json', { cache: 'no-store', signal: controller.signal });
+    } finally {
+      clearTimeout(timeoutId);
+    }
     if (!res.ok) {
       throw new Error(`HTTP ${res.status}: Failed to fetch updates.json`);
     }
@@ -1437,9 +1634,14 @@ async function init(){
     
     paintKPIs(kpis, state.items);
     console.log('[INIT] KPIs painted');
-    
-    el('lastUpdated').textContent='Data generated: '+(payload.generated_at||'—');
-    console.log('[INIT] lastUpdated set to:', payload.generated_at);
+
+    // Format "Last Updated" badge from data
+    const rawDate = payload.generated_at || payload.lastUpdated || '';
+    const formattedDate = rawDate ? rawDate.split('T')[0] : '';
+    el('lastUpdated').textContent = formattedDate
+      ? '🕐 Last updated: ' + formattedDate
+      : '⚠️ Update status unknown';
+    console.log('[INIT] lastUpdated set to:', formattedDate);
     
     console.log('[INIT] Before buildFilters, state.items:', state.items.length);
     buildFilters();
@@ -1448,10 +1650,34 @@ async function init(){
     render();
     console.log('[INIT] Main grid rendered with', state.items.length, 'items');
   } catch (err) {
-    console.error('[INIT] Error loading main data:', err);
-    console.error('[INIT] Error stack:', err.stack);
-    el('lastUpdated').textContent = 'Error: ' + err.message;
-    throw err;
+    const isTimeout = err.name === 'AbortError';
+    const msg = isTimeout ? 'Request timed out after 8 seconds' : err.message;
+    console.error('[INIT] Error loading main data:', msg);
+    el('lastUpdated').textContent = '⚠️ Data unavailable — check update pipeline';
+
+    // Clear KPI skeletons with explicit error state
+    ['kpiTotal','kpiEnforcement','kpiUpdates','kpiNews','kpiHighRisk','kpiNew'].forEach(id => {
+      const kpiEl = el(id);
+      if (kpiEl) kpiEl.textContent = '—';
+    });
+
+    // Show error in empty state
+    const empty = el('empty');
+    if (empty) {
+      empty.hidden = false;
+      empty.innerHTML = `
+        <div class="empty-icon">⚠️</div>
+        <p class="empty-title">Data unavailable — check update pipeline</p>
+        <p class="empty-subtitle">${escapeHtml(msg)}</p>
+      `;
+    }
+
+    // Show error state in viz containers
+    const vizError = '<div class="viz-error">⚠️ Data unavailable — visualisation cannot be rendered</div>';
+    ['enforcementHeatmap','jurisdictionHeatmap','regulatoryTimeline'].forEach(id => {
+      const c = el(id);
+      if (c) c.innerHTML = vizError;
+    });
   }
   
   // Render visualizations with error handling
@@ -1459,16 +1685,22 @@ async function init(){
     renderEnforcementHeatmap(state.items);
   } catch (e) {
     console.warn('Enforcement heatmap failed:', e);
+    const c = el('enforcementHeatmap');
+    if (c) c.innerHTML = '<div class="viz-error">⚠️ Enforcement heatmap failed to render</div>';
   }
   try {
     renderJurisdictionHeatmap(state.items);
   } catch (e) {
     console.warn('Jurisdiction heatmap failed:', e);
+    const c = el('jurisdictionHeatmap');
+    if (c) c.innerHTML = '<div class="viz-error">⚠️ Jurisdiction map failed to render</div>';
   }
   try {
     renderRegulatoryTimeline(state.items);
   } catch (e) {
     console.warn('Regulatory timeline failed:', e);
+    const c = el('regulatoryTimeline');
+    if (c) c.innerHTML = '<div class="viz-error">⚠️ Timeline failed to render</div>';
   }
  
   el('q').addEventListener('input',e=>{state.q=e.target.value;updateActiveFilters();render();});
@@ -1494,6 +1726,40 @@ async function init(){
       render();
     });
   });
+
+  // Generate Report (CSV export of currently filtered rows)
+  const exportBtn = el('exportBtn');
+  if (exportBtn) {
+    exportBtn.addEventListener('click', () => {
+      const rows = state.items.filter(matches).sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+      if (rows.length === 0) { alert('No items to export with the current filters.'); return; }
+      download('regulatory-report-' + new Date().toISOString().split('T')[0] + '.csv', toCSV(rows), 'text/csv;charset=utf-8;');
+    });
+  }
+
+  // Alert subscription: save current filter state in localStorage
+  const alertBtn = el('alertBtn');
+  const alertNote = el('alertSavedNote');
+  if (alertBtn) {
+    alertBtn.addEventListener('click', () => {
+      const filterState = {
+        q: state.q,
+        jurisdiction: state.jurisdiction,
+        topic: state.topic,
+        source: state.source,
+        view: state.view,
+        savedAt: new Date().toISOString()
+      };
+      const alerts = JSON.parse(localStorage.getItem('savedAlerts') || '[]');
+      alerts.push(filterState);
+      localStorage.setItem('savedAlerts', JSON.stringify(alerts));
+      if (alertNote) {
+        alertNote.textContent = '✅ Filter alert saved — your preferences are stored for next visit.';
+        alertNote.classList.add('visible');
+        setTimeout(() => alertNote.classList.remove('visible'), 4000);
+      }
+    });
+  }
   
   // Load BIS Affiliate Rules monitoring data
   try {
@@ -1624,20 +1890,18 @@ function renderRiskBadges(update) {
     console.log('[APP INIT] Application initialized successfully');
   } catch (err) {
     console.error('[APP INIT] Fatal error:', err);
-    console.error('[APP INIT] Stack:', err.stack);
     const lastUpdated = document.getElementById('lastUpdated');
     if (lastUpdated) {
-      lastUpdated.textContent = 'Error: ' + (err.message || 'Unknown error');
-      lastUpdated.title = err.stack || err.toString();
+      lastUpdated.textContent = '⚠️ Data unavailable — check update pipeline';
     }
-    // Also log to page for easier debugging
     const empty = document.getElementById('empty');
     if (empty) {
       empty.hidden = false;
-      empty.textContent = 'Data loading failed: ' + err.message + '\n\nCheck browser console for details.';
-      empty.style.whiteSpace = 'pre-wrap';
-      empty.style.color = '#d32f2f';
-      empty.style.padding = '16px';
+      empty.innerHTML = `
+        <div class="empty-icon">⚠️</div>
+        <p class="empty-title">Data unavailable — check update pipeline</p>
+        <p class="empty-subtitle">${(err.message || 'Unknown error')}</p>
+      `;
     }
   }
 })();
