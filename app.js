@@ -1456,7 +1456,8 @@ function renderEnforcementHeatmap(items) {
 
   // --- Rolling 12-month window (365 days back from today) ---
   const today = new Date();
-  const windowStart = new Date(today.getTime() - 365 * 24 * 60 * 60 * 1000);
+  const windowStart = new Date(today);
+  windowStart.setDate(windowStart.getDate() - 365);
 
   // --- Aggregate enforcement items; deduplicate by id ---
   const seen = new Set();
@@ -1484,7 +1485,7 @@ function renderEnforcementHeatmap(items) {
     }
   });
 
-  const maxCount = Math.max(1, ...Object.values(Object.keys(dateMap).length ? dateMap : { _: 0 }));
+  const maxCount = Math.max(1, ...Object.values(dateMap), 0);
   const peakEntry = Object.entries(jurisdictionCounts).sort((a, b) => b[1] - a[1])[0];
 
   // --- Relative color scale and intensity labels ---
@@ -1507,9 +1508,15 @@ function renderEnforcementHeatmap(items) {
   // --- Build ordered list of all 365 days ---
   const days = [];
   for (let i = 365; i >= 0; i--) {
-    const date = new Date(today.getTime() - i * 24 * 60 * 60 * 1000);
+    const date = new Date(today);
+    date.setDate(date.getDate() - i);
     const dateStr = date.toISOString().split('T')[0];
     days.push({ date, dateStr, count: dateMap[dateStr] || 0, usCount: usDateMap[dateStr] || 0 });
+  }
+
+  if (days.length === 0) {
+    container.innerHTML = '<p style="color:var(--muted);font-size:12px;">No enforcement data available for the rolling window.</p>';
+    return;
   }
 
   // --- Group into columns of 7 (Mon-aligned weeks) ---
