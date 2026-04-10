@@ -252,8 +252,8 @@ function startInteractiveTour() {
     },
     {
       element: 'enforcementHeatmap',
-      title: '📅 Enforcement Heatmap',
-      description: 'See 365 days of enforcement activity intensity. Darker cells mean more regulatory action.',
+      title: '📅 Enforcement Activity Heatmap',
+      description: 'Rolling 12-month enforcement activity signal. Cell intensity reflects relative frequency (None → Peak)—darker means higher observed activity within the window. Includes US extraterritorial risk indicator, decision context, and important disclaimer.',
       position: 'top'
     },
     {
@@ -1440,92 +1440,277 @@ function initResponsibleAIToggle() {
 
 function renderEnforcementHeatmap(items) {
   /**
-   * Cal-heatmap style calendar showing enforcement frequency by date
+   * Rolling 12-month enforcement activity heatmap.
+   * Aligned with Hubbard decision-focused measurement:
+   *  - Colors reflect relative magnitude (ranges), not exact counts
+   *  - Tooltips use probabilistic, uncertainty-aware language
+   *  - US enforcement activity is surfaced as an extraterritorial risk signal
+   *  - Decision context and disclaimer are appended below the calendar grid
+   *  - Only category==='enforcement' items are counted; deduplicated by item id
    */
   const container = el('enforcementHeatmap');
   if (!container) return;
-  
-  // Remove skeleton loader
+
   const loader = el('enforcementHeatmapLoader');
   if (loader) loader.remove();
 
-  // Group items by date
-  const dateMap = {};
-  items.forEach(item => {
-    if (item.category === 'enforcement') {
-      dateMap[item.date] = (dateMap[item.date] || 0) + 1;
-    }
-  });
-  
-  // Get last 365 days
+  // --- Rolling 12-month window (365 days back from today) ---
   const today = new Date();
-  const maxCount = Math.max(1, ...Object.values(dateMap));
-  const weeks = [];
-  let currentWeek = [];
-  
-  for (let i = 365; i >= 0; i--) {
-    const date = new Date(today.getTime() - i * 24 * 60 * 60 * 1000);
-    const dateStr = date.toISOString().split('T')[0];
-    const count = dateMap[dateStr] || 0;
-    
-    const intensity = Math.min(5, Math.floor((count / maxCount) * 5));
-    const colors = ['#f0f0f0', '#fee5d9', '#fcae91', '#fb6a4a', '#de2d26', '#a50f15'];
-    
-    const cell = document.createElement('div');
-    cell.className = 'heatmap-cell';
-    cell.style.cssText = `
-      display:inline-block;
-      width:14px;
-      height:14px;
-      margin:2px;
-      border-radius:3px;
-      background:${colors[intensity]};
-      border:1px solid #e0e0e0;
-      cursor:pointer;
-      transition:all 200ms;
-    `;
-    cell.title = `${dateStr}: ${count} enforcement action${count !== 1 ? 's' : ''}`;
-    cell.addEventListener('mouseenter', () => {
-      cell.style.transform = 'scale(1.4)';
-      cell.style.boxShadow = '0 2px 6px rgba(0,0,0,0.2)';
-    });
-    cell.addEventListener('mouseleave', () => {
-      cell.style.transform = 'scale(1)';
-      cell.style.boxShadow = 'none';
-    });
-    
-    currentWeek.push(cell);
-    if (currentWeek.length === 7) {
-      const weekDiv = document.createElement('div');
-      weekDiv.style.cssText = 'margin-bottom:4px;';
-      currentWeek.forEach(c => weekDiv.appendChild(c));
-      weeks.push(weekDiv);
-      currentWeek = [];
+  const windowStart = new Date(today);
+  windowStart.setDate(windowStart.getDate() - 365);
+
+  // --- Aggregate enforcement items; deduplicate by id ---
+  const seen = new Set();
+  const dateMap = {};       // ISO date string -> total count
+  const usDateMap = {};     // ISO date string -> US count
+  let totalActions = 0;
+  let usActions = 0;
+  const jurisdictionCounts = {};
+
+  items.forEach(item => {
+    if (item.category !== 'enforcement') return;
+    if (seen.has(item.id)) return;
+    seen.add(item.id);
+    const d = item.date;
+    if (!d) return;
+    const itemDate = new Date(d);
+    if (itemDate < windowStart || itemDate > today) return;
+    dateMap[d] = (dateMap[d] || 0) + 1;
+    totalActions++;
+    const jur = item.jurisdiction || 'Unknown';
+    jurisdictionCounts[jur] = (jurisdictionCounts[jur] || 0) + 1;
+    if (jur === 'United States') {
+      usDateMap[d] = (usDateMap[d] || 0) + 1;
+      usActions++;
     }
-  }
-  
-  if (currentWeek.length > 0) {
-    const weekDiv = document.createElement('div');
-    weekDiv.style.cssText = 'margin-bottom:4px;';
-    currentWeek.forEach(c => weekDiv.appendChild(c));
-    weeks.push(weekDiv);
-  }
-  
-  container.innerHTML = `
-    <div style="display:flex;gap:8px;align-items:flex-start;overflow-x:auto;padding:8px;">
-      <div style="display:flex;flex-direction:column;gap:4px;white-space:nowrap;font-size:10px;color:var(--muted);">
-        <div>Jan</div><div>Apr</div><div>Jul</div><div>Oct</div>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:4px;">
-  `;
-  
-  weeks.forEach(w => {
-    const div = document.createElement('div');
-    div.appendChild(w);
-    container.appendChild(div);
   });
-  
-  container.innerHTML += '</div></div>';
+
+  const maxCount = Math.max(1, ...Object.values(dateMap), 0);
+  const peakEntry = Object.entries(jurisdictionCounts).sort((a, b) => b[1] - a[1])[0];
+
+  // --- Relative color scale and intensity labels ---
+  const colorScale  = ['#f0f0f0', '#fee5d9', '#fcae91', '#fb6a4a', '#de2d26', '#a50f15'];
+  const intensityLabels = ['None', 'Low', 'Moderate', 'Elevated', 'High', 'Peak'];
+
+  function getIntensity(count) {
+    return count === 0 ? 0 : Math.min(5, Math.ceil((count / maxCount) * 5));
+  }
+
+  function tooltipText(dateStr, count, hasUS) {
+    if (count === 0) return dateStr + ': No enforcement activity recorded in this window.';
+    const label = intensityLabels[getIntensity(count)];
+    const plural = count !== 1 ? 's' : '';
+    const usNote = hasUS ? '\nIncludes US-jurisdiction event(s) — evaluate extraterritorial exposure.' : '';
+    const varNote = count <= 3 ? '\nNote: Small event counts carry high statistical variation; interpret directionally.' : '';
+    return dateStr + ': ' + count + ' enforcement event' + plural + ' — ' + label + ' activity signal.' + usNote + varNote;
+  }
+
+  // --- Build ordered list of all 365 days ---
+  const days = [];
+  for (let i = 365; i >= 0; i--) {
+    const date = new Date(today);
+    date.setDate(date.getDate() - i);
+    const dateStr = date.toISOString().split('T')[0];
+    days.push({ date, dateStr, count: dateMap[dateStr] || 0, usCount: usDateMap[dateStr] || 0 });
+  }
+
+  if (days.length === 0) {
+    container.innerHTML = '<p style="color:var(--muted);font-size:12px;">No enforcement data available for the rolling window.</p>';
+    return;
+  }
+
+  // --- Group into columns of 7 (Mon-aligned weeks) ---
+  const weeks = [];
+  let week = [];
+  const firstDow = (days[0].date.getDay() + 6) % 7; // convert Sun=0 to Mon=0 based
+  for (let p = 0; p < firstDow; p++) week.push(null); // leading padding
+  days.forEach(day => {
+    week.push(day);
+    if (week.length === 7) { weeks.push(week); week = []; }
+  });
+  if (week.length > 0) {
+    while (week.length < 7) week.push(null);
+    weeks.push(week);
+  }
+
+  // --- Compute month label positions (first week that contains day ≤ 7) ---
+  const monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const monthLabels = {}; // weekIndex -> abbreviated month name
+  weeks.forEach((w, wi) => {
+    for (const day of w) {
+      if (day && day.date.getDate() <= 7) {
+        if (!monthLabels[wi]) monthLabels[wi] = monthNames[day.date.getMonth()];
+        break;
+      }
+    }
+  });
+
+  // --- DOM construction ---
+  const wrapper = document.createElement('div');
+  wrapper.style.cssText = 'overflow-x:auto;';
+
+  // Stats bar
+  const statsBar = document.createElement('div');
+  statsBar.style.cssText = 'display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;font-size:11px;';
+  const windowLabel = document.createElement('span');
+  windowLabel.style.cssText = 'background:rgba(0,45,98,.06);border:1px solid var(--border);border-radius:6px;padding:4px 10px;color:var(--navy);';
+  windowLabel.innerHTML = '<strong>Rolling window:</strong> ' +
+    windowStart.toISOString().split('T')[0] + ' – ' + today.toISOString().split('T')[0];
+  statsBar.appendChild(windowLabel);
+
+  const totalLabel = document.createElement('span');
+  totalLabel.style.cssText = 'background:rgba(0,45,98,.06);border:1px solid var(--border);border-radius:6px;padding:4px 10px;color:var(--navy);';
+  totalLabel.innerHTML = '<strong>Enforcement events:</strong> ' + totalActions;
+  statsBar.appendChild(totalLabel);
+
+  if (peakEntry) {
+    const peakLabel = document.createElement('span');
+    peakLabel.style.cssText = 'background:rgba(0,45,98,.06);border:1px solid var(--border);border-radius:6px;padding:4px 10px;color:var(--navy);';
+    peakLabel.innerHTML = '<strong>Peak jurisdiction:</strong> ' + escapeHtml(peakEntry[0]) + ' (' + peakEntry[1] + ')';
+    statsBar.appendChild(peakLabel);
+  }
+
+  if (usActions > 0) {
+    const usLabel = document.createElement('span');
+    usLabel.style.cssText = 'background:rgba(165,15,21,.07);border:1px solid rgba(165,15,21,.25);border-radius:6px;padding:4px 10px;color:#a50f15;font-weight:600;';
+    usLabel.textContent = '🇺🇸 US activity: ' + usActions + ' event' + (usActions !== 1 ? 's' : '') + ' — extraterritorial risk signal';
+    statsBar.appendChild(usLabel);
+  }
+
+  wrapper.appendChild(statsBar);
+
+  // Month header row
+  const monthRow = document.createElement('div');
+  monthRow.style.cssText = 'display:flex;gap:2px;margin-bottom:2px;padding-left:22px;';
+  weeks.forEach((_, wi) => {
+    const lbl = document.createElement('div');
+    lbl.style.cssText = 'width:14px;font-size:9px;color:var(--muted);text-align:center;overflow:visible;white-space:nowrap;';
+    lbl.textContent = monthLabels[wi] || '';
+    monthRow.appendChild(lbl);
+  });
+  wrapper.appendChild(monthRow);
+
+  // Grid: day-of-week labels + calendar columns
+  const gridArea = document.createElement('div');
+  gridArea.style.cssText = 'display:flex;align-items:flex-start;gap:0;';
+
+  const dowLabels = document.createElement('div');
+  dowLabels.style.cssText = 'display:flex;flex-direction:column;gap:2px;margin-right:4px;flex-shrink:0;';
+  ['M', '', 'W', '', 'F', '', ''].forEach(lbl => {
+    const d = document.createElement('div');
+    d.style.cssText = 'width:14px;height:14px;font-size:9px;color:var(--muted);line-height:14px;text-align:right;padding-right:2px;';
+    d.textContent = lbl;
+    dowLabels.appendChild(d);
+  });
+  gridArea.appendChild(dowLabels);
+
+  const calGrid = document.createElement('div');
+  calGrid.style.cssText = 'display:flex;gap:2px;';
+  weeks.forEach(w => {
+    const col = document.createElement('div');
+    col.style.cssText = 'display:flex;flex-direction:column;gap:2px;';
+    w.forEach(day => {
+      const cell = document.createElement('div');
+      cell.style.cssText = 'width:14px;height:14px;border-radius:2px;flex-shrink:0;';
+      if (!day) {
+        cell.style.background = 'transparent';
+      } else {
+        const intensity = getIntensity(day.count);
+        cell.style.background = colorScale[intensity];
+        cell.style.border = '1px solid rgba(0,0,0,0.07)';
+        cell.style.cursor = 'pointer';
+        cell.title = tooltipText(day.dateStr, day.count, day.usCount > 0);
+        cell.addEventListener('mouseenter', () => {
+          cell.style.transform = 'scale(1.4)';
+          cell.style.boxShadow = '0 2px 6px rgba(0,0,0,0.25)';
+          cell.style.zIndex = '10';
+          cell.style.position = 'relative';
+        });
+        cell.addEventListener('mouseleave', () => {
+          cell.style.transform = '';
+          cell.style.boxShadow = '';
+          cell.style.zIndex = '';
+          cell.style.position = '';
+        });
+      }
+      col.appendChild(cell);
+    });
+    calGrid.appendChild(col);
+  });
+  gridArea.appendChild(calGrid);
+  wrapper.appendChild(gridArea);
+
+  // Legend
+  const legend = document.createElement('div');
+  legend.style.cssText = 'display:flex;align-items:center;gap:6px;margin-top:10px;font-size:11px;color:var(--muted);flex-wrap:wrap;';
+  const legendLabel = document.createElement('span');
+  legendLabel.textContent = 'Activity signal:';
+  legend.appendChild(legendLabel);
+  colorScale.forEach((color, i) => {
+    const item = document.createElement('span');
+    item.style.cssText = 'display:flex;align-items:center;gap:3px;';
+    const swatch = document.createElement('span');
+    swatch.style.cssText = 'display:inline-block;width:12px;height:12px;background:' + color + ';border-radius:2px;border:1px solid rgba(0,0,0,0.1);flex-shrink:0;';
+    const lbl = document.createElement('span');
+    lbl.textContent = intensityLabels[i];
+    item.appendChild(swatch);
+    item.appendChild(lbl);
+    legend.appendChild(item);
+  });
+  wrapper.appendChild(legend);
+
+  // Decision-Relevant Context
+  const context = document.createElement('div');
+  context.style.cssText = 'margin-top:16px;padding:12px 14px;background:rgba(0,45,98,.04);border-radius:8px;border-left:3px solid var(--navy);font-size:12px;color:var(--text);line-height:1.55;';
+  const ctxTitle = document.createElement('strong');
+  ctxTitle.style.cssText = 'display:block;margin-bottom:6px;color:var(--navy);font-size:13px;';
+  ctxTitle.textContent = 'Decision-Relevant Context';
+  context.appendChild(ctxTitle);
+
+  const ctxP1 = document.createElement('p');
+  ctxP1.style.cssText = 'margin:0 0 8px;';
+  ctxP1.innerHTML = 'This heatmap is a <em>decision-support tool</em>, not a definitive risk assessment. Observed enforcement frequency is a measurable signal that reduces uncertainty about the <em>probability</em> of future enforcement—it does not predict enforcement with certainty. Sustained or accelerating activity in any jurisdiction should prompt a review of exposure and resource allocation, not an assumption of imminent enforcement.';
+  context.appendChild(ctxP1);
+
+  const ctxP2 = document.createElement('p');
+  ctxP2.style.cssText = 'margin:0 0 8px;';
+  ctxP2.innerHTML = '<strong>Extraterritorial Enforcement (US):</strong> Elevated US enforcement activity carries risk implications beyond US borders. Laws such as the FCPA, OFAC sanctions regulations, and US export-control statutes (EAR/ITAR) have explicit or effectively extraterritorial reach. For organizations with US nexus—through personnel, financial flows, technology, or counterparties—US enforcement activity functions as a <em>risk multiplier</em> that should inform assessments in other jurisdictions, even where local enforcement capacity is limited.';
+  context.appendChild(ctxP2);
+
+  const ctxP3 = document.createElement('p');
+  ctxP3.style.cssText = 'margin:0;';
+  ctxP3.innerHTML = '<strong>Use alongside:</strong> exposure indicators, jurisdiction-specific risk scores, and qualified legal counsel input. Enforcement activity patterns should inform prioritization and resource-allocation decisions—they should not serve as standalone risk conclusions.';
+  context.appendChild(ctxP3);
+  wrapper.appendChild(context);
+
+  // Important Disclaimer / Limitations
+  const disclaimer = document.createElement('div');
+  disclaimer.style.cssText = 'margin-top:10px;padding:10px 14px;background:rgba(211,47,47,.04);border-radius:8px;border-left:3px solid rgba(211,47,47,.35);font-size:11px;color:var(--muted);line-height:1.55;';
+  const disclTitle = document.createElement('strong');
+  disclTitle.style.cssText = 'display:block;margin-bottom:6px;color:#b71c1c;font-size:12px;';
+  disclTitle.textContent = '⚠️ Important Disclaimer / Limitations';
+  disclaimer.appendChild(disclTitle);
+
+  const disclList = document.createElement('ul');
+  disclList.style.cssText = 'margin:0;padding-left:16px;';
+  [
+    'This heatmap reflects <strong>observed enforcement activity volume</strong> within the data feed only. It does not reflect underlying misconduct, compliance effectiveness, or regulatory intent.',
+    '<strong>Low activity does not imply low risk.</strong> Jurisdictions with limited enforcement capacity, transparency, or data-feed coverage may show low counts despite elevated latent risk.',
+    'Cell intensity reflects relative magnitude within this rolling window only. It is <strong>not a risk score</strong> and must not be used as one.',
+    'Event counts may vary due to data pipeline timing, deduplication logic, and source coverage. Small counts (1–3 events) carry high statistical variation and should be interpreted directionally, not as precise estimates.',
+    'This tool is for internal triage and prioritization purposes only. It does not constitute legal advice. Always consult original regulatory sources and qualified legal counsel before making compliance decisions.'
+  ].forEach(text => {
+    const li = document.createElement('li');
+    li.style.cssText = 'margin-bottom:4px;';
+    li.innerHTML = text;
+    disclList.appendChild(li);
+  });
+  disclaimer.appendChild(disclList);
+  wrapper.appendChild(disclaimer);
+
+  // Render into container
+  container.innerHTML = '';
+  container.appendChild(wrapper);
 }
 
 function renderJurisdictionHeatmap(items) {
