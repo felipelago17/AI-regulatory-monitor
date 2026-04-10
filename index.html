@@ -340,8 +340,12 @@
 
       <!-- Enforcement Calendar Heatmap -->
       <div class="heatmap-section">
-        <h3 style="margin:0 0 12px;color:var(--navy);font-size:16px;">📅 Enforcement Activity Heatmap (12 Months)</h3>
-        <p style="margin:0 0 16px;color:var(--muted);font-size:12px;">Darker cells indicate higher regulatory enforcement frequency</p>
+        <h3 style="margin:0 0 4px;color:var(--navy);font-size:16px;">📅 Enforcement Activity Heatmap — 12-Month Rolling Window</h3>
+        <p style="margin:0 0 14px;color:var(--muted);font-size:12px;line-height:1.5;">
+          Decision-support view: relative enforcement activity signals over a rolling 365-day window.
+          Cell intensity reflects observed event frequency—darker cells indicate higher relative activity within this period.
+          <strong>This tool reduces uncertainty about enforcement probability; it does not predict future enforcement with certainty.</strong>
+        </p>
         <div id="enforcementHeatmap" style="background:rgba(255,255,255,.5);padding:16px;border-radius:12px;border:1px solid var(--border);">
           <div class="skeleton-viz" style="height:80px;" id="enforcementHeatmapLoader">Loading heatmap…</div>
         </div>
@@ -397,7 +401,7 @@
             <h3 style="margin-top:24px;">Visualizations</h3>
             <ul>
               <li><strong>Sparklines:</strong> 30-day trend of activity (under KPI cards)</li>
-              <li><strong>Enforcement Heatmap:</strong> Activity intensity over 365 days</li>
+              <li><strong>Enforcement Heatmap:</strong> Relative enforcement activity signals over a rolling 12-month window. Cell intensity reflects frequency within the period (None → Peak). Includes US extraterritorial risk callout, decision-relevant context, and disclaimer.</li>
               <li><strong>Jurisdiction Map:</strong> Risk distribution by regulatory region</li>
               <li><strong>Timeline:</strong> Chronological view of regulatory events</li>
               <li><strong>Risk Bubble Chart:</strong> Probability vs Financial Impact (in AI Insights)</li>
