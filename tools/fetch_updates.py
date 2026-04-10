@@ -9,7 +9,9 @@ Exit codes:
 """
 
 import hashlib
+import html as html_module
 import json
+import re
 import sys
 import traceback
 import urllib.error
@@ -73,6 +75,18 @@ def _make_id(url: str, title: str) -> str:
     return hashlib.sha1(key.encode("utf-8", errors="replace")).hexdigest()[:16]
 
 
+def _strip_html(text: str) -> str:
+    """Strip HTML tags and decode HTML entities from a string."""
+    if not text:
+        return text
+    # Decode HTML entities (e.g. &amp; → &, &quot; → ")
+    text = html_module.unescape(text)
+    # Remove HTML tags (e.g. <span>, </span>, <br/>, etc.)
+    text = re.sub(r"<[^>]+>", " ", text)
+    # Collapse whitespace
+    return " ".join(text.split())
+
+
 def _fetch_url(url: str) -> bytes:
     req = urllib.request.Request(
         url,
@@ -125,9 +139,9 @@ def _parse_rss(content: bytes, feed_meta: dict) -> list[dict]:
 
     items = []
     for entry in root.findall(".//item"):
-        title = _text(entry, "title")
+        title = _strip_html(_text(entry, "title"))
         url = _text(entry, "link") or _text(entry, "guid")
-        summary = _text(entry, "description")
+        summary = _strip_html(_text(entry, "description"))
         pub_date = _text(entry, "pubDate")
 
         if not title:
@@ -160,11 +174,11 @@ def _parse_atom(content: bytes, feed_meta: dict) -> list[dict]:
     ns = _ATOM_NS
     items = []
     for entry in root.findall("atom:entry", ns):
-        title = _text(entry, "atom:title", ns)
+        title = _strip_html(_text(entry, "atom:title", ns))
         # <link href="..."> in Atom
         link_el = entry.find("atom:link", ns)
         url = (link_el.get("href", "") if link_el is not None else "") or _text(entry, "atom:id", ns)
-        summary = _text(entry, "atom:summary", ns) or _text(entry, "atom:content", ns)
+        summary = _strip_html(_text(entry, "atom:summary", ns) or _text(entry, "atom:content", ns))
         pub_date = _text(entry, "atom:updated", ns) or _text(entry, "atom:published", ns)
 
         if not title:

@@ -530,7 +530,7 @@ function buildCard(it) {
     (it.topics||[]).slice(0,2).forEach(t=>meta.appendChild(pill(t)));
 
     const h=document.createElement('h4');
-    h.textContent=it.title;
+    h.textContent=sanitizeAndRender(it.title);
 
     card.appendChild(meta);
 
@@ -552,7 +552,7 @@ function buildCard(it) {
     card.appendChild(h);
 
     const p=document.createElement('p');
-    p.textContent=it.summary;
+    p.textContent=sanitizeAndRender(it.summary);
     card.appendChild(p);
 
     // Consultation deadline
@@ -657,10 +657,10 @@ function renderRegulatoryTimeline(items) {
     .slice(0, 50) // Limit to 50 most recent items
     .map((item, idx) => ({
       id: idx,
-      content: `<div style="font-size:11px;padding:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${item.title.substring(0, 40)}</div>`,
+      content: `<div style="font-size:11px;padding:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${escapeHtml(item.title.substring(0, 40))}</div>`,
       start: new Date(item.date),
       className: `timeline-${item.category || 'news'}`,
-      title: item.title
+      title: escapeHtml(item.title)
     }))
     .sort((a, b) => a.start - b.start);
   
