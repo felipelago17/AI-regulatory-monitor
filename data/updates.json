@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T07:19:24+00:00",
+  "generated_at": "2026-04-16T07:19:45+00:00",
   "items": [
     {
       "id": "eu-ai-act-risk-classification",
@@ -6414,6 +6414,22 @@
         "digital-regulation"
       ],
       "category": "update"
+    },
+    {
+      "id": "e454814caf3f067f",
+      "date": "2026-04-15",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Any Color You Like: NIST Scientists Create ‘Any Wavelength’ Lasers in Tiny Circuits for Light",
+      "summary": "NIST scientists and collaborators have pioneered a way to make integrated circuits for light by depositing complex patterns of specialized materials onto silicon wafers.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
     }
   ]
 }
