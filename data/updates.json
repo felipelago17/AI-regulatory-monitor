@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T07:19:45+00:00",
+  "generated_at": "2026-04-17T07:20:24+00:00",
   "items": [
     {
       "id": "eu-ai-act-risk-classification",
@@ -6424,6 +6424,22 @@
       "summary": "NIST scientists and collaborators have pioneered a way to make integrated circuits for light by depositing complex patterns of specialized materials onto silicon wafers.",
       "source": "NIST",
       "url": "https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "a7cc7d7c014a3de1",
+      "date": "2026-04-16",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Weighs In on the Mystery of the Gravitational Constant",
+      "summary": "A NIST researcher has unveiled the results of a 10-year quest to measure the constant.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/04/nist-weighs-mystery-gravitational-constant",
       "tags": [
         "nist",
         "ai-standards",
