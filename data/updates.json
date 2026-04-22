@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T07:22:50+00:00",
+  "generated_at": "2026-04-22T07:20:46+00:00",
   "items": [
     {
       "id": "eu-ai-act-risk-classification",
@@ -6444,6 +6444,22 @@
         "nist",
         "ai-standards",
         "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "cf460f9454ce416f",
+      "date": "2026-04-09",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Apply AI sectoral deep dive - electronic communications",
+      "summary": "Apply AI sectoral deep dive - electronic communications Anonymous (not verified) Thu, 04/09/2026 - 16:29 30 April 2026 This webinar will look at ways to boost the development and deployment of AI-driven solutions across the EU’s electronic communications sector. The ability of citizens and economies to innovate, improve productivity, and create more opportunities for sustainable growth relies on high-performance networks. AI is driving the transformation of this essential digital infrastructure. Major telecommunications companies have already integrated AI-based solutions into their infrastructure, primarily to improve efficiency and reduce costs, but this is only the beginning. The adoption of AI opens a new wave of opportunities such as real-time networks optimisation, predictive maintenance, personalised customer service, intelligent infrastructure development, enhanced Quality of Service (QoS) management and network security. This is set to enable the development of intelligent, adaptive services that benefit both consumers and enterprises and redefine how we communicate, connect, and share information globally. This session is part of a series of Apply AI thematic webinars . It will focus on real world use cases of end-users and SMEs leveraging trustworthy Edge AI technologies, while also addressing specialised AI models and dedicated data sets. Join the live stream on our YouTube channel to find out how industry and other stakeholders can shape priorities for Europe’s electronic communications sector. Engage in the conversation by submitting questions in advance or during the session via Slido . Agenda 30 April, 10:30-11:30 (CET) Moderator Andrea Hak, Communications Expert, AI Office, DG Connect Speakers Veronika Kadlecova, AI Innovation and Policy Coordination, DG Connect Agustin Diaz-Pines, Future Connectivity Systems, DG Connect Xurxo Remuinan Suarez, Future Connectivity Systems, DG Connect Background The European electronic communications sector is fundamental to the continent’s digital economy. By providing essential connectivity that supports advanced digital services - from healthcare and urban management to education and industry - it is driving technological innovation and reinforcing Europe's competitiveness. AI is emerging as a cornerstone for building smarter, resilient, and greener networks, enabling new services, and supporting applications with real-time requirements, such as robotics, autonomous systems and physical AI. Network operators are actively trialing AI-based solutions across network and customer service operations. Although AI holds strong potential for this sector, its impact is still limited because of the lack of open platforms and capacity in edge devices. The Apply AI Strategy has announced flagship initiatives to promote EU capacities in edge AI devices and create a European Telco AI platform for telecom operators, vendors and user industries to collaboratively build AI stack elements, including mediation layers, data engineering, cloud interfaces, and AI services, potentially based on open source. Related topics Artificial intelligence {\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/apply-ai-sectoral-deep-dive-electronic-communications",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
       ],
       "category": "news"
     }
