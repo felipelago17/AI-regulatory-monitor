@@ -33,20 +33,36 @@
       <span class="badge" id="badgeMode">Public sources • Internal summaries</span>
       <span class="badge" id="lastUpdated">Loading…</span>
     </div>
-    <div style="display:flex;gap:8px;margin-left:auto;">
+    <div style="display:flex;gap:8px;margin-left:auto;flex-wrap:wrap;">
+      <button id="apiSettingsBtn" class="badge" style="border:none;background:rgba(255,255,255,.15);cursor:pointer;border:1px solid rgba(255,255,255,.3);padding:8px 12px;border-radius:999px;color:var(--white);font-weight:600;" title="Configure API key">
+        ⚙️ API Settings
+      </button>
       <button id="tourBtn" class="badge" style="border:none;background:rgba(0,174,239,.2);cursor:pointer;border:1px solid rgba(0,174,239,.4);padding:8px 12px;border-radius:999px;color:var(--white);font-weight:600;" title="Start interactive tour">
         🎯 Tour
       </button>
       <button id="howItWorksBtn" class="badge" style="border:none;background:rgba(0,174,239,.2);cursor:pointer;border:1px solid rgba(0,174,239,.4);padding:8px 12px;border-radius:999px;color:var(--white);font-weight:600;" title="Learn how this works">
         ❓ How It Works
       </button>
-      <a href="quick-check.html" class="badge" style="border:none;background:rgba(76,175,80,.2);cursor:pointer;border:1px solid rgba(76,175,80,.4);padding:8px 12px;border-radius:999px;color:var(--white);font-weight:600;text-decoration:none;display:flex;align-items:center;" title="Quick diagnostic check">
+      <a href="#quick-check" class="badge" style="border:none;background:rgba(76,175,80,.2);cursor:pointer;border:1px solid rgba(76,175,80,.4);padding:8px 12px;border-radius:999px;color:var(--white);font-weight:600;text-decoration:none;display:flex;align-items:center;" title="Quick diagnostic check">
         ✓ Quick Check
       </a>
     </div>
   </div>
 
-  <!-- Prominent Disclaimer Banner -->
+  <nav style="background:var(--navy);padding:10px 22px;display:flex;gap:16px;border-bottom:1px solid rgba(255,255,255,.1);">
+    <a href="#tour" style="color:rgba(255,255,255,.85);font-size:13px;text-decoration:none;font-weight:600;">Tour</a>
+    <a href="#how-it-works" style="color:rgba(255,255,255,.85);font-size:13px;text-decoration:none;font-weight:600;">How it works</a>
+    <a href="#quick-check" style="color:rgba(255,255,255,.85);font-size:13px;text-decoration:none;font-weight:600;">Quick check</a>
+  </nav>
+  <!-- First-visit welcome banner -->
+  <div id="welcomeBanner" style="display:none;">
+    <span class="welcome-text">👋 New here? Take the 2-minute tour to discover how this monitor works.</span>
+    <div class="welcome-actions">
+      <button class="welcome-start" id="welcomeStartTour">Start Tour</button>
+      <button class="welcome-dismiss" id="welcomeDismiss">Dismiss</button>
+    </div>
+  </div>
+
   <div id="disclaimerBanner" style="background:linear-gradient(135deg, rgba(211,47,47,.1) 0%, rgba(244,67,54,.08) 100%);border-bottom:2px solid #d32f2f;padding:16px 22px;display:none;">
     <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;gap:16px;">
       <span style="font-size:24px;">⚠️</span>
@@ -58,7 +74,7 @@
     </div>
   </div>
 
-  <!-- Debug Console (Hidden by default) -->
+  <!-- Debug Console — visible only when ?debug=true is in the URL -->
   <div id="debugConsole" style="background:#1e1e1e;color:#d4d4d4;padding:12px;margin:0 0 16px;border-radius:6px;font-family:monospace;font-size:11px;line-height:1.4;max-height:150px;overflow-y:auto;display:none;border:1px solid #404040;">
     <div style="display:flex;justify-content:space-between;margin-bottom:8px;">
       <strong style="color:#4ec9b0;">Debug Console</strong>
@@ -120,15 +136,9 @@
         <div class="filter">
           <label for="q">
             Search 
-            <span class="tooltip-help" title="Search across titles, summaries, tags, and topics">?</span>
+            <span class="tooltip-help" title="Search across titles, key takeaways, summaries, tags, and topics">?</span>
           </label>
           <input id="q" type="search" placeholder="Search titles, summaries, tags…" />
-        <p class="micro">
-  Impact ratings are internal estimates for triage purposes only. Where quantified, the approach applies
-  "measurement as uncertainty reduction" and calibrated estimation concepts popularised by Douglas W. Hubbard
-  (How to Measure Anything). Estimates are expressed as ranges and probabilities, not certainty, and should be
-  reviewed by the compliance owner before action.
-</p>
         </div>
  
         <div class="filter">
@@ -178,6 +188,14 @@
         <button type="button" class="btn secondary" data-view="UPDATE">Updates</button>
         <button type="button" class="btn secondary" data-view="NEWS">News</button>
         <button type="button" class="btn secondary" data-view="HIGH-RISK">High Risk</button>
+      </div>
+
+      <!-- Group-by toggle: All Items / By Region / By Topic -->
+      <div class="view-toggle" id="viewToggleContainer" aria-label="Group view">
+        <span style="font-size:11px;font-weight:600;color:var(--muted);align-self:center;">Group by:</span>
+        <button type="button" class="btn secondary active" data-groupby="none">All Items</button>
+        <button type="button" class="btn secondary" data-groupby="region">By Region</button>
+        <button type="button" class="btn secondary" data-groupby="topic">By Topic</button>
       </div>
 
       <!-- BIS Affiliate Rules Section -->
@@ -236,15 +254,15 @@
       </div>
 
       <button id="showExportControlsBtn" class="btn" style="width:100%;margin-bottom:16px;">
-        🌍 Export Controls & Strategic Trade (8 Key Sources)
+        🌍 Export Controls & Strategic Trade (11 Key Sources)
       </button>
 
       <!-- Data Privacy Monitoring Section -->
       <div id="dataPrivacySection" class="data-privacy-panel" style="display:none;">
         <div class="data-privacy-header">
           <div class="data-privacy-header-content">
-            <h2>🔐 Data Privacy & Regulatory Monitoring</h2>
-            <p class="data-privacy-intro">Comprehensive sources for GDPR, UAE PDPL, U.S., and international data privacy regulations</p>
+            <h2>🔐 Data Privacy & Cybersecurity</h2>
+            <p class="data-privacy-intro">Authoritative sources for GDPR, UAE PDPL, U.S. state privacy laws, and cybersecurity regulation — treated as integrated disciplines</p>
           </div>
           <button id="dataPrivacyPanelToggle" class="btn secondary" style="align-self: flex-start;">Close</button>
         </div>
@@ -263,7 +281,7 @@
       </div>
 
       <button id="showDataPrivacyBtn" class="btn" style="width:100%;margin-bottom:16px;">
-        🔐 Data Privacy Regulations (10 Source Categories)
+        🔐 Data Privacy & Cybersecurity (10 Source Categories)
       </button>
 
       <!-- Data Residency, Classification & Reliability Section -->
@@ -290,28 +308,65 @@
       </div>
 
       <button id="showDataResidencyBtn" class="btn" style="width:100%;margin-bottom:16px;">
-        🏛️ Data Residency & Sovereignty (7 Source Categories)
+        🏛️ Data Residency & Sovereignty (8 Source Categories)
+      </button>
+
+      <!-- Responsible AI Section -->
+      <div id="responsibleAISection" class="responsible-ai-panel" style="display:none;">
+        <div class="responsible-ai-header">
+          <div class="responsible-ai-header-content">
+            <h2>🤝 Responsible AI Governance &amp; Ethics</h2>
+            <p class="responsible-ai-intro">Governance, accountability, bias/fairness, explainability, and human oversight frameworks (US · EU · UAE · UK · International)</p>
+          </div>
+          <button id="responsibleAIPanelToggle" class="btn secondary" style="align-self: flex-start;">Close</button>
+        </div>
+
+        <div class="responsible-ai-categories" id="responsibleAICategories"></div>
+
+        <div class="responsible-ai-topics">
+          <h3>📌 Key Topics</h3>
+          <div class="topics-grid" id="responsibleAITopics"></div>
+        </div>
+
+        <div class="responsible-ai-compliance-note">
+          <strong>⚠️ Compliance Note:</strong>
+          <p id="responsibleAIComplianceNote">Loading...</p>
+        </div>
+      </div>
+
+      <button id="showResponsibleAIBtn" class="btn" style="width:100%;margin-bottom:16px;background:linear-gradient(135deg,#1b5e20,#388e3c);border-color:#388e3c;">
+        🤝 Responsible AI — Governance, Bias &amp; Oversight (8 Pillars)
       </button>
 
       <!-- Enforcement Calendar Heatmap -->
       <div class="heatmap-section">
-        <h3 style="margin:0 0 12px;color:var(--navy);font-size:16px;">📅 Enforcement Activity Heatmap (12 Months)</h3>
-        <p style="margin:0 0 16px;color:var(--muted);font-size:12px;">Darker cells indicate higher regulatory enforcement frequency</p>
-        <div id="enforcementHeatmap" style="background:rgba(255,255,255,.5);padding:16px;border-radius:12px;border:1px solid var(--border);"></div>
+        <h3 style="margin:0 0 4px;color:var(--navy);font-size:16px;">📅 Enforcement Activity Heatmap — 12-Month Rolling Window</h3>
+        <p style="margin:0 0 14px;color:var(--muted);font-size:12px;line-height:1.5;">
+          Decision-support view: relative enforcement activity signals over a rolling 365-day window.
+          Cell intensity reflects observed event frequency—darker cells indicate higher relative activity within this period.
+          <strong>This tool reduces uncertainty about enforcement probability; it does not predict future enforcement with certainty.</strong>
+        </p>
+        <div id="enforcementHeatmap" style="background:rgba(255,255,255,.5);padding:16px;border-radius:12px;border:1px solid var(--border);">
+          <div class="skeleton-viz" style="height:80px;" id="enforcementHeatmapLoader">Loading heatmap…</div>
+        </div>
       </div>
 
       <!-- Jurisdiction Risk Heatmap -->
       <div class="heatmap-section" style="margin-top:20px;">
         <h3 style="margin:0 0 12px;color:var(--navy);font-size:16px;">🗺️ Jurisdiction Risk Intensity Map</h3>
         <p style="margin:0 0 16px;color:var(--muted);font-size:12px;">Risk intensity by regulatory jurisdiction (Red: Enforcement | Amber: Updates | Green: Stable)</p>
-        <div id="jurisdictionHeatmap" style="background:rgba(255,255,255,.5);padding:16px;border-radius:12px;border:1px solid var(--border);height:400px;"></div>
+        <div id="jurisdictionHeatmap" style="background:rgba(255,255,255,.5);padding:16px;border-radius:12px;border:1px solid var(--border);height:400px;">
+          <div class="skeleton-viz" style="height:100%;" id="jurisdictionHeatmapLoader">Loading map…</div>
+        </div>
       </div>
 
       <!-- Regulatory Activity Timeline -->
       <div class="timeline-section" style="margin-top:20px;">
         <h3 style="margin:0 0 12px;color:var(--navy);font-size:16px;">📈 Regulatory Activity Timeline</h3>
         <p style="margin:0 0 16px;color:var(--muted);font-size:12px;">Timeline of enforcement events, updates, and regulatory milestones</p>
-        <div id="regulatoryTimeline" style="background:rgba(255,255,255,.5);padding:16px;border-radius:12px;border:1px solid var(--border);height:250px;"></div>
+        <div id="regulatoryTimeline" style="background:rgba(255,255,255,.5);padding:16px;border-radius:12px;border:1px solid var(--border);height:250px;">
+          <div class="skeleton-viz" style="height:100%;" id="timelineLoader">Loading timeline…</div>
+        </div>
       </div>
 
       <!-- How It Works Modal -->
@@ -346,7 +401,7 @@
             <h3 style="margin-top:24px;">Visualizations</h3>
             <ul>
               <li><strong>Sparklines:</strong> 30-day trend of activity (under KPI cards)</li>
-              <li><strong>Enforcement Heatmap:</strong> Activity intensity over 365 days</li>
+              <li><strong>Enforcement Heatmap:</strong> Relative enforcement activity signals over a rolling 12-month window. Cell intensity reflects frequency within the period (None → Peak). Includes US extraterritorial risk callout, decision-relevant context, and disclaimer.</li>
               <li><strong>Jurisdiction Map:</strong> Risk distribution by regulatory region</li>
               <li><strong>Timeline:</strong> Chronological view of regulatory events</li>
               <li><strong>Risk Bubble Chart:</strong> Probability vs Financial Impact (in AI Insights)</li>
@@ -361,7 +416,7 @@
               <li>Visualize risk distribution via bubble chart</li>
             </ul>
             <p style="font-size:12px;color:var(--muted);margin-top:12px;">
-              Note: AI Insights require an API key. Set via browser console: <code>localStorage.setItem('claude_api_key', 'sk-...')</code>
+              Note: AI Insights require an API key. Click <strong>⚙️ API Settings</strong> in the top bar to enter your key securely. Your key is stored in sessionStorage only and cleared when the tab is closed.
             </p>
           </div>
         </div>
@@ -399,24 +454,105 @@
       </div>
 
       <!-- Insights Generator Button -->
-      <div style="margin-bottom:20px;display:flex;gap:10px;justify-content:center;">
+      <div class="action-row">
         <button id="insights" class="btn" style="font-size:14px;padding:10px 20px;">
           🤖 Generate AI Insights
         </button>
+        <button id="exportBtn" class="btn secondary" style="font-size:14px;padding:10px 20px;" title="Export filtered results to CSV">
+          📊 Generate Report (CSV)
+        </button>
+        <button id="alertBtn" class="btn secondary" style="font-size:14px;padding:10px 20px;" title="Save current filters as an alert">
+          🔔 Alert me on this filter
+        </button>
       </div>
+      <div id="alertSavedNote" class="alert-saved-note" style="text-align:center;margin:0 16px 12px;"></div>
 
       <!-- Required containers for app.js -->
       <div id="cards" class="grid"></div>
-      <div id="empty" class="empty" hidden>No items match your filters.</div>
+      <div id="empty" class="empty" hidden>
+        <div class="empty-icon">🔍</div>
+        <p class="empty-title">No items match your filters</p>
+        <p class="empty-subtitle">Try adjusting your search terms or clearing the active filters.</p>
+        <button onclick="document.getElementById('reset').click()" class="btn secondary">Clear All Filters</button>
+      </div>
     </section>
  
-    <section class="panel footer">
-      <p style="font-size:11px; color:var(--muted); line-height:1.6;">
-        <strong>Disclaimer:</strong> This monitor provides high‑level regulatory intelligence for internal informational purposes only. Individual entries reflect publicly available information as at the date shown. Users should consult original regulatory publications and obtain legal advice before taking action. Impact assessments are calibrated estimates for triage purposes only, not certainty predictions.
+    <section id="tour" class="panel" style="padding:24px 28px;margin-top:16px;">
+      <h2 style="margin:0 0 12px;color:var(--navy);">What this monitor does</h2>
+      <p style="margin:0;color:var(--text);line-height:1.6;">
+        The AI Regulatory Monitor tracks daily global regulatory developments
+        affecting artificial intelligence and generative AI.
+      </p>
+    </section>
+
+    <!-- Official Regulator Quick Links -->
+    <section class="panel" id="regulatorLinksSection" style="padding:20px 24px;margin-top:16px;">
+      <h3 style="margin:0 0 4px;color:var(--navy);font-size:15px;">🏛️ Official Regulatory Sources</h3>
+      <p style="margin:0 0 12px;color:var(--muted);font-size:12px;">Direct links to the regulators who publish the rules</p>
+      <div class="regulator-links">
+        <a href="https://ico.org.uk" target="_blank" rel="noreferrer" class="regulator-link">🇬🇧 UK ICO</a>
+        <a href="https://www.gov.uk/government/organisations/ai-safety-institute" target="_blank" rel="noreferrer" class="regulator-link">🇬🇧 UK AI Safety Institute</a>
+        <a href="https://tdra.gov.ae" target="_blank" rel="noreferrer" class="regulator-link">🇦🇪 UAE TDRA</a>
+        <a href="https://ftc.gov" target="_blank" rel="noreferrer" class="regulator-link">🇺🇸 US FTC</a>
+        <a href="https://bis.doc.gov" target="_blank" rel="noreferrer" class="regulator-link">🇺🇸 US BIS</a>
+        <a href="https://www.justice.gov" target="_blank" rel="noreferrer" class="regulator-link">🇺🇸 US DOJ</a>
+        <a href="https://digital-strategy.ec.europa.eu" target="_blank" rel="noreferrer" class="regulator-link">🇪🇺 EU Digital Strategy</a>
+        <a href="https://edpb.europa.eu" target="_blank" rel="noreferrer" class="regulator-link">🇪🇺 EDPB</a>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="panel" style="padding:24px 28px;margin-top:16px;">
+      <h2 style="margin:0 0 12px;color:var(--navy);">How it works</h2>
+      <p style="margin:0;color:var(--text);line-height:1.6;">
+        Updates are collected daily from official public regulatory and government
+        sources, summarised, deduplicated, and categorised.
+      </p>
+    </section>
+
+    <section id="quick-check" class="panel" style="padding:24px 28px;margin-top:16px;">
+      <h2 style="margin:0 0 12px;color:var(--navy);">Quick compliance check</h2>
+      <ul style="margin:0;padding-left:20px;color:var(--text);line-height:1.8;">
+        <li>Do you deploy AI across borders?</li>
+        <li>Do you rely on third&#8209;party or affiliate AI?</li>
+        <li>Are you subject to multiple regulators?</li>
+      </ul>
+    </section>
+
+    <section class="panel site-footer">
+      <p class="disclaimer">
+        <strong>⚠️ Disclaimer:</strong> This monitor provides high‑level regulatory intelligence for internal informational purposes only. Individual entries reflect publicly available information as at the date shown. Users should consult original regulatory publications and obtain legal advice before taking action. Impact assessments are calibrated estimates for triage purposes only, not certainty predictions.
+      </p>
+      <p class="license-note">
+        Impact ratings apply "measurement as uncertainty reduction" and calibrated estimation concepts from Douglas W. Hubbard's <em>How to Measure Anything</em>. Estimates are expressed as ranges and probabilities, not certainty, and should be reviewed by the compliance owner before action.
       </p>
     </section>
   </main>
- 
+
+  <!-- ⚙️ API Settings Modal -->
+  <div id="apiSettingsModal" class="modal" style="display:none;">
+    <div class="modal-content" id="apiSettingsModalContent">
+      <div class="modal-header">
+        <h2>⚙️ API Settings</h2>
+        <button class="modal-close" id="closeApiSettings">×</button>
+      </div>
+      <div class="modal-body">
+        <p>Enter your Claude API key to enable AI-generated insights.</p>
+        <div class="api-security-note">
+          🔒 <strong>Security note:</strong> Your key is stored in <code>sessionStorage</code> only — it is <em>never</em> written to localStorage or sent anywhere except the Anthropic API. It is automatically cleared when this tab closes.
+        </div>
+        <label for="apiKeyInput" style="font-size:12px;font-weight:600;color:var(--navy);display:block;margin-bottom:4px;">Claude API Key</label>
+        <div class="api-key-input-wrap">
+          <input id="apiKeyInput" type="password" placeholder="sk-ant-…" autocomplete="off" spellcheck="false" />
+        </div>
+        <div style="display:flex;gap:8px;margin-top:12px;">
+          <button id="saveApiKey" class="btn">Save Key</button>
+          <button id="clearApiKey" class="btn secondary">Clear Key</button>
+        </div>
+        <div id="apiKeyStatus"></div>
+      </div>
+    </div>
+  </div>
+
   <!-- Correct: load JS via a proper script tag (do NOT paste "app.js</script>") -->
   <script src="app.js"></script>
 </body>

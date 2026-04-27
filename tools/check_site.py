@@ -97,7 +97,7 @@ def main():
         problems.append(("data/updates.json missing", ["data/updates.json"]))
 
     # 5) KPI IDs sanity check (if you added KPIs)
-    expected_ids = ["kpiTotal","kpiNew","kpiHigh","kpiUAE","kpiUK","kpiAI"]
+    expected_ids = ["kpiTotal","kpiNew","kpiHighRisk","kpiEnforcement","kpiUpdates","kpiNews"]
     missing_ids = [i for i in expected_ids if f'id="{i}"' not in html]
     if missing_ids:
         problems.append(("KPI elements missing in index.html (IDs not found)", missing_ids))

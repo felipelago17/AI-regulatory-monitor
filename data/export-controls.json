@@ -65,11 +65,36 @@
       "url": "https://www.wassenaar.org/blog/",
       "description": "Multilateral export control regime updates and technical guidelines",
       "category": "international-regime"
+    },
+    {
+      "id": "pillsbury-global-trade",
+      "organization": "Pillsbury Winthrop Shaw Pittman LLP",
+      "name": "Global Trade & Sanctions Law",
+      "url": "https://www.globaltradeandsanctionslaw.com/",
+      "description": "Legal analysis of global trade, export controls, and sanctions enforcement by Pillsbury's international trade practice",
+      "category": "professional-analysis"
+    },
+    {
+      "id": "reed-smith-trade",
+      "organization": "Reed Smith LLP",
+      "name": "Trade Compliance Resource Hub",
+      "url": "https://www.tradecomplianceresourcehub.com/",
+      "description": "Practitioner-focused resources on trade compliance, sanctions, and export control enforcement trends",
+      "category": "professional-analysis"
+    },
+    {
+      "id": "csis-export-controls",
+      "organization": "Center for Strategic & International Studies (CSIS)",
+      "name": "Export Controls & Economic Security Analysis",
+      "url": "https://www.csis.org/analysis",
+      "description": "Policy analysis on export controls, technology competition, and economic security from a leading U.S. think tank",
+      "category": "policy-analysis"
     }
   ],
   "key_topics": [
     "Export Controls",
     "Strategic Trade",
+    "Sanctions",
     "Sanctions Compliance",
     "Technology Transfer Restrictions",
     "Dual-Use Items",

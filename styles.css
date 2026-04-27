@@ -27,6 +27,9 @@ body{margin:0;font-family:'Inter','Roboto',system-ui,-apple-system,Segoe UI,Helv
 .badges{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .badge{font-size:11px;padding:8px 10px;border-radius:999px;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.3);color:var(--white);backdrop-filter:blur(5px)}
 .badge.confidential{background:rgba(255,200,200,.15);border-color:rgba(255,200,200,.3);color:#fff}
+.severity-high{background:#ffcccc;color:#7a0000;border-color:#ffaaaa}
+.severity-medium{background:#fff0b3;color:#5a4000;border-color:#ffe066}
+.severity-low{background:#ccffcc;color:#004400;border-color:#88ee88}
  
 .container{max-width:1200px;margin:0 auto;padding:22px 18px 60px}
 .hero{background:linear-gradient(135deg, var(--cobalt) 0%, rgba(0,86,179,.8) 100%);border:1px solid rgba(0,174,239,.3);border-radius:var(--radius);padding:32px;box-shadow:0 8px 24px rgba(0,45,98,.15);backdrop-filter:blur(20px);position:relative;overflow:hidden}
@@ -460,6 +463,35 @@ select{cursor:pointer}
 #showDataResidencyBtn{margin-top:16px !important}
 #showDataResidencyBtn:hover{box-shadow:0 6px 20px rgba(45,138,127,.3)}
 
+/* Responsible AI Panel */
+.responsible-ai-panel{padding:24px;background:linear-gradient(135deg, rgba(27,94,32,.08) 0%, rgba(56,142,60,.05) 100%);border:2px solid #388e3c;border-radius:var(--radius);margin-bottom:20px;backdrop-filter:blur(10px)}
+.responsible-ai-header{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid #388e3c}
+.responsible-ai-header h2{margin:0;font-size:24px;color:var(--navy);font-weight:700}
+.responsible-ai-header-content{flex:1}
+.responsible-ai-intro{margin:4px 0 0;font-size:12px;color:var(--muted);font-weight:600}
+
+.responsible-ai-categories{display:grid;gap:14px;margin-bottom:24px}
+.responsible-ai-category{background:rgba(255,255,255,.7);border:1px solid var(--border);border-radius:12px;padding:16px;backdrop-filter:blur(10px);transition:all 200ms}
+.responsible-ai-category:hover{border-color:#388e3c;box-shadow:0 4px 12px rgba(56,142,60,.15)}
+.responsible-ai-category-name{font-size:14px;font-weight:600;color:var(--navy);margin-bottom:4px}
+.responsible-ai-category-desc{font-size:12px;color:var(--text);line-height:1.5;margin:6px 0 10px}
+.responsible-ai-resource-list{display:grid;gap:8px}
+.responsible-ai-resource-item{background:rgba(56,142,60,.05);border-left:3px solid #388e3c;padding:10px 12px;border-radius:6px;font-size:11px}
+.responsible-ai-resource-org{font-weight:600;color:#388e3c;margin-bottom:3px}
+.responsible-ai-resource-item a{color:#388e3c;text-decoration:none;font-weight:600;word-break:break-word}
+.responsible-ai-resource-item a:hover{text-decoration:underline;color:var(--electric)}
+.responsible-ai-resource-type{font-size:10px;color:var(--muted);margin-top:3px;font-weight:500}
+
+.responsible-ai-topics{margin-bottom:24px}
+.responsible-ai-topics h3{margin:0 0 12px;font-size:16px;color:var(--navy);font-weight:700;padding-bottom:8px;border-bottom:1px solid #388e3c}
+
+.responsible-ai-compliance-note{background:rgba(56,142,60,.1);border:1px solid rgba(56,142,60,.3);border-left:3px solid #388e3c;padding:16px;border-radius:8px;margin-top:20px}
+.responsible-ai-compliance-note strong{color:var(--navy);font-size:13px}
+.responsible-ai-compliance-note p{margin:8px 0 0;color:var(--text);font-size:12px;line-height:1.5}
+
+#showResponsibleAIBtn{margin-top:16px !important}
+#showResponsibleAIBtn:hover{box-shadow:0 6px 20px rgba(56,142,60,.3)}
+
 /* Insights Panel & Modal */
 .insights-panel{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);backdrop-filter:blur(4px);z-index:1000;display:flex;align-items:flex-start;justify-content:center;padding-top:40px;overflow-y:auto}
 .insights-panel[style*="display: block"]{display:flex !important}
@@ -583,4 +615,295 @@ select{cursor:pointer}
   .topbar{flex-direction:column;align-items:flex-start;gap:12px}
   .filters{grid-template-columns:1fr}
   .kpis{grid-template-columns:repeat(2,1fr)}
+}
+
+/* ── Key Takeaway Callout ── */
+.key-takeaway{
+  background:linear-gradient(135deg,rgba(0,86,179,.07) 0%,rgba(0,174,239,.06) 100%);
+  border:1px solid rgba(0,174,239,.3);
+  border-left:3px solid var(--electric);
+  border-radius:8px;
+  padding:10px 12px;
+  margin-bottom:10px;
+  position:relative;
+  z-index:1;
+}
+.key-takeaway-label{
+  font-size:10px;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:.05em;
+  color:var(--cobalt);
+  margin-bottom:4px;
+}
+.key-takeaway p{
+  margin:0;
+  font-size:12px;
+  line-height:1.5;
+  color:var(--navy);
+  font-weight:500;
+}
+
+/* ── Lifecycle Status Badges ── */
+.pill.status-draft{background:rgba(160,174,192,.2);color:#4a5568;border-color:rgba(160,174,192,.5)}
+.pill.status-consultation{background:rgba(0,86,179,.15);color:var(--cobalt);border-color:rgba(0,86,179,.4)}
+.pill.status-pending{background:rgba(255,152,0,.15);color:#e65100;border-color:rgba(255,152,0,.5)}
+.pill.status-effective{background:rgba(76,175,80,.15);color:#2e7d32;border-color:rgba(76,175,80,.5)}
+.pill.status-enforcement{background:rgba(211,47,47,.15);color:#c62828;border-color:rgba(211,47,47,.5)}
+
+/* ── Consultation Deadline ── */
+.consultation-deadline{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  font-size:11px;
+  color:#e65100;
+  font-weight:600;
+  margin-top:6px;
+  padding:4px 8px;
+  background:rgba(255,152,0,.1);
+  border-radius:6px;
+  border:1px solid rgba(255,152,0,.3);
+}
+
+/* ── Original Source Link ── */
+.original-source-link{
+  display:inline-flex;
+  align-items:center;
+  gap:4px;
+  color:var(--cobalt);
+  font-size:11px;
+  font-weight:600;
+  text-decoration:none;
+  margin-top:6px;
+}
+.original-source-link:hover{color:var(--electric);text-decoration:underline}
+
+/* ── Skeleton / Shimmer for viz placeholders ── */
+.skeleton-viz{
+  background:linear-gradient(90deg,#f0f0f0 25%,#e0e0e0 50%,#f0f0f0 75%);
+  background-size:200% 100%;
+  animation:shimmer 2s infinite;
+  border-radius:8px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--muted);
+  font-size:13px;
+  font-weight:600;
+  gap:8px;
+}
+.skeleton-viz::before{
+  content:'';
+  display:inline-block;
+  width:16px;
+  height:16px;
+  border:2px solid rgba(0,45,98,.2);
+  border-top-color:var(--electric);
+  border-radius:50%;
+  animation:spin 1s linear infinite;
+  flex-shrink:0;
+}
+.viz-error{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:24px;
+  color:#d32f2f;
+  font-size:13px;
+  background:rgba(211,47,47,.05);
+  border-radius:8px;
+  border:1px dashed rgba(211,47,47,.3);
+  gap:8px;
+}
+
+/* ── KPI skeleton shimmer ── */
+.kpi-skeleton{
+  display:inline-block;
+  width:48px;
+  height:24px;
+  border-radius:6px;
+  background:linear-gradient(90deg,#e8ecf0 25%,#d0d8e4 50%,#e8ecf0 75%);
+  background-size:200% 100%;
+  animation:shimmer 1.8s infinite;
+  vertical-align:middle;
+}
+
+/* ── View Toggle (Region / Topic) ── */
+.view-toggle{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  padding:0 16px 12px;
+}
+.view-toggle .btn{
+  padding:7px 11px;
+  font-size:11px;
+}
+.view-toggle .btn.active{
+  border-color:var(--electric);
+  background:linear-gradient(135deg,var(--electric),var(--cobalt));
+  color:var(--white);
+}
+.view-group-header{
+  font-size:13px;
+  font-weight:700;
+  color:var(--navy);
+  padding:8px 16px 4px;
+  margin:12px 0 0;
+  text-transform:uppercase;
+  letter-spacing:.04em;
+  border-bottom:2px solid var(--electric);
+}
+
+/* ── Welcome / Onboarding Banner ── */
+#welcomeBanner{
+  background:linear-gradient(135deg,rgba(0,86,179,.08) 0%,rgba(0,174,239,.1) 100%);
+  border-bottom:1px solid rgba(0,174,239,.3);
+  padding:14px 22px;
+  display:flex;
+  align-items:center;
+  gap:16px;
+  flex-wrap:wrap;
+}
+#welcomeBanner .welcome-text{
+  flex:1;
+  font-size:14px;
+  font-weight:600;
+  color:var(--navy);
+}
+#welcomeBanner .welcome-actions{display:flex;gap:8px;flex-shrink:0}
+#welcomeBanner button{
+  padding:8px 14px;
+  border-radius:999px;
+  border:none;
+  cursor:pointer;
+  font-size:12px;
+  font-weight:600;
+}
+.welcome-start{background:var(--electric);color:white}
+.welcome-start:hover{background:var(--cobalt)}
+.welcome-dismiss{background:rgba(0,45,98,.1);color:var(--navy)}
+.welcome-dismiss:hover{background:rgba(0,45,98,.2)}
+
+/* ── API Settings Modal ── */
+#apiSettingsModal .modal-content{max-width:480px}
+.api-key-input-wrap{position:relative;margin:12px 0}
+.api-key-input-wrap input{
+  width:100%;
+  padding:11px 40px 11px 12px;
+  border-radius:12px;
+  border:1px solid var(--border);
+  background:rgba(255,255,255,.8);
+  color:var(--text);
+  font-size:13px;
+  outline:none;
+  transition:all 200ms;
+}
+.api-key-input-wrap input:focus{
+  background:var(--white);
+  border-color:var(--electric);
+  box-shadow:0 0 0 3px rgba(0,174,239,.1);
+}
+.api-security-note{
+  font-size:11px;
+  color:var(--muted);
+  background:rgba(0,45,98,.04);
+  padding:10px 12px;
+  border-radius:8px;
+  border-left:3px solid var(--electric);
+  margin:12px 0;
+  line-height:1.5;
+}
+#apiKeyStatus{
+  font-size:12px;
+  padding:6px 10px;
+  border-radius:6px;
+  margin-top:8px;
+}
+#apiKeyStatus.status-ok{background:rgba(76,175,80,.12);color:#2e7d32;border:1px solid rgba(76,175,80,.3)}
+#apiKeyStatus.status-clear{background:rgba(255,152,0,.12);color:#e65100;border:1px solid rgba(255,152,0,.3)}
+
+/* ── Regulator Quick Links ── */
+.regulator-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+.regulator-link{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding:8px 14px;
+  border-radius:999px;
+  border:1px solid var(--border);
+  background:rgba(255,255,255,.7);
+  color:var(--cobalt);
+  font-size:12px;
+  font-weight:600;
+  text-decoration:none;
+  transition:all 200ms;
+  backdrop-filter:blur(5px);
+}
+.regulator-link:hover{
+  border-color:var(--electric);
+  background:var(--white);
+  color:var(--electric);
+  box-shadow:0 2px 8px rgba(0,174,239,.15);
+}
+
+/* ── Improved Empty State ── */
+.empty{
+  padding:40px 20px;
+  text-align:center;
+  color:var(--muted);
+}
+.empty-icon{font-size:48px;margin-bottom:12px}
+.empty-title{font-size:16px;font-weight:600;color:var(--navy);margin:0 0 8px}
+.empty-subtitle{font-size:13px;color:var(--muted);margin:0 0 20px}
+
+/* ── Alert Subscription Button ── */
+.alert-saved-note{
+  font-size:11px;
+  color:#2e7d32;
+  background:rgba(76,175,80,.1);
+  border:1px solid rgba(76,175,80,.3);
+  border-radius:6px;
+  padding:6px 10px;
+  display:none;
+}
+.alert-saved-note.visible{display:inline-block}
+
+/* ── Export & Action Row ── */
+.action-row{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin-bottom:16px;
+  padding:0 16px;
+}
+
+/* ── Footer ── */
+.site-footer{
+  background:rgba(0,45,98,.04);
+  border-top:1px solid var(--border);
+  padding:24px 28px;
+  margin-top:32px;
+  border-radius:0 0 var(--radius) var(--radius);
+}
+.site-footer .disclaimer{
+  font-size:11px;
+  color:var(--muted);
+  line-height:1.6;
+  margin:0 0 12px;
+}
+.site-footer .license-note{
+  font-size:11px;
+  color:var(--muted);
+  border-top:1px solid var(--border);
+  padding-top:12px;
+  margin:0;
+}
+
+@media(max-width:980px){
+  .view-toggle{padding:0 16px 10px}
+  .action-row{justify-content:flex-start}
+  .regulator-links{gap:8px}
 }
