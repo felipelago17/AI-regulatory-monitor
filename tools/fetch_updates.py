@@ -11,6 +11,7 @@ Exit codes:
 import hashlib
 import html as html_module
 import json
+import os
 import re
 import sys
 import traceback
@@ -68,6 +69,24 @@ _TIMEOUT = 20
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
+
+def _atomic_write(path: Path, data: dict) -> None:
+    """Serialize *data* to JSON and replace *path* atomically.
+
+    Writes to a sibling .tmp file first so that a crash or disk-full error
+    during the write never leaves the target file in a corrupt/partial state.
+    os.replace() is atomic on POSIX; on Windows it is as close as the OS allows.
+    """
+    tmp = path.with_suffix(".tmp")
+    try:
+        serialized = json.dumps(data, indent=2, ensure_ascii=False)
+        # Validate round-trip before touching the real file
+        json.loads(serialized)
+        tmp.write_text(serialized, encoding="utf-8")
+        os.replace(tmp, path)
+    except Exception:
+        tmp.unlink(missing_ok=True)
+        raise
 
 def _make_id(url: str, title: str) -> str:
     """Generate a stable item ID from its URL (or title as fallback)."""
@@ -264,8 +283,7 @@ def main() -> int:
         # Nothing new – update timestamp and exit cleanly
         data["generated_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
         try:
-            with DATA_FILE.open("w", encoding="utf-8") as fh:
-                json.dump(data, fh, indent=2, ensure_ascii=False)
+            _atomic_write(DATA_FILE, data)
         except OSError as exc:
             print(f"❌ Failed to write data/updates.json: {exc}", file=sys.stderr)
             return 1
@@ -276,8 +294,7 @@ def main() -> int:
     data["generated_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
 
     try:
-        with DATA_FILE.open("w", encoding="utf-8") as fh:
-            json.dump(data, fh, indent=2, ensure_ascii=False)
+        _atomic_write(DATA_FILE, data)
     except OSError as exc:
         print(f"❌ Failed to write data/updates.json: {exc}", file=sys.stderr)
         return 1

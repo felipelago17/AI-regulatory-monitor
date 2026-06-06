@@ -4,6 +4,8 @@ Add category field to items based on tags and other properties.
 Categories: 'enforcement', 'update', 'news'
 """
 import json
+import os
+from pathlib import Path
 
 def categorize_item(item):
     """Determine category based on item properties."""
@@ -60,22 +62,34 @@ def calculate_risk_score(impact_assessment):
     
     return min(int(risk_score), 100)
 
+def _atomic_write(path: Path, data: dict) -> None:
+    """Write JSON atomically via a sibling .tmp file and os.replace()."""
+    tmp = path.with_suffix(".tmp")
+    try:
+        serialized = json.dumps(data, indent=2, ensure_ascii=False)
+        json.loads(serialized)  # validate round-trip before touching real file
+        tmp.write_text(serialized, encoding="utf-8")
+        os.replace(tmp, path)
+    except Exception:
+        tmp.unlink(missing_ok=True)
+        raise
+
+
 def main():
-    with open('data/updates.json', 'r', encoding='utf-8') as f:
+    data_path = Path('data/updates.json')
+    with data_path.open('r', encoding='utf-8') as f:
         data = json.load(f)
-    
+
     for item in data.get('items', []):
         # Always set category (overwrite if exists)
         item['category'] = categorize_item(item)
-        
+
         # Add risk_score if missing
         if 'risk_score' not in item and item.get('impact_assessment'):
             item['risk_score'] = calculate_risk_score(item['impact_assessment'])
-    
-    # Write back
-    with open('data/updates.json', 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-    
+
+    _atomic_write(data_path, data)
+
     print(f"Processed {len(data.get('items', []))} items")
     
     # Summary statistics
