@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27",
+  "generated_at": "2026-04-27T08:06:03+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -354,8 +354,7 @@
         "regulatory_disruption_days": "30-90",
         "confidence_level": "Very High (statutory requirement under EU AI Act)"
       }
-  "generated_at": "2026-04-27T08:06:03+00:00",
-  "items": [
+    },
     {
       "id": "eu-ai-act-risk-classification",
       "title": "EU AI Act outlines risk-based obligations",
@@ -3468,20 +3467,20 @@
       "topics": [
         "AI governance"
       ],
-      "title": "The AI Mirror by Shannon Vallor",
+      "title": "DALL·E in ChatGPT (System Card)",
       "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
       "source": "chatgpt.com",
       "url": "https://chatgpt.com/",
       "tags": [
+        "a-ai-tools",
         "ai",
-        "e-books",
         "governance",
-        "i-learn",
-        "on-ai-governance-and-ethics"
+        "ii-try",
+        "image-generation"
       ],
-      "pillar": "I. Learn",
+      "pillar": "II. Try",
       "category": "news",
-      "group": "On AI governance and ethics:"
+      "group": "Image Generation:"
     },
     {
       "id": "aig-resource-aab4d7b8",
@@ -3689,7 +3688,7 @@
       "topics": [
         "AI governance"
       ],
-      "title": "System Card",
+      "title": "Model Card",
       "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
       "source": "policies.google.com",
       "url": "https://policies.google.com/terms",
@@ -3774,29 +3773,6 @@
       "group": "Chatbots:"
     },
     {
-      "id": "aig-resource-e94b8252",
-      "date": "2025-04-14",
-      "jurisdiction": "Global",
-      "region": "Global",
-      "topics": [
-        "AI governance"
-      ],
-      "title": "Model Card",
-      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
-      "source": "policies.google.com",
-      "url": "https://policies.google.com/terms",
-      "tags": [
-        "a-ai-tools",
-        "ai",
-        "chatbots",
-        "governance",
-        "ii-try"
-      ],
-      "pillar": "II. Try",
-      "category": "news",
-      "group": "Chatbots:"
-    },
-    {
       "id": "aig-resource-73ffeaa4",
       "date": "2025-04-14",
       "jurisdiction": "Global",
@@ -3831,29 +3807,6 @@
       "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
       "source": "perplexity.ai",
       "url": "https://www.perplexity.ai/hub/legal/terms-of-service",
-      "tags": [
-        "a-ai-tools",
-        "ai",
-        "governance",
-        "ii-try",
-        "search"
-      ],
-      "pillar": "II. Try",
-      "category": "news",
-      "group": "Search:"
-    },
-    {
-      "id": "aig-resource-8e5f728a",
-      "date": "2025-04-14",
-      "jurisdiction": "Global",
-      "region": "Global",
-      "topics": [
-        "AI governance"
-      ],
-      "title": "Perplexity (Terms of Service)",
-      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
-      "source": "chatgpt.com",
-      "url": "https://chatgpt.com/",
       "tags": [
         "a-ai-tools",
         "ai",
@@ -3914,29 +3867,6 @@
       "pillar": "II. Try",
       "category": "news",
       "group": "Research:"
-    },
-    {
-      "id": "aig-resource-8e5f728a",
-      "date": "2025-04-14",
-      "jurisdiction": "Global",
-      "region": "Global",
-      "topics": [
-        "AI governance"
-      ],
-      "title": "DALL·E in ChatGPT (System Card)",
-      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
-      "source": "chatgpt.com",
-      "url": "https://chatgpt.com/",
-      "tags": [
-        "a-ai-tools",
-        "ai",
-        "governance",
-        "ii-try",
-        "image-generation"
-      ],
-      "pillar": "II. Try",
-      "category": "news",
-      "group": "Image Generation:"
     },
     {
       "id": "aig-resource-d130ee01",
@@ -5365,20 +5295,19 @@
       "topics": [
         "AI governance"
       ],
-      "title": "George Washington Law",
+      "title": "Women in AI Governance ($ membership)",
       "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
       "source": "alltechishuman.org",
       "url": "https://alltechishuman.org/responsible-ai",
       "tags": [
+        "a-active-communities",
         "ai",
-        "c-ai-governance",
-        "for-us-state-developments",
         "governance",
-        "ii-try"
+        "iii-volunteer"
       ],
-      "pillar": "II. Try",
+      "pillar": "III. Volunteer",
       "category": "news",
-      "group": "For US state developments:"
+      "group": null
     },
     {
       "id": "aig-resource-4064f78a",
@@ -5411,13 +5340,13 @@
       "topics": [
         "AI governance"
       ],
-      "title": "All Tech is Human",
+      "title": "Better Images of AI",
       "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
       "source": "forhumanity.center",
       "url": "https://forhumanity.center/get-involved/",
       "tags": [
-        "a-active-communities",
         "ai",
+        "b-active-projects",
         "governance",
         "iii-volunteer"
       ],
@@ -5606,28 +5535,6 @@
       "group": null
     },
     {
-      "id": "aig-resource-65589971",
-      "date": "2025-04-14",
-      "jurisdiction": "Global",
-      "region": "Global",
-      "topics": [
-        "AI governance"
-      ],
-      "title": "Women in AI Governance ($ membership)",
-      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
-      "source": "alltechishuman.org",
-      "url": "https://alltechishuman.org/responsible-ai",
-      "tags": [
-        "a-active-communities",
-        "ai",
-        "governance",
-        "iii-volunteer"
-      ],
-      "pillar": "III. Volunteer",
-      "category": "news",
-      "group": null
-    },
-    {
       "id": "aig-resource-5ed0405f",
       "date": "2025-04-14",
       "jurisdiction": "Global",
@@ -5661,28 +5568,6 @@
       "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
       "source": "ethical.institute",
       "url": "https://ethical.institute/network.html",
-      "tags": [
-        "ai",
-        "b-active-projects",
-        "governance",
-        "iii-volunteer"
-      ],
-      "pillar": "III. Volunteer",
-      "category": "news",
-      "group": null
-    },
-    {
-      "id": "aig-resource-daf12aaf",
-      "date": "2025-04-14",
-      "jurisdiction": "Global",
-      "region": "Global",
-      "topics": [
-        "AI governance"
-      ],
-      "title": "Better Images of AI",
-      "summary": "Resource captured for AI governance capability building. Use the link as a reference source and add internal notes on relevance to UAE/UK operations and Responsible AI controls.",
-      "source": "forhumanity.center",
-      "url": "https://forhumanity.center/get-involved/",
       "tags": [
         "ai",
         "b-active-projects",
