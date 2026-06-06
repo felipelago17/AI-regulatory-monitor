@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T08:06:03+00:00",
+  "generated_at": "2026-06-06T06:32:50+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -22,7 +22,7 @@
         "compliance-deadline",
         "national-authorities"
       ],
-      "category": "regulatory",
+      "category": "enforcement",
       "risk_score": 90,
       "impact_assessment": {
         "scenario": "Organisations with high-risk AI systems deployed in the EU face enforcement, audits, and fines from national authorities from August 2, 2026",
@@ -92,7 +92,7 @@
         "legislative-framework",
         "innovation"
       ],
-      "category": "regulatory",
+      "category": "news",
       "risk_score": 60,
       "impact_assessment": {
         "scenario": "Federal legislation based on this framework could preempt California, Colorado, and other state AI laws, significantly changing compliance obligations for multistate operators",
@@ -201,7 +201,7 @@
         "law-making",
         "pinsent-masons"
       ],
-      "category": "regulatory",
+      "category": "news",
       "risk_score": 45,
       "impact_assessment": {
         "scenario": "Real-time AI-monitored regulatory compliance obligations in the UAE could accelerate enforcement timelines and reduce tolerance for delayed compliance",
@@ -239,7 +239,7 @@
         "ai-processing",
         "privacy"
       ],
-      "category": "regulatory",
+      "category": "update",
       "risk_score": 58,
       "impact_assessment": {
         "scenario": "Multi-jurisdictional UAE AI deployments face exposure from conflicting PDPL, DIFC, and ADGM data protection obligations for the same AI system",
@@ -276,7 +276,7 @@
         "us-state-laws",
         "law-firm"
       ],
-      "category": "update",
+      "category": "enforcement",
       "risk_score": 50
     },
     {
@@ -305,7 +305,7 @@
         "asia",
         "law-firm"
       ],
-      "category": "update",
+      "category": "enforcement",
       "risk_score": 55,
       "impact_assessment": {
         "scenario": "Agentic AI in financial services faces new regulatory oversight; AI-driven pricing tools face antitrust investigations in EU, US, and UK",
@@ -342,7 +342,7 @@
         "cdt-europe",
         "synthetic-media"
       ],
-      "category": "update",
+      "category": "enforcement",
       "risk_score": 62,
       "impact_assessment": {
         "scenario": "Organisations deploying generative AI tools in the EU must implement content labelling and AI literacy training or face enforcement from August 2026",
@@ -6702,6 +6702,246 @@
         "digital-regulation"
       ],
       "category": "news"
+    },
+    {
+      "id": "4356b0d9ab7d930b",
+      "date": "2026-06-04",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "New AI Model Shows How to Evacuate for Fires One Safe Step at a Time",
+      "summary": "A NIST-led team has created a new AI model that can identify safe evacuation routes in a single-story floor plan during a fire, with a multilevel version in the works.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/06/new-ai-model-shows-how-evacuate-fires-one-safe-step-time",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "ed32bfe63e888702",
+      "date": "2026-06-04",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Researchers Discover a New Way to Whisk Alloys Together With Lasers",
+      "summary": "NIST also improved how X-rays are used to study the atomic structure of metals in real time during 3D printing, allowing researchers to observe how materials change under extreme conditions.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/06/nist-researchers-discover-new-way-whisk-alloys-together-lasers",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "7cdc0188c578682f",
+      "date": "2026-05-29",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Expands AI Consortium’s Scope, Calls for New Members",
+      "summary": "The consortium will focus on AI innovation and adoption, with six task groups concentrating on different aspects of AI measurement science and evaluation.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/05/nist-expands-ai-consortiums-scope-calls-new-members",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "011c5c3f84732a20",
+      "date": "2026-05-18",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Shooting for the Moon: Ultrastable Lasers in Dark Craters Could Enable Lunar Navigation, Precision Timekeeping, New Science",
+      "summary": "Lunar craters in permanent shadow could be ideal locations for building the most stable optical lasers ever made.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/05/shooting-moon-ultrastable-lasers-dark-craters-could-enable-lunar-navigation",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "23546ee3b69fc23f",
+      "date": "2026-05-13",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Wear and Tear Changes Measurable PFAS Levels in Firefighter Hoods, Gloves and Wildland Gear",
+      "summary": "In the fourth of an ongoing series of reports, NIST shows that wear and tear increased the levels of PFAS found in hoods and gloves.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/05/wear-and-tear-changes-measurable-pfas-levels-firefighter-hoods-gloves-and",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "dc12618ada256205",
+      "date": "2026-06-05",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "EDIH Summit 2026: Strengthening the AI Innovation Ecosystem",
+      "summary": "EDIH Summit 2026: Strengthening the AI Innovation Ecosystem Anonymous (not verified) Fri, 06/05/2026 - 16:40 09 June 2026 - 10 June 2026 The EDIH Summit 2026 brings together the full European Digital Innovation Hubs (EDIH) network, EU institutions, Member States, AI infrastructures and innovation actors to examine how Europe’s AI ecosystem functions in practice. GettyImages © gremlin Main link https://european-digital-innovation-hubs.ec.europa.eu/edih-summit-2026-strength… Related topics Artificial intelligence Digital Innovation Hubs Digital Europe Programme Funding for Digital {\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/edih-summit-2026-strengthening-ai-innovation-ecosystem",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "6e9de68d3825ab10",
+      "date": "2026-06-03",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Proposal for the Cloud and AI Development Act (CADA)",
+      "summary": "Proposal for the Cloud and AI Development Act (CADA) dumimar Wed, 06/03/2026 - 11:02 The Commission has adopted a proposal for the Cloud and AI Development Act (CADA) with the aim of strengthening the EU's cloud and AI ecosystem, investment and infrastructure. © Worawee Meepian The ongoing deployment of AI factories and AI gigafactories aims to provide broad access to high-capacity, next-generation computational resources for European businesses and researchers requiring AI capabilities. To complement this, the EU needs to expand its cloud and data centre capacity to support the wider deployment and diffusion of AI. The CADA will reinforce energy-efficient data centre capacity, while complementing the Apply AI strategy to boost the adoption of artificial intelligence and cloud across Europe. It will focus on three objectives: Research, development and innovation : supporting efforts to deploy the next generation of cutting-edge and sustainable cloud and AI technologies Capacity : accelerating the conditions for deploying data centres across the EU, focusing on facilities that enhance essential public sector functions Autonomy : introducing a single EU-wide assessment framework for cloud and AI sovereignty, accompanied by a public sector adoption mechanism The CADA complements other new initiatives, including the Chips Act 2.0 and the EU Open Source Strategy , in contributing to a more competitive, secure and resilient European digital economy. You can download the full regulation proposal, the annexes, the impact assessment and a summary of this impact assessment below. Read more information: Cloud and AI Development Act (CADA) Cloud computing AI Continent Action Plan Downloads 1. COM(2026) 502 - Proposal Regulation Cloud and AI Development Act (CADA) Download 2. COM(2026) 502 - Proposal Regulation Cloud and AI Development Act (CADA) Annexes Download 3. SWD(2026) 502 - Impact Assessment (Part 1) Download 4. SWD(2026) 502 - Impact Assessment (Part 2) Download 5. SWD(2026) 502 - Summary of the Impact Assessment Download Related topics Cloud Computing Advanced and Cloud Computing Boosting European digital Industry Artificial intelligence Tech sovereignty Related content Policy and legislation 03 June 2026 Communication on European Tech Sovereignty, accompanied by an EU Open Source Strategy The Commission is proposing the European Technological Sovereignty Package, marking a change in Europe's approach to its tech ecosystems. {\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-cloud-and-ai-development-act-cada",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "ff845fabe0570f16",
+      "date": "2026-06-03",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Commission proposes tech sovereignty package to strengthen Europe's digital autonomy and resilience",
+      "summary": "Commission proposes tech sovereignty package to strengthen Europe's digital autonomy and resilience Anonymous (not verified) Wed, 06/03/2026 - 11:01 The European Commission has presented the European Technological Sovereignty Package, a set of measures to strengthen Europe's capacity in semiconductors, artificial intelligence (AI), cloud and open source. Adobe Stock © peera The package includes two legislative proposals - the Chips Act 2.0 and the Cloud and AI Development Act - as well as the Open Source Strategy and a Strategic Roadmap for Digitalisation and AI in Energy . Together, these measures support Europe's ambition to become an AI continent, strengthen its digital autonomy and help build a more sustainable digital future. They will help widen choice in core technologies for EU businesses, citizens and public administrations. The move comes as Europe remains heavily dependent on suppliers outside the European Union for core digital technologies and as demand for computing capacity rises sharply with the spread of AI. It is designed to reduce structural dependencies and make sure Europe can develop, deploy and secure the technologies Europeans rely on. It signals a major shift in the EU's approach to technology. Commission President, Ursula von der Leyen said: “We cannot afford to depend on others for the technologies that keep our hospitals running, our energy grids stable and our services secure. This is about protecting our citizens, defending our interests and making our own choices. Europe has the talent, the research excellence, the industrial base and the Single Market. Together, we must turn these strengths into technological sovereignty.” Read the full press release . Read more information Strengthening Europe’s Tech Sovereignty Factsheet - Tech Sovereignty Scientific brief: From dependency to resilience The Chips Act 2.0 The Cloud and AI Development Act (CADA) Fact page - Open Source in the EU Strategic Roadmap for Digitalisation and AI in Energy Related topics Cloud Computing Advanced Digital Technologies Electronics Advanced and Cloud Computing Boosting European digital Industry Artificial intelligence Chips Act Semiconductors Tech sovereignty Open source {\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-tech-sovereignty-package-strengthen-europes-digital-autonomy-and-resilience",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "a3a11a6795bc1941",
+      "date": "2026-06-03",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Proposal for the Chips Act 2.0",
+      "summary": "Proposal for the Chips Act 2.0 dumimar Wed, 06/03/2026 - 10:30 The Commission has adopted a proposal for the Chips Act 2.0, which introduces new measures to further boost the chips industry, reduce strategic dependencies and support advanced chip production in the EU. © Nikola Ilic - E+ The EU remains dependent on third countries in key areas such as advanced chip manufacturing or semiconductor design. Securing a stable chips supply is necessary to ensure that critical infrastructures and technologies remain secure, resilient and aligned with European values. The Chips Act 2.0 builds on the progress made by the original Chips Act and will both reinforce current European strengths (including mainstream chips) and build capacity in cutting-edge semiconductor technologies. This will allow the EU to maintain its position as an indispensable player in the value chain, while strengthening its resilience, and reducing strategic dependencies and supply chain vulnerabilities. The Chips Act 2.0 complements other new initiatives, including the Cloud and AI Development Act (CADA) and the EU Open Source Strategy , in contributing to a more competitive, secure and resilient European digital economy. You can download the full regulation proposal, the annexes, the impact assessment and a summary of this impact assessment below. Read more about the Chips Act 2.0 Downloads 1 - Proposal Chips Act 2.0 Download 2 - Proposal Chips Act 2.0 Annexes Download 3 - Impact Assessment (Part 1) Download 4 - Impact Assessment (Part 2) Download 5 - Impact Assessment (Part 3) Download 6 - Summary of the Impact Assessment Download Related topics Advanced Digital Technologies Electronics Boosting European digital Industry Chips Act Semiconductors Tech sovereignty Related content Policy and legislation 03 June 2026 Communication on European Tech Sovereignty, accompanied by an EU Open Source Strategy The Commission is proposing the European Technological Sovereignty Package, marking a change in Europe's approach to its tech ecosystems. {\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-chips-act-20",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "f456cb78f3f6a03e",
+      "date": "2026-06-03",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Communication on European Tech Sovereignty, accompanied by an EU Open Source Strategy",
+      "summary": "Communication on European Tech Sovereignty, accompanied by an EU Open Source Strategy Anonymous (not verified) Wed, 06/03/2026 - 10:19 The Commission is proposing the European Technological Sovereignty Package, marking a change in Europe's approach to its tech ecosystems. © SP Da The Commission is putting forward a multi-pronged, comprehensive strategy to achieve technological sovereignty , with initiatives that are interconnected and mutually reinforcing across each stage of the value chain, from chips, to infrastructure, to software, cloud and AI, and in synergy with past and ongoing initiatives such as AI Factories and AI Gigafactories. This is reflected in four initiatives: The Chips Act 2.0 to strengthen the semiconductor ecosystem and supply chain resilience, and boost domestic demand The Cloud and AI Development Act (CADA) to unlock the potential AI and cloud, to transform our industrial ecosystems and improve societal outcomes The EU Open Source Strategy to reduce dependencies across the entire technology stack A Strategic Roadmap for Digitalisation and AI in Energy You can download the full Communication and its annexes below. Read more about Europe's Tech Sovereignty Downloads 1. COM(2026) 503 - Communication on European Tech Sovereignty and EU Open Source Strategy Download 2. COM(2026) 503 - Communication on European Tech Sovereignty and EU Open Source Strategy - Annexes Download Related topics Cloud Computing Advanced Digital Technologies Electronics Advanced and Cloud Computing Boosting European digital Industry Artificial intelligence Chips Act Semiconductors Tech sovereignty Open source {\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/communication-european-tech-sovereignty-accompanied-eu-open-source-strategy",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "94e05f34b572dd74",
+      "date": "2026-06-03",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "European Commission survey: AI in healthcare and pharmaceuticals",
+      "summary": "European Commission survey: AI in healthcare and pharmaceuticals Anonymous (not verified) Wed, 06/03/2026 - 09:24 Opening: 02 June 2026 Closing: 26 June 2026 This stakeholder survey will gather insights on the use of AI in healthcare and pharmaceuticals, focusing on the benefits, enabling factors and barriers to adoption. © GettyImages The survey follows the publication of the Apply AI Strategy (October 2025) and seeks feedback on healthcare - and pharmaceuticals - specific actions, as well as the real-world impact and scalability of solutions ready for broader implementation. The findings will feed into future policy actions aimed at accelerating AI adoption across both sectors. Who should respond? The survey is open to a wide range of stakeholders, including healthcare providers, industry representatives (including SMEs and AI solution providers), pharmaceutical companies, medical societies, patient organisations and industry associations. How to participate? The survey takes no more than 15 minutes to complete. Responses are confidential and will be analysed in aggregated form only. The deadline for responding is 26 June 2026 at 17:00 CEST . For information on how the Commission processes personal data in the context of this survey, please check the Privacy Statement below. Related topics Creating a digital society eHealth, Wellbeing and Ageing Artificial intelligence AI in health {\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/consultations/european-commission-survey-ai-healthcare-and-pharmaceuticals",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "9507b7076e9ad20f",
+      "date": "2026-06-02",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Apply AI Webinar on AI for Cultural, Creative and Media Sectors",
+      "summary": "Apply AI Webinar on AI for Cultural, Creative and Media Sectors Anonymous (not verified) Tue, 06/02/2026 - 12:29 24 June 2026 This webinar will focus on how AI can be leveraged to both safeguard and drive innovation across Europe’s cultural and creative sectors. Artificial Intelligence (AI) is increasingly transforming Europe’s cultural, creative and media sectors, offering new opportunities for creativity, production, accessibility and audience engagement. Building on ongoing policy discussionsand initiatives, this upcoming webinar will bring together EU experts to explore how AI can support innovation across these sectors while safeguarding Europe’s cultural and linguistic diversity, in line with the actions of the Apply AI Strategy. The webinar will focus on practical applications and future developments in areas such as: AI for news media AI-driven digitalisation of cultural heritage use of AI tools in creative sectors including music and literature Participants will also discuss broader developments in the audiovisual sector. This webinar is part of a series of Apply AI sectoral webinars, focusing on a cluster of strategic sectors to explore practical applications, use cases, and the specific needs of the industries. The event will be live streamed on our YouTube channel . Engage in the conversation by submitting questions in advance or during the session via Slido . More details below. Date and time 24 June, 10:30-11:30 CET Speakers Giulia Carsaniga (moderator), Policy Officer, AI Office Maria Iglesias, Team Leader - Culture and Digital, AI, DG EAC Peter Friess, Senior Programme Officer, DG CNECT Szymon Lewandowski, Team Leader, DG CNECT Related topics Media and democracy Audiovisual & Media Services Digital Cultural heritage Digitisation and digital preservation Artificial intelligence {\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/apply-ai-webinar-ai-cultural-creative-and-media-sectors",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "e4cfb18e2c7dbc31",
+      "date": "2026-05-29",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Targeted consultation: draft guidelines on trusted flaggers under the Digital Services Act (DSA)",
+      "summary": "Targeted consultation: draft guidelines on trusted flaggers under the Digital Services Act (DSA) Anonymous (not verified) Fri, 05/29/2026 - 10:00 Opening: 29 May 2026 Closing: 26 June 2026 The Commission seeks feedback from stakeholders with relevant experience and expertise on its draft guidelines on trusted flaggers. The objective of this targeted consultation is to offer relevant stakeholders the opportunity to share their insights and contribute to the guidelines on trusted flaggers . Under the Digital Services Act (DSA), organisations with specialised expertise and competence in identifying certain specific types of illegal online content can be designated as trusted flaggers . This allows them to help platforms identify more easily and quickly illegal content on their services. Platforms are required to prioritise the review of notices of illegal content from trusted flaggers in their designated area of expertise. To ensure clarity on how this mechanism operates, the Commission has been developing guidelines on trusted flaggers. These guidelines, currently at the draft stage, aim to support stakeholders, including applicants and trusted flaggers, Digital Services Coordinators (DSCs) and online platforms. The guidelines cover key aspects, such as: The eligibility criteria for trusted flaggers : only impartial organisations, free from political or other undue influence that may undermine their objectivity, and with proven expertise in detecting specific illegal content can qualify. The rules protecting the integrity of trusted flaggers , including procedures for revoking the status of trusted flagger in case of misuse. Technical and practical steps trusted flaggers and platforms should follow when preparing annual transparency reports and processing notices of illegal content. How to participate The Commission invites all stakeholders with relevant experience and expertise, including providers of online platforms, trusted flaggers, researchers, civil society organisations, to take part in this targeted consultation and share their views, good practices, recommendations and related evidence. Where possible, respondents are encouraged to provide practical examples and other supporting evidence in their responses to justify and substantiate their reasoning. The Commission may publish non-confidential replies and a summary report of all the replies to this targeted consultation. After gathering feedback, the Commission plans to adopt the guidelines in the second half of 2026 . Downloads Questions & answers on the targeted consultation on trusted flaggers Download Related topics Online platforms and e-commerce DSA - Digital Services Act {\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-guidelines-trusted-flaggers-under-digital-services-act-dsa",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "7da7a97137756a9a",
+      "date": "2026-05-28",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Commission fines Temu €200 million for breaching the Digital Services Act",
+      "summary": "Commission fines Temu €200 million for breaching the Digital Services Act Anonymous (not verified) Thu, 05/28/2026 - 12:12 The European Commission issued a fine of €200 million to Temu under the Digital Services Act (DSA). The company failed to diligently identify, analyse, and assess the systemic risks of illegal products being offered on its platform and the resulting harm to consumers in the European Union. The evidence at the disposal of the Commission indicates that consumers in the EU are very likely to encounter illegal items on Temu. Temu's risk assessment of 2024 falls short of the standards laid out in the DSA: It is based on general information about risks concerning the eCommerce sector as a whole, rather than on specific evidence about Temu's own service, including public reports and testing. It seriously underestimated how often EU consumers are likely to encounter illegal items. Evidence from a mystery shopping exercise included in the Commission's investigation shows that a very high percentage of the selected chargers failed basic safety tests, while a high percentage of tested baby toys posed safety risks of medium to high severity, as they contain chemicals exceeding legal safety limits or pose suffocation hazards due to detachable parts. It did not properly assess how the design of its service - including recommender systems and product promotion programmes by affiliated influencers - could amplify dissemination risks of illegal products. Read the full press release and find further information about the: Digital Services Act - main aspects of the regulation User rights under the Digital Services Act - an overview Supervision of the designated very large online platforms and search engines under DSA Related topics Online platforms and e-commerce DSA - Digital Services Act {\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-temu-eu200-million-breaching-digital-services-act",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "enforcement"
+    },
+    {
+      "id": "ee120b939f9a02a3",
+      "date": "2026-05-27",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Call for Tenders: Development, consultancy and support for a data altruism consent management system",
+      "summary": "Call for Tenders: Development, consultancy and support for a data altruism consent management system Anonymous (not verified) Wed, 05/27/2026 - 10:40 Opening: 27 May 2026 Closing: 30 June 2026 This call will fund a robust, legally compliant and user-friendly digital solution that enables individuals to give, withdraw and manage consent for data altruism purposes. AdobeStock © Miha Creative The system will support recognised data altruism organisations by reducing operational and financial barriers, while strengthening trust, transparency and compliance with EU data protection and data governance legislations. The solution is expected to be: compliant with GDPR and the Data Governance Act secure by design, with strong cybersecurity safeguards easy to use and accessible interoperable with existing tools and relevant EU digital infrastructure suitable for deployment by data altruism organisations released as trusted open-source software under an EU-approved licence This is an opportunity for organisations with expertise in consent management, data governance, privacy engineering, cybersecurity, interoperability and open-source software development. Deadline for application: 30/06/2026 at 16:00 CET. Interested organisations are encouraged to review the tender documentation and submit their proposals before the deadline. Find more information and instructions on how to submit the tender in the EU Funding & Tenders Portal. Related topics Data policy Open data Funding for Digital {\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/call-tenders-development-consultancy-and-support-data-altruism-consent-management-system",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "update"
     }
   ]
 }
