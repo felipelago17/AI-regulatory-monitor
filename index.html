@@ -43,6 +43,9 @@
       <button id="howItWorksBtn" class="badge" style="border:none;background:rgba(0,174,239,.2);cursor:pointer;border:1px solid rgba(0,174,239,.4);padding:8px 12px;border-radius:999px;color:var(--white);font-weight:600;" title="Learn how this works">
         ❓ How It Works
       </button>
+      <button id="darkModeBtn" class="badge" style="border:none;background:rgba(0,0,0,.2);cursor:pointer;border:1px solid rgba(255,255,255,.2);padding:8px 12px;border-radius:999px;color:var(--white);font-weight:600;" title="Toggle dark mode">
+        🌙 Dark
+      </button>
       <a href="#quick-check" class="badge" style="border:none;background:rgba(76,175,80,.2);cursor:pointer;border:1px solid rgba(76,175,80,.4);padding:8px 12px;border-radius:999px;color:var(--white);font-weight:600;text-decoration:none;display:flex;align-items:center;" title="Quick diagnostic check">
         ✓ Quick Check
       </a>
@@ -188,6 +191,7 @@
         <button type="button" class="btn secondary" data-view="UPDATE">Updates</button>
         <button type="button" class="btn secondary" data-view="NEWS">News</button>
         <button type="button" class="btn secondary" data-view="HIGH-RISK">High Risk</button>
+        <button type="button" class="btn secondary" data-view="BOOKMARKS">★ Bookmarks</button>
       </div>
 
       <!-- Group-by toggle: All Items / By Region / By Topic -->
@@ -369,6 +373,13 @@
         </div>
       </div>
 
+      <!-- Deadline Countdown -->
+      <div id="deadlineCountdown" class="deadline-section" style="display:none;">
+        <h3 style="margin:0 0 4px;color:var(--navy);font-size:16px;">⏰ Upcoming Consultation Deadlines</h3>
+        <p style="margin:0 0 4px;color:var(--muted);font-size:12px;">Items with consultation deadlines approaching, sorted by days remaining.</p>
+        <div id="deadlineList" class="deadline-list"></div>
+      </div>
+
       <!-- How It Works Modal -->
       <div id="howItWorksModal" class="modal" style="display:none;">
         <div class="modal-content">
@@ -463,6 +474,9 @@
         </button>
         <button id="alertBtn" class="btn secondary" style="font-size:14px;padding:10px 20px;" title="Save current filters as an alert">
           🔔 Alert me on this filter
+        </button>
+        <button id="printBtn" class="btn secondary" style="font-size:14px;padding:10px 20px;" title="Print / Save as PDF" onclick="window.print()">
+          🖨️ Print / PDF
         </button>
       </div>
       <div id="alertSavedNote" class="alert-saved-note" style="text-align:center;margin:0 16px 12px;"></div>
