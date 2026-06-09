@@ -948,3 +948,159 @@ select{cursor:pointer}
   .action-row{justify-content:flex-start}
   .regulator-links{gap:8px}
 }
+
+/* ── Dark Mode ── */
+[data-theme="dark"]{
+  --navy:#a8c8ff;
+  --cobalt:#64b0ff;
+  --electric:#4dd0ff;
+  --soft-slate:#1a1f2e;
+  --cool-gray:#6b7a95;
+  --white:#1e2435;
+  --bg:#0f1420;
+  --text:#c8d8f0;
+  --muted:#6b7a95;
+  --accent:#4dd0ff;
+  --border:rgba(100,176,255,.12);
+  --shadow:0 8px 22px rgba(0,0,0,.4);
+  --glass:rgba(0,0,0,.3);
+}
+[data-theme="dark"] body{background:linear-gradient(135deg,#0f1420 0%,#1a1f2e 100%)}
+[data-theme="dark"] .panel,[data-theme="dark"] .kpis{background:rgba(30,36,53,.7)}
+[data-theme="dark"] .card{background:rgba(30,36,53,.85)}
+[data-theme="dark"] .hero{background:linear-gradient(135deg,#1a2a4a 0%,#0f1420 100%)}
+[data-theme="dark"] input[type=search],[data-theme="dark"] select{background:rgba(30,36,53,.8);color:var(--text);border-color:var(--border)}
+[data-theme="dark"] input[type=search]:focus,[data-theme="dark"] select:focus{background:rgba(40,50,70,.9)}
+[data-theme="dark"] .modal-content,[data-theme="dark"] .insights-content{background:#1e2435;color:var(--text)}
+[data-theme="dark"] .modal-header,[data-theme="dark"] .modal-body p,[data-theme="dark"] .modal-body li{color:var(--text)}
+[data-theme="dark"] .bis-highlight,[data-theme="dark"] .export-control-resource,[data-theme="dark"] .data-privacy-source,[data-theme="dark"] .data-residency-source,[data-theme="dark"] .responsible-ai-category{background:rgba(30,36,53,.85)}
+[data-theme="dark"] .heatmap-section,[data-theme="dark"] .timeline-section{background:rgba(30,36,53,.7)}
+[data-theme="dark"] .topbar{background:linear-gradient(135deg,#0a1628 0%,#0f1e38 100%)}
+
+/* ── New-since-last-visit badge ── */
+.pill.new-badge{
+  background:linear-gradient(135deg,#2e7d32,#43a047);
+  color:white;
+  border-color:rgba(67,160,71,.4);
+  font-weight:700;
+  animation:pulse 2s ease-in-out infinite;
+}
+
+/* ── Bookmark button ── */
+.bookmark-btn{
+  position:absolute;
+  top:10px;
+  right:10px;
+  background:none;
+  border:none;
+  cursor:pointer;
+  font-size:18px;
+  color:var(--cool-gray);
+  padding:4px;
+  line-height:1;
+  z-index:2;
+  transition:color 200ms,transform 200ms;
+  border-radius:4px;
+}
+.bookmark-btn:hover{color:#f9a825;transform:scale(1.2)}
+.bookmark-btn.bookmarked{color:#f9a825}
+
+/* ── Clickable pills ── */
+.clickable-pill{
+  cursor:pointer;
+  transition:transform 150ms,box-shadow 150ms,opacity 150ms;
+}
+.clickable-pill:hover{
+  transform:scale(1.06);
+  box-shadow:0 2px 8px rgba(0,174,239,.25);
+  opacity:.9;
+}
+
+/* ── Pagination ── */
+.pagination-controls{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  padding:16px;
+  flex-wrap:wrap;
+}
+.pagination-info{
+  font-size:13px;
+  color:var(--muted);
+  font-weight:600;
+}
+.pagination-controls .btn[disabled]{
+  opacity:.4;
+  cursor:not-allowed;
+}
+
+/* ── Deadline Countdown ── */
+.deadline-section{
+  background:rgba(255,255,255,.7);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:16px;
+  margin-bottom:16px;
+  backdrop-filter:blur(10px);
+  box-shadow:0 4px 12px rgba(0,45,98,.08);
+}
+[data-theme="dark"] .deadline-section{background:rgba(30,36,53,.7)}
+.deadline-list{display:grid;gap:10px;margin-top:12px}
+.deadline-item{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:10px 14px;
+  border-radius:10px;
+  border:1px solid var(--border);
+  background:rgba(255,255,255,.6);
+  transition:all 200ms;
+}
+.deadline-item:hover{border-color:var(--electric);box-shadow:0 2px 8px rgba(0,174,239,.1)}
+.deadline-days{
+  font-size:20px;
+  font-weight:700;
+  min-width:52px;
+  text-align:center;
+  border-radius:8px;
+  padding:6px 4px;
+}
+.deadline-meta{flex:1;min-width:0}
+.deadline-title{font-size:12px;font-weight:600;color:var(--navy);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.deadline-info{font-size:11px;color:var(--muted);margin-top:2px}
+
+.deadline-urgent .deadline-days{background:rgba(211,47,47,.12);color:#d32f2f}
+.deadline-urgent{border-left:3px solid #d32f2f}
+.deadline-soon .deadline-days{background:rgba(255,152,0,.12);color:#e65100}
+.deadline-soon{border-left:3px solid #e65100}
+.deadline-ok .deadline-days{background:rgba(76,175,80,.12);color:#2e7d32}
+.deadline-ok{border-left:3px solid #4caf50}
+
+/* ── Print / PDF export ── */
+@media print{
+  body{background:white !important;color:#000 !important}
+  .topbar,.badges,nav,#welcomeBanner,#disclaimerBanner,#debugConsole,#toggleDebug,
+  .filters,.quickviews,.view-toggle,.action-row,.site-footer,
+  #bisSection,#exportControlsSection,#dataPrivacySection,#dataResidencySection,#responsibleAISection,
+  .heatmap-section,.timeline-section,.deadline-section,
+  .btn,button,.modal,.insights-panel,
+  .bis-panel,.export-controls-panel,.data-privacy-panel,.data-residency-panel,.responsible-ai-panel,
+  #showBisBtn,#showExportControlsBtn,#showDataPrivacyBtn,#showDataResidencyBtn,#showResponsibleAIBtn{
+    display:none !important
+  }
+  .container{max-width:100%;padding:0}
+  .grid{grid-template-columns:repeat(2,1fr) !important}
+  .card{break-inside:avoid;box-shadow:none;border:1px solid #ccc}
+  .kpis{grid-template-columns:repeat(6,1fr) !important}
+}
+
+/* ── Mobile improvements ── */
+@media(max-width:560px){
+  .topbar > div[style]{flex-wrap:wrap;gap:6px}
+  .badges{gap:6px}
+  .badge{font-size:10px;padding:6px 8px}
+  .action-row{flex-direction:column;align-items:stretch}
+  .action-row .btn{width:100%}
+  .deadline-title{white-space:normal}
+}
