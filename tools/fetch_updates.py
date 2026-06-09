@@ -57,6 +57,49 @@ FEEDS = [
         "jurisdiction": "United States",
         "tags": ["bis", "export-controls", "entity-list"],
     },
+    # Law firm insight feeds — export controls, sanctions, and AI regulatory analysis
+    {
+        "url": "https://www.skadden.com/insights/rss",
+        "source": "Skadden",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    {
+        "url": "https://www.paulweiss.com/insights/rss",
+        "source": "Paul Weiss",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    {
+        "url": "https://www.cov.com/en/news-and-insights/rss",
+        "source": "Covington & Burling",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    {
+        "url": "https://www.freshfields.com/en/our-thinking/rss",
+        "source": "Freshfields",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    {
+        "url": "https://www.wilmerhale.com/en/insights/rss",
+        "source": "WilmerHale",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    {
+        "url": "https://www.squirepattonboggs.com/en/insights/rss",
+        "source": "Squire Patton Boggs",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    {
+        "url": "https://www.blankrome.com/publications/rss",
+        "source": "Blank Rome",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
 ]
 
 # Namespaces used in Atom feeds

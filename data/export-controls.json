@@ -91,6 +91,19 @@
       "category": "policy-analysis"
     }
   ],
+  "upcoming_deadlines": [
+    {
+      "id": "bis-affiliates-snapback-2026",
+      "title": "BIS Affiliates Rule — Snap-Back Takes Effect",
+      "date": "2026-11-10",
+      "description": "The temporary exemption from the BIS Affiliates Rule expires. Full restrictions on sharing Export Administration Regulations-controlled technology and software with foreign affiliates—including those in allied nations—become enforceable. Affected companies must have foreign-affiliate compliance programs, authorization records, and technology-control plans in place before this date.",
+      "authority": "U.S. Bureau of Industry and Security (BIS)",
+      "regulation": "Export Administration Regulations (EAR) — Affiliates Rule (15 CFR Part 734/736)",
+      "url": "https://www.bis.gov",
+      "priority": "critical",
+      "action_required": "Audit foreign-affiliate technology-sharing arrangements; implement or update Technology Control Plans; confirm EAR authorizations are on file for all controlled items shared with foreign affiliates."
+    }
+  ],
   "key_topics": [
     "Export Controls",
     "Strategic Trade",

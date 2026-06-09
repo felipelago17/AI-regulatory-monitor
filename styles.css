@@ -400,6 +400,47 @@ select{cursor:pointer}
 #showExportControlsBtn{margin-top:16px !important}
 #showExportControlsBtn:hover{box-shadow:0 6px 20px rgba(0,174,239,.3)}
 
+/* ── Export Controls Deadline entries ── */
+.ec-deadline{
+  background:rgba(255,255,255,.7);
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:16px;
+  margin-bottom:14px;
+  backdrop-filter:blur(10px);
+  transition:all 200ms;
+}
+.ec-deadline.deadline-urgent{border-left:4px solid #d32f2f;background:rgba(211,47,47,.04)}
+.ec-deadline.deadline-soon{border-left:4px solid #e65100;background:rgba(255,152,0,.04)}
+.ec-deadline.deadline-ok{border-left:4px solid #2e7d32;background:rgba(76,175,80,.03)}
+.ec-deadline:hover{box-shadow:0 4px 12px rgba(0,45,98,.1)}
+.ec-deadline-header{display:flex;align-items:center;gap:10px;margin-bottom:8px;flex-wrap:wrap}
+.ec-deadline-days{
+  font-size:15px;font-weight:700;
+  min-width:48px;text-align:center;
+  padding:4px 8px;border-radius:8px;
+  background:rgba(211,47,47,.12);color:#d32f2f;
+  flex-shrink:0;
+}
+.deadline-soon .ec-deadline-days{background:rgba(255,152,0,.12);color:#e65100}
+.deadline-ok .ec-deadline-days{background:rgba(76,175,80,.12);color:#2e7d32}
+.ec-deadline-title{font-size:14px;font-weight:700;color:var(--navy);flex:1}
+.ec-deadline-priority{
+  font-size:10px;font-weight:700;padding:3px 8px;border-radius:999px;
+  background:rgba(211,47,47,.15);color:#d32f2f;border:1px solid rgba(211,47,47,.3);
+}
+.deadline-soon .ec-deadline-priority{background:rgba(255,152,0,.15);color:#e65100;border-color:rgba(255,152,0,.3)}
+.deadline-ok .ec-deadline-priority{background:rgba(0,86,179,.1);color:var(--cobalt);border-color:rgba(0,86,179,.3)}
+.ec-deadline-desc{font-size:12px;color:var(--text);line-height:1.55;margin-bottom:8px}
+.ec-deadline-meta{font-size:11px;color:var(--muted);margin-bottom:6px}
+.ec-deadline-action{
+  font-size:11px;color:var(--cobalt);font-weight:600;
+  background:rgba(0,86,179,.06);border-left:3px solid var(--cobalt);
+  padding:6px 10px;border-radius:4px;margin-bottom:8px;line-height:1.45;
+}
+.ec-deadline-link{font-size:11px;color:var(--cobalt);text-decoration:none;font-weight:600}
+.ec-deadline-link:hover{color:var(--electric);text-decoration:underline}
+
 /* Data Privacy Panel */
 .data-privacy-panel{padding:24px;background:linear-gradient(135deg, rgba(0,174,239,.08) 0%, rgba(52,168,219,.05) 100%);border:2px solid #34a8db;border-radius:var(--radius);margin-bottom:20px;backdrop-filter:blur(10px)}
 .data-privacy-header{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid #34a8db}

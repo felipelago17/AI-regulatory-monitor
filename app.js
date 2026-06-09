@@ -1153,25 +1153,54 @@ async function loadAndRenderExportControls() {
   try {
     const res = await fetch('data/export-controls.json', { cache: 'no-store' });
     const ecData = await res.json();
-    
+
+    // Render upcoming deadlines
+    const deadlinesContainer = el('exportControlsDeadlines');
+    if (deadlinesContainer && ecData.upcoming_deadlines && ecData.upcoming_deadlines.length > 0) {
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+      deadlinesContainer.innerHTML = '';
+      for (const dl of ecData.upcoming_deadlines) {
+        const daysLeft = Math.ceil((new Date(dl.date) - today) / 86400000);
+        const urgency = daysLeft <= 30 ? 'deadline-urgent' : daysLeft <= 90 ? 'deadline-soon' : 'deadline-ok';
+        const div = document.createElement('div');
+        div.className = `ec-deadline ${urgency}`;
+        const safeUrl = /^https?:\/\//i.test(dl.url || '') ? dl.url : '#';
+        div.innerHTML = `
+          <div class="ec-deadline-header">
+            <span class="ec-deadline-days">${daysLeft > 0 ? daysLeft + 'd' : 'TODAY'}</span>
+            <div class="ec-deadline-title">${escapeHtml(dl.title)}</div>
+            <span class="ec-deadline-priority">${escapeHtml((dl.priority || '').toUpperCase())}</span>
+          </div>
+          <div class="ec-deadline-desc">${escapeHtml(dl.description)}</div>
+          <div class="ec-deadline-meta">
+            <strong>${escapeHtml(dl.authority)}</strong> · ${escapeHtml(dl.regulation)}
+          </div>
+          ${dl.action_required ? `<div class="ec-deadline-action">⚡ ${escapeHtml(dl.action_required)}</div>` : ''}
+          <a href="${escapeHtml(safeUrl)}" target="_blank" rel="noreferrer" class="ec-deadline-link">Official source →</a>`;
+        deadlinesContainer.appendChild(div);
+      }
+      deadlinesContainer.parentElement.style.display = 'block';
+    }
+
     // Render resources
     const resourcesContainer = el('exportControlsResources');
     resourcesContainer.innerHTML = '';
     for (const resource of ecData.export_control_resources) {
       const card = document.createElement('div');
       card.className = 'export-control-resource';
+      const safeUrl = /^https?:\/\//i.test(resource.url || '') ? resource.url : '#';
       card.innerHTML = `
-        <div class="export-control-resource-title">${resource.name}</div>
-        <div class="export-control-resource-org">${resource.organization}</div>
-        <div class="export-control-resource-desc">${resource.description}</div>
+        <div class="export-control-resource-title">${escapeHtml(resource.name)}</div>
+        <div class="export-control-resource-org">${escapeHtml(resource.organization)}</div>
+        <div class="export-control-resource-desc">${escapeHtml(resource.description)}</div>
         <div>
-          <span class="export-control-resource-category">${resource.category.replace(/-/g, ' ').toUpperCase()}</span>
-          <a href="${resource.url}" target="_blank" rel="noreferrer" style="margin-left: 8px;">Visit →</a>
-        </div>
-      `;
+          <span class="export-control-resource-category">${escapeHtml(resource.category.replace(/-/g, ' ').toUpperCase())}</span>
+          <a href="${escapeHtml(safeUrl)}" target="_blank" rel="noreferrer" style="margin-left:8px;">Visit →</a>
+        </div>`;
       resourcesContainer.appendChild(card);
     }
-    
+
     // Render topics
     const topicsContainer = el('exportControlsTopics');
     topicsContainer.innerHTML = '';
@@ -1181,11 +1210,8 @@ async function loadAndRenderExportControls() {
       tagEl.textContent = topic;
       topicsContainer.appendChild(tagEl);
     }
-    
-    // Set compliance note
+
     el('exportControlsComplianceNote').textContent = ecData.compliance_note;
-    
-    // Show Export Controls section button
     el('showExportControlsBtn').style.display = 'block';
   } catch (err) {
     console.error('Error loading export controls data:', err);
