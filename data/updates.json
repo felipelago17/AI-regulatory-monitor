@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T09:23:55+00:00",
+  "generated_at": "2026-06-10T09:40:34+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -6942,6 +6942,54 @@
         "digital-regulation"
       ],
       "category": "update"
+    },
+    {
+      "id": "86852c8ed3bfd4ca",
+      "date": "2026-06-09",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Expands Its Library of ‘Chemical Fingerprints’ to Identify Unknown Substances",
+      "summary": "Researchers and manufacturers rely on the library to identify unknown compounds in food, drugs, cosmetics, the environment, body fluids, forensic evidence and even space rocks.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/06/nist-expands-its-library-chemical-fingerprints-identify-unknown-substances",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "a407d520b6d1eb45",
+      "date": "2026-06-09",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Mathematical Proof Supports Transition to a Continuous-Monitor-and-Update Security Model for AI Systems",
+      "summary": "The proof extends to AI the logic used by famed mathematician Kurt Gödel, whose incompleteness theorems have had a profound effect on math for nearly a century.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/06/nist-mathematical-proof-supports-transition-continuous-monitor-and-update",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "9018e44cb852b7b0",
+      "date": "2026-06-10",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Info session - Code of practice for transparency of AI-generated content & signature process",
+      "summary": "Info session - Code of practice for transparency of AI-generated content & signature process marsrgi Wed, 06/10/2026 - 09:58 22 June 2026 The AI Office is organising an info session to present the Code and the signature process to interested potential Signatories. Join the session on 22 June 14:00-16:00 CEST for a comprehensive overview of the code the signature process . Please fill in the registration form by 18 June to indicate interest for participation and receive further details. Any (potential) provider or deployer can ask questions on the process of signing up to the Code at CNECT-AIOFFICE-CODE-OF-PRACTICE-TRANSPARENCY@ec.europa.eu . Registration form Related topics Artificial intelligence {\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/info-session-code-practice-transparency-ai-generated-content-signature-process",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
     }
   ]
 }
