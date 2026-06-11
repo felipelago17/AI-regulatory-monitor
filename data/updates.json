@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T09:40:34+00:00",
+  "generated_at": "2026-06-11T10:06:54+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -6984,6 +6984,22 @@
       "summary": "Info session - Code of practice for transparency of AI-generated content & signature process marsrgi Wed, 06/10/2026 - 09:58 22 June 2026 The AI Office is organising an info session to present the Code and the signature process to interested potential Signatories. Join the session on 22 June 14:00-16:00 CEST for a comprehensive overview of the code the signature process . Please fill in the registration form by 18 June to indicate interest for participation and receive further details. Any (potential) provider or deployer can ask questions on the process of signing up to the Code at CNECT-AIOFFICE-CODE-OF-PRACTICE-TRANSPARENCY@ec.europa.eu . Registration form Related topics Artificial intelligence {\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}",
       "source": "EU Digital Strategy",
       "url": "https://digital-strategy.ec.europa.eu/en/events/info-session-code-practice-transparency-ai-generated-content-signature-process",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "f74cedcee0cc7e07",
+      "date": "2026-06-10",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Commission publishes Code of Practice on marking and labelling AI-generated content",
+      "summary": "Commission publishes Code of Practice on marking and labelling AI-generated content marsrgi Wed, 06/10/2026 - 13:13 The European Commission published the final Code of Practice on marking and labelling of AI-generated content. The Code is voluntary and sets out practical steps to help providers and deployers of generative artificial intelligence (AI) systems meet the AI Act transparency obligations that will apply from 2 August 2026. From that date, the AI Act will require clear labelling in key cases. D eepfakes and AI-generated or AI-manipulated text published on matters of public interest must be clearly labelled. Users must also be informed when they are interacting with an interactive AI system , such as a chatbot. These transparency requirements help people recognise when content has been generated or altered by AI, reducing the risk of deception and manipulation. Read the press release and find more information: Code of Practice on marking and labelling of AI-generated content EU Icons for labelling AI-generated content How to sign the Code of Practice on transparency of AI-generated content Questions & answer about the code Questions & answer about signing the code Info session on the code of practice & signature process Related topics Artificial intelligence {\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content",
       "tags": [
         "eu",
         "ai-act",
