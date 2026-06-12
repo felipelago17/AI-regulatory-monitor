@@ -739,7 +739,7 @@ function paintKPIs(kpis, items) {
 
 async function loadAndRenderBIS() {
   try {
-    const res = await fetch('data/bis-monitoring.json', { cache: 'no-store' });
+    const res = await fetch('./data/bis-monitoring.json', { cache: 'no-store' });
     const bisData = await res.json();
     el('bisPeriod').textContent = `Monitoring Period: ${bisData.monitoring_period}`;
     const highlightsContainer = el('bisHighlights');
@@ -796,7 +796,7 @@ function initBISToggle() {
 
 async function loadAndRenderExportControls() {
   try {
-    const res = await fetch('data/export-controls.json', { cache: 'no-store' });
+    const res = await fetch('./data/export-controls.json', { cache: 'no-store' });
     const ecData = await res.json();
 
     // Render upcoming deadlines
@@ -862,7 +862,7 @@ function initExportControlsToggle() {
 
 async function loadAndRenderDataPrivacy() {
   try {
-    const res = await fetch('data/data-privacy.json', { cache: 'no-store' });
+    const res = await fetch('./data/data-privacy.json', { cache: 'no-store' });
     const dpData = await res.json();
     const sourcesContainer = el('dataPrivacySources');
     sourcesContainer.innerHTML = '';
@@ -905,7 +905,7 @@ function initDataPrivacyToggle() {
 
 async function loadAndRenderDataResidency() {
   try {
-    const res = await fetch('data/data-residency.json', { cache: 'no-store' });
+    const res = await fetch('./data/data-residency.json', { cache: 'no-store' });
     const drData = await res.json();
     const sourcesContainer = el('dataResidencySources');
     sourcesContainer.innerHTML = '';
@@ -948,7 +948,7 @@ function initDataResidencyToggle() {
 
 async function loadAndRenderResponsibleAI() {
   try {
-    const res = await fetch('data/responsible-ai.json', { cache: 'no-store' });
+    const res = await fetch('./data/responsible-ai.json', { cache: 'no-store' });
     const raiData = await res.json();
     const categoriesContainer = el('responsibleAICategories');
     categoriesContainer.innerHTML = '';
@@ -1206,7 +1206,7 @@ async function init() {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 8000);
     let res;
-    try { res = await fetch('data/updates.json', { cache: 'no-store', signal: controller.signal }); }
+    try { res = await fetch('./data/updates.json', { cache: 'no-store', signal: controller.signal }); }
     finally { clearTimeout(timeoutId); }
     if (!res.ok) throw new Error(`HTTP ${res.status}: Failed to fetch updates.json`);
     const payload = await res.json();
