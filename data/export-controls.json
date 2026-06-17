@@ -89,19 +89,63 @@
       "url": "https://www.csis.org/analysis",
       "description": "Policy analysis on export controls, technology competition, and economic security from a leading U.S. think tank",
       "category": "policy-analysis"
+    },
+    {
+      "id": "federal-register-bis-affiliates",
+      "organization": "Federal Register / BIS",
+      "name": "FR 2025-19846 — BIS Affiliates Rule Suspension (Primary Source)",
+      "url": "https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities",
+      "description": "Primary Federal Register notice (90 FR 47201) suspending the Affiliates Rule expansion for one year. Governs Phase 1 (10 Nov 2025 – 9 Nov 2026) and specifies automatic Phase 2 reimposition on 10 Nov 2026.",
+      "category": "primary-authority"
+    },
+    {
+      "id": "sidley-50pct-rule",
+      "organization": "Sidley Austin",
+      "name": "BIS Adopts 50 Percent Rule for Export Controls",
+      "url": "https://www.sidley.com/en/insights/newsupdates/2025/10/us-commerce-department-bureau-of-industry-and-security-adopts-50-percent-rule-for-export-controls",
+      "description": "Analysis of BIS adoption of the OFAC-style 50 Percent Rule, key divergences from OFAC (no aggregation; foreign-only scope), and compliance program implications.",
+      "category": "professional-analysis"
+    },
+    {
+      "id": "hklaw-bis-50pct",
+      "organization": "Holland & Knight",
+      "name": "BIS Expands Impact of U.S. Export Controls with 50 Percent Rule",
+      "url": "https://www.hklaw.com/en/insights/publications/2025/10/bis-expands-impact-of-us-export-controls-with-50-percent-rule",
+      "description": "Operational impact of the Affiliates Rule on counterparty screening workflows, beneficial-ownership documentation requirements, and integration with existing OFAC SDN programs.",
+      "category": "professional-analysis"
+    },
+    {
+      "id": "arnoldporter-suspension",
+      "organization": "Arnold & Porter",
+      "name": "DOC Suspends Enforcement of the Affiliates Rule for One Year",
+      "url": "https://www.arnoldporter.com/en/perspectives/blogs/enforcement-edge/2025/11/doc-suspends-enforcement-of-the-affiliates-rule-for-one-year",
+      "description": "Enforcement-edge analysis of the suspension alongside bundled China Entity List removals; covers conditionality and US-China trade-framework context.",
+      "category": "professional-analysis"
+    },
+    {
+      "id": "miller-chevalier-affiliates",
+      "organization": "Miller & Chevalier",
+      "name": "Trade Compliance Flash: BIS Issues Long-Awaited Affiliates Rule",
+      "url": "https://www.millerchevalier.com/publication/trade-compliance-flash-bis-issues-long-awaited-affiliates-rule-updated",
+      "description": "Covers EAR licence exception eligibility, MEU List vs. Entity List treatment under the 50 Percent Rule, and interim compliance steps during the Phase 1 suspension window.",
+      "category": "professional-analysis"
     }
   ],
   "upcoming_deadlines": [
     {
       "id": "bis-affiliates-snapback-2026",
-      "title": "BIS Affiliates Rule — Snap-Back Takes Effect",
+      "title": "BIS Affiliates Rule — Phase 2 Snap-Back Takes Effect",
       "date": "2026-11-10",
-      "description": "The temporary exemption from the BIS Affiliates Rule expires. Full restrictions on sharing Export Administration Regulations-controlled technology and software with foreign affiliates—including those in allied nations—become enforceable. Affected companies must have foreign-affiliate compliance programs, authorization records, and technology-control plans in place before this date.",
+      "phase_1_end": "2026-11-09",
+      "phase_2_start": "2026-11-10",
+      "federal_register": "FR 2025-19846 (90 FR 47201, 12 Nov 2025)",
+      "federal_register_url": "https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities",
+      "description": "Phase 1 (10 Nov 2025 – 9 Nov 2026): one-year suspension of the BIS Affiliates Rule expansion (EAR §744.21). No EAR authorisation needed for controlled-technology sharing with foreign affiliates ≥50% owned by Entity List / MEU List designees during this window. Phase 2 (from 10 Nov 2026, indefinite): full controls automatically reimposed unless BIS publishes a further Federal Register extension before that date. The suspension does NOT require companies to delay compliance preparation — due-diligence infrastructure must be in place before Phase 2.",
       "authority": "U.S. Bureau of Industry and Security (BIS)",
-      "regulation": "Export Administration Regulations (EAR) — Affiliates Rule (15 CFR Part 734/736)",
+      "regulation": "Export Administration Regulations (EAR) — §744.21 / §744.8; IFR 90 FR 47201",
       "url": "https://www.bis.gov",
       "priority": "critical",
-      "action_required": "Audit foreign-affiliate technology-sharing arrangements; implement or update Technology Control Plans; confirm EAR authorizations are on file for all controlled items shared with foreign affiliates."
+      "action_required": "By 9 Nov 2026: (1) map all foreign-affiliate ownership chains to the ≥50% threshold for every Entity List and MEU List designee in your supply chain; (2) implement or update Technology Control Plans; (3) ensure EAR licence authorisations are on file for any controlled items shared with in-scope affiliates; (4) monitor Federal Register for any extension notice — none may be assumed."
     }
   ],
   "key_topics": [

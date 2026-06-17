@@ -7166,6 +7166,253 @@
         "digital-regulation"
       ],
       "category": "news"
+    },
+    {
+      "id": "3571f10a3de888a1",
+      "date": "2025-11-12",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "One-Year Suspension of Expansion of End-User Controls for Affiliates of Certain Listed Entities (FR 2025-19846)",
+      "summary": "BIS final rule suspending for one year (Phase 1: 10 Nov 2025 – 9 Nov 2026) the Affiliates Rule expansion that would have required end-use checks for foreign entities 50%-or-more owned by Entity List / MEU List designees. The rule automatically reimposed (Phase 2) on 10 Nov 2026 unless BIS publishes a further notice. Published at 90 FR 47201.",
+      "keyTakeaway": "This is the primary source. The suspension is time-limited; absent further BIS action, full affiliate controls take effect automatically on 10 Nov 2026.",
+      "source": "Federal Register / BIS",
+      "url": "https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "50-percent-rule",
+        "federal-register",
+        "primary-source"
+      ],
+      "category": "update",
+      "risk_score": 82,
+      "impact_assessment": {
+        "scenario": "Phase 2 auto-reimposition triggers full EAR §744.21 affiliate controls on 10 Nov 2026",
+        "probability_percent": 70,
+        "financial_loss_low_millions": 5,
+        "financial_loss_likely_millions": 25,
+        "financial_loss_high_millions": 100,
+        "reputational_exposure": "High",
+        "regulatory_disruption_days": 60,
+        "confidence_level": "High — primary Federal Register source"
+      }
+    },
+    {
+      "id": "5bd716bde4994ba3",
+      "date": "2025-10-15",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "U.S. Commerce / BIS Adopts 50 Percent Rule for Export Controls (Sidley Austin)",
+      "summary": "Sidley Austin analysis of BIS's adoption of the OFAC-style 50 Percent Rule under EAR §744.21, extending end-user controls to foreign entities majority-owned by Entity List or MEU List designees. Notes key divergences from the OFAC framework including aggregation rules and the foreign-affiliate-only scope.",
+      "keyTakeaway": "Compliance programs must screen not just direct counterparties but any entity ≥50% owned (directly or indirectly) by a listed designee — a significantly expanded due-diligence perimeter.",
+      "source": "Sidley Austin",
+      "url": "https://www.sidley.com/en/insights/newsupdates/2025/10/us-commerce-department-bureau-of-industry-and-security-adopts-50-percent-rule-for-export-controls",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "50-percent-rule",
+        "law-firm",
+        "sidley"
+      ],
+      "category": "update",
+      "risk_score": 74
+    },
+    {
+      "id": "91e9301520676046",
+      "date": "2025-10-01",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "Beware of Affiliates: BIS Expands Controls with 50% Ownership Rule, New Diligence Obligations (WilmerHale)",
+      "summary": "WilmerHale client alert explaining the two-phase BIS Affiliates Rule: Phase 1 suspension through 9 Nov 2026 provides a compliance window; Phase 2 auto-reimposition on 10 Nov 2026 is the operative deadline. Covers divergence from OFAC's 50% Rule on aggregation methodology and foreign-entity-only scope.",
+      "keyTakeaway": "The suspension is a preparation window, not a reprieve — companies must complete affiliate screening and Technology Control Plan updates before 10 Nov 2026.",
+      "source": "WilmerHale",
+      "url": "https://www.wilmerhale.com/en/insights/client-alerts/20251001-beware-of-affiliates-bis-expands-controls-with-50-ownership-rule-new-diligence-obligations",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "50-percent-rule",
+        "law-firm",
+        "wilmerhale"
+      ],
+      "category": "update",
+      "risk_score": 72
+    },
+    {
+      "id": "5239087eada6b3d6",
+      "date": "2025-11-10",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "BIS Suspends Affiliates Rule for One Year as Part of US-China Trade Deal (Skadden)",
+      "summary": "Skadden analysis of the Phase 1 / Phase 2 mechanics: one-year suspension announced in tandem with US-China trade negotiations; automatic reimposition on 10 Nov 2026 unless BIS publishes an extension. Covers Entity List removals bundled with the announcement and residual licensing obligations during suspension.",
+      "keyTakeaway": "Monitor any US-China trade-framework communications closely — a further suspension extension would require a new Federal Register notice before 10 Nov 2026.",
+      "source": "Skadden",
+      "url": "https://www.skadden.com/insights/publications/2025/11/bis-suspends-affiliates-rule-for-one-year-as-part-of-the-us-china-trade-deal",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "law-firm",
+        "skadden"
+      ],
+      "category": "update",
+      "risk_score": 70
+    },
+    {
+      "id": "afe9421880eefd49",
+      "date": "2025-11-10",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "BIS Issues One-Year Suspension of Affiliates Rule Expansion (Squire Patton Boggs)",
+      "summary": "Squire Patton Boggs analysis focusing on snap-back risk and the Busan framework context. Notes rare-earth licensing concessions bundled with the suspension and flags the automatic reimposition mechanism as the primary compliance planning trigger.",
+      "keyTakeaway": "Treat 10 Nov 2026 as a hard deadline for counterparty ownership-chain mapping and licence pre-authorisation for any Entity-List-adjacent affiliate relationships.",
+      "source": "Squire Patton Boggs",
+      "url": "https://www.squirepattonboggs.com/insights/publications/bis-issues-one-year-suspension-of-affiliates-rule-expansion/",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "law-firm",
+        "squire-patton-boggs"
+      ],
+      "category": "update",
+      "risk_score": 70
+    },
+    {
+      "id": "96806340d7a5d588",
+      "date": "2025-11-05",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "BIS Suspends the Affiliates Rule Expanding End-User Export Controls for One Year (Freshfields)",
+      "summary": "Freshfields analysis highlighting the key divergence between the BIS 50 Percent Rule and OFAC's 50% Rule: BIS does not use aggregation (i.e., two 30% owners do not combine to 60%), and the rule applies only to foreign-incorporated affiliates, not U.S. entities. Practical screening implications covered.",
+      "keyTakeaway": "Do not apply OFAC aggregation logic to BIS affiliate analysis — the two frameworks differ materially on how ownership percentages are calculated.",
+      "source": "Freshfields",
+      "url": "https://www.freshfields.com/en/our-thinking/blogs/a-fresh-take/bis-suspends-the-affiliates-rule-expanding-end-user-export-controls-for-one-yea-102lvi4",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "ofac",
+        "law-firm",
+        "freshfields"
+      ],
+      "category": "update",
+      "risk_score": 68
+    },
+    {
+      "id": "a7f9efbce4e70d74",
+      "date": "2025-10-20",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "BIS Expands Impact of U.S. Export Controls with 50 Percent Rule (Holland & Knight)",
+      "summary": "Holland & Knight analysis of the operational impact on counterparty screening workflows. Focuses on diligence documentation requirements — specifically the need for beneficial-ownership records sufficient to demonstrate ≥50% ownership chains — and integration with existing OFAC SDN screening programs.",
+      "keyTakeaway": "Existing OFAC-based screening tools are unlikely to cover the BIS Affiliates Rule automatically; separate or extended due-diligence workflows for EAR-controlled items are required.",
+      "source": "Holland & Knight",
+      "url": "https://www.hklaw.com/en/insights/publications/2025/10/bis-expands-impact-of-us-export-controls-with-50-percent-rule",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "law-firm",
+        "holland-knight"
+      ],
+      "category": "update",
+      "risk_score": 68
+    },
+    {
+      "id": "1f660ee5231e2dc9",
+      "date": "2025-11-12",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "DOC Suspends Enforcement of the Affiliates Rule for One Year (Arnold & Porter)",
+      "summary": "Arnold & Porter enforcement-edge analysis of the suspension alongside bundled China Entity List removals. Notes the political context of the US-China trade framework and the conditionality that makes further extension uncertain.",
+      "keyTakeaway": "The Entity List removals bundled with the suspension do not affect the 10 Nov 2026 reimposition mechanics — track them separately from the snap-back countdown.",
+      "source": "Arnold & Porter",
+      "url": "https://www.arnoldporter.com/en/perspectives/blogs/enforcement-edge/2025/11/doc-suspends-enforcement-of-the-affiliates-rule-for-one-year",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "entity-list",
+        "law-firm",
+        "arnold-porter"
+      ],
+      "category": "update",
+      "risk_score": 66
+    },
+    {
+      "id": "1793d64448360c9d",
+      "date": "2025-11-08",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "Trade Compliance Flash: BIS Issues Long-Awaited Affiliates Rule (Miller & Chevalier)",
+      "summary": "Miller & Chevalier Trade Compliance Flash covering the final rule mechanics including EAR licence exception eligibility, the treatment of parties on the MEU List versus the Entity List under the 50 Percent Rule, and interim compliance steps during the Phase 1 suspension window.",
+      "keyTakeaway": "MEU-listed parties trigger the same 50% affiliate controls as Entity List designees — screening programs must cover both lists, not just the Entity List.",
+      "source": "Miller & Chevalier",
+      "url": "https://www.millerchevalier.com/publication/trade-compliance-flash-bis-issues-long-awaited-affiliates-rule-updated",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "meu-list",
+        "law-firm",
+        "miller-chevalier"
+      ],
+      "category": "update",
+      "risk_score": 68
+    },
+    {
+      "id": "ab48d0ff2c9d0387",
+      "date": "2025-11-15",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "A Year to Prepare: BIS's Affiliates Rule Waits in the Wings (Torres Trade Law)",
+      "summary": "Torres Trade Law frames the one-year suspension as a structured preparation window for companies with complex foreign-affiliate ownership chains. Provides a practical checklist: map ownership chains to 50% threshold, update Technology Control Plans, train front-line export compliance staff, and establish pre-clearance procedures for controlled-item transfers to affiliates.",
+      "keyTakeaway": "Use the suspension window to complete a full affiliate ownership-chain audit — the 10 Nov 2026 deadline allows no grace period once Phase 2 takes effect.",
+      "source": "Torres Trade Law",
+      "url": "https://www.torrestradelaw.com/posts/A-Year-to-Prepare:-BIS%E2%80%99s-Affiliates-Rule-Waits-in-the-Wings/425",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "compliance",
+        "law-firm",
+        "torres-trade-law"
+      ],
+      "category": "update",
+      "risk_score": 65
     }
   ]
 }

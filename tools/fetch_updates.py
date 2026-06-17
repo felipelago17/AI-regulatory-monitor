@@ -101,6 +101,30 @@ FEEDS = [
         "jurisdiction": "Global",
         "tags": ["law-firm", "export-controls", "regulatory-analysis"],
     },
+    {
+        "url": "https://www.sidley.com/en/insights/rss",
+        "source": "Sidley Austin",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    {
+        "url": "https://www.hklaw.com/rss",
+        "source": "Holland & Knight",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    {
+        "url": "https://www.arnoldporter.com/en/perspectives/rss",
+        "source": "Arnold & Porter",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    {
+        "url": "https://www.millerchevalier.com/rss",
+        "source": "Miller & Chevalier",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
 ]
 
 # Namespaces used in Atom feeds
