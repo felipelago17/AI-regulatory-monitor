@@ -129,6 +129,51 @@
       "url": "https://www.millerchevalier.com/publication/trade-compliance-flash-bis-issues-long-awaited-affiliates-rule-updated",
       "description": "Covers EAR licence exception eligibility, MEU List vs. Entity List treatment under the 50 Percent Rule, and interim compliance steps during the Phase 1 suspension window.",
       "category": "professional-analysis"
+    },
+    {
+      "id": "anthropic-fable-mythos-statement",
+      "organization": "Anthropic",
+      "name": "Anthropic — Fable 5 / Mythos 5 Access Suspension Statement",
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "description": "Party-to-dispute primary statement from Anthropic on the BIS is-informed letter and global model-access suspension (12 Jun 2026). Read alongside competitor-discovery caution (Amazon is an Anthropic investor).",
+      "category": "primary-authority",
+      "note": "Party to dispute — URL unverified by tool run"
+    },
+    {
+      "id": "just-security-bis-anthropic",
+      "organization": "Just Security",
+      "name": "The Law of the Anthropic Export Controls",
+      "url": "https://www.justsecurity.org/142745/law-anthropic-export-controls/",
+      "description": "Legal analysis of the statutory basis for applying EAR is-informed letter to a SaaS AI API; examines ECRA §4817, EAR §744.22, deemed-export §§734.13–734.16.",
+      "category": "professional-analysis",
+      "note": "URL unverified by tool run"
+    },
+    {
+      "id": "tech-policy-press-mythos-precedent",
+      "organization": "Tech Policy Press",
+      "name": "Did the US Government Just Set an AI Export Precedent by Blocking Mythos?",
+      "url": "https://www.techpolicy.press/did-the-us-government-just-set-an-ai-export-precedent-by-blocking-mythos/",
+      "description": "Policy analysis on the doctrinal novelty of treating AI API access as a controlled export under EAR; covers capability-as-SaaS theory and allied-access implications.",
+      "category": "policy-analysis",
+      "note": "URL unverified by tool run"
+    },
+    {
+      "id": "csa-fable-mythos-governance",
+      "organization": "Cloud Security Alliance",
+      "name": "Governance Analysis: Fable/Mythos Export Control v1.0",
+      "url": "https://labs.cloudsecurityalliance.org/research/governance-fable-mythos-export-control-v1-0/",
+      "description": "Cloud Security Alliance technical governance analysis of the is-informed letter mechanism, SaaS API export control theory, and enterprise compliance implications.",
+      "category": "professional-analysis",
+      "note": "URL unverified by tool run"
+    },
+    {
+      "id": "volkov-law-anthropic-plug",
+      "organization": "Volkov Law Group",
+      "name": "When the Government Pulls the Plug: Anthropic, Export Controls, and the Future of AI Governance",
+      "url": "https://blog.volkovlaw.com/2026/06/when-the-government-pulls-the-plug-anthropic-export-controls-and-the-future-of-ai-governance/",
+      "description": "Compliance practitioner analysis covering is-informed letter mechanics, enterprise model-dependency risk, and supply-chain contractual safeguards.",
+      "category": "professional-analysis",
+      "note": "URL unverified by tool run"
     }
   ],
   "upcoming_deadlines": [
@@ -157,7 +202,52 @@
     "Dual-Use Items",
     "ECCN Classifications",
     "License Requirements",
-    "Enforcement Actions"
+    "Enforcement Actions",
+    "AI Diffusion Controls",
+    "Frontier Model Export Controls",
+    "Deemed Export — AI SaaS"
   ],
-  "compliance_note": "Export controls are enforced across multiple jurisdictions. Monitor BIS (US), UAE IEC (Emirates), DOJ (enforcement), and international regimes (Wassenaar) for changing restrictions on technology, equipment, and services."
+  "compliance_note": "Export controls are enforced across multiple jurisdictions. Monitor BIS (US), UAE IEC (Emirates), DOJ (enforcement), and international regimes (Wassenaar) for changing restrictions on technology, equipment, and services.",
+  "active_enforcement_watch": [
+    {
+      "id": "bis-anthropic-fable-mythos-2026",
+      "title": "BIS Is-Informed Letter — Anthropic Fable 5 / Mythos 5 Global Suspension",
+      "event_date": "2026-06-12",
+      "status": "active — negotiations ongoing",
+      "priority": "critical",
+      "federal_register_status": "unpublished — letter not yet in Federal Register as of 18 Jun 2026",
+      "watch_terms": [
+        "Anthropic",
+        "Fable 5",
+        "Mythos 5",
+        "covered frontier model",
+        "is informed letter",
+        "is-informed letter",
+        "EAR 744.22",
+        "deemed export AI",
+        "AI model export licence",
+        "BIS AI diffusion"
+      ],
+      "description": "Active case: BIS/Dept of Commerce is-informed letter (12 Jun 2026) requiring export licence for access to Anthropic Fable 5 and Mythos 5 under EAR §744.22 and deemed-export provisions (§§734.13–734.16). Global access suspended same day; negotiations ongoing. Letter unpublished. Monitor Federal Register for: (a) published is-informed letter or BIS notice; (b) interim or final rule on 'covered frontier model' or AI SaaS export controls; (c) any EAR §744.22 amendment expanding the AI diffusion rule.",
+      "auto_update_trigger": "Flag any Federal Register notice matching watch_terms above; set status to 'escalated' if a formal rule is proposed.",
+      "legal_basis_reported": [
+        "ECRA 50 USC §4817",
+        "EAR 15 CFR §744.22",
+        "Deemed export: 15 CFR §§734.13, 734.14, 734.16"
+      ],
+      "instruments": [
+        "EO 2 Jun 2026",
+        "NSPM-11 5 Jun 2026",
+        "BIS is-informed letter 12 Jun 2026"
+      ],
+      "regulators": [
+        "BIS / Dept of Commerce",
+        "White House/ONCD",
+        "CAISI",
+        "Treasury",
+        "NSA"
+      ],
+      "action_required": "Immediate: (1) Audit enterprise AI contracts for model-dependency risk; add suspension/fallback/portability clauses. (2) Conduct deemed-export analysis for AI API access by foreign nationals. (3) Monitor Federal Register for published rule or letter. (4) Assess whether fallback models face same licence trigger."
+    }
+  ]
 }

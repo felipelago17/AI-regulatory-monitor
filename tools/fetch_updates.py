@@ -125,6 +125,32 @@ FEEDS = [
         "jurisdiction": "Global",
         "tags": ["law-firm", "export-controls", "regulatory-analysis"],
     },
+    # Federal Register topic-RSS feeds — flags published rules/notices matching
+    # active watch terms (AI diffusion, frontier models, Anthropic/BIS action)
+    {
+        "url": "https://www.federalregister.gov/articles/search.rss?conditions%5Bterm%5D=frontier+model+export",
+        "source": "Federal Register — frontier model export",
+        "jurisdiction": "United States",
+        "tags": ["federal-register", "frontier-models", "export-controls", "ai-diffusion"],
+    },
+    {
+        "url": "https://www.federalregister.gov/articles/search.rss?conditions%5Bterm%5D=covered+AI+model",
+        "source": "Federal Register — covered AI model",
+        "jurisdiction": "United States",
+        "tags": ["federal-register", "frontier-models", "export-controls", "ai-diffusion"],
+    },
+    {
+        "url": "https://www.federalregister.gov/articles/search.rss?conditions%5Bterm%5D=deemed+export+artificial+intelligence",
+        "source": "Federal Register — deemed export AI",
+        "jurisdiction": "United States",
+        "tags": ["federal-register", "deemed-export", "export-controls", "national-security"],
+    },
+    {
+        "url": "https://www.federalregister.gov/articles/search.rss?conditions%5Bterm%5D=BIS+AI+diffusion",
+        "source": "Federal Register — BIS AI diffusion",
+        "jurisdiction": "United States",
+        "tags": ["federal-register", "bis", "export-controls", "ai-diffusion"],
+    },
 ]
 
 # Namespaces used in Atom feeds
