@@ -220,6 +220,30 @@
     ]
   },
   {
+    "id": "b0d10e8dabf27096",
+    "type": "enforce",
+    "title": "US 'Is-Informed' Letter Suspends Global Access to Anthropic Fable 5 / Mythos 5 Under EAR §744.22",
+    "why": "First known use of an EAR is-informed letter to compel suspension of a commercial AI API globally via deemed-export reach. Doctrinal basis (capability-as-SaaS = controlled technology) is unconfirmed pending letter publication. Negotiations ongoing.",
+    "summary": "TL;DR: On 12 Jun 2026 (~17:21 ET, per reporting), BIS/Dept of Commerce delivered an 'is-informed' letter to Anthropic triggering an export-licence requirement for Fable 5 and Mythos 5 under EAR 15 CFR §744.22 and deemed-export provisions (§§734.13–734.16). Because deemed-export controls extend to foreign nationals irrespective of physical location — including those present inside the US — geofencing was legally insufficient to comply; Anthropic suspended global access the same day. As of 18 Jun 2026, negotiations between Anthropic and the administration are ongoing; access remains suspended. TIMELINE: Apr 2026 — Mythos 5 previewed under Project Glasswing. 2 Jun 2026 — EO 'Promoting Advanced AI Innovation and Security' signed; note: section-scoped disclaimer disclaimed mandatory pre-clearance. 5 Jun 2026 — NSPM-11 signed. 9 Jun 2026 — Fable 5 and Mythos 5 commercially released. 12 Jun 2026 (~17:21 ET) — is-informed letter delivered; global suspension same day. INSTRUMENT & MECHANISM: An 'is-informed' letter is a BIS administrative instrument that notifies an exporter that a specific export-licence application is required before proceeding. Four licence triggers reported (basis letter unpublished; statutory basis under ECRA 50 USC §4817 and EAR §744.22 reported but unconfirmed from primary instrument). Deemed-export reach to foreign persons — including foreign nationals within the US — foreclosed a geofencing-only response. DOCTRINAL NOVELTY: This action asserts jurisdiction over access to model capability as a service (SaaS API), not over weights, source code, or physical hardware — a net-new extension of 'capability-as-such' into the software-service layer. Statutory basis for this theory is unconfirmed pending publication of the letter. POLICY INCONGRUITY: The 2 Jun EO contained a section-scoped disclaimer against mandatory pre-clearance regimes; a de-facto licensing requirement was operationalised via is-informed letter within ten days of that EO's signature. CONTESTED / SINGLE-SOURCED CLAIMS (labeled): (a) [CONTESTED — single source, competitor-discovered, note Amazon is Anthropic investor] Immediate trigger: jailbreak of Mythos 5 by a foreign state actor. (b) [CONTESTED — single source] Identity of the foreign state. (c) [CONTESTED — conflicting accounts] Procedural sequence: DOC characterises as 'last resort' following multi-day compliance dialogue; reporting attributes an approximately 90-minute ultimatum to Anthropic. (d) [LIMITED DETAIL] Separate Pentagon supply-chain-risk litigation filed; relationship to is-informed letter unclear. SOURCES (tiered): Primary/party-to-dispute: Anthropic statement (anthropic.com/news/fable-mythos-access); Mythos preview (red.anthropic.com); Project Glasswing (anthropic.com/glasswing). Government instruments: EO 2 Jun (whitehouse.gov); NSPM-11 5 Jun (whitehouse.gov). Reporting: Politico 18 Jun; CNBC 15 Jun; Bloomberg 16 Jun; Fortune 13 Jun; Computerworld. Analysis: Cloud Security Alliance; Just Security; Tech Policy Press; Volkov Law; exportprac.com; Luiza Jarovsky newsletter. URL VERIFICATION STATUS: URLs provided by user; independently unverified by this tool run — flag 404s before citing. COMPLIANCE TAKEAWAY: Model-as-SaaS dependency is a supply-chain risk. Enterprise AI contracts should include: (1) suspension/fallback provisions; (2) model-portability clauses; (3) jurisdiction-of-access analysis covering deemed-export reach; (4) counterparty export-licence status diligence.",
+    "jurisdiction": "US",
+    "source": "Multiple — Anthropic (party to dispute); BIS/Dept of Commerce; Politico; CNBC; Bloomberg",
+    "source_url": "https://www.anthropic.com/news/fable-mythos-access",
+    "date": "2026-06-12",
+    "risk": 87,
+    "risk_note": "Medium — directive letter unpublished; negotiations ongoing",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Multiple — Anthropic (party to dispute); BIS/Dept of Commerce; Politico; CNBC; Bloomberg",
+        "https://www.anthropic.com/news/fable-mythos-access"
+      ]
+    ]
+  },
+  {
     "id": "9018e44cb852b7b0",
     "type": "news",
     "title": "Info session - Code of practice for transparency of AI-generated content & signature process",
@@ -330,6 +354,30 @@
         "Read more",
         "EU Digital Strategy",
         "https://digital-strategy.ec.europa.eu/en/events/edih-summit-2026-strengthening-ai-innovation-ecosystem"
+      ]
+    ]
+  },
+  {
+    "id": "7f6d27aec788603c",
+    "type": "news",
+    "title": "NSPM-11 — National Security Presidential Memorandum on Advanced AI (5 Jun 2026)",
+    "why": "National Security Presidential Memorandum 11 (NSPM-11) signed 5 Jun 2026, four days before Anthropic's commercial release of Fable 5 / Mythos 5 and seven days before the BIS…",
+    "summary": "National Security Presidential Memorandum 11 (NSPM-11) signed 5 Jun 2026, four days before Anthropic's commercial release of Fable 5 / Mythos 5 and seven days before the BIS is-informed letter. NSPM-11 is understood to establish national security parameters for frontier AI model deployment, access controls, and inter-agency coordination (CAISI, NSA, Treasury involvement reported). Content of NSPM-11 is classified or not yet publicly released; analysis is based on secondary reporting. Source: White House (whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/). URL unverified by this tool run.",
+    "jurisdiction": "US",
+    "source": "White House",
+    "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/",
+    "date": "2026-06-05",
+    "risk": 73,
+    "risk_note": "Low — primary text not publicly available",
+    "topics": [
+      "ai-governance"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "White House",
+        "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/"
       ]
     ]
   },
@@ -510,6 +558,31 @@
         "Read more",
         "EU Digital Strategy",
         "https://digital-strategy.ec.europa.eu/en/events/apply-ai-webinar-ai-cultural-creative-and-media-sectors"
+      ]
+    ]
+  },
+  {
+    "id": "7ca7f9d9e26f8f4d",
+    "type": "news",
+    "title": "EO 'Promoting Advanced AI Innovation and Security' (2 Jun 2026)",
+    "why": "Executive Order signed 2 Jun 2026 establishing a White House/ONCD-led framework for advanced AI governance and security.",
+    "summary": "Executive Order signed 2 Jun 2026 establishing a White House/ONCD-led framework for advanced AI governance and security. The EO included a section-scoped disclaimer against mandatory pre-clearance licensing for AI models; within ten days, an is-informed letter to Anthropic operationalised a de-facto licensing requirement, creating an interpretive tension between the EO's stated policy and BIS administrative practice. Full scope of CAISI, Treasury, NSA, and DoW mandates under this EO is subject to ongoing analysis. Source: White House (whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/). URL unverified by this tool run.",
+    "jurisdiction": "US",
+    "source": "White House / ONCD",
+    "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+    "date": "2026-06-02",
+    "risk": 82,
+    "risk_note": "Medium — full implementing guidance pending",
+    "topics": [
+      "ai-governance",
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "White House / ONCD",
+        "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
       ]
     ]
   },
