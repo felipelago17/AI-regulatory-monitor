@@ -425,6 +425,26 @@ function buildCard(it) {
   }
   meta.appendChild(jurPill);
 
+  // Source link pill
+  if (it.source) {
+    const srcUrl = (it.url && /^https?:\/\//i.test(it.url)) ? it.url
+      : (it.source_url && /^https?:\/\//i.test(it.source_url)) ? it.source_url
+      : (it.originalSourceUrl && /^https?:\/\//i.test(it.originalSourceUrl)) ? it.originalSourceUrl
+      : '';
+    if (srcUrl) {
+      const srcPill = document.createElement('a');
+      srcPill.className = 'pill source-pill';
+      srcPill.textContent = '↗ ' + it.source;
+      srcPill.href = srcUrl;
+      srcPill.target = '_blank';
+      srcPill.rel = 'noreferrer';
+      srcPill.title = 'Open source: ' + it.source;
+      meta.appendChild(srcPill);
+    } else {
+      meta.appendChild(pill(it.source, 'pill source-pill no-link'));
+    }
+  }
+
   // Clickable topic pills
   (it.topics || []).slice(0, 2).forEach(t => {
     const tp = pill(t, 'pill clickable-pill');
@@ -508,23 +528,21 @@ function buildCard(it) {
     card.appendChild(impactBox);
   }
 
-  const a = document.createElement('a');
-  a.href = it.url; a.target = '_blank'; a.rel = 'noreferrer'; a.textContent = 'Open source →';
-  card.appendChild(a);
+  if (it.url && /^https?:\/\//i.test(it.url)) {
+    const a = document.createElement('a');
+    a.href = it.url; a.target = '_blank'; a.rel = 'noreferrer';
+    a.textContent = it.source ? `↗ Read at ${it.source}` : 'Open source →';
+    card.appendChild(a);
+  }
 
-  const srcUrl = it.originalSourceUrl || it.source_url;
-  if (srcUrl && srcUrl !== it.url && /^https?:\/\//i.test(srcUrl)) {
+  const altUrl = it.originalSourceUrl || it.source_url;
+  if (altUrl && altUrl !== it.url && /^https?:\/\//i.test(altUrl)) {
     const origA = document.createElement('a');
-    origA.href = srcUrl; origA.target = '_blank'; origA.rel = 'noreferrer';
+    origA.href = altUrl; origA.target = '_blank'; origA.rel = 'noreferrer';
     origA.className = 'original-source-link'; origA.textContent = '📄 Original Regulatory Source →';
     origA.style.display = 'block';
     card.appendChild(origA);
   }
-
-  const s = document.createElement('div');
-  s.style.cssText = 'margin-top:10px;font-size:11px;color:var(--muted);';
-  s.textContent = it.source;
-  card.appendChild(s);
 
   return card;
 }
