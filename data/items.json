@@ -1,5 +1,29 @@
 [
   {
+    "id": "73f106057c25db94",
+    "type": "news",
+    "title": "Industry Support Letter for Chip Security Act Reported by NBC News (18 Jun 2026)",
+    "why": "NBC News reported 18 Jun 2026 that a coalition letter expressing industry support for the Chip Security Act (H.R.",
+    "summary": "NBC News reported 18 Jun 2026 that a coalition letter expressing industry support for the Chip Security Act (H.R. 3447 / S. 1705) was circulated. INTERESTED PARTIES — positions, not neutral facts: Support letters from verification vendors (GeoComply, Multibeam, Fortaegis) and advocacy groups (FDD Action, CAIS Action Fund) carry commercial or ideological interest in CSA passage. The SIA (representing chip manufacturers) maintains opposition on 'untested/infeasible' and competitiveness grounds. PRIMARY TRIGGER for CSA monitoring initiation in this repo. URL unverified by tool run.",
+    "jurisdiction": "US",
+    "source": "NBC News",
+    "source_url": "https://www.nbcnews.com/tech/tech-news/chips-security-act-gains-industry-support-letter-rcna350500",
+    "date": "2026-06-18",
+    "risk": 55,
+    "risk_note": "Medium — single news source (NBC); letter text not independently verified",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "NBC News",
+        "https://www.nbcnews.com/tech/tech-news/chips-security-act-gains-industry-support-letter-rcna350500"
+      ]
+    ]
+  },
+  {
     "id": "72053262927969f3",
     "type": "news",
     "title": "2026 State of the Digital Decade report shows progress but urges closing structural gaps to reach 2030 goals",
@@ -1109,6 +1133,30 @@
         "Read more",
         "EU Digital Strategy",
         "https://digital-strategy.ec.europa.eu/en/news/commission-investigates-snapchats-compliance-child-protection-rules-under-digital-services-act"
+      ]
+    ]
+  },
+  {
+    "id": "5dca0f9943f7497d",
+    "type": "enforce",
+    "title": "Chip Security Act (H.R. 3447 / S. 1705): Location-Verification Mandate for Export-Controlled AI Chips",
+    "why": "Pre-enactment; committee stage only. Monitor for floor scheduling and BIS rulemaking. Location verification addresses physical diversion but not compute-output diversion or relay-attack vectors. No enforcement mechanism if verification fails (rule of construction).",
+    "summary": "STATUS AS OF 22 JUN 2026 — VERIFY BEFORE CITING: Passed House Foreign Affairs Committee markup 26 Mar 2026; no floor vote or Senate committee action independently confirmed. INSTRUMENT: The Chip Security Act (119th Congress) would require BIS/Commerce, within 180 days of enactment, to mandate location-verification chip security mechanisms on covered products before export, reexport, or in-country transfer. Covered ECCNs: 3A090, 3A001.z, 4A090, 4A003.z and successor/substantially-similar classifications (the successor clause is the primary scope-creep vector to monitor). MECHANICS: Notification/reporting duty on exporters for credible diversion information to the BIS Under Secretary. BIS enforcement authority. Commerce assessment of additional mechanisms and foreign-chip competitiveness. Feasibility path identified: ping-based location verification (PBLV) via existing GPU remote attestation (software-update route). RULE OF CONSTRUCTION: Must not hinder functionality — no kill switch, no geofencing; non-AI use cases excluded. STAKEHOLDERS (interested parties — separate positions from facts): Support: GeoComply, Multibeam, Fortaegis (commercial verification vendors — conflict of interest flagged). FDD Action, CAIS Action Fund (advocacy). Opposition: SIA, ITI, SIIA ('untested/infeasible,' competitiveness concerns — represent chip manufacturers). CONTRARIAN FLAGS: (1) Location ≠ usage control — verified physical location does not prevent inference-output diversion via API; (2) relay-attack vector — chips co-located with legitimate installations can serve remote unauthorized users; (3) rule-of-construction enforcement gap — 'no kill switch' means no hardware remedy if verification fails; (4) pre-enactment gap — retroactive coverage of already-exported chips (H100/A100 installed base) not addressed; (5) ECCN scope gap — B200/GB200-class chips may require additional successor designations. EXPANSIONIST FLAGS: Allied carve-out treatment not specified in bill text (Five Eyes, Japan, Netherlands, South Korea exposure unclear); NVIDIA Confidential Computing / remote attestation architecture compatibility with PBLV unconfirmed by vendor; 180-day implementing rule deadline could overlap with BIS Affiliates Rule Phase 2 snap-back (10 Nov 2026) if enacted in mid-2026. PRIMARY TRIGGER: NBC News 18 Jun 2026 reporting industry support letter. ALL URLS UNVERIFIED BY TOOL RUN.",
+    "jurisdiction": "US",
+    "source": "Congress / HFAC / NBC News",
+    "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/3447/text",
+    "date": "2026-03-26",
+    "risk": 72,
+    "risk_note": "Medium — committee stage only; floor scheduling unconfirmed",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Congress / HFAC / NBC News",
+        "https://www.congress.gov/bill/119th-congress/house-bill/3447/text"
       ]
     ]
   },
