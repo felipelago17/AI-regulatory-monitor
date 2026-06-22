@@ -7545,6 +7545,135 @@
         "regulatory_disruption_days": "180-730",
         "confidence_level": "Low — primary text not publicly available"
       }
+    },
+    {
+      "id": "5dca0f9943f7497d",
+      "date": "2026-03-26",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "Chip Security",
+        "AI Diffusion Policy",
+        "Legislation"
+      ],
+      "title": "Chip Security Act (H.R. 3447 / S. 1705): Location-Verification Mandate for Export-Controlled AI Chips",
+      "summary": "STATUS AS OF 22 JUN 2026 — VERIFY BEFORE CITING: Passed House Foreign Affairs Committee markup 26 Mar 2026; no floor vote or Senate committee action independently confirmed. INSTRUMENT: The Chip Security Act (119th Congress) would require BIS/Commerce, within 180 days of enactment, to mandate location-verification chip security mechanisms on covered products before export, reexport, or in-country transfer. Covered ECCNs: 3A090, 3A001.z, 4A090, 4A003.z and successor/substantially-similar classifications (the successor clause is the primary scope-creep vector to monitor). MECHANICS: Notification/reporting duty on exporters for credible diversion information to the BIS Under Secretary. BIS enforcement authority. Commerce assessment of additional mechanisms and foreign-chip competitiveness. Feasibility path identified: ping-based location verification (PBLV) via existing GPU remote attestation (software-update route). RULE OF CONSTRUCTION: Must not hinder functionality — no kill switch, no geofencing; non-AI use cases excluded. STAKEHOLDERS (interested parties — separate positions from facts): Support: GeoComply, Multibeam, Fortaegis (commercial verification vendors — conflict of interest flagged). FDD Action, CAIS Action Fund (advocacy). Opposition: SIA, ITI, SIIA ('untested/infeasible,' competitiveness concerns — represent chip manufacturers). CONTRARIAN FLAGS: (1) Location ≠ usage control — verified physical location does not prevent inference-output diversion via API; (2) relay-attack vector — chips co-located with legitimate installations can serve remote unauthorized users; (3) rule-of-construction enforcement gap — 'no kill switch' means no hardware remedy if verification fails; (4) pre-enactment gap — retroactive coverage of already-exported chips (H100/A100 installed base) not addressed; (5) ECCN scope gap — B200/GB200-class chips may require additional successor designations. EXPANSIONIST FLAGS: Allied carve-out treatment not specified in bill text (Five Eyes, Japan, Netherlands, South Korea exposure unclear); NVIDIA Confidential Computing / remote attestation architecture compatibility with PBLV unconfirmed by vendor; 180-day implementing rule deadline could overlap with BIS Affiliates Rule Phase 2 snap-back (10 Nov 2026) if enacted in mid-2026. PRIMARY TRIGGER: NBC News 18 Jun 2026 reporting industry support letter. ALL URLS UNVERIFIED BY TOOL RUN.",
+      "keyTakeaway": "Pre-enactment; committee stage only. Monitor for floor scheduling and BIS rulemaking. Location verification addresses physical diversion but not compute-output diversion or relay-attack vectors. No enforcement mechanism if verification fails (rule of construction).",
+      "source": "Congress / HFAC / NBC News",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3447/text",
+      "source_urls": {
+        "hr3447_text": "https://www.congress.gov/bill/119th-congress/house-bill/3447/text",
+        "s1705": "https://www.congress.gov/bill/119th-congress/senate-bill/1705",
+        "hfac_markup": "https://chinaselectcommittee.house.gov/media/press-releases/house-committee-passes-chip-security-act",
+        "sia_statement": "https://www.semiconductors.org/sia-statement-on-chip-security-act/",
+        "fdd_action": "https://www.fddaction.org/action-alert/2026/03/25/action-alert-support-h-r-3447-the-chip-security-act-and-other-measures/",
+        "safe_ai": "https://action.safe.ai/news/the-chip-security-act-separating-fact-from-fiction",
+        "nbc_trigger": "https://www.nbcnews.com/tech/tech-news/chips-security-act-gains-industry-support-letter-rcna350500"
+      },
+      "instrument_record": {
+        "instrument_id": "us-csa-hr3447-s1705",
+        "title": "Chip Security Act",
+        "jurisdiction": "US",
+        "type": "legislation",
+        "stage": "committee",
+        "stage_note": "Passed House Foreign Affairs Committee markup 26 Mar 2026. No floor vote or Senate committee action confirmed as of 22 Jun 2026 — verify on Congress.gov before citing.",
+        "lead_agency_on_implementation": "BIS / Dept of Commerce",
+        "covered_eccns": [
+          "3A090",
+          "3A001.z",
+          "4A090",
+          "4A003.z"
+        ],
+        "key_obligations": [
+          "location_verification_mandate",
+          "diversion_reporting",
+          "bis_enforcement",
+          "commerce_assessment"
+        ],
+        "trigger_deadlines": [
+          {
+            "event": "rulemaking_after_enactment",
+            "window_days": 180,
+            "anchor": "date_of_enactment"
+          }
+        ],
+        "watch_items": [
+          "House/Senate floor scheduling",
+          "BIS implementing rule / ANPRM",
+          "definition of 'feasible and appropriate' location-verification techniques",
+          "treatment of successor ECCNs (scope-creep vector)",
+          "allied-country carve-out treatment (Five Eyes, Japan, Netherlands, South Korea)",
+          "NVIDIA and GPU vendor PBLV feasibility responses",
+          "overlap with BIS Affiliates Rule Phase 2 snap-back (10 Nov 2026) if enacted mid-2026",
+          "Federal Register ANPRM / IFR matching covered-ECCN or location-verification terms"
+        ],
+        "source_urls": [
+          "https://www.congress.gov/bill/119th-congress/house-bill/3447/text",
+          "https://www.congress.gov/bill/119th-congress/senate-bill/1705",
+          "https://chinaselectcommittee.house.gov/media/press-releases/house-committee-passes-chip-security-act",
+          "https://www.semiconductors.org/sia-statement-on-chip-security-act/",
+          "https://www.fddaction.org/action-alert/2026/03/25/action-alert-support-h-r-3447-the-chip-security-act-and-other-measures/",
+          "https://action.safe.ai/news/the-chip-security-act-separating-fact-from-fiction",
+          "https://www.nbcnews.com/tech/tech-news/chips-security-act-gains-industry-support-letter-rcna350500"
+        ],
+        "last_verified": "2026-06-22T00:00:00Z",
+        "confidence": "medium"
+      },
+      "tags": [
+        "export-controls",
+        "chip-security",
+        "legislation",
+        "bis",
+        "location-verification",
+        "eccn",
+        "ai-diffusion",
+        "national-security",
+        "pblv"
+      ],
+      "category": "enforcement",
+      "risk_score": 72,
+      "impact_assessment": {
+        "scenario": "Chip Security Act enacted and BIS implementing rule requires location-verification mechanisms within 180 days. Chip exporters face compliance costs; verification infrastructure must be deployed across all covered-ECCN shipments; successor-ECCN clause expands scope over time.",
+        "probability_percent": 50,
+        "financial_loss_low_millions": 50,
+        "financial_loss_likely_millions": 200,
+        "financial_loss_high_millions": 1000,
+        "reputational_exposure": "High",
+        "regulatory_disruption_days": "180-365",
+        "confidence_level": "Medium — committee stage only; floor scheduling unconfirmed"
+      }
+    },
+    {
+      "id": "73f106057c25db94",
+      "date": "2026-06-18",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "Chip Security",
+        "Legislation"
+      ],
+      "title": "Industry Support Letter for Chip Security Act Reported by NBC News (18 Jun 2026)",
+      "summary": "NBC News reported 18 Jun 2026 that a coalition letter expressing industry support for the Chip Security Act (H.R. 3447 / S. 1705) was circulated. INTERESTED PARTIES — positions, not neutral facts: Support letters from verification vendors (GeoComply, Multibeam, Fortaegis) and advocacy groups (FDD Action, CAIS Action Fund) carry commercial or ideological interest in CSA passage. The SIA (representing chip manufacturers) maintains opposition on 'untested/infeasible' and competitiveness grounds. PRIMARY TRIGGER for CSA monitoring initiation in this repo. URL unverified by tool run.",
+      "source": "NBC News",
+      "url": "https://www.nbcnews.com/tech/tech-news/chips-security-act-gains-industry-support-letter-rcna350500",
+      "tags": [
+        "export-controls",
+        "chip-security",
+        "legislation",
+        "ai-diffusion"
+      ],
+      "category": "news",
+      "risk_score": 55,
+      "impact_assessment": {
+        "scenario": "Industry support letter accelerates CSA legislative momentum; increases probability of floor scheduling.",
+        "probability_percent": 50,
+        "financial_loss_low_millions": 10,
+        "financial_loss_likely_millions": 50,
+        "financial_loss_high_millions": 200,
+        "reputational_exposure": "Medium-High",
+        "regulatory_disruption_days": "30-180",
+        "confidence_level": "Medium — single news source (NBC); letter text not independently verified"
+      }
     }
   ]
 }

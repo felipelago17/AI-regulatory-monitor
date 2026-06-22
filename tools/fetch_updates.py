@@ -151,6 +151,12 @@ FEEDS = [
         "jurisdiction": "United States",
         "tags": ["federal-register", "bis", "export-controls", "ai-diffusion"],
     },
+    {
+        "url": "https://www.federalregister.gov/articles/search.rss?conditions%5Bterm%5D=chip+security+location+verification",
+        "source": "Federal Register — chip security location verification",
+        "jurisdiction": "United States",
+        "tags": ["federal-register", "chip-security", "export-controls", "location-verification"],
+    },
 ]
 
 # Namespaces used in Atom feeds

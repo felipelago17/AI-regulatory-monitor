@@ -174,6 +174,42 @@
       "description": "Compliance practitioner analysis covering is-informed letter mechanics, enterprise model-dependency risk, and supply-chain contractual safeguards.",
       "category": "professional-analysis",
       "note": "URL unverified by tool run"
+    },
+    {
+      "id": "csa-hr3447-congress",
+      "organization": "U.S. Congress — 119th",
+      "name": "Chip Security Act — H.R. 3447 / S. 1705 (Bill Text)",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3447/text",
+      "description": "Primary bill text for the Chip Security Act. Requires BIS/Commerce to mandate location-verification mechanisms on 3A090/4A090-class chips within 180 days of enactment. Senate companion: S. 1705. Verify stage on Congress.gov before citing.",
+      "category": "primary-authority",
+      "note": "Stage: committee as of 22 Jun 2026 — URL unverified by tool run"
+    },
+    {
+      "id": "sia-csa-opposition",
+      "organization": "Semiconductor Industry Association (SIA)",
+      "name": "SIA Statement on the Chip Security Act",
+      "url": "https://www.semiconductors.org/sia-statement-on-chip-security-act/",
+      "description": "SIA opposition statement arguing location-verification mandate is 'untested/infeasible' and raises competitiveness concerns. Represents chip manufacturers — weight accordingly as interested party.",
+      "category": "industry-position",
+      "note": "Interested party (chip manufacturers) — URL unverified by tool run"
+    },
+    {
+      "id": "safe-ai-csa-analysis",
+      "organization": "Safe.AI / CAIS Action Fund",
+      "name": "The Chip Security Act: Separating Fact from Fiction",
+      "url": "https://action.safe.ai/news/the-chip-security-act-separating-fact-from-fiction",
+      "description": "Advocacy-aligned analysis of CSA feasibility and policy rationale. Interested party — separate factual claims from position advocacy.",
+      "category": "policy-analysis",
+      "note": "Advocacy source — URL unverified by tool run"
+    },
+    {
+      "id": "nbc-csa-trigger",
+      "organization": "NBC News",
+      "name": "Chip Security Act Gains Industry Support Letter",
+      "url": "https://www.nbcnews.com/tech/tech-news/chips-security-act-gains-industry-support-letter-rcna350500",
+      "description": "Primary trigger for CSA monitoring (18 Jun 2026). Reports circulation of an industry support letter. Single-source; letter text not independently verified.",
+      "category": "specialized-news",
+      "note": "Single-source trigger — URL unverified by tool run"
     }
   ],
   "upcoming_deadlines": [
@@ -205,7 +241,10 @@
     "Enforcement Actions",
     "AI Diffusion Controls",
     "Frontier Model Export Controls",
-    "Deemed Export — AI SaaS"
+    "Deemed Export — AI SaaS",
+    "Chip Security Act",
+    "Location Verification — AI Chips",
+    "PBLV"
   ],
   "compliance_note": "Export controls are enforced across multiple jurisdictions. Monitor BIS (US), UAE IEC (Emirates), DOJ (enforcement), and international regimes (Wassenaar) for changing restrictions on technology, equipment, and services.",
   "active_enforcement_watch": [
@@ -248,6 +287,57 @@
         "NSA"
       ],
       "action_required": "Immediate: (1) Audit enterprise AI contracts for model-dependency risk; add suspension/fallback/portability clauses. (2) Conduct deemed-export analysis for AI API access by foreign nationals. (3) Monitor Federal Register for published rule or letter. (4) Assess whether fallback models face same licence trigger."
+    },
+    {
+      "id": "us-csa-hr3447-s1705",
+      "title": "Chip Security Act (H.R. 3447 / S. 1705) — Location-Verification Mandate",
+      "stage": "committee",
+      "stage_note": "Passed House Foreign Affairs Committee markup 26 Mar 2026. Floor scheduling unconfirmed as of 22 Jun 2026.",
+      "last_verified": "2026-06-22T00:00:00Z",
+      "confidence": "medium",
+      "priority": "high",
+      "covered_eccns": [
+        "3A090",
+        "3A001.z",
+        "4A090",
+        "4A003.z"
+      ],
+      "trigger_deadlines": [
+        {
+          "event": "BIS implementing rulemaking",
+          "window_days": 180,
+          "anchor": "date_of_enactment",
+          "note": "Clock starts only on enactment — not yet triggered"
+        }
+      ],
+      "watch_terms": [
+        "Chip Security Act",
+        "H.R. 3447",
+        "S. 1705",
+        "location verification chip",
+        "ping-based location verification",
+        "PBLV",
+        "3A090 location",
+        "chip security mechanism",
+        "feasible and appropriate verification"
+      ],
+      "monitoring_rules": [
+        "Flag any stage change on H.R. 3447 / S. 1705 (committee → floor → enacted)",
+        "On enactment: start 180-day BIS rulemaking clock; surface alongside Affiliates Rule snap-back (10 Nov 2026)",
+        "Watch for BIS ANPRM/IFR defining 'feasible and appropriate' verification techniques",
+        "Watch for successor/substantially-similar ECCN expansions (scope-creep vector)",
+        "Treat advocacy sources (FDD, CAIS, GeoComply, Multibeam, Fortaegis) as interested parties",
+        "De-duplicate against existing export-controls entries; cite source URLs; never fabricate stage"
+      ],
+      "contrarian_flags": [
+        "Location ≠ usage control: verified physical location does not prevent inference-output diversion via API",
+        "Relay-attack vector: chips at approved locations can serve compute to remote unauthorized users",
+        "Rule-of-construction enforcement gap: 'no kill switch' means no hardware remedy if verification fails",
+        "Pre-enactment gap: retroactive coverage of already-exported H100/A100 installed base not addressed",
+        "ECCN scope gap: B200/GB200-class chips may need additional successor designations",
+        "Vendor credibility: GeoComply/Multibeam/Fortaegis have commercial interests in CSA passage"
+      ],
+      "description": "The Chip Security Act (119th Congress) would require BIS/Commerce within 180 days of enactment to mandate location-verification mechanisms on export-controlled AI chips (3A090, 4A090, and successor ECCNs). Exporters must also report credible diversion information to BIS. Rule of construction prohibits kill switches and geofencing. Stakeholder split: verification vendors support; chip manufacturers (SIA) oppose. Primary trigger: NBC News 18 Jun 2026 industry support letter. Verify stage on Congress.gov before relying on this entry."
     }
   ]
 }
