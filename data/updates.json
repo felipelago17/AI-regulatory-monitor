@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T11:35:28+00:00",
+  "generated_at": "2026-06-23T08:59:07+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -7674,6 +7674,22 @@
         "regulatory_disruption_days": "30-180",
         "confidence_level": "Medium — single news source (NBC); letter text not independently verified"
       }
+    },
+    {
+      "id": "b2b3624d129de8ec",
+      "date": "2026-06-22",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Releases Technical Findings on What Caused the 2021 Partial Collapse of Champlain Towers South",
+      "summary": "In an investigation that began just days after the tragedy, the team examined two dozen possible scenarios for where and why the collapse started.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/06/nist-releases-technical-findings-what-caused-2021-partial-collapse",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "enforcement"
     }
   ]
 }

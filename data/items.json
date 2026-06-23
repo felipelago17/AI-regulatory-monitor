@@ -1,5 +1,29 @@
 [
   {
+    "id": "b2b3624d129de8ec",
+    "type": "enforce",
+    "title": "NIST Releases Technical Findings on What Caused the 2021 Partial Collapse of Champlain Towers South",
+    "why": "In an investigation that began just days after the tragedy, the team examined two dozen possible scenarios for where and why the collapse started.",
+    "summary": "In an investigation that began just days after the tragedy, the team examined two dozen possible scenarios for where and why the collapse started.",
+    "jurisdiction": "US",
+    "source": "NIST",
+    "source_url": "https://www.nist.gov/news-events/news/2026/06/nist-releases-technical-findings-what-caused-2021-partial-collapse",
+    "date": "2026-06-22",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "cybersecurity"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "NIST",
+        "https://www.nist.gov/news-events/news/2026/06/nist-releases-technical-findings-what-caused-2021-partial-collapse"
+      ]
+    ]
+  },
+  {
     "id": "73f106057c25db94",
     "type": "news",
     "title": "Industry Support Letter for Chip Security Act Reported by NBC News (18 Jun 2026)",
