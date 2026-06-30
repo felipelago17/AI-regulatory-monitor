@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T10:22:43+00:00",
+  "generated_at": "2026-06-30T08:56:41+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -7690,6 +7690,22 @@
         "cybersecurity"
       ],
       "category": "enforcement"
+    },
+    {
+      "id": "3930663e43c4359f",
+      "date": "2026-06-29",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Launches Center to Drive the Manufacture of Quantum Technologies",
+      "summary": "NIST has announced an agreement with SRI International to establish the Quantum Manufacturing Engineering Center (QMEC).",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/06/nist-launches-center-drive-manufacture-quantum-technologies",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
     }
   ]
 }

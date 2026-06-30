@@ -1,5 +1,29 @@
 [
   {
+    "id": "3930663e43c4359f",
+    "type": "news",
+    "title": "NIST Launches Center to Drive the Manufacture of Quantum Technologies",
+    "why": "NIST has announced an agreement with SRI International to establish the Quantum Manufacturing Engineering Center (QMEC).",
+    "summary": "NIST has announced an agreement with SRI International to establish the Quantum Manufacturing Engineering Center (QMEC).",
+    "jurisdiction": "US",
+    "source": "NIST",
+    "source_url": "https://www.nist.gov/news-events/news/2026/06/nist-launches-center-drive-manufacture-quantum-technologies",
+    "date": "2026-06-29",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "cybersecurity"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "NIST",
+        "https://www.nist.gov/news-events/news/2026/06/nist-launches-center-drive-manufacture-quantum-technologies"
+      ]
+    ]
+  },
+  {
     "id": "b2b3624d129de8ec",
     "type": "enforce",
     "title": "NIST Releases Technical Findings on What Caused the 2021 Partial Collapse of Champlain Towers South",
