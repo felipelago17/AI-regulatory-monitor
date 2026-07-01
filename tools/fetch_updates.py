@@ -58,6 +58,105 @@ FEEDS = [
         "jurisdiction": "United States",
         "tags": ["bis", "export-controls", "entity-list"],
     },
+    # Law firm insight feeds — export controls, sanctions, and AI regulatory analysis
+    {
+        "url": "https://www.skadden.com/insights/rss",
+        "source": "Skadden",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    {
+        "url": "https://www.paulweiss.com/insights/rss",
+        "source": "Paul Weiss",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    {
+        "url": "https://www.cov.com/en/news-and-insights/rss",
+        "source": "Covington & Burling",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    {
+        "url": "https://www.freshfields.com/en/our-thinking/rss",
+        "source": "Freshfields",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    {
+        "url": "https://www.wilmerhale.com/en/insights/rss",
+        "source": "WilmerHale",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    {
+        "url": "https://www.squirepattonboggs.com/en/insights/rss",
+        "source": "Squire Patton Boggs",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    {
+        "url": "https://www.blankrome.com/publications/rss",
+        "source": "Blank Rome",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    {
+        "url": "https://www.sidley.com/en/insights/rss",
+        "source": "Sidley Austin",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    {
+        "url": "https://www.hklaw.com/rss",
+        "source": "Holland & Knight",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    {
+        "url": "https://www.arnoldporter.com/en/perspectives/rss",
+        "source": "Arnold & Porter",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    {
+        "url": "https://www.millerchevalier.com/rss",
+        "source": "Miller & Chevalier",
+        "jurisdiction": "Global",
+        "tags": ["law-firm", "export-controls", "regulatory-analysis"],
+    },
+    # Federal Register topic-RSS feeds — flags published rules/notices matching
+    # active watch terms (AI diffusion, frontier models, Anthropic/BIS action)
+    {
+        "url": "https://www.federalregister.gov/articles/search.rss?conditions%5Bterm%5D=frontier+model+export",
+        "source": "Federal Register — frontier model export",
+        "jurisdiction": "United States",
+        "tags": ["federal-register", "frontier-models", "export-controls", "ai-diffusion"],
+    },
+    {
+        "url": "https://www.federalregister.gov/articles/search.rss?conditions%5Bterm%5D=covered+AI+model",
+        "source": "Federal Register — covered AI model",
+        "jurisdiction": "United States",
+        "tags": ["federal-register", "frontier-models", "export-controls", "ai-diffusion"],
+    },
+    {
+        "url": "https://www.federalregister.gov/articles/search.rss?conditions%5Bterm%5D=deemed+export+artificial+intelligence",
+        "source": "Federal Register — deemed export AI",
+        "jurisdiction": "United States",
+        "tags": ["federal-register", "deemed-export", "export-controls", "national-security"],
+    },
+    {
+        "url": "https://www.federalregister.gov/articles/search.rss?conditions%5Bterm%5D=BIS+AI+diffusion",
+        "source": "Federal Register — BIS AI diffusion",
+        "jurisdiction": "United States",
+        "tags": ["federal-register", "bis", "export-controls", "ai-diffusion"],
+    },
+    {
+        "url": "https://www.federalregister.gov/articles/search.rss?conditions%5Bterm%5D=chip+security+location+verification",
+        "source": "Federal Register — chip security location verification",
+        "jurisdiction": "United States",
+        "tags": ["federal-register", "chip-security", "export-controls", "location-verification"],
+    },
 ]
 
 # Namespaces used in Atom feeds

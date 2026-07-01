@@ -757,7 +757,7 @@ function paintKPIs(kpis, items) {
 
 async function loadAndRenderBIS() {
   try {
-    const res = await fetch('data/bis-monitoring.json', { cache: 'no-store' });
+    const res = await fetch('./data/bis-monitoring.json', { cache: 'no-store' });
     const bisData = await res.json();
     el('bisPeriod').textContent = `Monitoring Period: ${bisData.monitoring_period}`;
     const highlightsContainer = el('bisHighlights');
@@ -814,8 +814,35 @@ function initBISToggle() {
 
 async function loadAndRenderExportControls() {
   try {
-    const res = await fetch('data/export-controls.json', { cache: 'no-store' });
+    const res = await fetch('./data/export-controls.json', { cache: 'no-store' });
     const ecData = await res.json();
+
+    // Render upcoming deadlines
+    const deadlinesContainer = el('exportControlsDeadlines');
+    if (deadlinesContainer && ecData.upcoming_deadlines && ecData.upcoming_deadlines.length > 0) {
+      const today = new Date(); today.setHours(0, 0, 0, 0);
+      deadlinesContainer.innerHTML = '';
+      for (const dl of ecData.upcoming_deadlines) {
+        const daysLeft = Math.ceil((new Date(dl.date) - today) / 86400000);
+        const urgency = daysLeft <= 30 ? 'deadline-urgent' : daysLeft <= 90 ? 'deadline-soon' : 'deadline-ok';
+        const safeUrl = /^https?:\/\//i.test(dl.url || '') ? dl.url : '#';
+        const div = document.createElement('div');
+        div.className = `ec-deadline ${urgency}`;
+        div.innerHTML = `
+          <div class="ec-deadline-header">
+            <span class="ec-deadline-days">${daysLeft > 0 ? daysLeft + 'd' : 'TODAY'}</span>
+            <div class="ec-deadline-title">${escapeHtml(dl.title)}</div>
+            <span class="ec-deadline-priority">${escapeHtml((dl.priority || '').toUpperCase())}</span>
+          </div>
+          <div class="ec-deadline-desc">${escapeHtml(dl.description)}</div>
+          <div class="ec-deadline-meta"><strong>${escapeHtml(dl.authority)}</strong> · ${escapeHtml(dl.regulation)}</div>
+          ${dl.action_required ? `<div class="ec-deadline-action">⚡ ${escapeHtml(dl.action_required)}</div>` : ''}
+          <a href="${escapeHtml(safeUrl)}" target="_blank" rel="noreferrer" class="ec-deadline-link">Official source →</a>`;
+        deadlinesContainer.appendChild(div);
+      }
+      deadlinesContainer.parentElement.style.display = 'block';
+    }
+
     const resourcesContainer = el('exportControlsResources');
     resourcesContainer.innerHTML = '';
     for (const resource of ecData.export_control_resources) {
@@ -853,7 +880,7 @@ function initExportControlsToggle() {
 
 async function loadAndRenderDataPrivacy() {
   try {
-    const res = await fetch('data/data-privacy.json', { cache: 'no-store' });
+    const res = await fetch('./data/data-privacy.json', { cache: 'no-store' });
     const dpData = await res.json();
     const sourcesContainer = el('dataPrivacySources');
     sourcesContainer.innerHTML = '';
@@ -896,7 +923,7 @@ function initDataPrivacyToggle() {
 
 async function loadAndRenderDataResidency() {
   try {
-    const res = await fetch('data/data-residency.json', { cache: 'no-store' });
+    const res = await fetch('./data/data-residency.json', { cache: 'no-store' });
     const drData = await res.json();
     const sourcesContainer = el('dataResidencySources');
     sourcesContainer.innerHTML = '';
@@ -939,7 +966,7 @@ function initDataResidencyToggle() {
 
 async function loadAndRenderResponsibleAI() {
   try {
-    const res = await fetch('data/responsible-ai.json', { cache: 'no-store' });
+    const res = await fetch('./data/responsible-ai.json', { cache: 'no-store' });
     const raiData = await res.json();
     const categoriesContainer = el('responsibleAICategories');
     categoriesContainer.innerHTML = '';
@@ -1197,7 +1224,7 @@ async function init() {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 8000);
     let res;
-    try { res = await fetch('data/updates.json', { cache: 'no-store', signal: controller.signal }); }
+    try { res = await fetch('./data/updates.json', { cache: 'no-store', signal: controller.signal }); }
     finally { clearTimeout(timeoutId); }
     if (!res.ok) throw new Error(`HTTP ${res.status}: Failed to fetch updates.json`);
     const payload = await res.json();

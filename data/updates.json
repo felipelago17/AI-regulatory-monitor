@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T05:58:07+00:00",
+  "generated_at": "2026-07-01T09:29:34+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -6942,6 +6942,770 @@
         "digital-regulation"
       ],
       "category": "update"
+    },
+    {
+      "id": "86852c8ed3bfd4ca",
+      "date": "2026-06-09",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Expands Its Library of ‘Chemical Fingerprints’ to Identify Unknown Substances",
+      "summary": "Researchers and manufacturers rely on the library to identify unknown compounds in food, drugs, cosmetics, the environment, body fluids, forensic evidence and even space rocks.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/06/nist-expands-its-library-chemical-fingerprints-identify-unknown-substances",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "a407d520b6d1eb45",
+      "date": "2026-06-09",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Mathematical Proof Supports Transition to a Continuous-Monitor-and-Update Security Model for AI Systems",
+      "summary": "The proof extends to AI the logic used by famed mathematician Kurt Gödel, whose incompleteness theorems have had a profound effect on math for nearly a century.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/06/nist-mathematical-proof-supports-transition-continuous-monitor-and-update",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "9018e44cb852b7b0",
+      "date": "2026-06-10",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Info session - Code of practice for transparency of AI-generated content & signature process",
+      "summary": "Info session - Code of practice for transparency of AI-generated content & signature process marsrgi Wed, 06/10/2026 - 09:58 22 June 2026 The AI Office is organising an info session to present the Code and the signature process to interested potential Signatories. Join the session on 22 June 14:00-16:00 CEST for a comprehensive overview of the code the signature process . Please fill in the registration form by 18 June to indicate interest for participation and receive further details. Any (potential) provider or deployer can ask questions on the process of signing up to the Code at CNECT-AIOFFICE-CODE-OF-PRACTICE-TRANSPARENCY@ec.europa.eu . Registration form Related topics Artificial intelligence {\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/info-session-code-practice-transparency-ai-generated-content-signature-process",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "f74cedcee0cc7e07",
+      "date": "2026-06-10",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Commission publishes Code of Practice on marking and labelling AI-generated content",
+      "summary": "Commission publishes Code of Practice on marking and labelling AI-generated content marsrgi Wed, 06/10/2026 - 13:13 The European Commission published the final Code of Practice on marking and labelling of AI-generated content. The Code is voluntary and sets out practical steps to help providers and deployers of generative artificial intelligence (AI) systems meet the AI Act transparency obligations that will apply from 2 August 2026. From that date, the AI Act will require clear labelling in key cases. D eepfakes and AI-generated or AI-manipulated text published on matters of public interest must be clearly labelled. Users must also be informed when they are interacting with an interactive AI system , such as a chatbot. These transparency requirements help people recognise when content has been generated or altered by AI, reducing the risk of deception and manipulation. Read the press release and find more information: Code of Practice on marking and labelling of AI-generated content EU Icons for labelling AI-generated content How to sign the Code of Practice on transparency of AI-generated content Questions & answer about the code Questions & answer about signing the code Info session on the code of practice & signature process Related topics Artificial intelligence {\"service\":\"share\",\"version\":\"2.0\",\"color\":true,\"networks\":[\"x\",\"facebook\",\"linkedin\",\"email\",\"more\"]}",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "72053262927969f3",
+      "date": "2026-06-17",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "2026 State of the Digital Decade report shows progress but urges closing structural gaps to reach 2030 goals",
+      "summary": "2026 State of the Digital Decade report shows progress but urges closing structural gaps to reach 2030 goals Anonymous (not verified) Wed, 06/17/2026 - 11:35 The European Commission published the fourth State of the Digital Decade report, showing that Europe has made progress on its 2030 digital transformation targets, such as secure and sustainable digital infrastructures and the digitalisation of public services – but the challenge now is delivering results at scale, speed and consistency. The report comes as the Commission published the last Special Eurobarometer , showing that an overwhelming majority of Europeans rank digital policy as a top EU priority, firmly backing a more autonomous European digital future. The Digital Decade Policy Programme serves as the EU's strategic compass for advancing and investing in Europe's digital competitiveness and sovereignty. The report evaluates progress made by the EU in its digitalisation across the board, including in critical infrastructures, digitalisation of business, digital skills, and digitalisation of public services. This year, the report goes beyond stocktaking, outlining priority reforms and investments at EU and Member States level in an attempt to guide digital funding allocations in the next EU Multiannual Financial Framework. Henna Virkkunen , Executive Vice-President for Tech Sovereignty, Security and Democracy, said: With the Digital Decade policy programme, the foundations of the EU’s digital transformation are in place. We must continue on this path to achieve Europe’s technological sovereignty. We recently adopted measures to strengthen Europe's capacity in semiconductors, AI, cloud and open source. This marks a pivotal moment and one we have to fully grasp to strengthen Europe’s autonomy and resilience. Read the full press release . Find more information Europe's Digital Decade The 2026 State of the Digital Decade package Factsheet on the 2026 State of the Digital Decade Factpages on the 2026 Digital Decade country reports Related topics ICT Innovation Shaping the Digital Single Market Creating a digital society eGovernment, Trust services and eID eHealth, Wellbeing and Ageing Research and Innovation Digital connectivity Media and democracy Digital Cultural heritage Cybersecurity Electronic communications and Privacy Digital Skills and Jobs Advanced Digital Technologies Startups Strengthening trust and security Digital Economy and Society Index (DESI) 5G/6G Data policy Advanced and Cloud Computing Copyright Boosting European digital Industry International relations Online platforms and e-commerce Artificial intelligence Funding for Digital Digital Decade Digital Decade reporting European Digital Infrastructure Consortium 5G Observatory News Digital Decade 2026 Tech sovereignty",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/2026-state-digital-decade-report-shows-progress-urges-closing-structural-gaps-reach-2030-goals",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "da9b3f836a44b363",
+      "date": "2026-06-17",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "State of the Digital Decade 2026 - Factsheet",
+      "summary": "State of the Digital Decade 2026 - Factsheet dumimar Wed, 06/17/2026 - 10:22 This factsheet outlines the key findings of the 2026 State of the Digital Decade Report. Highlighting the progress made by the EU towards the 2030 targets, it also mentions the key points to help EU's digital transformation to move forward: Scale: coordination and cofinancing across Member States and EU instruments Speed: implementation, simplification, recalibration of policy Coherence: simultaneous deployment and uptake of strategic technologies It also summarises the main concerns for Europeans in 2026, based on the Special Eurobarometer survey . You can download the factsheet below. Find out more about the 2026 State of the Digital Decade . Downloads State of the Digital Decade 2026 - Factsheet Download Related topics Digital Decade Digital Decade reporting Digital Decade 2026",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/state-digital-decade-2026-factsheet",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "ab999c7a8a13d195",
+      "date": "2026-06-17",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Digital Decade 2026 - Progress report on multi-country projects",
+      "summary": "Digital Decade 2026 - Progress report on multi-country projects dumimar Wed, 06/17/2026 - 09:43 This report presents the progress of selected multi-country projects (MCPs) and European Digital Infrastructure Consortia (EDICs) between May 2025 and May 2026. The areas of activity for multi-country projects remained stable in this period. This allowed EU countries and the European Commission to advance on many large-scale projects developing the EU’s technological capacities in these sectors. Main developments European Digital Infrastructure Consortia (EDICs) Two new European Digital Infrastructure Consortia (EDICs) have been set up, namely the Digital Commons EDIC and the Innovative Massive Public Administration interConnected Transformation Services EDIC ( IMPACTS-EDIC ). Member States have submitted applications to the Commission to set up two more EDICs, namely the Cybersecurity Skills Coalition EDIC (CSC EDIC) and the EDIC for Agrifood. Further EDICs are currently in preparation, and more initiatives are under consideration for becoming EDICs. The first Annual EDIC Gathering took place in November 2025 with a broad participation of Member States representatives and EDICs, with a focus on common challenges and strategic discussion about the future development of the EDIC ecosystem. Important Projects of Common European Interest (IPCEI) The IPCEI on Microelectronics and Communication Technologies (IPCEI-ME/CT) and the IPCEI on Next Generation Cloud Infrastructure and Services (IPCEI-CIS), approved mid and late 2023, are now fully operational. On 22 July 2025, the European Commission approved the IPCEI Tech4Cure with the cooperation of 5 Member States. Joing Undertakings (JUs) The Chips Joint Undertaking and the EuroHPC Joint Undertaking are progressing further to deliver on their expanded tasks and objectives. Find out more about: The 2026 State of the Digital Decade package Multi-country projects Downloads Commission Staff Working Document - Digital Decade 2026 - Progress report on multi-country projects Download Related topics Digital Decade Digital Decade reporting Digital Decade 2026",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-progress-report-multi-country-projects",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "702776f85f52aab0",
+      "date": "2026-06-17",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Digital Decade 2026 - Monitoring of 2025 EU-level recommendations",
+      "summary": "Digital Decade 2026 - Monitoring of 2025 EU-level recommendations dumimar Wed, 06/17/2026 - 09:22 This document reviews EU and Member State progress on implementing Digital Decade recommendations since the 2025 State of the Digital Decade report. The document focuses on concrete digital measures and policy advancements, including legislative initiatives, targeted funding, the adoption of strategies and the implementation of joint projects. Given the cooperative nature of the Digital Decade Policy Programme (DDPP) , the assessment evaluates both joint actions – involving the Commission and EU countries – and individual Member State initiatives that have cross-border impact on the EU’s digital transformation. Find out more about the 2026 State of the Digital Decade package . Downloads Commission Staff Working Document - Digital Decade 2026 - Monitoring of 2025 EU-level recommendations Download Related topics Digital Decade Digital Decade reporting Digital Decade 2026",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-monitoring-2025-eu-level-recommendations",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "0b2dbd0fa73d660a",
+      "date": "2026-06-17",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "State of the Digital Decade 2026 - Closing structural gaps and mobilising investments for 2030 and beyond",
+      "summary": "State of the Digital Decade 2026 - Closing structural gaps and mobilising investments for 2030 and beyond dumimar Wed, 06/17/2026 - 09:15 The State of the Digital Decade 2026 report assesses the EU’s progress toward the 2030 Digital Decade targets. The 2026 report highlights that, while the foundations of the EU’s digital transformation are in place, the scale, speed and coordination of implementation need to be significantly reinforced. The EU has advanced in several areas, including connectivity, business digitalisation and the deployment of common digital infrastructures. However, significant gaps remain in foundational technologies, computing capacity, cybersecurity, advanced digital take-up, digital skills and scale-up capacity. Moreover, the progressive phase-put of the Recovery and Resilience Facility (RRF) creates a risk of investment discontinuity. The 2026 State of the Digital Decade report thus calls on Member States to use the next adjustment of their Digital Decade national roadmaps (December 2026) to address existing gaps through concrete measures and reforms, while ensuring stronger alignment with the next Multi-Annual Financial Framework (MFF) and the future EU Competitiveness Fund. The report also stresses the need for deeper EU-level coordination. On this page, you can find the report’s main communication and Annex 1, together with the short versions of the 27 country reports. See also The full country reports and the country fact pages The full State of the Digital Decade 2026 package Downloads 1 - Communication from the Commission 'State of the Digital Decade 2026' (main report) Download 2 - Annex 1 to the Communication - State of EU digital transformation in 2026: Progress and EU-level recommendations Download 3 - Austria short country report Download 4 - Belgium short country report Download 5 - Bulgaria short country report Download 6 - Croatia short country report Download 7 - Cyprus short country report Download 8 - Czechia short country report Download 9 - Denmark short country report Download 10 - Estonia short country report Download 11 - Finland short country report Download 12 - France short country report Download 13 - Germany short country report Download 14 - Greece short country report Download 15 - Hungary short country report Download 16 - Ireland short country report Download 17 - Italy short country report Download 18 - Latvia short country report Download 19 - Lithuania short country report Download 20 - Luxembourg short country report Download 21 - Malta short country report Download 22 - The Netherlands short country report Download 23 - Poland short country report Download 24 - Portugal short country report Download 25 - Romania short country report Download 26 - Slovakia short country report Download 27 - Slovenia short country report Download 28 - Spain short country report Download 29 - Sweden short country report Download 30. Digital Decade 2026 - Heatmap Download Related topics Shaping the Digital Single Market Creating a digital society Research and Innovation Digital connectivity Media and democracy Digital Cultural heritage Cybersecurity Electronic communications and Privacy Advanced Digital Technologies Startups Strengthening trust and security Data policy Advanced and Cloud Computing Copyright Boosting European digital Industry International relations Online platforms and e-commerce Artificial intelligence Funding for Digital Digital Decade Digital Decade reporting Digital Decade 2026",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/state-digital-decade-2026-closing-structural-gaps-and-mobilising-investments-2030-and-beyond",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "8c79cf67cb5d3a33",
+      "date": "2026-06-17",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Digital Decade 2026 - DESI methodological note",
+      "summary": "Digital Decade 2026 - DESI methodological note dumimar Wed, 06/17/2026 - 09:15 The DESI methodological note outlines the monitoring system of the EU’s digital transformation within the Digital Decade Policy Programme. In line with the Digital Decade Policy Programme 2030 , the Digital Economy and Society Indicators (DESI) consists of a dashboard of digital indicators providing a multi-dimensional, detailed picture of the collective annual progress made by the EU countries towards the 2030 goals. The DESI 2026 dashboard features around 50 national-level indicators. Since the previous edition, it has been updated with several new indicators designed to refine the monitoring system ahead of the upcoming Digital Decade review. Find out more about the 2026 State of the Digital Decade package . Downloads Digital Decade 2026 - DESI methodological note Download Related topics Digital Decade Digital Decade reporting Digital Decade 2026",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-desi-methodological-note",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "c7612cb53e7b9e44",
+      "date": "2026-06-17",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "The 2026 Digital Decade eHealth Indicator Study",
+      "summary": "The 2026 Digital Decade eHealth Indicator Study dumimar Wed, 06/17/2026 - 09:15 This report presents the eHealth target monitoring results as at 31 December 2025 for the EU-27, Iceland and Norway under the Digital Decade Policy Programme. Access to electronic health records continues to increase across Europe In 2025, Member States made further progress towards achieving the eHealth target of “100% of EU citizens having access to their electronic health records by 2030”. The composite eHealth score for the EU-27 reached an average of 87%, an increase of 4 percentage points compared with 2024. All Member States have an online access service; four Member States operate regional services (Ireland, Italy, Spain and Sweden). Overall, 18 Member States, Iceland and Norway increased their maturity score compared with 2024, reflecting improvements such as wider availability of data types and a greater number of healthcare providers being connected and sharing data. Nine Member States maintained the same maturity level, including Belgium and Estonia, which reached a 100% composite maturity score in 2024. Some areas are advancing, while others require further effort Substantial progress has been made in improving the availability of electronic health record data. Data about identification (100%), personal information (98%), eDispenstion (91%) and ePrescription (89%) are the most widely available (see Figure 1). However, medical images (35%) and medical devices and implants (59%) remain less available, due to technical limitations and fragmented systems. Figure 1 - Average EU maturity score per data type In addition, more EU citizens gained secure access to their electronic health records through interoperable electronic identification means (eID): 22 Member States (81%) report using an authentication method based on an EUDI-complaint eID, an increase of one country compared with 2024. Furthermore, 23 Member States (85%) report that 80–100% of the national population is technically able to access their EHRs through the service provided. In terms of health data supply by healthcare providers, public providers (85%) are better connected than private providers (66%). Although the number of connected private healthcare providers has increased, their relative absence remains a key reason why this sub-indicator’s maturity score is considerably lower than the EU-27 composite eHealth average (78% vs 87%). Overall, geriatric nursing homes, rehabilitation centres and mental health facilities – both public and private – are less connected to supply data than other types of healthcare providers (see Figure 2). Figure 2 - Average EU maturity by type of healthcare provider (grouped by sector) Access opportunities for legal guardians and authorised persons also continued to improve: one additional Member State introduced access for legal guardians, and three additional Member States introduced access for authorised persons. In total, 22 Member States (81%) facilitate access for legal guardians to their wards’ health data, both in terms of legal provisions and technical functionality. By contrast, only 18 Member States (67%) provide comparable functionality with a legal basis for citizens to authorise other persons to access their health data and perform actions on their behalf. Access for authorised persons remains the least mature area, despite incremental progress in several Member States. Compliance with web accessibility guidelines (as required by the Web Accessibility Directive) increased by seven points in 2025, with 22 Member States (81%) aligning their access services with the guidelines. Looking ahead, the adoption of the European Health Data Space (EHDS) Regulation and the application of its provisions starting from March 2027 will reinforce efforts to achieve the eHealth target. It is expected to address some of the challenges constraining progress in Member States by clarifying rights and obligations for primary use and by accelerating interoperability, security and standardisation across EHR systems and data suppliers. Background information The eHealth indicator study collects data through an online survey completed annually by national competent authorities in each participating country. The 2026 edition is the fourth data collection using this methodology and presents the data collected for 2025. The eHealth indicator comprises 12 sub-indicators that capture the concept of citizens’ technical access to their EHRs. These cover the types of health data available, supplier coverage, modes of access, and access requirements. Each sub-indicator contributes equally to the composite eHealth score. Survey responses are converted into maturity scores according to a pre-defined scoring scheme. Response options are assigned scores between 0% and 100% to create a maturity scale for each sub-indicator. The eHealth target is part of the Digital Decade Policy Programme 2030 and a key priority for Europe’s digital transformation. Deliverables Main study Country factsheets Executive summary (EN) Executive summary (FR) Executive summary (DE) Read more about the 2026 State of the Digital Decade package . Related topics Creating a digital society eHealth, Wellbeing and Ageing Digital Decade Digital Decade reporting Digital Decade 2026",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/2026-digital-decade-ehealth-indicator-study",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "e55c96df188cbd10",
+      "date": "2026-06-17",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Digital Decade 2026 - 5G Observatory Report",
+      "summary": "Digital Decade 2026 - 5G Observatory Report dumimar Wed, 06/17/2026 - 09:10 The 22nd edition of the European 5G Observatory report is the Commission’s key policy repository for data related to 5G and its evolution towards 6G. This report is prepared by an external contractor for monitoring developments in the deployment of 5G in the EU and internationally, and assessing progress towards EU’s digital connectivity targets. Launched by the European Commission in 2018, the 5G Observatory has evolved into a tool for evidence-based policy-making under the Digital Decade Policy Programme (DDPP) . The 5G Observatory report provides on a yearly basis structured and policy-relevant data and analysis, which helps the Commission and the EU27 Member States assess progress, guide decision-making, and advance the EU’s digital objectives for 2030. Findings of the 2026 report The current edition shows that the EU is very close to achieving full basic 5G population coverage (96.8% of households) and slightly less close in terms of basic 5G rural coverage , which stands at 87.9%. However, mid-band coverage remains the main bottleneck in the EU. 5G coverage in the 3.4–3.8 GHz spectrum band is substantially lower than general 5G coverage in many countries (74.8% overall household coverage in this band). Rural mid-band coverage is particularly weak. Internationally, countries such as South Korea, Japan, China, and India (in order of performance), consistently outperform the EU27 in both household and rural 5G coverage , often reaching near-universal coverage. The US and Australia are largely aligned with or slightly above the EU average, while Brazil lags significantly behind. Across the EU Member States, 5G deployment remains predominantly based on non-standalone (NSA) architecture , which relies on existing 4G core, including in areas where mid-band has already been deployed. The number of 5G SA base stations is only at 20.9% of all mobile base stations. In contrast, 5G SA deployment in other advanced economies is higher and in 2025 stands at 36.2% in the US, 34.8% in China, 26.3% in Japan and 26.2% in South Korea. Australia (18.1%), Brazil (14.9%) and India (10.0%) are below the EU27 average. Relative to leading global markets, the EU remains also less advanced in 5G investment intensity . Its 50.6% 5G share of all mobile investments is significant but below that of China (72.0%), South Korea (67.0%), the US (62.0%), and Japan (58.0%). By 2025, the EU had reached 75.3% harmonised spectrum assignment , with many Member States at near or full assignment. However, the distribution across the EU27 remains uneven. Several Member States still report relatively low harmonised assignment despite otherwise advanced mobile markets. Next to an overview of 5G indicators in the EU and internationally, this edition of the European 5G Observatory provides a deep dive into 5G private networks and 6G , with two dedicated focus sections. In relation to 5G private networks, the report shows that the EU trails other regions in terms of commercial deployment. In 6G, the EU benefits from globally competitive infrastructure suppliers, strong RAN engineering capabilities, and recognised leadership in energy-efficient networks, supported by a coordinated research and standardisation framework, notably through the Smart Networks and Services Joint Undertaking (SNS JU). These assets strengthen Europe’s ability to influence global standards and ensure interoperability. However, challenges persist, including weaknesses in hyperscaler cloud services and AI development , reliance on external semiconductor supply chains , risks of diminished value capture in increasingly software-driven architectures , and exposure to geopolitical tensions and market fragmentation. As value shifts toward cloud management software and AI orchestration, the EU risks losing ground in higher-margin segments if these capabilities remain externally dominated. You can download the full report and the scoreboard below. More information about the 2026 5G Observatory report will be presented at this upcoming workshop. Find out more about the 2026 State of the Digital Decade . Downloads 1 - 5G Observatory Report 2026 Download 2 - 5G Observatory Scoreboard 2026 Download Related topics Digital connectivity 5G/6G Digital Decade Digital Decade reporting 5G Observatory News Digital Decade 2026",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-5g-observatory-report",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "f27a2748a81090d1",
+      "date": "2026-06-17",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Digital Decade 2026 - Connectivity Coverage in Europe 2025 report",
+      "summary": "Digital Decade 2026 - Connectivity Coverage in Europe 2025 report dumimar Wed, 06/17/2026 - 09:10 Fibre to the Premises (FTTP) becomes Europe's most widespread fixed technology, while 5G signal nears universal reach as Member States advance towards the Digital Decade 2030 targets. The Connectivity Coverage in Europe 2025 report provides a comprehensive overview of fixed and mobile broadband coverage across the 27 EU Member States (EU27), Norway, Iceland, Switzerland and the United Kingdom as of mid-2025. The study and its report are designed to monitor the progress of EU Member States towards the targets as set out in the Digital Decade Policy programme . The report analyses the deployment of ten connectivity technologies (DSL, VDSL, VDSL2 Vectoring, cable modem DOCSIS 3.0, DOCSIS 3.1 and higher, FTTP, FWA, 5G, 5G in the 3.4-3.8 GHz band, and satellite) and four aggregated coverage categories, at national, rural and regional (NUTS-3) level. EU27 fixed connectivity coverage reached 98.0% , Next Generation Access (NGA) coverage reached 95.3%, fixed Very High-Capacity Network (VHCN) coverage reached 85.6%, and Fibre to the Premises (FTTP) coverage reached 74.1%. Mobile coverage also continued to expand, with 5G signal reaching 96.8% of households , and coverage of 5G in the 3.4-3.8 GHz band reaching 74.8%. The report identifies growing reliance on Fixed Wireless Access (FWA) solutions in low-density and geographically challenging regions, as well as the increasing relevance of low-earth-orbit satellite systems for remote connectivity. FTTP has become the most widespread single fixed technology in Europe for the first time, while the decline of legacy copper networks reflects active decommissioning programmes. The pace of copper retirement varies significantly across Europe, with three Member States having already rapidly retired or fully decommissioned their DSL networks during the reporting period. The study further highlights how countries with strong legacy copper/cable broadband lag behind the EU27 average in FTTP and fixed VHCN coverage owing to delayed fibre upgrades. By contrast, fibre-first markets lead in VHCN rollout, supported by early large-scale fibre investment and active copper switch-off strategies. The report’s full connectivity dataset and national level, as well as the workbook presenting the Digital Decade connectivity KPIs down to NUTS-2 level, compiled from the study's data, are available to download below. Deliverables Read the final report Read the executive summary (EN) Read the executive summary (FR) Read more about the 2026 State of the Digital Decade package . Downloads 1. Digital Decade 2026 - Full connectivity dataset Download 2. Digital Decade 2026 - Connectivity KPIs workbook Download Related topics Broadband Digital connectivity Digital Decade Digital Decade reporting Digital Decade 2026",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-connectivity-coverage-europe-2025-report",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "c629393ed0c01d4d",
+      "date": "2026-06-17",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Digital Decade 2026: eGovernment Benchmark 2026",
+      "summary": "Digital Decade 2026: eGovernment Benchmark 2026 dumimar Wed, 06/17/2026 - 09:07 The eGovernment Benchmark 2026 assesses availability and functionality of a selection of digital public service websites and portals across nine life events. The eGovernment Benchmark 2026 evaluates the availability and functionality of selected digital public service websites and portals at both Member State and European Union (EU) level. It covers 96 key services across nine life events: moving, transport, starting a small claims procedure, family, career, studying, health, starting a business and running a business. The Benchmark supports the monitoring framework of the Digital Decade Policy Programme (DDPP) by assessing the two key performance indicators (KPIs) for online public services for citizens and businesses. Using a user-centred approach, the eGovernment Benchmark applies the Mystery Shopper methodology. Trained evaluators act as ordinary users when interacting with portals and webpages, generating objective, first-hand evidence on service availability and functionality. Read more about the 2026 State of the Digital Decade package . Deliverables Insight report Executive summary Background report Factsheets Method Paper Downloads 1. eGovernment Benchmark 2026 - Final Results Download 2. eGovernment Benchmark 2026 - Machine readable format Download Related topics Creating a digital society eGovernment, Trust services and eID Digital Decade Digital Decade reporting Digital Decade 2026",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-decade-2026-egovernment-benchmark-2026",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "3571f10a3de888a1",
+      "date": "2025-11-12",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "One-Year Suspension of Expansion of End-User Controls for Affiliates of Certain Listed Entities (FR 2025-19846)",
+      "summary": "BIS final rule suspending for one year (Phase 1: 10 Nov 2025 – 9 Nov 2026) the Affiliates Rule expansion that would have required end-use checks for foreign entities 50%-or-more owned by Entity List / MEU List designees. The rule automatically reimposed (Phase 2) on 10 Nov 2026 unless BIS publishes a further notice. Published at 90 FR 47201.",
+      "keyTakeaway": "This is the primary source. The suspension is time-limited; absent further BIS action, full affiliate controls take effect automatically on 10 Nov 2026.",
+      "source": "Federal Register / BIS",
+      "url": "https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "50-percent-rule",
+        "federal-register",
+        "primary-source"
+      ],
+      "category": "update",
+      "risk_score": 82,
+      "impact_assessment": {
+        "scenario": "Phase 2 auto-reimposition triggers full EAR §744.21 affiliate controls on 10 Nov 2026",
+        "probability_percent": 70,
+        "financial_loss_low_millions": 5,
+        "financial_loss_likely_millions": 25,
+        "financial_loss_high_millions": 100,
+        "reputational_exposure": "High",
+        "regulatory_disruption_days": 60,
+        "confidence_level": "High — primary Federal Register source"
+      }
+    },
+    {
+      "id": "5bd716bde4994ba3",
+      "date": "2025-10-15",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "U.S. Commerce / BIS Adopts 50 Percent Rule for Export Controls (Sidley Austin)",
+      "summary": "Sidley Austin analysis of BIS's adoption of the OFAC-style 50 Percent Rule under EAR §744.21, extending end-user controls to foreign entities majority-owned by Entity List or MEU List designees. Notes key divergences from the OFAC framework including aggregation rules and the foreign-affiliate-only scope.",
+      "keyTakeaway": "Compliance programs must screen not just direct counterparties but any entity ≥50% owned (directly or indirectly) by a listed designee — a significantly expanded due-diligence perimeter.",
+      "source": "Sidley Austin",
+      "url": "https://www.sidley.com/en/insights/newsupdates/2025/10/us-commerce-department-bureau-of-industry-and-security-adopts-50-percent-rule-for-export-controls",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "50-percent-rule",
+        "law-firm",
+        "sidley"
+      ],
+      "category": "update",
+      "risk_score": 74
+    },
+    {
+      "id": "91e9301520676046",
+      "date": "2025-10-01",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "Beware of Affiliates: BIS Expands Controls with 50% Ownership Rule, New Diligence Obligations (WilmerHale)",
+      "summary": "WilmerHale client alert explaining the two-phase BIS Affiliates Rule: Phase 1 suspension through 9 Nov 2026 provides a compliance window; Phase 2 auto-reimposition on 10 Nov 2026 is the operative deadline. Covers divergence from OFAC's 50% Rule on aggregation methodology and foreign-entity-only scope.",
+      "keyTakeaway": "The suspension is a preparation window, not a reprieve — companies must complete affiliate screening and Technology Control Plan updates before 10 Nov 2026.",
+      "source": "WilmerHale",
+      "url": "https://www.wilmerhale.com/en/insights/client-alerts/20251001-beware-of-affiliates-bis-expands-controls-with-50-ownership-rule-new-diligence-obligations",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "50-percent-rule",
+        "law-firm",
+        "wilmerhale"
+      ],
+      "category": "update",
+      "risk_score": 72
+    },
+    {
+      "id": "5239087eada6b3d6",
+      "date": "2025-11-10",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "BIS Suspends Affiliates Rule for One Year as Part of US-China Trade Deal (Skadden)",
+      "summary": "Skadden analysis of the Phase 1 / Phase 2 mechanics: one-year suspension announced in tandem with US-China trade negotiations; automatic reimposition on 10 Nov 2026 unless BIS publishes an extension. Covers Entity List removals bundled with the announcement and residual licensing obligations during suspension.",
+      "keyTakeaway": "Monitor any US-China trade-framework communications closely — a further suspension extension would require a new Federal Register notice before 10 Nov 2026.",
+      "source": "Skadden",
+      "url": "https://www.skadden.com/insights/publications/2025/11/bis-suspends-affiliates-rule-for-one-year-as-part-of-the-us-china-trade-deal",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "law-firm",
+        "skadden"
+      ],
+      "category": "update",
+      "risk_score": 70
+    },
+    {
+      "id": "afe9421880eefd49",
+      "date": "2025-11-10",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "BIS Issues One-Year Suspension of Affiliates Rule Expansion (Squire Patton Boggs)",
+      "summary": "Squire Patton Boggs analysis focusing on snap-back risk and the Busan framework context. Notes rare-earth licensing concessions bundled with the suspension and flags the automatic reimposition mechanism as the primary compliance planning trigger.",
+      "keyTakeaway": "Treat 10 Nov 2026 as a hard deadline for counterparty ownership-chain mapping and licence pre-authorisation for any Entity-List-adjacent affiliate relationships.",
+      "source": "Squire Patton Boggs",
+      "url": "https://www.squirepattonboggs.com/insights/publications/bis-issues-one-year-suspension-of-affiliates-rule-expansion/",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "law-firm",
+        "squire-patton-boggs"
+      ],
+      "category": "update",
+      "risk_score": 70
+    },
+    {
+      "id": "96806340d7a5d588",
+      "date": "2025-11-05",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "BIS Suspends the Affiliates Rule Expanding End-User Export Controls for One Year (Freshfields)",
+      "summary": "Freshfields analysis highlighting the key divergence between the BIS 50 Percent Rule and OFAC's 50% Rule: BIS does not use aggregation (i.e., two 30% owners do not combine to 60%), and the rule applies only to foreign-incorporated affiliates, not U.S. entities. Practical screening implications covered.",
+      "keyTakeaway": "Do not apply OFAC aggregation logic to BIS affiliate analysis — the two frameworks differ materially on how ownership percentages are calculated.",
+      "source": "Freshfields",
+      "url": "https://www.freshfields.com/en/our-thinking/blogs/a-fresh-take/bis-suspends-the-affiliates-rule-expanding-end-user-export-controls-for-one-yea-102lvi4",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "ofac",
+        "law-firm",
+        "freshfields"
+      ],
+      "category": "update",
+      "risk_score": 68
+    },
+    {
+      "id": "a7f9efbce4e70d74",
+      "date": "2025-10-20",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "BIS Expands Impact of U.S. Export Controls with 50 Percent Rule (Holland & Knight)",
+      "summary": "Holland & Knight analysis of the operational impact on counterparty screening workflows. Focuses on diligence documentation requirements — specifically the need for beneficial-ownership records sufficient to demonstrate ≥50% ownership chains — and integration with existing OFAC SDN screening programs.",
+      "keyTakeaway": "Existing OFAC-based screening tools are unlikely to cover the BIS Affiliates Rule automatically; separate or extended due-diligence workflows for EAR-controlled items are required.",
+      "source": "Holland & Knight",
+      "url": "https://www.hklaw.com/en/insights/publications/2025/10/bis-expands-impact-of-us-export-controls-with-50-percent-rule",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "law-firm",
+        "holland-knight"
+      ],
+      "category": "update",
+      "risk_score": 68
+    },
+    {
+      "id": "1f660ee5231e2dc9",
+      "date": "2025-11-12",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "DOC Suspends Enforcement of the Affiliates Rule for One Year (Arnold & Porter)",
+      "summary": "Arnold & Porter enforcement-edge analysis of the suspension alongside bundled China Entity List removals. Notes the political context of the US-China trade framework and the conditionality that makes further extension uncertain.",
+      "keyTakeaway": "The Entity List removals bundled with the suspension do not affect the 10 Nov 2026 reimposition mechanics — track them separately from the snap-back countdown.",
+      "source": "Arnold & Porter",
+      "url": "https://www.arnoldporter.com/en/perspectives/blogs/enforcement-edge/2025/11/doc-suspends-enforcement-of-the-affiliates-rule-for-one-year",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "entity-list",
+        "law-firm",
+        "arnold-porter"
+      ],
+      "category": "enforcement",
+      "risk_score": 66
+    },
+    {
+      "id": "1793d64448360c9d",
+      "date": "2025-11-08",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "Trade Compliance Flash: BIS Issues Long-Awaited Affiliates Rule (Miller & Chevalier)",
+      "summary": "Miller & Chevalier Trade Compliance Flash covering the final rule mechanics including EAR licence exception eligibility, the treatment of parties on the MEU List versus the Entity List under the 50 Percent Rule, and interim compliance steps during the Phase 1 suspension window.",
+      "keyTakeaway": "MEU-listed parties trigger the same 50% affiliate controls as Entity List designees — screening programs must cover both lists, not just the Entity List.",
+      "source": "Miller & Chevalier",
+      "url": "https://www.millerchevalier.com/publication/trade-compliance-flash-bis-issues-long-awaited-affiliates-rule-updated",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "meu-list",
+        "law-firm",
+        "miller-chevalier"
+      ],
+      "category": "update",
+      "risk_score": 68
+    },
+    {
+      "id": "ab48d0ff2c9d0387",
+      "date": "2025-11-15",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "BIS Affiliates Rule"
+      ],
+      "title": "A Year to Prepare: BIS's Affiliates Rule Waits in the Wings (Torres Trade Law)",
+      "summary": "Torres Trade Law frames the one-year suspension as a structured preparation window for companies with complex foreign-affiliate ownership chains. Provides a practical checklist: map ownership chains to 50% threshold, update Technology Control Plans, train front-line export compliance staff, and establish pre-clearance procedures for controlled-item transfers to affiliates.",
+      "keyTakeaway": "Use the suspension window to complete a full affiliate ownership-chain audit — the 10 Nov 2026 deadline allows no grace period once Phase 2 takes effect.",
+      "source": "Torres Trade Law",
+      "url": "https://www.torrestradelaw.com/posts/A-Year-to-Prepare:-BIS%E2%80%99s-Affiliates-Rule-Waits-in-the-Wings/425",
+      "tags": [
+        "bis",
+        "export-controls",
+        "affiliates-rule",
+        "compliance",
+        "law-firm",
+        "torres-trade-law"
+      ],
+      "category": "update",
+      "risk_score": 65
+    },
+    {
+      "id": "b0d10e8dabf27096",
+      "date": "2026-06-12",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "AI Diffusion Policy",
+        "Deemed Export",
+        "Frontier Models",
+        "National Security"
+      ],
+      "title": "US 'Is-Informed' Letter Suspends Global Access to Anthropic Fable 5 / Mythos 5 Under EAR §744.22",
+      "summary": "TL;DR: On 12 Jun 2026 (~17:21 ET, per reporting), BIS/Dept of Commerce delivered an 'is-informed' letter to Anthropic triggering an export-licence requirement for Fable 5 and Mythos 5 under EAR 15 CFR §744.22 and deemed-export provisions (§§734.13–734.16). Because deemed-export controls extend to foreign nationals irrespective of physical location — including those present inside the US — geofencing was legally insufficient to comply; Anthropic suspended global access the same day. As of 18 Jun 2026, negotiations between Anthropic and the administration are ongoing; access remains suspended. TIMELINE: Apr 2026 — Mythos 5 previewed under Project Glasswing. 2 Jun 2026 — EO 'Promoting Advanced AI Innovation and Security' signed; note: section-scoped disclaimer disclaimed mandatory pre-clearance. 5 Jun 2026 — NSPM-11 signed. 9 Jun 2026 — Fable 5 and Mythos 5 commercially released. 12 Jun 2026 (~17:21 ET) — is-informed letter delivered; global suspension same day. INSTRUMENT & MECHANISM: An 'is-informed' letter is a BIS administrative instrument that notifies an exporter that a specific export-licence application is required before proceeding. Four licence triggers reported (basis letter unpublished; statutory basis under ECRA 50 USC §4817 and EAR §744.22 reported but unconfirmed from primary instrument). Deemed-export reach to foreign persons — including foreign nationals within the US — foreclosed a geofencing-only response. DOCTRINAL NOVELTY: This action asserts jurisdiction over access to model capability as a service (SaaS API), not over weights, source code, or physical hardware — a net-new extension of 'capability-as-such' into the software-service layer. Statutory basis for this theory is unconfirmed pending publication of the letter. POLICY INCONGRUITY: The 2 Jun EO contained a section-scoped disclaimer against mandatory pre-clearance regimes; a de-facto licensing requirement was operationalised via is-informed letter within ten days of that EO's signature. CONTESTED / SINGLE-SOURCED CLAIMS (labeled): (a) [CONTESTED — single source, competitor-discovered, note Amazon is Anthropic investor] Immediate trigger: jailbreak of Mythos 5 by a foreign state actor. (b) [CONTESTED — single source] Identity of the foreign state. (c) [CONTESTED — conflicting accounts] Procedural sequence: DOC characterises as 'last resort' following multi-day compliance dialogue; reporting attributes an approximately 90-minute ultimatum to Anthropic. (d) [LIMITED DETAIL] Separate Pentagon supply-chain-risk litigation filed; relationship to is-informed letter unclear. SOURCES (tiered): Primary/party-to-dispute: Anthropic statement (anthropic.com/news/fable-mythos-access); Mythos preview (red.anthropic.com); Project Glasswing (anthropic.com/glasswing). Government instruments: EO 2 Jun (whitehouse.gov); NSPM-11 5 Jun (whitehouse.gov). Reporting: Politico 18 Jun; CNBC 15 Jun; Bloomberg 16 Jun; Fortune 13 Jun; Computerworld. Analysis: Cloud Security Alliance; Just Security; Tech Policy Press; Volkov Law; exportprac.com; Luiza Jarovsky newsletter. URL VERIFICATION STATUS: URLs provided by user; independently unverified by this tool run — flag 404s before citing. COMPLIANCE TAKEAWAY: Model-as-SaaS dependency is a supply-chain risk. Enterprise AI contracts should include: (1) suspension/fallback provisions; (2) model-portability clauses; (3) jurisdiction-of-access analysis covering deemed-export reach; (4) counterparty export-licence status diligence.",
+      "keyTakeaway": "First known use of an EAR is-informed letter to compel suspension of a commercial AI API globally via deemed-export reach. Doctrinal basis (capability-as-SaaS = controlled technology) is unconfirmed pending letter publication. Negotiations ongoing.",
+      "source": "Multiple — Anthropic (party to dispute); BIS/Dept of Commerce; Politico; CNBC; Bloomberg",
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "source_urls": {
+        "primary_anthropic": "https://www.anthropic.com/news/fable-mythos-access",
+        "mythos_preview": "https://red.anthropic.com/2026/mythos-preview/",
+        "glasswing": "https://www.anthropic.com/glasswing",
+        "glasswing_expansion": "https://www.anthropic.com/news/expanding-project-glasswing",
+        "eo_jun2": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+        "nspm11": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/",
+        "politico_jun18": "https://www.politico.com/news/2026/06/18/trump-anthropic-ai-export-controls-00966118",
+        "cnbc_jun15": "https://www.cnbc.com/2026/06/15/anthropic-mythos-trump-ai.html",
+        "bloomberg_jun16": "https://www.bloomberg.com/news/articles/2026-06-16/trump-s-anthropic-crackdown-sets-off-ai-alarms-for-us-allies",
+        "computerworld": "https://www.computerworld.com/article/4186538/",
+        "csa_analysis": "https://labs.cloudsecurityalliance.org/research/governance-fable-mythos-export-control-v1-0/",
+        "just_security": "https://www.justsecurity.org/142745/law-anthropic-export-controls/",
+        "tech_policy_press": "https://www.techpolicy.press/did-the-us-government-just-set-an-ai-export-precedent-by-blocking-mythos/",
+        "volkov_law": "https://blog.volkovlaw.com/2026/06/when-the-government-pulls-the-plug-anthropic-export-controls-and-the-future-of-ai-governance/",
+        "exportprac": "https://exportprac.com/detail.html?sub_id=c1bfb7f2cd",
+        "cybersecuritynews": "https://cybersecuritynews.com/claude-mythos-5-and-fable-5-export/",
+        "jarovsky_newsletter": "https://www.luizasnewsletter.com/p/mythos-and-the-adolescence-of-ai",
+        "mit_air": "https://airisk.mit.edu/priorities"
+      },
+      "tags": [
+        "export-controls",
+        "deemed-export",
+        "frontier-models",
+        "national-security",
+        "bis",
+        "anthropic",
+        "ai-diffusion",
+        "computational-sovereignty",
+        "enforcement",
+        "saas",
+        "is-informed-letter",
+        "cyber"
+      ],
+      "category": "enforcement",
+      "risk_score": 87,
+      "impact_assessment": {
+        "scenario": "Continued or permanent suspension of Fable 5 / Mythos 5 globally, or precedent-setting export-licensing regime applied to future frontier AI models and API services, constraining enterprise and allied-government access to US-origin AI capability.",
+        "probability_percent": 75,
+        "financial_loss_low_millions": 100,
+        "financial_loss_likely_millions": 500,
+        "financial_loss_high_millions": 2000,
+        "reputational_exposure": "Critical",
+        "regulatory_disruption_days": "90-365",
+        "confidence_level": "Medium — directive letter unpublished; negotiations ongoing"
+      }
+    },
+    {
+      "id": "7ca7f9d9e26f8f4d",
+      "date": "2026-06-02",
+      "jurisdiction": "United States",
+      "topics": [
+        "AI Governance",
+        "Export Controls",
+        "National Security",
+        "AI Diffusion Policy"
+      ],
+      "title": "EO 'Promoting Advanced AI Innovation and Security' (2 Jun 2026)",
+      "summary": "Executive Order signed 2 Jun 2026 establishing a White House/ONCD-led framework for advanced AI governance and security. The EO included a section-scoped disclaimer against mandatory pre-clearance licensing for AI models; within ten days, an is-informed letter to Anthropic operationalised a de-facto licensing requirement, creating an interpretive tension between the EO's stated policy and BIS administrative practice. Full scope of CAISI, Treasury, NSA, and DoW mandates under this EO is subject to ongoing analysis. Source: White House (whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/). URL unverified by this tool run.",
+      "source": "White House / ONCD",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+      "tags": [
+        "executive-order",
+        "ai-governance",
+        "national-security",
+        "white-house",
+        "ai-diffusion",
+        "export-controls"
+      ],
+      "category": "news",
+      "risk_score": 82,
+      "impact_assessment": {
+        "scenario": "Broad AI governance mandates under EO create compliance obligations for frontier model developers and deployers; policy incongruity with the Jun 12 is-informed letter may require clarifying guidance.",
+        "probability_percent": 80,
+        "financial_loss_low_millions": 10,
+        "financial_loss_likely_millions": 50,
+        "financial_loss_high_millions": 200,
+        "reputational_exposure": "High",
+        "regulatory_disruption_days": "180-365",
+        "confidence_level": "Medium — full implementing guidance pending"
+      }
+    },
+    {
+      "id": "7f6d27aec788603c",
+      "date": "2026-06-05",
+      "jurisdiction": "United States",
+      "topics": [
+        "AI Governance",
+        "National Security",
+        "AI Diffusion Policy"
+      ],
+      "title": "NSPM-11 — National Security Presidential Memorandum on Advanced AI (5 Jun 2026)",
+      "summary": "National Security Presidential Memorandum 11 (NSPM-11) signed 5 Jun 2026, four days before Anthropic's commercial release of Fable 5 / Mythos 5 and seven days before the BIS is-informed letter. NSPM-11 is understood to establish national security parameters for frontier AI model deployment, access controls, and inter-agency coordination (CAISI, NSA, Treasury involvement reported). Content of NSPM-11 is classified or not yet publicly released; analysis is based on secondary reporting. Source: White House (whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/). URL unverified by this tool run.",
+      "source": "White House",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/",
+      "tags": [
+        "nspm",
+        "national-security",
+        "ai-governance",
+        "white-house",
+        "frontier-models",
+        "ai-diffusion"
+      ],
+      "category": "news",
+      "risk_score": 73,
+      "impact_assessment": {
+        "scenario": "NSPM-11 establishes classified or limited-distribution national security requirements for frontier AI — compliance obligations may emerge as implementing guidance is published.",
+        "probability_percent": 80,
+        "financial_loss_low_millions": 5,
+        "financial_loss_likely_millions": 30,
+        "financial_loss_high_millions": 150,
+        "reputational_exposure": "High",
+        "regulatory_disruption_days": "180-730",
+        "confidence_level": "Low — primary text not publicly available"
+      }
+    },
+    {
+      "id": "5dca0f9943f7497d",
+      "date": "2026-03-26",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "Chip Security",
+        "AI Diffusion Policy",
+        "Legislation"
+      ],
+      "title": "Chip Security Act (H.R. 3447 / S. 1705): Location-Verification Mandate for Export-Controlled AI Chips",
+      "summary": "STATUS AS OF 22 JUN 2026 — VERIFY BEFORE CITING: Passed House Foreign Affairs Committee markup 26 Mar 2026; no floor vote or Senate committee action independently confirmed. INSTRUMENT: The Chip Security Act (119th Congress) would require BIS/Commerce, within 180 days of enactment, to mandate location-verification chip security mechanisms on covered products before export, reexport, or in-country transfer. Covered ECCNs: 3A090, 3A001.z, 4A090, 4A003.z and successor/substantially-similar classifications (the successor clause is the primary scope-creep vector to monitor). MECHANICS: Notification/reporting duty on exporters for credible diversion information to the BIS Under Secretary. BIS enforcement authority. Commerce assessment of additional mechanisms and foreign-chip competitiveness. Feasibility path identified: ping-based location verification (PBLV) via existing GPU remote attestation (software-update route). RULE OF CONSTRUCTION: Must not hinder functionality — no kill switch, no geofencing; non-AI use cases excluded. STAKEHOLDERS (interested parties — separate positions from facts): Support: GeoComply, Multibeam, Fortaegis (commercial verification vendors — conflict of interest flagged). FDD Action, CAIS Action Fund (advocacy). Opposition: SIA, ITI, SIIA ('untested/infeasible,' competitiveness concerns — represent chip manufacturers). CONTRARIAN FLAGS: (1) Location ≠ usage control — verified physical location does not prevent inference-output diversion via API; (2) relay-attack vector — chips co-located with legitimate installations can serve remote unauthorized users; (3) rule-of-construction enforcement gap — 'no kill switch' means no hardware remedy if verification fails; (4) pre-enactment gap — retroactive coverage of already-exported chips (H100/A100 installed base) not addressed; (5) ECCN scope gap — B200/GB200-class chips may require additional successor designations. EXPANSIONIST FLAGS: Allied carve-out treatment not specified in bill text (Five Eyes, Japan, Netherlands, South Korea exposure unclear); NVIDIA Confidential Computing / remote attestation architecture compatibility with PBLV unconfirmed by vendor; 180-day implementing rule deadline could overlap with BIS Affiliates Rule Phase 2 snap-back (10 Nov 2026) if enacted in mid-2026. PRIMARY TRIGGER: NBC News 18 Jun 2026 reporting industry support letter. ALL URLS UNVERIFIED BY TOOL RUN.",
+      "keyTakeaway": "Pre-enactment; committee stage only. Monitor for floor scheduling and BIS rulemaking. Location verification addresses physical diversion but not compute-output diversion or relay-attack vectors. No enforcement mechanism if verification fails (rule of construction).",
+      "source": "Congress / HFAC / NBC News",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3447/text",
+      "source_urls": {
+        "hr3447_text": "https://www.congress.gov/bill/119th-congress/house-bill/3447/text",
+        "s1705": "https://www.congress.gov/bill/119th-congress/senate-bill/1705",
+        "hfac_markup": "https://chinaselectcommittee.house.gov/media/press-releases/house-committee-passes-chip-security-act",
+        "sia_statement": "https://www.semiconductors.org/sia-statement-on-chip-security-act/",
+        "fdd_action": "https://www.fddaction.org/action-alert/2026/03/25/action-alert-support-h-r-3447-the-chip-security-act-and-other-measures/",
+        "safe_ai": "https://action.safe.ai/news/the-chip-security-act-separating-fact-from-fiction",
+        "nbc_trigger": "https://www.nbcnews.com/tech/tech-news/chips-security-act-gains-industry-support-letter-rcna350500"
+      },
+      "instrument_record": {
+        "instrument_id": "us-csa-hr3447-s1705",
+        "title": "Chip Security Act",
+        "jurisdiction": "US",
+        "type": "legislation",
+        "stage": "committee",
+        "stage_note": "Passed House Foreign Affairs Committee markup 26 Mar 2026. No floor vote or Senate committee action confirmed as of 22 Jun 2026 — verify on Congress.gov before citing.",
+        "lead_agency_on_implementation": "BIS / Dept of Commerce",
+        "covered_eccns": [
+          "3A090",
+          "3A001.z",
+          "4A090",
+          "4A003.z"
+        ],
+        "key_obligations": [
+          "location_verification_mandate",
+          "diversion_reporting",
+          "bis_enforcement",
+          "commerce_assessment"
+        ],
+        "trigger_deadlines": [
+          {
+            "event": "rulemaking_after_enactment",
+            "window_days": 180,
+            "anchor": "date_of_enactment"
+          }
+        ],
+        "watch_items": [
+          "House/Senate floor scheduling",
+          "BIS implementing rule / ANPRM",
+          "definition of 'feasible and appropriate' location-verification techniques",
+          "treatment of successor ECCNs (scope-creep vector)",
+          "allied-country carve-out treatment (Five Eyes, Japan, Netherlands, South Korea)",
+          "NVIDIA and GPU vendor PBLV feasibility responses",
+          "overlap with BIS Affiliates Rule Phase 2 snap-back (10 Nov 2026) if enacted mid-2026",
+          "Federal Register ANPRM / IFR matching covered-ECCN or location-verification terms"
+        ],
+        "source_urls": [
+          "https://www.congress.gov/bill/119th-congress/house-bill/3447/text",
+          "https://www.congress.gov/bill/119th-congress/senate-bill/1705",
+          "https://chinaselectcommittee.house.gov/media/press-releases/house-committee-passes-chip-security-act",
+          "https://www.semiconductors.org/sia-statement-on-chip-security-act/",
+          "https://www.fddaction.org/action-alert/2026/03/25/action-alert-support-h-r-3447-the-chip-security-act-and-other-measures/",
+          "https://action.safe.ai/news/the-chip-security-act-separating-fact-from-fiction",
+          "https://www.nbcnews.com/tech/tech-news/chips-security-act-gains-industry-support-letter-rcna350500"
+        ],
+        "last_verified": "2026-06-22T00:00:00Z",
+        "confidence": "medium"
+      },
+      "tags": [
+        "export-controls",
+        "chip-security",
+        "legislation",
+        "bis",
+        "location-verification",
+        "eccn",
+        "ai-diffusion",
+        "national-security",
+        "pblv"
+      ],
+      "category": "enforcement",
+      "risk_score": 72,
+      "impact_assessment": {
+        "scenario": "Chip Security Act enacted and BIS implementing rule requires location-verification mechanisms within 180 days. Chip exporters face compliance costs; verification infrastructure must be deployed across all covered-ECCN shipments; successor-ECCN clause expands scope over time.",
+        "probability_percent": 50,
+        "financial_loss_low_millions": 50,
+        "financial_loss_likely_millions": 200,
+        "financial_loss_high_millions": 1000,
+        "reputational_exposure": "High",
+        "regulatory_disruption_days": "180-365",
+        "confidence_level": "Medium — committee stage only; floor scheduling unconfirmed"
+      }
+    },
+    {
+      "id": "73f106057c25db94",
+      "date": "2026-06-18",
+      "jurisdiction": "United States",
+      "topics": [
+        "Export Controls",
+        "Chip Security",
+        "Legislation"
+      ],
+      "title": "Industry Support Letter for Chip Security Act Reported by NBC News (18 Jun 2026)",
+      "summary": "NBC News reported 18 Jun 2026 that a coalition letter expressing industry support for the Chip Security Act (H.R. 3447 / S. 1705) was circulated. INTERESTED PARTIES — positions, not neutral facts: Support letters from verification vendors (GeoComply, Multibeam, Fortaegis) and advocacy groups (FDD Action, CAIS Action Fund) carry commercial or ideological interest in CSA passage. The SIA (representing chip manufacturers) maintains opposition on 'untested/infeasible' and competitiveness grounds. PRIMARY TRIGGER for CSA monitoring initiation in this repo. URL unverified by tool run.",
+      "source": "NBC News",
+      "url": "https://www.nbcnews.com/tech/tech-news/chips-security-act-gains-industry-support-letter-rcna350500",
+      "tags": [
+        "export-controls",
+        "chip-security",
+        "legislation",
+        "ai-diffusion"
+      ],
+      "category": "news",
+      "risk_score": 55,
+      "impact_assessment": {
+        "scenario": "Industry support letter accelerates CSA legislative momentum; increases probability of floor scheduling.",
+        "probability_percent": 50,
+        "financial_loss_low_millions": 10,
+        "financial_loss_likely_millions": 50,
+        "financial_loss_high_millions": 200,
+        "reputational_exposure": "Medium-High",
+        "regulatory_disruption_days": "30-180",
+        "confidence_level": "Medium — single news source (NBC); letter text not independently verified"
+      }
+    },
+    {
+      "id": "b2b3624d129de8ec",
+      "date": "2026-06-22",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Releases Technical Findings on What Caused the 2021 Partial Collapse of Champlain Towers South",
+      "summary": "In an investigation that began just days after the tragedy, the team examined two dozen possible scenarios for where and why the collapse started.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/06/nist-releases-technical-findings-what-caused-2021-partial-collapse",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "enforcement"
+    },
+    {
+      "id": "3930663e43c4359f",
+      "date": "2026-06-29",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Launches Center to Drive the Manufacture of Quantum Technologies",
+      "summary": "NIST has announced an agreement with SRI International to establish the Quantum Manufacturing Engineering Center (QMEC).",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/06/nist-launches-center-drive-manufacture-quantum-technologies",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
     }
   ]
 }

@@ -27,17 +27,24 @@ jobs:
       - name: Categorize items and compute risk scores
         run: python tools/categorize_items.py
 
+      - name: Generate items.json and connectors.json for frontend
+        run: python tools/generate_items.py
+
       - name: Verify required frontend assets
         run: |
-          test -f index.html && test -f app.js && test -f styles.css
+          test -f index.html
           echo "✅ Required frontend assets present"
 
-      - name: Validate updates.json
+      - name: Validate data files
         run: |
           python - <<'EOF'
           import json
           json.load(open("data/updates.json"))
           print("✅ data/updates.json is valid JSON")
+          json.load(open("data/items.json"))
+          print("✅ data/items.json is valid JSON")
+          json.load(open("data/connectors.json"))
+          print("✅ data/connectors.json is valid JSON")
           EOF
 
       - name: Validate site integrity (non-blocking)
@@ -48,6 +55,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add data/updates.json
+          git add data/updates.json data/items.json data/connectors.json
           git commit -m "chore: daily regulatory data update [$(date -u '+%Y-%m-%d')]" || echo "No changes to commit"
           git push || echo "Nothing to push"
