@@ -244,7 +244,8 @@
     "Deemed Export — AI SaaS",
     "Chip Security Act",
     "Location Verification — AI Chips",
-    "PBLV"
+    "PBLV",
+    "50 Rule / Affiliate Aggregation Threshold"
   ],
   "compliance_note": "Export controls are enforced across multiple jurisdictions. Monitor BIS (US), UAE IEC (Emirates), DOJ (enforcement), and international regimes (Wassenaar) for changing restrictions on technology, equipment, and services.",
   "active_enforcement_watch": [
@@ -252,7 +253,7 @@
       "id": "bis-anthropic-fable-mythos-2026",
       "title": "BIS Is-Informed Letter — Anthropic Fable 5 / Mythos 5 Global Suspension",
       "event_date": "2026-06-12",
-      "status": "active — negotiations ongoing",
+      "status": "resolved — controls lifted 30 Jun 2026 following national security review; precedent active",
       "priority": "critical",
       "federal_register_status": "unpublished — letter not yet in Federal Register as of 18 Jun 2026",
       "watch_terms": [
@@ -287,6 +288,65 @@
         "NSA"
       ],
       "action_required": "Immediate: (1) Audit enterprise AI contracts for model-dependency risk; add suspension/fallback/portability clauses. (2) Conduct deemed-export analysis for AI API access by foreign nationals. (3) Monitor Federal Register for published rule or letter. (4) Assess whether fallback models face same licence trigger."
+    },
+    {
+      "id": "bis-50rule-delay-2026-07",
+      "title": "BIS 50 Rule (Affiliate Aggregation Threshold) — Potential Further Delay Signal",
+      "event_date": "2026-07-02",
+      "status": "watch — delay signal only; no formal postponement order published",
+      "priority": "high",
+      "source": "Dow Jones Risk & Compliance (2 Jul 2026)",
+      "slack_alert_template": {
+        "channel": [
+          "#compliance",
+          "#regulatory-intel"
+        ],
+        "subject": "50 Rule Delay Impact on AI Export Controls",
+        "message": "*50 Rule Delay Signal — AI Export Controls Watch*\nSource: Dow Jones Risk & Compliance · 2 Jul 2026\nStatus: WATCH — US signalling potential further delay to BIS 50 Rule\n\n*What is the 50 Rule?* BIS Affiliates Rule applies Entity List controls to entities 50%+ owned by a designated party. Phase 1 suspension to 9 Nov 2026; Phase 2 snap-back 10 Nov 2026.\n\n*AI impact:* ECCN classification ambiguity for AI API / model-weight exports to affiliates of designated entities. AI Diffusion Rule aggregate-compute interaction. CUDA/TensorRT deemed-export risk persists.\n\n*Action:* Maintain affiliate-screening. Do not wind back posture pending delay notice. Monitor Federal Register for formal extension.\n\n_Full analysis: AI Regulatory Monitor feed — entry 71e090d78051ba40_",
+        "severity": "HIGH"
+      },
+      "governance_crosswalk": {
+        "50_rule_delay_affiliate_structure": {
+          "link": "50 Rule delay → AIQ affiliate structure implications",
+          "description": "If 50 Rule is further delayed, entities 50%+ owned by BIS Entity List designees temporarily fall outside automatic licence-requirement inheritance. However: (a) general EAR prohibitions on supporting prohibited end-uses remain live; (b) the OFAC 50 Percent Rule continues to apply for sanctions screening; (c) voluntary affiliate screening is best practice and may be legally required. AIQ must maintain affiliate-ownership screening regardless of 50 Rule status.",
+          "aiq_specific": "AIQ onshore UAE branch has no known direct Entity List affiliate exposure as of Jul 2026, but AI model API procurement from US providers is subject to deemed-export analysis for foreign-national employees and affiliate counterparties.",
+          "action": "Confirm no AIQ counterparty has ≥50% beneficial ownership by an Entity List or MEU List designee; document assessment."
+        },
+        "implementation_uncertainty_vendor_risk": {
+          "link": "Implementation uncertainty → ongoing vendor risk escalations",
+          "description": "Uncertainty about the 50 Rule effective date creates a dual-compliance risk: (a) over-compliance cost if screening is applied ahead of implementation; (b) gap risk if screening is wound back and the rule takes effect with short notice. Recommended posture: maintain current screening rigour; treat the Phase 2 snap-back date (10 Nov 2026) as the firm deadline; document rationale for any ECCN assignments involving counterparties with potential affiliate exposure.",
+          "escalation_triggers": [
+            "Any Federal Register notice extending or amending FR 2025-19846",
+            "Any Dow Jones R&C or Export Compliance Daily alert on 50 Rule implementation",
+            "Any BIS enforcement action citing affiliate-ownership controls pre-Phase-2"
+          ]
+        }
+      },
+      "watch_terms": [
+        "50 rule",
+        "50 percent rule",
+        "affiliates rule",
+        "BIS affiliates",
+        "EAR 744.21",
+        "affiliate aggregation",
+        "entity list affiliate",
+        "50% ownership export",
+        "bis affiliate threshold",
+        "FR 2025-19846"
+      ],
+      "cross_references": [
+        "bis-affiliates-snapback-2026 (upcoming_deadlines — Phase 2 snap-back 10 Nov 2026)",
+        "71e090d78051ba40 (updates.json — 50 Rule delay entry with AI enrichment)",
+        "bis-anthropic-fable-mythos-2026 (active_enforcement_watch — deemed-export precedent)"
+      ],
+      "key_topics": [
+        "50 Rule",
+        "Affiliate Aggregation",
+        "ECCN Classification — AI",
+        "Deemed Export — AI SaaS",
+        "AI Diffusion Rule",
+        "CUDA/TensorRT"
+      ]
     },
     {
       "id": "us-csa-hr3447-s1705",
