@@ -1,5 +1,27 @@
 [
   {
+    "id": "3510160818324cf6",
+    "type": "update",
+    "title": "Targeted consultation on safeguarding the EU’s data sovereignty",
+    "why": "Targeted consultation on safeguarding the EU’s data sovereignty Opening: 08 July 2026 Closing: 08 September 2026 This targeted consultation aims to gather views on challenges to…",
+    "summary": "Targeted consultation on safeguarding the EU’s data sovereignty lobacni Wed, 07/08/2026 - 09:10 Opening: 08 July 2026 Closing: 08 September 2026 This targeted consultation aims to gather views on challenges to data sovereignty and data flows for EU organisations in an international context. The targeted consultation is open to actors in the data value chain across different sectors. It seeks to understand data-related dependencies affecting European organisations, including barriers to accessing or using data in third countries, obstacles to transferring data to the EU and risks linked to third-country access to sensitive data. The consultation follows on the November 2025 Data Union Strategy , which stresses the importance of safeguarding the EU’s data sovereignty and strengthening the EU’s global position on international data flows. It is also closely linked to the European Tech Sovereignty Package , which contains measures to strengthen the EU’s capacity in semiconductors, artificial intelligence (AI), cloud and open source. Together, these measures support Europe’s ambition to become an AI continent, strengthen its digital autonomy and help build a more sustainable digital future. This targeted consultation remains open until 23:59 CEST on 8 September 2026 . Background Data is essential for Europe’s competitiveness and security and plays a key role in advancing AI. The EU has built a robust legal framework for data and promotes data free flow with trust internationally. However, unjust data localisation requirements, discriminatory rules, and data leakage to third countries threaten to undermine sovereignty. The EU continues to ensure a level playing field, security, and consistency with EU values and interests while remaining open to our trusted partners, including on the exchange of data across borders. Related topics Cloud Computing Data policy Advanced and Cloud Computing Artificial intelligence Tech sovereignty",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-safeguarding-eus-data-sovereignty",
+    "date": "2026-07-08",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-safeguarding-eus-data-sovereignty"
+      ]
+    ]
+  },
+  {
     "id": "59dd9e2774570383",
     "type": "news",
     "title": "Arvind Raman Confirmed as the 18th NIST Director",

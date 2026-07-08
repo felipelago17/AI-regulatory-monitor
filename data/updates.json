@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T09:24:07+00:00",
+  "generated_at": "2026-07-08T08:08:24+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8003,6 +8003,22 @@
       "summary": "Call for Tenders: European Data Market Study 2027–2028 dumimar Tue, 06/30/2026 - 14:43 Opening: 29 June 2026 Closing: 12 August 2026 This call for tenders will fund the European Data Market Study 2027–2028, which will provide quantitative evidence on the EU data market and data economy at large. AdobeStock © Miha Creative The study will build on data collected since 2014 and support evidence-based policymaking by monitoring key trends, measuring progress towards EU digital policy objectives, and analysing how data and AI contribute to innovation, competitiveness and Europe's strategic autonomy. The study will also: monitor the size, growth and value of the EU data market and the wider data economy track key indicators, including data companies, data professionals, skills, revenues, data flows and data maturity assess the role of common European data spaces in enabling data sharing and AI innovation produce quantitative analyses highlighting emerging trends and policy-relevant developments provide evidence at both EU and Member State level, while benchmarking Europe's performance against other leading global data economies. The findings will support the implementation of the EU Digital Strategy, the Digital Decade Policy Programme and the Data Union Strategy , helping policymakers better understand the socio-economic impacts of data and AI and identify opportunities to strengthen Europe's standing in the global data economy. This is an opportunity for organisations with expertise in the socio-economic analysis of data markets and their trends, EU data policies and communities, as well as the legal, economic and technical aspects of digital economy services and products, especially in the EU data market and data economy. Deadline for application : 12/08/2026 at 16:00 CEST. Interested organisations are encouraged to review the tender documentation and submit their proposals before the deadline. Find more information and instructions on how to submit the tender in the EU Funding & Tenders Portal . Related topics Data policy Open data Funding for Digital",
       "source": "EU Digital Strategy",
       "url": "https://digital-strategy.ec.europa.eu/en/funding/call-tenders-european-data-market-study-2027-2028",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "3510160818324cf6",
+      "date": "2026-07-08",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Targeted consultation on safeguarding the EU’s data sovereignty",
+      "summary": "Targeted consultation on safeguarding the EU’s data sovereignty lobacni Wed, 07/08/2026 - 09:10 Opening: 08 July 2026 Closing: 08 September 2026 This targeted consultation aims to gather views on challenges to data sovereignty and data flows for EU organisations in an international context. The targeted consultation is open to actors in the data value chain across different sectors. It seeks to understand data-related dependencies affecting European organisations, including barriers to accessing or using data in third countries, obstacles to transferring data to the EU and risks linked to third-country access to sensitive data. The consultation follows on the November 2025 Data Union Strategy , which stresses the importance of safeguarding the EU’s data sovereignty and strengthening the EU’s global position on international data flows. It is also closely linked to the European Tech Sovereignty Package , which contains measures to strengthen the EU’s capacity in semiconductors, artificial intelligence (AI), cloud and open source. Together, these measures support Europe’s ambition to become an AI continent, strengthen its digital autonomy and help build a more sustainable digital future. This targeted consultation remains open until 23:59 CEST on 8 September 2026 . Background Data is essential for Europe’s competitiveness and security and plays a key role in advancing AI. The EU has built a robust legal framework for data and promotes data free flow with trust internationally. However, unjust data localisation requirements, discriminatory rules, and data leakage to third countries threaten to undermine sovereignty. The EU continues to ensure a level playing field, security, and consistency with EU values and interests while remaining open to our trusted partners, including on the exchange of data across borders. Related topics Cloud Computing Data policy Advanced and Cloud Computing Artificial intelligence Tech sovereignty",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-safeguarding-eus-data-sovereignty",
       "tags": [
         "eu",
         "ai-act",
