@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T09:21:24+00:00",
+  "generated_at": "2026-07-10T09:19:01+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8025,6 +8025,38 @@
         "digital-regulation"
       ],
       "category": "update"
+    },
+    {
+      "id": "8990b53384542987",
+      "date": "2026-07-09",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "New Fabric Reference Material Could Help Strengthen Domestic Supply Chain for Textiles and Clothing",
+      "summary": "Researchers estimate that 56% of textiles can be recycled or recovered, but most don’t make it back into the domestic supply chain.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/07/new-fabric-reference-material-could-help-strengthen-domestic-supply-chain",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "7ce6324fd94cc666",
+      "date": "2026-07-09",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Call for Tenders: EU Code Week 2027-2030",
+      "summary": "Call for Tenders: EU Code Week 2027-2030 dumimar Thu, 07/09/2026 - 14:10 Opening: 09 July 2026 Closing: 15 September 2026 This call for tenders aims to expand education around coding, resources, outreach and community support across Europe from 2027 to 2030. Code Week The EU Code Week call for tenders will fund the continuation and upscaling of initiative for the period 2027-2030. Opening : 10 July 2026 Closing : 15 September 2026 EU Code Week is a grassroots initiative supported by the European Commission , t hat encourages people of all ages to explore coding and computational thinking. It aims to make digital skills learning more accessible, interactive and fun . Since its launch in 2013, the initiative has grown significantly, reaching millions of participants every year. In 2025, more than 156,000 events were registered worldwide, with almost 7 million participants. T he new contract aims to increase the impact of EU Code Week by: Strengthening and expanding the EU Code Week community of ambassadors, leading teachers and coordinators and national ministerial level Attracting more young people to join the initiative Empowering teachers across subjects to use coding in the classroom Helping more young people develop coding and computational thinking skills Increasing the number of high-quality learning resources and trainings available Expanding outreach and the number of activities registeredon the EU Code Week map Increasing girls’ participationin coding and digital skills development The successful contractor will be required to implement a wide-ranging set of activities including: Engagement and communication campaigns Community management and community building Development of learning resources Organisation of trainings and events Operation and development of the Code Week IT system Impact monitoring This is an opportunity for organisations with expertise in digital education and skills, communication and outreach, as well as IT systems development and operation. Deadline for application: 1 5 /0 9 /2026 at 16:00 CET. Interested organisations are invited to consult the tender specifications for full details on the objectives , scope, deliverables and performance requirements of the contract. Find more information and instructions on how to submit the tender in the EU Funding & Tenders Portal . Related topics Creating a digital society Digital learning & ICT in education Funding for Digital",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/call-tenders-eu-code-week-2027-2030",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
     }
   ]
 }
