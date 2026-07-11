@@ -1,5 +1,27 @@
 [
   {
+    "id": "af9e2a630ca25203",
+    "type": "enforce",
+    "title": "Commission preliminarily finds the addictive design of Instagram and Facebook in breach of the Digital Services Act",
+    "why": "Commission preliminarily finds the addictive design of Instagram and Facebook in breach of the Digital Services Act Fri, 07/10/2026 - 10:57 The European Commission has…",
+    "summary": "Commission preliminarily finds the addictive design of Instagram and Facebook in breach of the Digital Services Act Anonymous (not verified) Fri, 07/10/2026 - 10:57 The European Commission has preliminarily found Meta in breach of the Digital Services Act for the addictive design of Instagram and Facebook. The investigation focuses on features such as infinite scroll, autoplay, push notifications, and the platforms' highly personalised recommender systems. The Commission's investigation indicates that Meta did not adequately assess the risks of its addictive design on the physical and mental wellbeing of users, including minors and vulnerable adults. Evidence also shows that Meta's current mitigation measures failed to effectively tackle the risks stemming from its addictive design. Executive Vice-President for Tech Sovereignty, Security and Democracy Henna Virkkunen stated that: “protecting the physical and mental health of Europeans must be a priority for social media platforms. The Digital Services Act provides a clear framework to hold platforms accountable for the addictive design and effects of their services. We are fully committed to enforcing our legislation in Europe.\" Read the full press release and find further information about the: Digital Services Act - main aspects of the regulation User rights under the Digital Services Act - an overview Supervision of the designated very large online platforms and search engines under DSA Related topics Online platforms and e-commerce DSA - Digital Services Act",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-addictive-design-instagram-and-facebook-breach-digital-services-act",
+    "date": "2026-07-10",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-addictive-design-instagram-and-facebook-breach-digital-services-act"
+      ]
+    ]
+  },
+  {
     "id": "8990b53384542987",
     "type": "news",
     "title": "New Fabric Reference Material Could Help Strengthen Domestic Supply Chain for Textiles and Clothing",
@@ -46,6 +68,72 @@
     ]
   },
   {
+    "id": "037aafb7c4e0a2c8",
+    "type": "update",
+    "title": "Investing in Europe’s digital future: Study projects long-term economic impact of the European Competitiveness Fund",
+    "why": "Investing in Europe’s digital future: Study projects long-term economic impact of the European Competitiveness Fund Thu, 07/09/2026 - 17:11 A new study by the Joint Research…",
+    "summary": "Investing in Europe’s digital future: Study projects long-term economic impact of the European Competitiveness Fund Anonymous (not verified) Thu, 07/09/2026 - 17:11 A new study by the Joint Research Centre (JRC) and Directorate-General for Communications Networks, Content and Technology (DG Connect) estimates that every euro invested through the Digital Leadership window of the proposed European Competitiveness Fund (ECF) could generate between €1.84 and €2.21 of EU Gross Domestic Product (GDP) over ten years. GettyImages © Fasai Budkaew The proposed investment in digital infrastructure, skills and innovative digital companies is expected to deliver long-term economic growth, with the biggest gains coming from support for private digital investment. The study, based on the JRC’s Regional Holistic Model ( RHOMOLO ), explores nine scenarios with varying levels of investment in financial instruments (such as those under the current InvestEU programme) versus investment in the development of digital infrastructures. By 2037, the EU’s annual GDP could be €13-16 billion higher per year as a result of the ECF Digital Leadership window, equivalent to 0.07-0.085% of the EU’s total economic output . Around 26% of each country’s GDP increase comes from spillover effects, through the cross-border productivity impact of digital investments. The study highlights that investing in pan-European digital infrastructure could generate positive economic results beyond the countries that receive direct funding. Next steps The findings suggest that well-planned allocation of funds , particularly towards supporting innovative companies, could maximise the ECF’s impact. These insights will help shape the final design of the Digital Leadership window of the ECF, ensuring it delivers the greatest possible economic benefit for all Member States. Read the study: The ex-ante RHOMOLO assessment of the macroeconomic impact of the ECF Digital Leadership window 2028-2034 Related topics Creating a digital society Funding for Digital",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/library/investing-europes-digital-future-study-projects-long-term-economic-impact-european-competitiveness",
+    "date": "2026-07-09",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/library/investing-europes-digital-future-study-projects-long-term-economic-impact-european-competitiveness"
+      ]
+    ]
+  },
+  {
+    "id": "e76218cefd4f001a",
+    "type": "news",
+    "title": "AI Challenge Competition Info Webinar",
+    "why": "AI Challenge Competition Info Webinar Thu, 07/09/2026 - 12:39 22 July 2026 Join the AI-BOOST Info Webinar on 22 July at 11:00 CEST to learn more about the AI-BOOST Open Innovation…",
+    "summary": "AI Challenge Competition Info Webinar Anonymous (not verified) Thu, 07/09/2026 - 12:39 22 July 2026 Join the AI-BOOST Info Webinar on 22 July at 11:00 CEST to learn more about the AI-BOOST Open Innovation Competition and how to apply. Main link https://www.f6s.com/ai-challenge-competition-info-webinar Related topics Creating a digital society eHealth, Wellbeing and Ageing Artificial intelligence AI in health",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/events/ai-challenge-competition-info-webinar",
+    "date": "2026-07-09",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/events/ai-challenge-competition-info-webinar"
+      ]
+    ]
+  },
+  {
+    "id": "ff28a2c4c662e952",
+    "type": "update",
+    "title": "Commission Opinion on the assessment of the Code of Practice on Transparency of AI-generated content",
+    "why": "Commission Opinion on the assessment of the Code of Practice on Transparency of AI-generated content Thu, 07/09/2026 - 09:03 Commission and AI Board consider this voluntary code…",
+    "summary": "Commission Opinion on the assessment of the Code of Practice on Transparency of AI-generated content Anonymous (not verified) Thu, 07/09/2026 - 09:03 Commission and AI Board consider this voluntary code as an effective mean to facilitate compliance with the AI Act transparency obligations. On july 8, the Commission concluded that the Code of Practice on Transparency of AI-generated content adequately covers the obligations provided for in Articles 50(2), (4) and (5) AI Act and facilitates their effective implementation. The following day, the AI Board adopted its Adequacy Assessment code. All providers and deployers of generative AI systems are invited to sign the code. It is the EU-wide adequate instrument to ensure compliance with their respective obligations, regardless of their place of establishment, operation or competent market surveillance authority. Adherence to the code does not constitute conclusive evidence of compliance with these obligations. The code sets out commitments and measures to which providers of generative AI systems, including general-purpose AI systems, and deployers of AI systems generating deepfakes and certain text may adhere to demonstrate their compliance. The AI Office will consider facilitating formal updates to the code at least every two years, for instance based on the emergence of standards or relevant technological developments. You can download both the Commission Opinion and the AI Board Adequacy Assessment below. Downloads 1 - Commission Opinion on the assessment of the Code of Practice on Transparency of AI-generated content Download 2 - AI Board Adequacy Assessment Code of Practice Transparency of AI-Generated Content Download Related topics Artificial intelligence",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/library/commission-opinion-assessment-code-practice-transparency-ai-generated-content",
+    "date": "2026-07-09",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/library/commission-opinion-assessment-code-practice-transparency-ai-generated-content"
+      ]
+    ]
+  },
+  {
     "id": "3510160818324cf6",
     "type": "update",
     "title": "Targeted consultation on safeguarding the EU’s data sovereignty",
@@ -64,6 +152,28 @@
         "Read more",
         "EU Digital Strategy",
         "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-safeguarding-eus-data-sovereignty"
+      ]
+    ]
+  },
+  {
+    "id": "b6c29924263ff629",
+    "type": "news",
+    "title": "EU Action Plan on Cybersecurity and Artificial Intelligence",
+    "why": "EU Action Plan on Cybersecurity and Artificial Intelligence The European Commission has presented an Action Plan on Cybersecurity and Artificial Intelligence to support the safe…",
+    "summary": "EU Action Plan on Cybersecurity and Artificial Intelligence dumimar Tue, 07/07/2026 - 09:56 The European Commission has presented an Action Plan on Cybersecurity and Artificial Intelligence to support the safe and responsible use of AI while strengthening Europe's cybersecurity. GettyImages © avgust01 Artificial intelligence is rapidly transforming the cybersecurity landscape. AI can help detect vulnerabilities, prevent cyberattacks and strengthen the protection of critical infrastructure. At the same time, it can also be exploited by malicious actors to automate attacks, identify weaknesses and carry out cyber operations at unprecedented speed and scale. Building on the EU's existing legal framework on AI and cybersecurity, the Action Plan sets out a coordinated approach to help Member States, businesses and public authorities benefit from the opportunities offered by AI while addressing the new risks it creates. It focuses on 3 complementary objectives : Promoting the safe and responsible use of advanced AI Reinforcing the EU's cybersecurity and resilience Scaling up Europe's AI capabilities for cybersecurity To promote the safe use of advanced AI, the Commission will strengthen Europe's capacity to evaluate AI models before they are placed on the EU market, in line with the AI Act . It will also work with the European Union Agency for Cybersecurity (ENISA) to develop a European Blueprint for secure access to advanced AI systems for cybersecurity purposes and establish a secure testing platform to help organisations in critical sectors, such as energy, transport, health, finance and public administration, safely test and deploy AI solutions. The Action Plan also reinforces the EU's cybersecurity by promoting the implementation of existing EU cybersecurity legislation, including the NIS2 Directive and the Cyber Resilience Act . It encourages organisations to use AI, including open-source models where appropriate, to detect and address vulnerabilities more quickly and improve their ability to prevent and respond to cyberattacks. To strengthen Europe's technological leadership, the Commission will launch an EU Grand Challenge on AI for cybersecurity, bringing together companies, researchers and other stakeholders to develop innovative AI-powered cybersecurity solutions. The EU will also continue investing in sovereign AI capabilities, building on initiatives such as AI Factories and future Gigafactories, while encouraging private investment to help scale up European AI technologies. The Action Plan complements the EU's existing legal framework for AI and cybersecurity, including the AI Act, the Cyber Resilience Act, the NIS2 Directive, the Digital Operational Resilience Act (DORA) and the Cyber Solidarity Act . By bringing together EU institutions, Member States, industry, researchers, open-source communities and international partners, it aims to ensure that Europe can harness the benefits of AI while remaining resilient against emerging cybersecurity threats. You can download the Action Plan below. Downloads Action Plan on Cybersecurity and Artificial Intelligence Download Related topics Cybersecurity Artificial intelligence Tech sovereignty",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/library/eu-action-plan-cybersecurity-and-artificial-intelligence",
+    "date": "2026-07-07",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/library/eu-action-plan-cybersecurity-and-artificial-intelligence"
       ]
     ]
   },
@@ -158,6 +268,28 @@
         "Read more",
         "NIST",
         "https://www.nist.gov/news-events/news/2026/06/nist-launches-center-drive-manufacture-quantum-technologies"
+      ]
+    ]
+  },
+  {
+    "id": "18aed97e49321835",
+    "type": "update",
+    "title": "Info session: Call for proposals – Youth-driven social media platforms",
+    "why": "Info session: Call for proposals – Youth-driven social media platforms Mon, 06/29/2026 - 10:03 30 July 2026 Online, 10:00 – 12:00 CEST Join this info session dedicated to all…",
+    "summary": "Info session: Call for proposals – Youth-driven social media platforms Anonymous (not verified) Mon, 06/29/2026 - 10:03 30 July 2026 Online, 10:00 – 12:00 CEST Join this info session dedicated to all interested potential applicants of the new call for proposals to shape safer and more inclusive social media platforms features. © Worawee Meepian The project will involve young European people in the design of features for new social media platforms, focusing in particular on user well-being, mental health, safety, privacy, and ease of use. No registration is needed. Find out more about the call for proposals . Join this meeting online Contact mailto:CNECT-I4@ec.europa.eu Related topics Media and democracy Better Internet for Children Strengthening trust and security Online platforms and e-commerce Social media and networks, innovation and policy Funding for Digital",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/events/info-session-call-proposals-youth-driven-social-media-platforms",
+    "date": "2026-06-29",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/events/info-session-call-proposals-youth-driven-social-media-platforms"
       ]
     ]
   },
