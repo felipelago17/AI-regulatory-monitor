@@ -1,5 +1,27 @@
 [
   {
+    "id": "766bb87df08e641d",
+    "type": "news",
+    "title": "Special panel report: Child safety online protecting and empowering minors in a digital world",
+    "why": "Special panel report: Child safety online protecting and empowering minors in a digital world Mon, 07/13/2026 - 11:15 As announced in the 2025 State of the Union address,…",
+    "summary": "Special panel report: Child safety online protecting and empowering minors in a digital world Anonymous (not verified) Mon, 07/13/2026 - 11:15 As announced in the 2025 State of the Union address, President von der Leyen set up a special panel of experts to develop a strong and practical European approach to keep children safe online. The panel's co-chairs presented their final report in July 2026. The report highlights the critical challenges children face online and provides recommendations and inspiration on better protecting and empower them, as well as on the age-appropriate use of social media and other digital services. Main link https://commission.europa.eu/topics/digital-economy-and-society/protecting-chil… Related topics Better Internet for Children Strengthening trust and security Online platforms and e-commerce DSA - Digital Services Act",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/library/special-panel-report-child-safety-online-protecting-and-empowering-minors-digital-world",
+    "date": "2026-07-13",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/library/special-panel-report-child-safety-online-protecting-and-empowering-minors-digital-world"
+      ]
+    ]
+  },
+  {
     "id": "af9e2a630ca25203",
     "type": "enforce",
     "title": "Commission preliminarily finds the addictive design of Instagram and Facebook in breach of the Digital Services Act",
@@ -130,6 +152,30 @@
         "Read more",
         "EU Digital Strategy",
         "https://digital-strategy.ec.europa.eu/en/library/commission-opinion-assessment-code-practice-transparency-ai-generated-content"
+      ]
+    ]
+  },
+  {
+    "id": "2354acc6936fac2d",
+    "type": "news",
+    "title": "New Fabric Test Material Could Help Strengthen Domestic Supply Chain for Textiles and Clothing",
+    "why": "Researchers estimate that 56% of textiles can be recycled or recovered, but most don’t make it back into the domestic supply chain.",
+    "summary": "Researchers estimate that 56% of textiles can be recycled or recovered, but most don’t make it back into the domestic supply chain.",
+    "jurisdiction": "US",
+    "source": "NIST",
+    "source_url": "https://www.nist.gov/news-events/news/2026/07/new-fabric-test-material-could-help-strengthen-domestic-supply-chain",
+    "date": "2026-07-09",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "cybersecurity"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "NIST",
+        "https://www.nist.gov/news-events/news/2026/07/new-fabric-test-material-could-help-strengthen-domestic-supply-chain"
       ]
     ]
   },

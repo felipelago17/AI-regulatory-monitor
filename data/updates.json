@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T08:49:38+00:00",
+  "generated_at": "2026-07-14T07:47:29+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8153,6 +8153,38 @@
         "digital-regulation"
       ],
       "category": "update"
+    },
+    {
+      "id": "2354acc6936fac2d",
+      "date": "2026-07-09",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "New Fabric Test Material Could Help Strengthen Domestic Supply Chain for Textiles and Clothing",
+      "summary": "Researchers estimate that 56% of textiles can be recycled or recovered, but most don’t make it back into the domestic supply chain.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/07/new-fabric-test-material-could-help-strengthen-domestic-supply-chain",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "766bb87df08e641d",
+      "date": "2026-07-13",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Special panel report: Child safety online protecting and empowering minors in a digital world",
+      "summary": "Special panel report: Child safety online protecting and empowering minors in a digital world Anonymous (not verified) Mon, 07/13/2026 - 11:15 As announced in the 2025 State of the Union address, President von der Leyen set up a special panel of experts to develop a strong and practical European approach to keep children safe online. The panel's co-chairs presented their final report in July 2026. The report highlights the critical challenges children face online and provides recommendations and inspiration on better protecting and empower them, as well as on the age-appropriate use of social media and other digital services. Main link https://commission.europa.eu/topics/digital-economy-and-society/protecting-chil… Related topics Better Internet for Children Strengthening trust and security Online platforms and e-commerce DSA - Digital Services Act",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/special-panel-report-child-safety-online-protecting-and-empowering-minors-digital-world",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
     }
   ]
 }
