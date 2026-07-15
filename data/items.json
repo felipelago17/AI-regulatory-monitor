@@ -1,5 +1,51 @@
 [
   {
+    "id": "8b1fb6a03085c80e",
+    "type": "news",
+    "title": "NIST Receives New Patent for Microbe-Killing Water Heater",
+    "why": "Warm water in household pipes can be a breeding ground for harmful bacteria.",
+    "summary": "Warm water in household pipes can be a breeding ground for harmful bacteria.",
+    "jurisdiction": "US",
+    "source": "NIST",
+    "source_url": "https://www.nist.gov/news-events/news/2026/07/nist-receives-new-patent-microbe-killing-water-heater",
+    "date": "2026-07-14",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "cybersecurity"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "NIST",
+        "https://www.nist.gov/news-events/news/2026/07/nist-receives-new-patent-microbe-killing-water-heater"
+      ]
+    ]
+  },
+  {
+    "id": "462350046168a2ab",
+    "type": "update",
+    "title": "Commission collects feedback to define EU's position for the upcoming World Radiocommunication Conference 2027",
+    "why": "Commission collects feedback to define EU's position for the upcoming World Radiocommunication Conference 2027 Tue, 07/14/2026 - 13:43 Opening: 14 July 2026 Closing: 11 September…",
+    "summary": "Commission collects feedback to define EU's position for the upcoming World Radiocommunication Conference 2027 Anonymous (not verified) Tue, 07/14/2026 - 13:43 Opening: 14 July 2026 Closing: 11 September 2026 The European Commission is inviting stakeholders to help shape the EU position for the upcoming World Radiocommunication Conference 2027 (WRC-27). AdobeStock ©m-project Through a call for evidence , the Commission is gathering views ahead of the planned proposal for a Council decision in the first quarter of 2027, which will set out the EU position for the conference. The World Radiocommunication Conference is organised by the International Telecommunication Union (ITU), which is the United Nations’ specialised agency for telecommunications. The Conference reviews and revises ITU Radio Regulations that govern the global use of radio spectrum and satellite orbits. Some agenda items for 2027 may affect EU law, policies and programmes, including connectivity, transport, space and climate-related activities, including initiatives such as Copernicus and IRIS2. The Commission has been taking a proactive and inclusive approach to this preparation. A public stakeholder workshop was held by the Commission and the European Conference of Postal and Telecommunications Administrations (CEPT) in November 2025. It brought together various stakeholders, such as mobile and satellite operators, broadcasters and wireless equipment manufacturers, to exchange views on the WRC-27 agenda items. In addition to the call for evidence, the Commission will take into account: the CEPT’s preparatory process, which has been open to public- and private-sector participants ; the final opinion of the Radio Spectrum Policy Group (to be adopted by end-2026), which is now open for public consultation to any stakeholder until 24 August 2026. More information: EU radio spectrum policy for wireless connections across borders Related topics Radio Spectrum Policy Digital connectivity Wireless Europe",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/consultations/commission-collects-feedback-define-eus-position-upcoming-world-radiocommunication-conference-2027",
+    "date": "2026-07-14",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/consultations/commission-collects-feedback-define-eus-position-upcoming-world-radiocommunication-conference-2027"
+      ]
+    ]
+  },
+  {
     "id": "766bb87df08e641d",
     "type": "news",
     "title": "Special panel report: Child safety online protecting and empowering minors in a digital world",
