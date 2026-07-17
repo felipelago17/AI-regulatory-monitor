@@ -1,5 +1,27 @@
 [
   {
+    "id": "e351b78b90326399",
+    "type": "update",
+    "title": "Commission accepts X’s action plan to comply with Digital Services Act",
+    "why": "Commission accepts X’s action plan to comply with Digital Services Act Thu, 07/16/2026 - 11:18 The European Commission has accepted X’s action plan to comply with transparency…",
+    "summary": "Commission accepts X’s action plan to comply with Digital Services Act Anonymous (not verified) Thu, 07/16/2026 - 11:18 The European Commission has accepted X’s action plan to comply with transparency obligations and researchers’ access to data, under the Digital Services Act. The approved measures represent an important step in enabling researchers, civil society and the public in general to gain more transparency into X’s systems, in particular to monitor X’s systemic risks and to assess the platform’s broader impact on its users and European society as a whole. Following the Commission’s decision that X is in breach of the DSA and a fine in December 2025, X committed to improving its advertising repository with better search features and faster response times. It will also publish more information about advertisements and enable access via an API. X will also give eligible researchers effective access to public data by improving and speeding up the screening process for applications, giving access to data free-of-charge, and updating its terms to refrain from contractually prohibiting eligible researchers to scrape public data. An independent external audit will assess these changes, whose results X will submit to the Commission. If the audit identifies recommendations, X will need to fully implement them. The Board for Digital Services was consulted on these measures and provided its opinion on 15 June. It considered the proposed changes partially adequate, but deemed X’s audit measures and, as a result, the overall action plan insufficient to address the infringements. In its assessment, the Commission carefully considered the Board's opinion, recognising the Board's critical role in evaluating X's proposed measures under the Digital Services Act. Following the Board’s opinion, the Commission has clarified several points that X must consider in the implementation of the action plan. X has six months to implement the measures set out in its action plan and it must then issue, and submit to the Commission, an audit of the measures. The Commission will closely monitor progress, in particular on the issues raised by the Board. The Commission will also regularly update the Board and the Digital Services Coordinators on the implementation of the action plan and on its ongoing monitoring activities. Find further information about the: Commission accepts X's corrective measures to terminate breaches of the DSA Supervision of the designated very large online platforms and search engines under DSA Digital Services Act - main aspects of the regulation User rights under the Digital Services Act - an overview Related topics Online platforms and e-commerce DSA - Digital Services Act",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-accepts-xs-action-plan-comply-digital-services-act",
+    "date": "2026-07-16",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/news/commission-accepts-xs-action-plan-comply-digital-services-act"
+      ]
+    ]
+  },
+  {
     "id": "8b1fb6a03085c80e",
     "type": "news",
     "title": "NIST Receives New Patent for Microbe-Killing Water Heater",
