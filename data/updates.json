@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T07:52:19+00:00",
+  "generated_at": "2026-07-18T07:27:25+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8233,6 +8233,22 @@
         "digital-regulation"
       ],
       "category": "update"
+    },
+    {
+      "id": "77f8264a549aa83e",
+      "date": "2026-07-17",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Advanced Virtual Human Twins (VHT) Platform - Annual Event",
+      "summary": "Advanced Virtual Human Twins (VHT) Platform - Annual Event Anonymous (not verified) Fri, 07/17/2026 - 11:30 20 October 2026 - 21 October 2026 Brussels and online The first annual event for the Advanced Virtual Human Twins (VHT) Platform will provide an opportunity to take stock of progress and shape the platform based on real user needs and structured community feedback. The event is organised by the Directorate-General for Communications Networks, Content and Technology (DG CONNECT) with the support of the VHTnet consortium. Over the course of the two days, participants will discuss how to strengthen usability, adoption, interoperability and trust in the emerging platform. Key discussion topics Validation of the Platform’s direction vis-a-vis community expectations Review of elicitation findings and identification of remaining gaps Stakeholder engagement and participation incentives Adoption drivers, barriers and enabling services Capacity-building, user support and legal/ethical awareness needs Lessons from comparable initiatives for the design of a VHT community hub Prioritisation of low-level requirements for the first version of the Platform Definition of the core scope for the first Platform release, including interoperability and readiness considerations Target audience 20 October 2026 (afternoon) - Annual VHT Event The first day is open to all stakeholders, subject to registration, including: Members of the wider VHT User Community Researchers and academics Developers and technical experts Patient organisations Regulators Industry representatives and innovators Other stakeholders interested in the development and uptake of Advanced VHT models 21 October 2026 (full day) - Final Requirements Elicitation Session The second day is restricted to Advanced VHT Platform User Group members only. Organisations interested in joining are invited to contact cnect-EU-VHT-INITIATIVE@ec.europa.eu . Draft agenda 20 October 2026 - Annual VHT Event 14:00 - 14:20 Welcome and introduction 14:20 - 14:40 High-level introduction to the scope of the Advanced VHT Simulation Platform 14:40 - 15:00 Summary of the user groups’ elicitation process 15:00 - 16:00 User-centric aspects and incentivisation across the VHT ecosystem 16:00 - 16:30 Break 16:30 - 17:45 User-centric aspects and incentivisation across the VHT ecosystem 17:45 - 18:00 Closing and overview of next steps 21 October 2026 - Final Requirements Elicitation Session 09:00 - 09:15 Welcome and session objectives 09:15 - 09:30 Extraction of low-level requirements 09:30 - 10:30 User workflows and personas 10:30 - 11:00 Break 11:00 - 12:15 VHT Framework and Federated Repository 12:15 - 13:30 Access Federator 13:30 - 14:30 Break 14:30 - 15:45 Orchestrator and CNS Services 15:45 - 16:15 Intellectual Property Rights Management (IPRM) 16:15 - 16:30 Closing and overview of next steps Registration Further information on registration and practical arrangements will be shared with participants in due course. Web streaming The event will be held in a hybrid format, with participation possible both in Brussels and online . Related topics Creating a digital society eHealth, Wellbeing and Ageing Artificial intelligence AI in health",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/advanced-virtual-human-twins-vht-platform-annual-event",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
     }
   ]
 }
