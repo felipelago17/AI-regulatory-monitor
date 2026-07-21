@@ -1,5 +1,93 @@
 [
   {
+    "id": "7bdbb1bad13454fa",
+    "type": "news",
+    "title": "Digital Talent EU Days 2026 in Dublin",
+    "why": "Digital Talent EU Days 2026 in Dublin Mon, 07/20/2026 - 15:02 15 October 2026 - 16 October 2026 Trinity Business School, Dublin, Ireland The Digital Talent EU Days will host a…",
+    "summary": "Digital Talent EU Days 2026 in Dublin Anonymous (not verified) Mon, 07/20/2026 - 15:02 15 October 2026 - 16 October 2026 Trinity Business School, Dublin, Ireland The Digital Talent EU Days will host a debate on Europe’s digital skills challenges and drive action on talent, competitiveness and inclusion. Digital Talent EU Days On 15 and 16 October, LEADSx2030 and Connecting Women in Digital , in partnership with the European Commission, National Coalitions , agencies and local partners, will host the Digital Talent EU Days . What does Europe do when the demand for digital talent keeps growing faster than the pipeline behind it?The Digital Talent EU Days 2026 will bring this question to Dublin, gathering stakeholders from all EU Member States to focus on talent development, talent attraction and talent retention. During this two-day event, the agenda will concentrate on the priorities of Europe's digital workforce, including: Bridging Europe's digital skills gap, new ways for talent development, influence of GenAI, evolving cyber roles and Vocational and Educational Training (VET) pathways; Talent attraction, international mobility, upskilling and reskilling; Deep tech growth, innovation and Europe's digital competitiveness; Women in ICT and the outcomes of the Women in Digital Forum Thematic Working Groups. Aligned with the Digital Decade Policy Programme , the Union of Skills and the AI Continent Action Plan , this year’s edition aims to demonstrate Europe’s collective leadership and Ireland’s role in developing and attracting digital specialists for globally competitive innovation. Registration is now open on the Digital Talent EU Days webpage, where the detailed agenda is also available. Organiser LEADSx2030 and Connecting Women in Digital Registration form Related topics Creating a digital society Digital learning & ICT in education Digital Skills and Jobs Women in ICT",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/events/digital-talent-eu-days-2026-dublin",
+    "date": "2026-07-20",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/events/digital-talent-eu-days-2026-dublin"
+      ]
+    ]
+  },
+  {
+    "id": "e959241c785795f0",
+    "type": "enforce",
+    "title": "Commission fines AliExpress €550 million for breaching the Digital Services Act",
+    "why": "Commission fines AliExpress €550 million for breaching the Digital Services Act Mon, 07/20/2026 - 10:22 Today, the European Commission fined AliExpress €550 million for breaching…",
+    "summary": "Commission fines AliExpress €550 million for breaching the Digital Services Act Anonymous (not verified) Mon, 07/20/2026 - 10:22 Today, the European Commission fined AliExpress €550 million for breaching its obligations under the Digital Services Act (DSA) to diligently assess and mitigate risks relating to the sale of illegal, unsafe or counterfeit products on its e-commerce platform. The Commission has ordered the platform to take action. AliExpress fell short of its obligation under the DSA to diligently assess the risk of dissemination of illegal, unsafe, or counterfeit products through its services in multiple ways and it failed to take effective measures to reduce the risk of dissemination of illegal products. Failure to comply with the non-compliance decision may lead to periodic penalty payments. The Commission continues to engage with AliExpress to ensure compliance with the decision and with the DSA more generally. The spread of counterfeit clothing, unsafe toys, dangerous cosmetics and other illegal and harmful products is not an unavoidable cost of shopping online - it is a failure by AliExpress to comply with its obligations under the Digital Services Act. Scale is not an excuse; risks must be identified and addressed systematically to ensure consumers can safely shop online. Today, we are holding AliExpress to this standard and request it to take action. Henna Virkkunen, Executive Vice-President for Tech Sovereignty, Security and Democracy Read the full press release . Find further information about: Supervision of the designated very large online platforms and search engines under DSA Digital Services Act – main aspects of the regulation User rights under the Digital Services Act – an overview Related topics Online platforms and e-commerce DSA - Digital Services Act",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-aliexpress-eu550-million-breaching-digital-services-act",
+    "date": "2026-07-20",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/news/commission-fines-aliexpress-eu550-million-breaching-digital-services-act"
+      ]
+    ]
+  },
+  {
+    "id": "82e0544acf38f532",
+    "type": "update",
+    "title": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems",
+    "why": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems Mon, 07/20/2026 - 09:08 Today, the European Commission published…",
+    "summary": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems Anonymous (not verified) Mon, 07/20/2026 - 09:08 Today, the European Commission published guidelines to assist providers and deployers of artificial intelligence (AI) systems in meeting the AI Act's transparency obligations, which start to apply on 2 August 2026. Transparency obligations will help people recognise when they are interacting with AI or when content has been generated or altered by AI, reducing the risk of deception and manipulation. The guidelines clarify which providers and deployers must comply with the transparency obligations for interactive AI systems and the marking and labelling of AI-generated content. Under the AI Act, AI providers will have to design AI systems to inform users when they are directly interacting with an AI and they will have to add machine-readable marks to enable the detection of AI-generated or manipulated content. Deployers will also have to inform people when they are exposed to deep fakes, to AI-generated content on matters of public interests without human review or editorial control, and to emotion recognition or biometric categorisation systems. Read the full press release . Find further information: Guidelines on Transparency of AI-Generated Content Questions & Answers: Transparency obligations under Article 50 of the AI Act Fact page Quick Facts: Transparency rules for AI systems Code of Practice on Transparency of AI-Generated Content Related topics Artificial intelligence Related content Policy and legislation 20 July 2026 Guidelines on transparency obligations for providers and deployers of AI systems These guidelines define the scope of transparency obligations for providers and deployers of AI systems under article 50 of the AI Act.",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems",
+    "date": "2026-07-20",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems"
+      ]
+    ]
+  },
+  {
+    "id": "d4f499c564f0a17c",
+    "type": "update",
+    "title": "Guidelines on transparency obligations for providers and deployers of AI systems",
+    "why": "Guidelines on transparency obligations for providers and deployers of AI systems Mon, 07/20/2026 - 08:58 These guidelines define the scope of transparency obligations for…",
+    "summary": "Guidelines on transparency obligations for providers and deployers of AI systems Anonymous (not verified) Mon, 07/20/2026 - 08:58 These guidelines define the scope of transparency obligations for providers and deployers of AI systems under article 50 of the AI Act. The AI Act follows a risk-based approach, classifying AI systems into four different risk categories, one of which is AI systems posing transparency risks that are subject to the obligations laid down in Article 50 of the AI Act . These transparency obligations apply from 2 August 2026. The Commission adopted these guidelines to offer practical guidance to competent authorities, as well as providers and deployers of AI systems. The aim is to ensure compliance with the transparency obligations under Article 50 of the AI Act in a consistent, effective, proportionate and uniform manner. Download the guidelines below. Find further information: Guidelines on Transparency of AI-Generated Content - An overview Questions & Answers: Transparency obligations under Article 50 of the AI Act Fact page Quick Facts: Transparency rules for AI systems Code of Practice on Transparency of AI-Generated Content Downloads 1 - Guidelines on the implementation of the transparency obligations for certain AI systems under Article 50 of the AI Act Download 2 - Communication to the Commission - Approval of the content of the Guidelines on the implementation of the transparency obligations for certain AI systems under Article 50 of the AI Act Download Related topics Artificial intelligence Related content Press release 20 July 2026 Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems Today, the European Commission published guidelines to assist providers and deployers of artificial intelligence (AI) systems in meeting the AI Act's transparency obligations, which start to apply on 2 August 2026.",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems",
+    "date": "2026-07-20",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems"
+      ]
+    ]
+  },
+  {
     "id": "77f8264a549aa83e",
     "type": "news",
     "title": "Advanced Virtual Human Twins (VHT) Platform - Annual Event",
