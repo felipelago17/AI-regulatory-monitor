@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T08:08:41+00:00",
+  "generated_at": "2026-07-23T08:12:21+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8313,6 +8313,38 @@
         "digital-regulation"
       ],
       "category": "update"
+    },
+    {
+      "id": "4e86c527142c1ff6",
+      "date": "2026-07-22",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Announces Funding Opportunity for 14 MEP Centers to Advance Small and Medium-Sized U.S. Manufacturers",
+      "summary": "NIST MEP will host an informational webinar on Tuesday, July 28, 2026, at 1 p.m. ET to provide general information about this opportunity and guidance on preparing applications.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/07/nist-announces-funding-opportunity-14-mep-centers-advance-small-and-medium",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "ae9ef09609fe7293",
+      "date": "2026-07-22",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Kick-off of new GenAI pilots for public administration & Apply AI stakeholder meeting",
+      "summary": "Kick-off of new GenAI pilots for public administration & Apply AI stakeholder meeting Anonymous (not verified) Wed, 07/22/2026 - 16:18 14 September 2026 This event showcases 3 European generative AI pilots, while bringing together the Apply AI community to share experiences and drive the adoption of trustworthy public sector solutions. GettyImages ©avgust01 The European Commission will host an online kick-off meeting on 14 September 2026 at 14:00 to officially present three new pilot projects funded under the Digital Europe Programme call on “GenAI for the public administrations”. The event highlights the Commission support to the uptake of trustworthy European generative AI solutions in public administrations across Europe. The three projects — FLOODS & DROUGHTS , EUNOMIA.AI and EuropAI — officially started on 1 July 2026 following the signature of their grant agreements. Together, they will help public administrations develop, procure, test and deploy European GenAI solutions that respond to concrete public-service needs, while ensuring compliance with European legal, operational and societal requirements. The kick-off meeting will be followed by an Apply AI stakeholder meeting open to public-sector representatives and other stakeholders. T he discussion will explore the main opportunities and challenges associated with the adoption of AI in public administrations and how the European Commission can further support the public sector in developing, procuring and deploying trustworthy European AI solutions. The event will also help connect the pilot projects with the broader Apply AI community and encourage exchanges and cooperation, which can lead to a wider uptake of successful GenAI solutions across Europe. Registration details and further practical information will be published shortly. Related topics Artificial intelligence Digital Europe Programme Funding for Digital",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/kick-new-genai-pilots-public-administration-apply-ai-stakeholder-meeting",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
     }
   ]
 }
