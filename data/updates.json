@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T08:08:01+00:00",
+  "generated_at": "2026-07-25T07:50:40+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8339,6 +8339,22 @@
       "summary": "Kick-off of new GenAI pilots for public administration & Apply AI stakeholder meeting Anonymous (not verified) Wed, 07/22/2026 - 16:18 14 September 2026 This event showcases 3 European generative AI pilots, while bringing together the Apply AI community to share experiences and drive the adoption of trustworthy public sector solutions. GettyImages ©avgust01 The European Commission will host an online kick-off meeting on 14 September 2026 at 14:00 to officially present three new pilot projects funded under the Digital Europe Programme call on “GenAI for the public administrations”. The event highlights the Commission support to the uptake of trustworthy European generative AI solutions in public administrations across Europe. The three projects — FLOODS & DROUGHTS , EUNOMIA.AI and EuropAI — officially started on 1 July 2026 following the signature of their grant agreements. Together, they will help public administrations develop, procure, test and deploy European GenAI solutions that respond to concrete public-service needs, while ensuring compliance with European legal, operational and societal requirements. The kick-off meeting will be followed by an Apply AI stakeholder meeting open to public-sector representatives and other stakeholders. T he discussion will explore the main opportunities and challenges associated with the adoption of AI in public administrations and how the European Commission can further support the public sector in developing, procuring and deploying trustworthy European AI solutions. The event will also help connect the pilot projects with the broader Apply AI community and encourage exchanges and cooperation, which can lead to a wider uptake of successful GenAI solutions across Europe. Registration details and further practical information will be published shortly. Related topics Artificial intelligence Digital Europe Programme Funding for Digital",
       "source": "EU Digital Strategy",
       "url": "https://digital-strategy.ec.europa.eu/en/events/kick-new-genai-pilots-public-administration-apply-ai-stakeholder-meeting",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "022b2377ae4c448b",
+      "date": "2026-07-24",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "AI-powered robotics in Europe: Live demonstrations and strategic debate",
+      "summary": "AI-powered robotics in Europe: Live demonstrations and strategic debate Anonymous (not verified) Fri, 07/24/2026 - 14:32 02 September 2026 The European Parliament will host a gathering of policymakers, industry leaders, researchers, alongside live demonstrations of cutting-edge robots, to set the course for the EU’s future in robotics. Europe is already a global leader in robotics research, development and innovation. As advances in artificial intelligence (AI) are accelerating the emergence of physical AI—robots capable of perceiving, reasoning and acting in the physical world—there is a growing opportunity for Europe to translate its scientific excellence into industrial leadership. Strengthening Europe’s position in AI powered robotics is essential to enhance its competitiveness, reinforce its technological sovereignty, and ensure that the next generation of AI powered robotics is developed and deployed in line with European values and strategic interests. This event will convene policymakers, industry representatives and academics to discuss how Europe can strengthen its leadership in AI-powered robotics and physical AI, including through a coordinated European initiative for AI-powered robotics that accelerates innovation, industrial deployment and investment. The discussion will build on existing European initiatives, including the AI Continent Action Plan and the Apply AI Strategy , and explore how these can help position Europe at the forefront of the next generation of AI-powered robotics. It will also feature live demonstrations by 20 to 30 of Europe’s most advanced AI-powered robots, showcasing how robotics can contribute to addressing key societal and economic needs. Agenda Robotics demo opening - including speeches by senior representatives of the European institutions, MEP Axel Voss and Prof. Alin Albu-Schäffer (euROBIN) (30 min) Live demonstration with 20-30 of Europe’s most advanced AI-powered robots (30 min) Round table discussion (1 hour and 30 min) Open demos, networking session (1 hour) This invitation-only event is organised by euROBIN , the European Network of Excellence in Robotics, funded by Horizon Europe. euROBIN is building a shared European ecosystem for intelligent robotics, with a scientific focus on enabling AI-powered robots to transfer knowledge and skills across different robots, tasks and environments. Its core consortium brings together 31 partners from 14 countries and 26 European cities, with a further 39 partners supported through cascade funding. Contact mailto:EP-RoboticsEvent@eurobin-project.eu Related topics Robotics Artificial intelligence",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/ai-powered-robotics-europe-live-demonstrations-and-strategic-debate",
       "tags": [
         "eu",
         "ai-act",
