@@ -1,5 +1,27 @@
 [
   {
+    "id": "941f173f2f968bdb",
+    "type": "update",
+    "title": "EU launches AI Gigafactories call to boost Europe's computing capacity and unlock more than €30 billion in investment",
+    "why": "EU launches AI Gigafactories call to boost Europe's computing capacity and unlock more than €30 billion in investment Thu, 07/30/2026 - 11:50 The EU has launched a call for…",
+    "summary": "EU launches AI Gigafactories call to boost Europe's computing capacity and unlock more than €30 billion in investment Anonymous (not verified) Thu, 07/30/2026 - 11:50 The EU has launched a call for tenders to establish up to seven AI Gigafactories across Europe, as part of its latest major push to accelerate Europe's technological sovereignty and ambition of becoming the AI Continent. AdobeStock © Tikka MS Led by industry and supported by up to €10 billion in EU and national funding, the initiative is expected to unlock at least €20 billion in private investment across the Union. It will expand Europe's AI computing capacity and give start-ups, scale-ups, small and medium-sized enterprises, industry, academia and public authorities access to infrastructure for training, inference and fine-tuning advanced frontier AI models. The AI Gigafactories will combine advanced AI processors, software and cloud technology stacks, high-speed connectivity and energy-efficient data centres. Together with Europe's network of 19 AI Factories, they will strengthen Europe's technological leadership, resilience and strategic autonomy. The initiative will ensure that Europe can develop advanced AI on its own infrastructure, in line with EU rules and values. AI technologies developed in the AI Gigafactories will follow EU standards on data protection, safety, security and ethics. Read the full press release . Find more information: Strengthening Europe's Tech Sovereignty AI Continent Action Plan European High Performance Computing Joint Undertaking Tender Documents Related topics Advanced Digital Technologies High Performance Computing - HPC Artificial intelligence Funding for Digital Tech sovereignty Related content Call document 01 July 2026 Presentations from Info Session on AI Gigafactories Initiative On 16 June, the EuroHPC Joint Undertaking organised a dedicated online information session on the upcoming AI Gigafactories initiative. The presentations are now available.",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/news/eu-launches-ai-gigafactories-call-boost-europes-computing-capacity-and-unlock-more-eu30-billion",
+    "date": "2026-07-30",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/news/eu-launches-ai-gigafactories-call-boost-europes-computing-capacity-and-unlock-more-eu30-billion"
+      ]
+    ]
+  },
+  {
     "id": "022b2377ae4c448b",
     "type": "news",
     "title": "AI-powered robotics in Europe: Live demonstrations and strategic debate",
