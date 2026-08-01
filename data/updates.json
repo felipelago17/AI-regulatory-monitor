@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T08:34:31+00:00",
+  "generated_at": "2026-08-01T08:03:55+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8371,6 +8371,38 @@
       "summary": "EU launches AI Gigafactories call to boost Europe's computing capacity and unlock more than €30 billion in investment Anonymous (not verified) Thu, 07/30/2026 - 11:50 The EU has launched a call for tenders to establish up to seven AI Gigafactories across Europe, as part of its latest major push to accelerate Europe's technological sovereignty and ambition of becoming the AI Continent. AdobeStock © Tikka MS Led by industry and supported by up to €10 billion in EU and national funding, the initiative is expected to unlock at least €20 billion in private investment across the Union. It will expand Europe's AI computing capacity and give start-ups, scale-ups, small and medium-sized enterprises, industry, academia and public authorities access to infrastructure for training, inference and fine-tuning advanced frontier AI models. The AI Gigafactories will combine advanced AI processors, software and cloud technology stacks, high-speed connectivity and energy-efficient data centres. Together with Europe's network of 19 AI Factories, they will strengthen Europe's technological leadership, resilience and strategic autonomy. The initiative will ensure that Europe can develop advanced AI on its own infrastructure, in line with EU rules and values. AI technologies developed in the AI Gigafactories will follow EU standards on data protection, safety, security and ethics. Read the full press release . Find more information: Strengthening Europe's Tech Sovereignty AI Continent Action Plan European High Performance Computing Joint Undertaking Tender Documents Related topics Advanced Digital Technologies High Performance Computing - HPC Artificial intelligence Funding for Digital Tech sovereignty Related content Call document 01 July 2026 Presentations from Info Session on AI Gigafactories Initiative On 16 June, the EuroHPC Joint Undertaking organised a dedicated online information session on the upcoming AI Gigafactories initiative. The presentations are now available.",
       "source": "EU Digital Strategy",
       "url": "https://digital-strategy.ec.europa.eu/en/news/eu-launches-ai-gigafactories-call-boost-europes-computing-capacity-and-unlock-more-eu30-billion",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "e7644651c602a0a2",
+      "date": "2026-07-31",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+      "summary": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August Anonymous (not verified) Fri, 07/31/2026 - 09:00 From 2 August 2026, the European Commission’s AI Office, together with national authorities, will begin enforcing the Artificial Intelligence (AI) Act. On the same date, new transparency rules will start to apply, requiring certain AI systems to tell users when they are interacting with AI and when content has been generated or altered by it. Under the new rules, chatbots and other interactive AI systems will have to tell users they are dealing with AI, not a human. Deepfakes (images, videos, or audio that have been edited or generated using AI) will have to be labelled. AI-generated or altered content will also have to carry machine-readable marks so it can be detected more easily. The measures are intended to reduce deception and manipulation and help people make informed choices. They also give businesses clearer obligations and a practical way to show compliance. The Commission published a first list of more than 180 organisations that have signed the Code of Practice on transparency of AI-generated content that operationalises the rules on transparency of AI-generated content. Read the full press release . Read more about the Enforcement of the AI Act and the: AI Act complaints tool AI Act Whistleblower Tool Complaints channel for downstream providers using general-purpose AI models Find more information about: Guidelines on Transparency of AI-generated Content General-Purpose AI (GPAI) Code of Practice Guidelines for providers of GPAI models Guidelines on prohibited AI practices Related topics Artificial intelligence",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "enforcement"
+    },
+    {
+      "id": "0661621fa1a8c562",
+      "date": "2026-07-31",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "EU support for the news media sector",
+      "summary": "EU support for the news media sector anserge Fri, 07/31/2026 - 09:00 The European Commission works to address structural challenges in media sectors and to promote a free, diverse and pluralistic media environment. image by Laurence Dutton by Getty/iStock The Commission aims to support projects that promote a free, diverse and pluralistic media environment, address structural challenges of the media sectors and/or improve citizens' access to quality information. Examples include supporting collaborative journalism, monitoring risks to media pluralism, mapping violations of media freedom, defending journalists under threat, supporting media literacy and strengthening the European public sphere. In short, the European Union supports the news media sector primarily through several instruments: The ‘Multimedia Actions’ line to fund independent news media coverage of EU affairs. Actions under its Creative Europe programme to support media pluralism and freedom, media collaborations and media literacy. Actions part of innovation programmes ( Digital Europe, Horizon Europe ). And Pilot Projects and Preparatory Actions proposed by the European Parliament on an annual basis. The available budget amounts to approximately €50 million per year. The News Infosheet (updated July 2026) Subscribe to the latest news on this topic and more See also Stay tuned for EU calls for the media sector Related topics Media and democracy Media freedom and pluralism Media Freedom and Pluralism Pilot projects MEDIA programme Disinformation Support for the news media sector",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/eu-support-news-media-sector",
       "tags": [
         "eu",
         "ai-act",
