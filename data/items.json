@@ -1,5 +1,29 @@
 [
   {
+    "id": "3f9a214f4397e6d1",
+    "type": "news",
+    "title": "NIST Joins National Genesis Mission to Accelerate AI Innovation",
+    "why": "NIST will execute two of its efforts through its Centers for AI in Manufacturing and Critical Infrastructure.",
+    "summary": "NIST will execute two of its efforts through its Centers for AI in Manufacturing and Critical Infrastructure.",
+    "jurisdiction": "US",
+    "source": "NIST",
+    "source_url": "https://www.nist.gov/news-events/news/2026/08/nist-joins-national-genesis-mission-accelerate-ai-innovation",
+    "date": "2026-08-04",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "cybersecurity"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "NIST",
+        "https://www.nist.gov/news-events/news/2026/08/nist-joins-national-genesis-mission-accelerate-ai-innovation"
+      ]
+    ]
+  },
+  {
     "id": "e7644651c602a0a2",
     "type": "enforce",
     "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",

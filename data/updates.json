@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T08:20:53+00:00",
+  "generated_at": "2026-08-05T08:17:55+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8409,6 +8409,22 @@
         "digital-regulation"
       ],
       "category": "update"
+    },
+    {
+      "id": "3f9a214f4397e6d1",
+      "date": "2026-08-04",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Joins National Genesis Mission to Accelerate AI Innovation",
+      "summary": "NIST will execute two of its efforts through its Centers for AI in Manufacturing and Critical Infrastructure.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/08/nist-joins-national-genesis-mission-accelerate-ai-innovation",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
     }
   ]
 }
