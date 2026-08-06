@@ -1,5 +1,29 @@
 [
   {
+    "id": "920a5fe2ff212c19",
+    "type": "news",
+    "title": "‘Spooky’ Particles Transit DC Suburbs, a Step Toward a Quantum Network",
+    "why": "The achievement shows that fragile quantum entanglement can survive even in tough, real-world conditions.",
+    "summary": "The achievement shows that fragile quantum entanglement can survive even in tough, real-world conditions.",
+    "jurisdiction": "US",
+    "source": "NIST",
+    "source_url": "https://www.nist.gov/news-events/news/2026/08/spooky-particles-transit-dc-suburbs-step-toward-quantum-network",
+    "date": "2026-08-05",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "cybersecurity"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "NIST",
+        "https://www.nist.gov/news-events/news/2026/08/spooky-particles-transit-dc-suburbs-step-toward-quantum-network"
+      ]
+    ]
+  },
+  {
     "id": "3f9a214f4397e6d1",
     "type": "news",
     "title": "NIST Joins National Genesis Mission to Accelerate AI Innovation",

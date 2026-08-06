@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T08:17:55+00:00",
+  "generated_at": "2026-08-06T08:15:23+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8419,6 +8419,22 @@
       "summary": "NIST will execute two of its efforts through its Centers for AI in Manufacturing and Critical Infrastructure.",
       "source": "NIST",
       "url": "https://www.nist.gov/news-events/news/2026/08/nist-joins-national-genesis-mission-accelerate-ai-innovation",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "920a5fe2ff212c19",
+      "date": "2026-08-05",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "‘Spooky’ Particles Transit DC Suburbs, a Step Toward a Quantum Network",
+      "summary": "The achievement shows that fragile quantum entanglement can survive even in tough, real-world conditions.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/08/spooky-particles-transit-dc-suburbs-step-toward-quantum-network",
       "tags": [
         "nist",
         "ai-standards",
