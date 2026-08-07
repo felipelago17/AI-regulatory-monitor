@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T08:15:23+00:00",
+  "generated_at": "2026-08-07T06:59:53+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8435,6 +8435,22 @@
       "summary": "The achievement shows that fragile quantum entanglement can survive even in tough, real-world conditions.",
       "source": "NIST",
       "url": "https://www.nist.gov/news-events/news/2026/08/spooky-particles-transit-dc-suburbs-step-toward-quantum-network",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "a0f88ab3932462f8",
+      "date": "2026-08-06",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Researchers Correct Common Error Confounding Nanotech Measurements",
+      "summary": "The scientists offer a practical solution that relies on accounting for measurement errors before testing materials or developing products.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/08/nist-researchers-correct-common-error-confounding-nanotech-measurements",
       "tags": [
         "nist",
         "ai-standards",
