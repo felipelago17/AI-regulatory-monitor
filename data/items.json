@@ -1,5 +1,27 @@
 [
   {
+    "id": "32fcbbd6412603b5",
+    "type": "news",
+    "title": "Join the Inaugural D-TECT Forum",
+    "why": "Join the Inaugural D-TECT Forum 11 November 2026 The Drone Tech for Countering Threats (D-TECT) Forum is the EU industrial coordination mechanism for drone and counter-drone…",
+    "summary": "Join the Inaugural D-TECT Forum lobacni Mon, 08/10/2026 - 14:07 11 November 2026 The Drone Tech for Countering Threats (D-TECT) Forum is the EU industrial coordination mechanism for drone and counter-drone technologies. © Marcus Jacobi The European Commission invites interested organisations to join the inaugural D-Tect Forum on 11 November 2026 . We are looking for companies, research organisations, universities, industry associations, standardisation bodies and innovation networks active in the drones domain. The inaugural Forum aims to gather 100+ high-level leaders to advance Europe’s ambitions in Drone and Counter-Drone technology. Participants will explore near-term cooperation across the full drone and counter-drone value chain, including detection, tracking and neutralisation systems, autonomy and AI-enabled navigation, sensing and electronic warfare, secure connectivity, and the enabling technologies that underpin them, such as semiconductors, cloud, cyber and data. The priorities and composition of the thematic Working Groups will be defined during the Forum. To participate in the event, please submit your application . This form is also a registration to the Call of Expression of Interest to join future events of the D-TECT forum. Please note that submitting an application does not by itself confirm your registration for the inaugural Forum. Further, results of membership applications will be communicated after the event. Downloads Call for Expression of interest - ​​​Drone Tech for Countering Threats Forum​ Download Privacy statement - Drone Tech for Countering Threats (D-TECT) Forum Download Terms of reference - Drone Tech for Countering Threats Forum Download Related topics Cybersecurity Tech sovereignty Hybrid security threats",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/events/join-inaugural-d-tect-forum",
+    "date": "2026-08-10",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/events/join-inaugural-d-tect-forum"
+      ]
+    ]
+  },
+  {
     "id": "a0f88ab3932462f8",
     "type": "news",
     "title": "NIST Researchers Correct Common Error Confounding Nanotech Measurements",

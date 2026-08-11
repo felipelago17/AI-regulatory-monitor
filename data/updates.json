@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T07:10:50+00:00",
+  "generated_at": "2026-08-11T06:49:10+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8455,6 +8455,22 @@
         "nist",
         "ai-standards",
         "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "32fcbbd6412603b5",
+      "date": "2026-08-10",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Join the Inaugural D-TECT Forum",
+      "summary": "Join the Inaugural D-TECT Forum lobacni Mon, 08/10/2026 - 14:07 11 November 2026 The Drone Tech for Countering Threats (D-TECT) Forum is the EU industrial coordination mechanism for drone and counter-drone technologies. © Marcus Jacobi The European Commission invites interested organisations to join the inaugural D-Tect Forum on 11 November 2026 . We are looking for companies, research organisations, universities, industry associations, standardisation bodies and innovation networks active in the drones domain. The inaugural Forum aims to gather 100+ high-level leaders to advance Europe’s ambitions in Drone and Counter-Drone technology. Participants will explore near-term cooperation across the full drone and counter-drone value chain, including detection, tracking and neutralisation systems, autonomy and AI-enabled navigation, sensing and electronic warfare, secure connectivity, and the enabling technologies that underpin them, such as semiconductors, cloud, cyber and data. The priorities and composition of the thematic Working Groups will be defined during the Forum. To participate in the event, please submit your application . This form is also a registration to the Call of Expression of Interest to join future events of the D-TECT forum. Please note that submitting an application does not by itself confirm your registration for the inaugural Forum. Further, results of membership applications will be communicated after the event. Downloads Call for Expression of interest - ​​​Drone Tech for Countering Threats Forum​ Download Privacy statement - Drone Tech for Countering Threats (D-TECT) Forum Download Terms of reference - Drone Tech for Countering Threats Forum Download Related topics Cybersecurity Tech sovereignty Hybrid security threats",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/join-inaugural-d-tect-forum",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
       ],
       "category": "news"
     }
