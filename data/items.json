@@ -1,5 +1,29 @@
 [
   {
+    "id": "7564f26521c56475",
+    "type": "update",
+    "title": "NIST National Construction Safety Team Advisory Committee Meeting Scheduled for Sept. 23 and 24, 2026",
+    "why": "Anyone wishing to attend the virtual meeting must register by 5 p.m.",
+    "summary": "Anyone wishing to attend the virtual meeting must register by 5 p.m. EDT on Wednesday, Sept. 16.",
+    "jurisdiction": "US",
+    "source": "NIST",
+    "source_url": "https://www.nist.gov/news-events/news/2026/08/nist-national-construction-safety-team-advisory-committee-meeting-scheduled",
+    "date": "2026-08-13",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "cybersecurity"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "NIST",
+        "https://www.nist.gov/news-events/news/2026/08/nist-national-construction-safety-team-advisory-committee-meeting-scheduled"
+      ]
+    ]
+  },
+  {
     "id": "32fcbbd6412603b5",
     "type": "news",
     "title": "Join the Inaugural D-TECT Forum",
