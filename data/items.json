@@ -1,5 +1,51 @@
 [
   {
+    "id": "a6c33e6490149236",
+    "type": "news",
+    "title": "NIST Researchers Supersize Quantum Technology to Help Detect Faint Photons",
+    "why": "Our everyday life is flooded with photons, the quantum building blocks of light.",
+    "summary": "Our everyday life is flooded with photons, the quantum building blocks of light. For cutting-edge technology, from quantum computing to deep-tissue imaging, detecting every single photon counts. “Photons carry information,” said Kristen Parzuchowski",
+    "jurisdiction": "US",
+    "source": "NIST",
+    "source_url": "https://www.nist.gov/news-events/news/2026/08/nist-researchers-supersize-quantum-technology-help-detect-faint-photons",
+    "date": "2026-08-24",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "cybersecurity"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "NIST",
+        "https://www.nist.gov/news-events/news/2026/08/nist-researchers-supersize-quantum-technology-help-detect-faint-photons"
+      ]
+    ]
+  },
+  {
+    "id": "d2fb42757467f8ac",
+    "type": "news",
+    "title": "Pitching day: Finalists of the Apply AI Startup Award",
+    "why": "Pitching day: Finalists of the Apply AI Startup Award Mon, 08/24/2026 - 10:19 20 October 2026 Watch the pitches of the top 10 finalists of the Apply AI Startup Award and learn…",
+    "summary": "Pitching day: Finalists of the Apply AI Startup Award Anonymous (not verified) Mon, 08/24/2026 - 10:19 20 October 2026 Watch the pitches of the top 10 finalists of the Apply AI Startup Award and learn more about the European AI innovation ecosystem. The Apply AI Startup Award recognises innovative European startups and scaleups developing AI solutions in the 11 strategic sectors covered by the Apply AI Strategy . In July, national startup associations nominated 24 European AI startups and scaleups across 16 Member States. Independent experts are currently evaluating the nominations and will choose the top 10 finalists for the pitching event. Each startup will have 3 minutes to pitch their AI solution and convince the jury. After the pitching session the jury will select the 3 winners. Among other rewards, they will be invited to pitch their solution and receive a trophy and certificate on the main stage of the Apply AI Summit . Registration will open soon. Agenda 14:00-15:30 CET(to be confirmed) Welcome and introduction Part I - Pitches Presentation from the AI Office Part II - Pitches Conclusion Jury & finalists The jury members and the top 10 Finalists will be announced soon. Related topics Artificial intelligence",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/events/pitching-day-finalists-apply-ai-startup-award",
+    "date": "2026-08-24",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/events/pitching-day-finalists-apply-ai-startup-award"
+      ]
+    ]
+  },
+  {
     "id": "5de04348eeb11196",
     "type": "update",
     "title": "Call for tenders: Study on how online marketplace design influences user behaviour",
