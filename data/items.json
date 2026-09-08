@@ -1,5 +1,27 @@
 [
   {
+    "id": "916d6e5dedd2a78c",
+    "type": "news",
+    "title": "Apply AI Summit",
+    "why": "Apply AI Summit Mon, 09/07/2026 - 15:58 17 November 2026 The EGG (Brussels) The Apply AI Summit will gather high-level stakeholders – from industrial representatives, policymakers…",
+    "summary": "Apply AI Summit Anonymous (not verified) Mon, 09/07/2026 - 15:58 17 November 2026 The EGG (Brussels) The Apply AI Summit will gather high-level stakeholders – from industrial representatives, policymakers and startups – to accelerate AI implementation in strategic industries. Main link https://digital-strategy.ec.europa.eu/en/policies/apply-ai-summit Register until 13 November Related topics Events Artificial intelligence Apply AI Summit",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/events/apply-ai-summit",
+    "date": "2026-09-07",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/events/apply-ai-summit"
+      ]
+    ]
+  },
+  {
     "id": "daad979956c6ff50",
     "type": "update",
     "title": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act",

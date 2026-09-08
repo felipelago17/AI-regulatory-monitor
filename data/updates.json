@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T11:03:23+00:00",
+  "generated_at": "2026-09-08T10:17:40+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8569,6 +8569,22 @@
         "digital-regulation"
       ],
       "category": "update"
+    },
+    {
+      "id": "916d6e5dedd2a78c",
+      "date": "2026-09-07",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Apply AI Summit",
+      "summary": "Apply AI Summit Anonymous (not verified) Mon, 09/07/2026 - 15:58 17 November 2026 The EGG (Brussels) The Apply AI Summit will gather high-level stakeholders – from industrial representatives, policymakers and startups – to accelerate AI implementation in strategic industries. Main link https://digital-strategy.ec.europa.eu/en/policies/apply-ai-summit Register until 13 November Related topics Events Artificial intelligence Apply AI Summit",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/apply-ai-summit",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
     }
   ]
 }
