@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T10:15:56+00:00",
+  "generated_at": "2026-09-11T10:14:27+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8583,6 +8583,22 @@
         "eu",
         "ai-act",
         "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "f07e8993b12e13bb",
+      "date": "2026-09-10",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST-Developed Quantum Sensors Improve Nuclear Monitoring",
+      "summary": "New X-ray measurements will allow scientists to more accurately monitor nuclear material at power plants and weapons facilities.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/09/nist-developed-quantum-sensors-improve-nuclear-monitoring",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
       ],
       "category": "news"
     }

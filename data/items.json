@@ -1,5 +1,29 @@
 [
   {
+    "id": "f07e8993b12e13bb",
+    "type": "news",
+    "title": "NIST-Developed Quantum Sensors Improve Nuclear Monitoring",
+    "why": "New X-ray measurements will allow scientists to more accurately monitor nuclear material at power plants and weapons facilities.",
+    "summary": "New X-ray measurements will allow scientists to more accurately monitor nuclear material at power plants and weapons facilities.",
+    "jurisdiction": "US",
+    "source": "NIST",
+    "source_url": "https://www.nist.gov/news-events/news/2026/09/nist-developed-quantum-sensors-improve-nuclear-monitoring",
+    "date": "2026-09-10",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "cybersecurity"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "NIST",
+        "https://www.nist.gov/news-events/news/2026/09/nist-developed-quantum-sensors-improve-nuclear-monitoring"
+      ]
+    ]
+  },
+  {
     "id": "916d6e5dedd2a78c",
     "type": "news",
     "title": "Apply AI Summit",
