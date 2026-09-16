@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T10:41:48+00:00",
+  "generated_at": "2026-09-16T10:30:03+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8595,6 +8595,38 @@
       "summary": "New X-ray measurements will allow scientists to more accurately monitor nuclear material at power plants and weapons facilities.",
       "source": "NIST",
       "url": "https://www.nist.gov/news-events/news/2026/09/nist-developed-quantum-sensors-improve-nuclear-monitoring",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "d94837203f471413",
+      "date": "2026-09-15",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Awards More Than $30 Million for MEP Centers in 11 States and Puerto Rico",
+      "summary": "The awards will help small and medium-sized manufacturers increase the adoption of advanced manufacturing technology.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/09/nist-awards-more-30-million-mep-centers-11-states-and-puerto-rico",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "fce54ff4f5f7a4fc",
+      "date": "2026-09-15",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Finalizes Guidelines on Protecting Online Identity and Access Tokens From Misuse",
+      "summary": "The finalized publication is designed to help organizations take effective steps to avoid exposing tokens to attackers.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/09/nist-finalizes-guidelines-protecting-online-identity-and-access-tokens",
       "tags": [
         "nist",
         "ai-standards",
