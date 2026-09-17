@@ -1,5 +1,49 @@
 [
   {
+    "id": "68359426d8b15dd8",
+    "type": "enforce",
+    "title": "EU KIDS Act to restrict social media platforms’ access to children in the EU",
+    "why": "EU KIDS Act to restrict social media platforms’ access to children in the EU Thu, 09/17/2026 - 09:36 Today, the European Commission has adopted the EU KIDS Act to enhance the…",
+    "summary": "EU KIDS Act to restrict social media platforms’ access to children in the EU Anonymous (not verified) Thu, 09/17/2026 - 09:36 Today, the European Commission has adopted the EU KIDS Act to enhance the online safety of children throughout the Union. The proposal prohibits social media platforms from accessing children under the age of 13 and sets an EU-wide minimum age for minors to open an account of their own at the age of 15, thereby ensuring a gradual approach. The KIDS Act also reverses the burden of proof. Now, service providers will have to show that their services are age-appropriate and safe by design. Commission President, Ursula von der Leyen , said: “Today, our children are engaging with the most sophisticated technologies ever created. Technology that was never created with their wellbeing in mind. Our KIDS Act is reversing the burden of proof - it is for platforms to show they are safe by design. And we put parents back in the driving seat, giving them the tools to help their children navigate a safer online world.” Read the full press release and factsheet . Find further information: Kids Act - Proposal and supporting documents KIDS Act - an overview KIDS Act - questions and answers Related topics Better Internet for Children Strengthening trust and security Online platforms and e-commerce Related content Policy and legislation 17 September 2026 Proposal for EU KIDS Act - 'EU Keeping Internet Digital Spaces Accountable and Trustworthy' This proposal seeks to protect minors from risky digital services and AI systems, uphold the digital single market and maintain a coherent regulatory framework and enforcement structure for the protection of minors online.",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/news/eu-kids-act-restrict-social-media-platforms-access-children-eu",
+    "date": "2026-09-17",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/news/eu-kids-act-restrict-social-media-platforms-access-children-eu"
+      ]
+    ]
+  },
+  {
+    "id": "842e4959e02e970f",
+    "type": "enforce",
+    "title": "Proposal for EU KIDS Act - 'EU Keeping Internet Digital Spaces Accountable and Trustworthy'",
+    "why": "Proposal for EU KIDS Act - 'EU Keeping Internet Digital Spaces Accountable and Trustworthy' Thu, 09/17/2026 - 09:21 This proposal seeks to protect minors from risky digital…",
+    "summary": "Proposal for EU KIDS Act - 'EU Keeping Internet Digital Spaces Accountable and Trustworthy' Anonymous (not verified) Thu, 09/17/2026 - 09:21 This proposal seeks to protect minors from risky digital services and AI systems, uphold the digital single market and maintain a coherent regulatory framework and enforcement structure for the protection of minors online. The proposal recognises the risks that minors face on certain online social networking services and video-sharing platforms and therefore limits autonomous account creation on those specific platforms and systems by children below the age of 15 years. By providing one age across the European Union, it harmonises diverging national rules removing obstacles to the implementation of the Digital Single Market, ensuring legal certainty and a similar level of protection for all children in the European Union. Below you can download the proposal for EU KIDS Act - 'EU Keeping Internet Digital Spaces Accountable and Trustworthy', together with the Communication and the Staff Working Document (SWD) accompanying it. Find further information: Press release KIDS Act - an overview KIDS Act - questions and answers Downloads 1 - Proposal for EU KIDS Act - 'EU Keeping Internet Digital Spaces Accountable and Trustworthy' Download 2 - Communication accompanying the KIDS Act - An EU approach to online child safety Download 3 - Staff Working Document (SWD) - Analysis of Impacts accoumpaning the proposal for EU kids Act Download Related topics Better Internet for Children Strengthening trust and security Online platforms and e-commerce Related content Press release 17 September 2026 EU KIDS Act to restrict social media platforms’ access to children in the EU Today, the European Commission has adopted the EU KIDS Act to enhance the online safety of children throughout the Union.",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy",
+    "date": "2026-09-17",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy"
+      ]
+    ]
+  },
+  {
     "id": "d94837203f471413",
     "type": "news",
     "title": "NIST Awards More Than $30 Million for MEP Centers in 11 States and Puerto Rico",
