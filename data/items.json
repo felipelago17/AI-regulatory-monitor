@@ -1,5 +1,29 @@
 [
   {
+    "id": "dd6ce6ecd8042e8c",
+    "type": "update",
+    "title": "NIST Provides Updates on National Construction Safety Team Activities",
+    "why": "The presentations highlighted the importance of NIST applying its own expertise and the expertise of others through collaborations and contracts.",
+    "summary": "The presentations highlighted the importance of NIST applying its own expertise and the expertise of others through collaborations and contracts.",
+    "jurisdiction": "US",
+    "source": "NIST",
+    "source_url": "https://www.nist.gov/news-events/news/2026/09/nist-provides-updates-national-construction-safety-team-activities",
+    "date": "2026-09-28",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "cybersecurity"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "NIST",
+        "https://www.nist.gov/news-events/news/2026/09/nist-provides-updates-national-construction-safety-team-activities"
+      ]
+    ]
+  },
+  {
     "id": "e597abb253b9ffa0",
     "type": "news",
     "title": "NIST Awards More Than $1.7 Million to Support Cybersecurity Workforce Development Across 8 States",

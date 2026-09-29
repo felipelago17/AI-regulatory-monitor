@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T12:22:56+00:00",
+  "generated_at": "2026-09-29T11:48:59+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8695,6 +8695,22 @@
         "eu",
         "ai-act",
         "digital-regulation"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "dd6ce6ecd8042e8c",
+      "date": "2026-09-28",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Provides Updates on National Construction Safety Team Activities",
+      "summary": "The presentations highlighted the importance of NIST applying its own expertise and the expertise of others through collaborations and contracts.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/09/nist-provides-updates-national-construction-safety-team-activities",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
       ],
       "category": "update"
     }
