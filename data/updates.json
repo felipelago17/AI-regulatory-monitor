@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T11:48:59+00:00",
+  "generated_at": "2026-09-30T11:35:30+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8713,6 +8713,22 @@
         "cybersecurity"
       ],
       "category": "update"
+    },
+    {
+      "id": "0e4ad28f4847d972",
+      "date": "2026-09-29",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Targeted consultation to support a better copyright environment for creativity and innovation",
+      "summary": "Targeted consultation to support a better copyright environment for creativity and innovation Anonymous (not verified) Tue, 09/29/2026 - 10:15 Opening: 29 September 2026 Closing: 03 November 2026 The Commission has launched a targeted consultation in preparation of a possible initiative for a better copyright environment for creativity and innovation. © anyaberkut Main link https://ec.europa.eu/eusurvey/runner/targetedconsultationcopyright Related topics Research and Innovation Copyright Artificial intelligence",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-support-better-copyright-environment-creativity-and-innovation",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
     }
   ]
 }
