@@ -1,5 +1,29 @@
 [
   {
+    "id": "e9a4373184c85dff",
+    "type": "news",
+    "title": "Physicist Jun Ye Wins Wolf Prize in Physics",
+    "why": "The award cites Ye’s achievement in “transformative, widely applicable advances in the control of ultracold atomic systems.”",
+    "summary": "The award cites Ye’s achievement in “transformative, widely applicable advances in the control of ultracold atomic systems.”",
+    "jurisdiction": "US",
+    "source": "NIST",
+    "source_url": "https://www.nist.gov/news-events/news/2026/10/physicist-jun-ye-wins-wolf-prize-physics",
+    "date": "2026-10-05",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "cybersecurity"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "NIST",
+        "https://www.nist.gov/news-events/news/2026/10/physicist-jun-ye-wins-wolf-prize-physics"
+      ]
+    ]
+  },
+  {
     "id": "0e4ad28f4847d972",
     "type": "news",
     "title": "Targeted consultation to support a better copyright environment for creativity and innovation",
