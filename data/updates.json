@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T12:26:17+00:00",
+  "generated_at": "2026-10-07T12:19:23+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8743,6 +8743,22 @@
         "nist",
         "ai-standards",
         "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "681cc953fe7b9edb",
+      "date": "2026-10-05",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Establishing the European AI Observatory: Call for tenders",
+      "summary": "Establishing the European AI Observatory: Call for tenders Anonymous (not verified) Mon, 10/05/2026 - 09:22 Opening: 05 October 2026 Closing: 03 November 2026 The Commission is seeking a procurement contract for the setup and operation of the AI Observatory for a period of three years. The European AI Observatory is a new initiative to monitor and boost the uptake of AI in key sectors across the EU. It will support the objectives of the Apply AI Strategy . The project will provide indicators to assess the impact of AI in strategic sectors. It will also monitor AI development and changes it may bring to the labour market and the economy overall, as well as support the organisation of sectorial discussions. The successful contractor will: Develop a robust monitoring framework focusing on a set of key performance indicators to track the sectoral uptake of AI. The framework should help to understand related key domains – including AI investments, AI-related patents, skills and talents, and computing infrastructure – and monitor their impact on the EU economy and society. Prepare a set of sector-specific qualitative monitoring reports identifying and assessing AI use cases accross core processes of strategic sectors. Prepare a set of reports on cross-cutting challenges identified in the Apply AI Strategy and beyond. Develop and manage the AI Observatory’s website. The website should display – in an interactive and appealing way – key performance indicators, strategic sector overview fiches, a tracker of the policy actions of the Commission on AI, a selection of reports on AI, as well as links to the national AI strategies of EU countries. Learn more about this tender and apply through the EU Funding & Tenders Portal . Related topics Artificial intelligence",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/establishing-european-ai-observatory-call-tenders",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
       ],
       "category": "news"
     }
