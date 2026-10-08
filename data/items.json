@@ -1,5 +1,27 @@
 [
   {
+    "id": "c9c99e337b0efcb0",
+    "type": "news",
+    "title": "European AI Innovation Month",
+    "why": "European AI Innovation Month Thu, 10/08/2026 - 09:00 14 October 2026 - 17 November 2026 From 14 October to 17 November 2026, this initiative led by the European Commission in…",
+    "summary": "European AI Innovation Month Anonymous (not verified) Thu, 10/08/2026 - 09:00 14 October 2026 - 17 November 2026 From 14 October to 17 November 2026, this initiative led by the European Commission in partnership with the upcoming Irish Presidency of the Council promotes a series of online and in-person events showcasing AI innovation and adoption across Europe. Main link https://digital-strategy.ec.europa.eu/en/policies/european-ai-innovation-month Related topics Events Artificial intelligence Apply AI Summit",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/events/european-ai-innovation-month",
+    "date": "2026-10-08",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/events/european-ai-innovation-month"
+      ]
+    ]
+  },
+  {
     "id": "e9a4373184c85dff",
     "type": "news",
     "title": "Physicist Jun Ye Wins Wolf Prize in Physics",
