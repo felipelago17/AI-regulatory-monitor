@@ -1,5 +1,27 @@
 [
   {
+    "id": "c4e0f25e9abe4296",
+    "type": "enforce",
+    "title": "Commission holds special meeting of Scientific panel on frontier AI safety and risks",
+    "why": "Commission holds special meeting of Scientific panel on frontier AI safety and risks Fri, 10/09/2026 - 09:16 Today, the Commission holds a special meeting of the Scientific Panel…",
+    "summary": "Commission holds special meeting of Scientific panel on frontier AI safety and risks Anonymous (not verified) Fri, 10/09/2026 - 09:16 Today, the Commission holds a special meeting of the Scientific Panel on artificial intelligence (AI). The panel has been investigating recent loss-of-control incidents, and together with the Commission’s AI Office, has worked on a set of questions for the companies that developed the models involved. Henna Virkkunen, Executive Vice-President for Tech Sovereignty, Security and Democracy, will attend the meeting. The Scientific Panel brings together 60 world-leading independent experts who advise the EU AI Office and national authorities on systemic risks, model classification, evaluation methodologies, and cross-border market surveillance. During the meeting, the panel will present recommendations to the Commission on frontier AI safety and security risks. Executive-Vice President Henna Virkkunen said: “The EU has the first law in the world that addresses systemic risk from AI, and we need state-of-the-art scientific input. AI capabilities are advancing rapidly, but with a strong legal framework, decisive enforcement and the best scientific minds supporting this work, Europe can lead in ensuring safe and secure AI.” Find out more about the Scientific P anel on artificial intelligence (AI) Related topics Artificial intelligence AI Office Scientific panel",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-holds-special-meeting-scientific-panel-frontier-ai-safety-and-risks",
+    "date": "2026-10-09",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/news/commission-holds-special-meeting-scientific-panel-frontier-ai-safety-and-risks"
+      ]
+    ]
+  },
+  {
     "id": "c9c99e337b0efcb0",
     "type": "news",
     "title": "European AI Innovation Month",
@@ -18,6 +40,54 @@
         "Read more",
         "EU Digital Strategy",
         "https://digital-strategy.ec.europa.eu/en/events/european-ai-innovation-month"
+      ]
+    ]
+  },
+  {
+    "id": "25dc3f92d49d9b4d",
+    "type": "news",
+    "title": "NIST Joins White House Effort to Drive ‘A New Golden Age of Science’",
+    "why": "As the nation’s lead agency for measurement science and standards, NIST is uniquely positioned to bridge the distance between fundamental discovery and industrial capability.",
+    "summary": "As the nation’s lead agency for measurement science and standards, NIST is uniquely positioned to bridge the distance between fundamental discovery and industrial capability.",
+    "jurisdiction": "US",
+    "source": "NIST",
+    "source_url": "https://www.nist.gov/news-events/news/2026/10/nist-joins-white-house-effort-drive-new-golden-age-science",
+    "date": "2026-10-08",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "cybersecurity"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "NIST",
+        "https://www.nist.gov/news-events/news/2026/10/nist-joins-white-house-effort-drive-new-golden-age-science"
+      ]
+    ]
+  },
+  {
+    "id": "9acfb21cd4954b68",
+    "type": "enforce",
+    "title": "NIST Study Shows How the Toxic Substances Mixed Into Fentanyl Vary Across the U.S. and Change Over Time",
+    "why": "Alerting first responders and law enforcement to the presence of these dangerous chemicals in local supplies of fentanyl can help save lives.",
+    "summary": "Alerting first responders and law enforcement to the presence of these dangerous chemicals in local supplies of fentanyl can help save lives.",
+    "jurisdiction": "US",
+    "source": "NIST",
+    "source_url": "https://www.nist.gov/news-events/news/2026/10/nist-study-shows-how-toxic-substances-mixed-fentanyl-vary-across-us-and",
+    "date": "2026-10-08",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "cybersecurity"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "NIST",
+        "https://www.nist.gov/news-events/news/2026/10/nist-study-shows-how-toxic-substances-mixed-fentanyl-vary-across-us-and"
       ]
     ]
   },
@@ -64,6 +134,28 @@
         "Read more",
         "EU Digital Strategy",
         "https://digital-strategy.ec.europa.eu/en/funding/establishing-european-ai-observatory-call-tenders"
+      ]
+    ]
+  },
+  {
+    "id": "7dab6e988db9776c",
+    "type": "update",
+    "title": "Consultation on EU KIDS ACT",
+    "why": "Consultation on EU KIDS ACT Fri, 10/02/2026 - 12:26 Opening: 02 October 2026 Closing: 03 December 2026 All feedback received will be summarised by the European Commission and…",
+    "summary": "Consultation on EU KIDS ACT Anonymous (not verified) Fri, 10/02/2026 - 12:26 Opening: 02 October 2026 Closing: 03 December 2026 All feedback received will be summarised by the European Commission and presented to the European Parliament and Council with the aim of feeding into the legislative debate. Main link https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/19418… Related topics Better Internet for Children Strengthening trust and security Online platforms and e-commerce",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/consultations/consultation-eu-kids-act",
+    "date": "2026-10-02",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/consultations/consultation-eu-kids-act"
       ]
     ]
   },

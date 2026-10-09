@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T12:28:50+00:00",
+  "generated_at": "2026-10-09T12:17:45+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8777,6 +8777,70 @@
         "digital-regulation"
       ],
       "category": "news"
+    },
+    {
+      "id": "25dc3f92d49d9b4d",
+      "date": "2026-10-08",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Joins White House Effort to Drive ‘A New Golden Age of Science’",
+      "summary": "As the nation’s lead agency for measurement science and standards, NIST is uniquely positioned to bridge the distance between fundamental discovery and industrial capability.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/10/nist-joins-white-house-effort-drive-new-golden-age-science",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "9acfb21cd4954b68",
+      "date": "2026-10-08",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Study Shows How the Toxic Substances Mixed Into Fentanyl Vary Across the U.S. and Change Over Time",
+      "summary": "Alerting first responders and law enforcement to the presence of these dangerous chemicals in local supplies of fentanyl can help save lives.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/10/nist-study-shows-how-toxic-substances-mixed-fentanyl-vary-across-us-and",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "enforcement"
+    },
+    {
+      "id": "c4e0f25e9abe4296",
+      "date": "2026-10-09",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Commission holds special meeting of Scientific panel on frontier AI safety and risks",
+      "summary": "Commission holds special meeting of Scientific panel on frontier AI safety and risks Anonymous (not verified) Fri, 10/09/2026 - 09:16 Today, the Commission holds a special meeting of the Scientific Panel on artificial intelligence (AI). The panel has been investigating recent loss-of-control incidents, and together with the Commission’s AI Office, has worked on a set of questions for the companies that developed the models involved. Henna Virkkunen, Executive Vice-President for Tech Sovereignty, Security and Democracy, will attend the meeting. The Scientific Panel brings together 60 world-leading independent experts who advise the EU AI Office and national authorities on systemic risks, model classification, evaluation methodologies, and cross-border market surveillance. During the meeting, the panel will present recommendations to the Commission on frontier AI safety and security risks. Executive-Vice President Henna Virkkunen said: “The EU has the first law in the world that addresses systemic risk from AI, and we need state-of-the-art scientific input. AI capabilities are advancing rapidly, but with a strong legal framework, decisive enforcement and the best scientific minds supporting this work, Europe can lead in ensuring safe and secure AI.” Find out more about the Scientific P anel on artificial intelligence (AI) Related topics Artificial intelligence AI Office Scientific panel",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-holds-special-meeting-scientific-panel-frontier-ai-safety-and-risks",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "enforcement"
+    },
+    {
+      "id": "7dab6e988db9776c",
+      "date": "2026-10-02",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Consultation on EU KIDS ACT",
+      "summary": "Consultation on EU KIDS ACT Anonymous (not verified) Fri, 10/02/2026 - 12:26 Opening: 02 October 2026 Closing: 03 December 2026 All feedback received will be summarised by the European Commission and presented to the European Parliament and Council with the aim of feeding into the legislative debate. Main link https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/19418… Related topics Better Internet for Children Strengthening trust and security Online platforms and e-commerce",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/consultations/consultation-eu-kids-act",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "update"
     }
   ]
 }
