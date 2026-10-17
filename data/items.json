@@ -1,5 +1,29 @@
 [
   {
+    "id": "2221263d96a40183",
+    "type": "news",
+    "title": "New Chip-Based ‘Tape Measure’ for Light Could Revolutionize Mobile Timekeeping and Enhance National Security",
+    "why": "The new device could help provide vital navigation signals when GPS is either unavailable or has been jammed.",
+    "summary": "The new device could help provide vital navigation signals when GPS is either unavailable or has been jammed.",
+    "jurisdiction": "US",
+    "source": "NIST",
+    "source_url": "https://www.nist.gov/news-events/news/2026/10/new-chip-based-tape-measure-light-could-revolutionize-mobile-timekeeping",
+    "date": "2026-10-16",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "cybersecurity"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "NIST",
+        "https://www.nist.gov/news-events/news/2026/10/new-chip-based-tape-measure-light-could-revolutionize-mobile-timekeeping"
+      ]
+    ]
+  },
+  {
     "id": "c4e0f25e9abe4296",
     "type": "enforce",
     "title": "Commission holds special meeting of Scientific panel on frontier AI safety and risks",
