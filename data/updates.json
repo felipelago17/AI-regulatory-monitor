@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T11:35:30+00:00",
+  "generated_at": "2026-10-20T10:39:51+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8873,6 +8873,22 @@
         "digital-regulation"
       ],
       "category": "update"
+    },
+    {
+      "id": "c4b3d05dbf60c876",
+      "date": "2026-10-20",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Digital Services Act study on financial scams on online platforms and ways to counter them",
+      "summary": "Digital Services Act study on financial scams on online platforms and ways to counter them Anonymous (not verified) Tue, 10/20/2026 - 08:47 A new study maps the main types of online financial scams, platform features scammers exploit, their impact on users and society and measures platforms can take to stop them. Online financial scams – fraudulent schemes whose primary aim is to extract money from victims – have grown into a pervasive crime in the digital age. They are present across all types of online intermediary services, including Very Large Online Platforms (VLOPs) and Very Large Search Engines (VLOSEs) . The European Commission has procured this study in 2025 to support its supervisory and enforcement tasks under the Digital Services Act (DSA) . It provides a typological mapping of financial scam formats across online platforms and assesses existing and emerging mitigation strategies to curb financial scams online. The study was carried out by Open Evidence and Spark Legal and Policy Consulting. It does not evaluate compliance by providers of VLOPs and VLOSEs. Read the study . Key insights A diverse typology of scams The study maps different types of online financial scams and categorises them in six broad categories: investment scams romance scams e-commerce scams employment and collaboration scams unexpected gain scams disaster relief scams The study finds that investment scams and romance scams are the most common and fastest-growing forms of scams in Europe. It also finds that the scam landscape is increasingly being redefined by overlapping methods across different categories. Online platforms features and financial scams The study presents information on relevant features related to scams on online platforms including: advertising systems recommender systems content moderation of organic content monetisation systems app store content and private messaging functions inauthentic identities and account manipulation deceptive commercial content generative AI The study also shows how financial scams operate across different platforms and are facilitated by organised criminal networks that sell tools and services, effectively lowering the barrier to entry. Identifying effective countermeasures The study identifies relevant countermeasures across 4 categories: Access and gatekeeping measures, such as know your business customer and identity requirements are the first line of defence against online financial scams; Detection and removal measures, including automated and human-review based measures, can neutralise scam content; User facing measures – such as reporting tools and information on redress – can equip end users with tools and information to identify and report online scams; Platform-level policies and cooperation with third parties can help platforms identify, prevent and address online scams. Related topics Online platforms and e-commerce DSA - Digital Services Act",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/digital-services-act-study-financial-scams-online-platforms-and-ways-counter-them",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "enforcement"
     }
   ]
 }
