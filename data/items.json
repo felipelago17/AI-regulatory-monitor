@@ -1,5 +1,27 @@
 [
   {
+    "id": "10394490fd5ef300",
+    "type": "enforce",
+    "title": "Commission to investigate how Booking.com combats scams and fraud under the Digital Services Act",
+    "why": "Commission to investigate how Booking.com combats scams and fraud under the Digital Services Act Wed, 10/21/2026 - 12:06 Today, the European Commission has opened formal…",
+    "summary": "Commission to investigate how Booking.com combats scams and fraud under the Digital Services Act Anonymous (not verified) Wed, 10/21/2026 - 12:06 Today, the European Commission has opened formal proceedings to assess whether Booking.com may have breached the Digital Services Act (DSA) by not having diligently assessed or effectively mitigated risks related to fraudulent listings and phishing scams. The platform may also have breached the DSA when it comes to transparency because it did not clearly label as ads those listings whose providers paid for a higher ranking in search results shown to users. The investigation will focus on the following areas: Fraudulent and non-compliant listings on Booking.com Phishing scams exploiting Booking.com's reservation and guest data Paid-for boosted listings not clearly identifiable as advertisements Read the full details in the press release Find further information about: Supervision of the designated very large online platforms and search engines under DSA Digital Services Act - main aspects of the regulation User rights under the Digital Services Act - an overview Related topics Online platforms and e-commerce DSA - Digital Services Act",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-investigate-how-bookingcom-combats-scams-and-fraud-under-digital-services-act",
+    "date": "2026-10-21",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/news/commission-investigate-how-bookingcom-combats-scams-and-fraud-under-digital-services-act"
+      ]
+    ]
+  },
+  {
     "id": "c4b3d05dbf60c876",
     "type": "enforce",
     "title": "Digital Services Act study on financial scams on online platforms and ways to counter them",
