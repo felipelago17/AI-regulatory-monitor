@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T11:16:32+00:00",
+  "generated_at": "2026-10-28T11:50:32+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8905,6 +8905,22 @@
         "digital-regulation"
       ],
       "category": "enforcement"
+    },
+    {
+      "id": "fc4af51dc82abb51",
+      "date": "2026-10-27",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards",
+      "summary": "This report describes the timelines and migration activities for federal agencies, and it can serve as a key resource for technology providers and organizations that are developing their quantum-readiness road maps.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
     }
   ]
 }

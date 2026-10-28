@@ -1,5 +1,29 @@
 [
   {
+    "id": "fc4af51dc82abb51",
+    "type": "news",
+    "title": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards",
+    "why": "This report describes the timelines and migration activities for federal agencies, and it can serve as a key resource for technology providers and organizations that are…",
+    "summary": "This report describes the timelines and migration activities for federal agencies, and it can serve as a key resource for technology providers and organizations that are developing their quantum-readiness road maps.",
+    "jurisdiction": "US",
+    "source": "NIST",
+    "source_url": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
+    "date": "2026-10-27",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "cybersecurity"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "NIST",
+        "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography"
+      ]
+    ]
+  },
+  {
     "id": "10394490fd5ef300",
     "type": "enforce",
     "title": "Commission to investigate how Booking.com combats scams and fraud under the Digital Services Act",
