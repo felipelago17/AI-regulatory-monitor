@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T11:58:11+00:00",
+  "generated_at": "2026-10-30T11:52:22+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8921,6 +8921,38 @@
         "cybersecurity"
       ],
       "category": "news"
+    },
+    {
+      "id": "550ba14f570b4778",
+      "date": "2026-10-29",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Local Digital Twins CiTiVERSE EDIC joins Smart City Expo World Congress 2026",
+      "summary": "Local Digital Twins CiTiVERSE EDIC joins Smart City Expo World Congress 2026 Anonymous (not verified) Thu, 10/29/2026 - 09:12 03 November 2026 - 05 November 2026 Fira de Barcelona, Hall 3, Stand D71 Explore human-centric AI solutions for smart cities with the LDT CiTiVERSE EDIC at Smart City Expo World Congress 2026. The Local Digital Twin (LDT) CiTiVERSE European Digital Infrastructure Consortium (EDIC) is – together with city, regional and industrial stakeholders – showcasing AI solutions for liveable cities and communities in a pavilion at Smart City Expo World Congress 2026 . There, visitors can see and experience how digital twins, data and immersive technologies work in practice. Aligned with the Apply AI Strategy , these solutions show how responsible AI can strengthen governance, public services and quality of life. This event is part of the European AI Innovation Month , an initiative promoting a series of events showcasing AI innovation and adoption across Europe. Find more details about the LDT CiTiVERSE EDIC at the Smart City Expo World Congress 2026 . The LDT CiTiVERSE EDIC is building an EU ecosystem of advanced AI solutions for cities. It brings cities and communities together to explore AI resources to improve decision-making and address major shared societal challenges.Anchored in a balanced and empowered social fabric, this initiative showcaseshow human-centric AI and Local Digital Twins can be translated into practical, replicable solutions for cities. Find out more about the EU work on AI for liveable cities . Related topics Events Artificial intelligence Europe's Digital Decade European Digital Infrastructure Consortium",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/local-digital-twins-citiverse-edic-joins-smart-city-expo-world-congress-2026",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "8add27f14e1adc0e",
+      "date": "2026-10-26",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Commission accepts Temu's action plan to remedy the breach of the Digital Services Act",
+      "summary": "Commission accepts Temu's action plan to remedy the breach of the Digital Services Act Anonymous (not verified) Mon, 10/26/2026 - 10:28 The European Commission has accepted Temu's action plan to comply with the Digital Services Act (DSA) and tackle the availability of illegal products online. Temu's plan focuses on five measures to remedy its breach of the DSA. The company will carry out a platform-specific risk analysis. It will also use reliable metrics to evaluate the effectiveness of the mitigation measures put in place in reducing the risk of dissemination of illegal content. The platform will assess the limitations of its content moderation and analyse whether, and how, its recommender systems may amplify the spread of illegal goods. Additionally, Temu will examine the influence of intentional manipulation and amplification of illegal items, including by sellers exploiting Temu's features to spread potentially illegal listings. The company now has four months to conduct an interim risk assessment that covers a six-month period, until 30 November 2026, to ensure the implementation of the measures of the action plan. The action plan is another example of how the DSA is enhancing consumer protection online and limiting the spread of illegal products in Europe. The action plan was submitted following a non-compliance decision in May 2026 , in which the Commission found that Temu had failed to comply with its risk assessment obligations, and issued a €200 million fine. Read more about Temu's corrective measures to terminate breach of the DSA . Find further information about: Supervision of the designated very large online platforms and search engines under DSA Digital Services Act - main aspects of the regulation User rights under the Digital Services Act - an overview Related topics Online platforms and e-commerce DSA - Digital Services Act Related content News article 26 October 2026 Commission accepts Temu's corrective measures to terminate breach of the Digital Services Act The European Commission has accepted Temu’s action plan to remedy its infringements of the Digital Services Act (DSA).",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-accepts-temus-action-plan-remedy-breach-digital-services-act",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "update"
     }
   ]
 }
