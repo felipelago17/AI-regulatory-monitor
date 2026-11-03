@@ -1,5 +1,51 @@
 [
   {
+    "id": "703f483c7d0fa887",
+    "type": "news",
+    "title": "Web Summit 2026",
+    "why": "Web Summit 2026 Tue, 11/03/2026 - 11:13 10 November 2026 - 12 November 2026 DG Connect will be at Web Summit in Lisbon from 10 to 12 November.",
+    "summary": "Web Summit 2026 Anonymous (not verified) Tue, 11/03/2026 - 11:13 10 November 2026 - 12 November 2026 DG Connect will be at Web Summit in Lisbon from 10 to 12 November. Main link https://digital-strategy.ec.europa.eu/en/news/digitaleu-web-summit-2026-support… Related topics Cloud computing Start-ups High-performance computing Data policy Quantum computing Artificial intelligence EU funding for digital",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/events/web-summit-2026",
+    "date": "2026-11-03",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/events/web-summit-2026"
+      ]
+    ]
+  },
+  {
+    "id": "50f64d3e7875f301",
+    "type": "news",
+    "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+    "why": "The guide is designed to help solopreneurs prioritize and implement a selection of actions from the NIST Cybersecurity Framework that would best help their businesses.",
+    "summary": "The guide is designed to help solopreneurs prioritize and implement a selection of actions from the NIST Cybersecurity Framework that would best help their businesses.",
+    "jurisdiction": "US",
+    "source": "NIST",
+    "source_url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+    "date": "2026-11-02",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "cybersecurity"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "NIST",
+        "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you"
+      ]
+    ]
+  },
+  {
     "id": "550ba14f570b4778",
     "type": "news",
     "title": "Local Digital Twins CiTiVERSE EDIC joins Smart City Expo World Congress 2026",

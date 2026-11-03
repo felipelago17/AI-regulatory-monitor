@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:13:46+00:00",
+  "generated_at": "2026-11-03T13:16:29+00:00",
   "items": [
     {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
@@ -8953,6 +8953,38 @@
         "digital-regulation"
       ],
       "category": "update"
+    },
+    {
+      "id": "50f64d3e7875f301",
+      "date": "2026-11-02",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+      "summary": "The guide is designed to help solopreneurs prioritize and implement a selection of actions from the NIST Cybersecurity Framework that would best help their businesses.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "703f483c7d0fa887",
+      "date": "2026-11-03",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Web Summit 2026",
+      "summary": "Web Summit 2026 Anonymous (not verified) Tue, 11/03/2026 - 11:13 10 November 2026 - 12 November 2026 DG Connect will be at Web Summit in Lisbon from 10 to 12 November. Main link https://digital-strategy.ec.europa.eu/en/news/digitaleu-web-summit-2026-support… Related topics Cloud computing Start-ups High-performance computing Data policy Quantum computing Artificial intelligence EU funding for digital",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/web-summit-2026",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "news"
     }
   ]
 }
