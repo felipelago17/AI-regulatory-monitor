@@ -22,6 +22,28 @@
     ]
   },
   {
+    "id": "63b3586189fc623f",
+    "type": "update",
+    "title": "Independent study on the impact of age assurance on fundamental rights and costs for businesses",
+    "why": "Independent study on the impact of age assurance on fundamental rights and costs for businesses Wed, 11/04/2026 - 15:04 An independent study analyses the impacts of age assurance…",
+    "summary": "Independent study on the impact of age assurance on fundamental rights and costs for businesses Anonymous (not verified) Wed, 11/04/2026 - 15:04 An independent study analyses the impacts of age assurance on fundamental rights and the costs for businesses concerned. Age assurance is key for a safer online environment as it ensures that children only access online services and features that are safe and age appropriate for them. Nowadays, 1 in 3 children, aged 9 to 11 across 6 European countries, reports having a social media profile. Very few services are implementing age assurance in a systematic way. To further strengthen the preparation of the proposed EU KIDS Act and the accompanying Staff Working Document , the European Commission procured a study to: Analyse the impact of age assurance on key fundamental rights, including data protection and privacy, non-discrimination, freedom of expression and access to information; Assess the potential financial impacts of age assurance on businesses, including micro and small enterprises. The study was carried out by an external contractor. It does not assess the proposed EU KIDS Act and the compliance by any specific service provider. The study's key insights are: Fundamental rights – an age assurance framework can be both proportionate and respectful of fundamental rights. Interferences with those rights can be mitigated through appropriate safeguards. In particular, the framework should ensure: Data protection and privacy – legislative coherence with the GDPR, high standards of privacy and security, and the development of technical standards; Non-discrimination, freedom of expression and access to information – minimising friction for users, ensuring transparency, promoting user empowerment where appropriate through greater choice, and ensuring inclusivity and accessibility. EU approach to age verification – the EU age verification blueprint can make an important contribution to the development of a coherent EU-level approach to age assurance. Specifically, the findings suggest that: the blueprint has the potential to become one of the most affordable ways for service providers of all sizes to comply with age assurance requirements because it is privacy-preserving and open by design and its development costs have been publicly subsidised; the roll-out of the blueprint across all Member States should be accelerated; the provision and resourcing of effective fallback enrollment routes – including manual enrolment options at national and local level – should be ensured. Costs for businesses – online services would inevitably face new costs. However, these costs are likely to remain modest for most services and to decrease over time, due to: competition in the third-party vendor market, the emergence of technical standards, improvements in interoperability, the availability of the EU age verification blueprint. For small and medium-sized enterprises (SMEs) , the study suggests that it's unlikely to face excessive costs, thanks to affordable, ready-to-use age verification solutions and competition between providers. They will also benefit from having a common set of EU rules, rather than having to comply with different national requirements. Read the study and its executive summary and the questions & answers on the proposed EU KIDS Act . Related topics Online platforms and e-commerce DSA - Digital Services Act",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/library/independent-study-impact-age-assurance-fundamental-rights-and-costs-businesses",
+    "date": "2026-11-04",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/library/independent-study-impact-age-assurance-fundamental-rights-and-costs-businesses"
+      ]
+    ]
+  },
+  {
     "id": "703f483c7d0fa887",
     "type": "news",
     "title": "Web Summit 2026",
@@ -66,6 +88,78 @@
     ]
   },
   {
+    "id": "aa7bce3b12f5eb3d",
+    "type": "update",
+    "title": "Streamlining Contested Adjudications in Licensing Proceedings",
+    "why": "Rule — Nuclear Regulatory Commission.",
+    "summary": "Rule — Nuclear Regulatory Commission. The U.S. Nuclear Regulatory Commission (NRC, agency, or Commission) is revising the agency's rules of practice and procedure to streamline contested adjudications in NRC licensing proceedings in response to the Accelerating Deployment of Versatile, Advanced Nuclear for Clean Energy Act of 2024 (ADVANCE Act) and Executive Order 14300, Ordering the Reform of the Nuclear Regulatory Commission",
+    "jurisdiction": "US",
+    "source": "Federal Register — deemed export AI",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/03/2026-22443/streamlining-contested-adjudications-in-licensing-proceedings",
+    "date": "2026-11-03",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — deemed export AI",
+        "https://www.federalregister.gov/documents/2026/11/03/2026-22443/streamlining-contested-adjudications-in-licensing-proceedings"
+      ]
+    ]
+  },
+  {
+    "id": "e359921a41bbdfc8",
+    "type": "update",
+    "title": "Pipeline Safety: Amendments to Liquefied Natural Gas Facilities",
+    "why": "Proposed Rule — Transportation Department, Pipeline and Hazardous Materials Safety Administration.",
+    "summary": "Proposed Rule — Transportation Department, Pipeline and Hazardous Materials Safety Administration. PHMSA proposes updating its regulations for liquefied natural gas (LNG) facilities to incorporate by reference the most recent industry safety standards and to make other changes to account for more than two decades of improvements and technological advancements. This rulemaking also responds to congressional mandates directing PHMSA to integrate risk-based regulatory approaches for certain LNG facilities",
+    "jurisdiction": "US",
+    "source": "Federal Register — deemed export AI",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/03/2026-22396/pipeline-safety-amendments-to-liquefied-natural-gas-facilities",
+    "date": "2026-11-03",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — deemed export AI",
+        "https://www.federalregister.gov/documents/2026/11/03/2026-22396/pipeline-safety-amendments-to-liquefied-natural-gas-facilities"
+      ]
+    ]
+  },
+  {
+    "id": "fe9f92e247ea4319",
+    "type": "news",
+    "title": "Privacy Act of 1974; System of Records",
+    "why": "Notice — Social Security Administration.",
+    "summary": "Notice — Social Security Administration. In accordance with the Privacy Act of 1974, we are issuing public notice of our intent to modify an existing system of records entitled, Master Files of Social Security Number (SSN) Holders and SSN Applications (60-0058), last published on February 20, 2025. We use information in this system to assign SSNs and for a number of administrative and program purposes, as detailed in the PURPOSE section. This notice publishes details of the modified system as set forth below under the caption, SUPPLEMENTARY INFORMATION",
+    "jurisdiction": "US",
+    "source": "Federal Register — chip security location verification",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/03/2026-22356/privacy-act-of-1974-system-of-records",
+    "date": "2026-11-03",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — chip security location verification",
+        "https://www.federalregister.gov/documents/2026/11/03/2026-22356/privacy-act-of-1974-system-of-records"
+      ]
+    ]
+  },
+  {
     "id": "50f64d3e7875f301",
     "type": "news",
     "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
@@ -90,6 +184,54 @@
     ]
   },
   {
+    "id": "df915dd15deac254",
+    "type": "update",
+    "title": "Infant Formula Nutrient Requirements",
+    "why": "Proposed Rule — Health and Human Services Department, Food and Drug Administration.",
+    "summary": "Proposed Rule — Health and Human Services Department, Food and Drug Administration. The Food and Drug Administration (FDA or we) proposes to amend the regulations on nutrient specifications and labeling for infant formula as part of its phased, comprehensive review of infant formula nutrients. This action, if finalized, would amend the minimum and/or maximum levels of four required nutrients, change the unit of measure for certain nutrients, change the permitted source to meet one of the nutrient requirements, and amend the content of the required labeling. This action also includes a comprehensive assessment of four additional nutrients for which we conclude that the current required levels remain appropriate and reflect the best available scientific evidence on infant nutritional requirements and safe intake levels",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/02/2026-22273/infant-formula-nutrient-requirements",
+    "date": "2026-11-02",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/11/02/2026-22273/infant-formula-nutrient-requirements"
+      ]
+    ]
+  },
+  {
+    "id": "ef8985fb234bd54c",
+    "type": "update",
+    "title": "Accreditation, Innovation, and Modernization: The Secretary's Recognition of Accrediting Agencies; Institutional Eligibility Under the Higher Education Act of 1965, as Amended; Student Assistance General Provisions",
+    "why": "Rule — Education Department.",
+    "summary": "Rule — Education Department. The Department revises the existing accrediting agency recognition regulations to implement the directives set forth in Executive Order 14279, Reforming Accreditation to Strengthen Higher Education, and other Administration priorities, align the regulations more closely with statute, and reduce regulatory burden",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/30/2026-22174/accreditation-innovation-and-modernization-the-secretarys-recognition-of-accrediting-agencies",
+    "date": "2026-10-30",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/10/30/2026-22174/accreditation-innovation-and-modernization-the-secretarys-recognition-of-accrediting-agencies"
+      ]
+    ]
+  },
+  {
     "id": "550ba14f570b4778",
     "type": "news",
     "title": "Local Digital Twins CiTiVERSE EDIC joins Smart City Expo World Congress 2026",
@@ -108,6 +250,78 @@
         "Read more",
         "EU Digital Strategy",
         "https://digital-strategy.ec.europa.eu/en/events/local-digital-twins-citiverse-edic-joins-smart-city-expo-world-congress-2026"
+      ]
+    ]
+  },
+  {
+    "id": "1e10eed920cafc47",
+    "type": "news",
+    "title": "Privacy Act of 1974; Matching Program",
+    "why": "Notice — Health and Human Services Department, Centers for Medicare & Medicaid Services.",
+    "summary": "Notice — Health and Human Services Department, Centers for Medicare & Medicaid Services. In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS), is providing notice of a computer matching program between CMS and participating State-Based Administering Entities (AEs), titled \"Determining Eligibility for Enrollment in Applicable State Health Subsidy Programs Under the Patient Protection and Affordable Care Act\". The matching program supports eligibility determinations for enrollment in applicable State health subsidy programs under the Patient Protection and Affordable Care Act (PPACA), including Qualified Health Plans (QHPs), Medicaid, the Children's Health Insurance Program (CHIP), and Basic Health Programs (BHPs). The matching program also supports implementation of statutory requirements concerning Medicaid community engagement and the prevention of concurrent Medicaid enrollment in more than one State through the Multi-State Enrollment Prevention (MSEP) system",
+    "jurisdiction": "US",
+    "source": "Federal Register — chip security location verification",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/29/2026-22015/privacy-act-of-1974-matching-program",
+    "date": "2026-10-29",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — chip security location verification",
+        "https://www.federalregister.gov/documents/2026/10/29/2026-22015/privacy-act-of-1974-matching-program"
+      ]
+    ]
+  },
+  {
+    "id": "3a086f711d95e840",
+    "type": "news",
+    "title": "NCUA Draft 2027-2028 Budget",
+    "why": "Notice — National Credit Union Administration.",
+    "summary": "Notice — National Credit Union Administration. NCUA's draft \"detailed business-type budget\" is being made available for public review as required by federal statute. The proposed resources will finance the agency's annual operations and capital projects, both of which are necessary for the agency to accomplish its mission of enabling access to financial services by facilitating safe, sound, and resilient credit unions. Comment instructions are included in the SUPPLEMENTARY INFORMATION section",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/28/2026-21948/ncua-draft-2027-2028-budget",
+    "date": "2026-10-28",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/10/28/2026-21948/ncua-draft-2027-2028-budget"
+      ]
+    ]
+  },
+  {
+    "id": "97a7b3203904720e",
+    "type": "update",
+    "title": "Exemptions To Permit Circumvention of Access Controls on Copyrighted Works",
+    "why": "Proposed Rule — Library of Congress, Copyright Office, Library of Congress.",
+    "summary": "Proposed Rule — Library of Congress, Copyright Office, Library of Congress. The United States Copyright Office is conducting the tenth triennial rulemaking proceeding under the Digital Millennium Copyright Act (\"DMCA\"), concerning temporary exemptions to the DMCA's prohibition against circumvention of technological measures that control access to copyrighted works. Having carefully considered the petitions for new and renewal exemptions and comments received in response to the June 9, 2026 Notification of Inquiry, the Office announces the Register's intention to recommend all but one of the existing exemptions for renewal, and initiates three rounds of public comment on newly proposed exemptions. Comments submitted may not exceed twenty-five pages per class, excluding documentary evidence",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/28/2026-21939/exemptions-to-permit-circumvention-of-access-controls-on-copyrighted-works",
+    "date": "2026-10-28",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/10/28/2026-21939/exemptions-to-permit-circumvention-of-access-controls-on-copyrighted-works"
       ]
     ]
   },
@@ -136,6 +350,54 @@
     ]
   },
   {
+    "id": "01884aa948b14750",
+    "type": "news",
+    "title": "Order Renewing Order Temporarily Denying Export Privileges",
+    "why": "Notice — Commerce Department, Industry and Security Bureau",
+    "summary": "Notice — Commerce Department, Industry and Security Bureau",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/27/2026-21840/order-renewing-order-temporarily-denying-export-privileges",
+    "date": "2026-10-27",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/10/27/2026-21840/order-renewing-order-temporarily-denying-export-privileges"
+      ]
+    ]
+  },
+  {
+    "id": "74e0def307d41ae6",
+    "type": "update",
+    "title": "Patient Protection and Affordable Care Act, Exchange Pre-Eligibility Verification",
+    "why": "Proposed Rule — Health and Human Services Department.",
+    "summary": "Proposed Rule — Health and Human Services Department. This proposed rule would implement new requirements specified under the Working Families Tax Cut (WFTC) legislation related to Exchange eligibility and verification. This proposed rule contains related updates to provisions affecting inconsistency periods, inconsistency verification procedures, annual eligibility redeterminations and eligibility redeterminations during the plan year, as well as expanding enrollment methods during the verification process and establishing new coverage effective dates",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/27/2026-21891/patient-protection-and-affordable-care-act-exchange-pre-eligibility-verification",
+    "date": "2026-10-27",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/10/27/2026-21891/patient-protection-and-affordable-care-act-exchange-pre-eligibility-verification"
+      ]
+    ]
+  },
+  {
     "id": "8add27f14e1adc0e",
     "type": "update",
     "title": "Commission accepts Temu's action plan to remedy the breach of the Digital Services Act",
@@ -158,6 +420,78 @@
     ]
   },
   {
+    "id": "4b3105e1aa07e210",
+    "type": "update",
+    "title": "Outbound Investment Security Program Regulations",
+    "why": "Proposed Rule — Treasury Department, Investment Security Office.",
+    "summary": "Proposed Rule — Treasury Department, Investment Security Office. This proposed rule sets forth regulations that would implement Subtitle C of the Comprehensive Outbound Investment National Security Act, which is codified at Title VIII of the Defense Production Act. The proposed rule would require United States persons to provide notification to the U.S. Department of the Treasury regarding certain transactions involving foreign persons that are engaged in notifiable technologies; and prohibit United States persons from engaging in certain other transactions involving foreign persons that are engaged in prohibited technologies. Where consistent with Title VIII, the proposed rule incorporates certain definitions and concepts from the current regulations governing the Outbound Investment Security Program. The proposed rule also would add applicability dates to the regulations, such that those regulations would continue to apply to activities that occurred within the relevant timeframe",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21786/outbound-investment-security-program-regulations",
+    "date": "2026-10-26",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2026/10/26/2026-21786/outbound-investment-security-program-regulations"
+      ]
+    ]
+  },
+  {
+    "id": "2456017cd6ea51e3",
+    "type": "update",
+    "title": "Supplemental Nutrition Assistance Program: Electronic Benefits Transfer Card Security Measures",
+    "why": "Proposed Rule — Agriculture Department, Food and Nutrition Administration.",
+    "summary": "Proposed Rule — Agriculture Department, Food and Nutrition Administration. The Food and Nutrition Administration (FNA or the Agency), an agency of the U.S. Department of Agriculture (USDA or the Department), is issuing a rule proposing changes to Supplemental Nutrition Assistance Program (SNAP, the Program) regulations to modernize Electronic Benefit Transfer (EBT) technology and align EBT with consumer payment processing industry standards, improving both Program integrity and convenience for SNAP clients. These proposed changes will protect SNAP benefits from thieves and ensure benefits are accessible by approved households",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/23/2026-21658/supplemental-nutrition-assistance-program-electronic-benefits-transfer-card-security-measures",
+    "date": "2026-10-23",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/10/23/2026-21658/supplemental-nutrition-assistance-program-electronic-benefits-transfer-card-security-measures"
+      ]
+    ]
+  },
+  {
+    "id": "2aaff6374dec4b7f",
+    "type": "update",
+    "title": "Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the Issuance of Stablecoins by Entities Subject to the Jurisdiction of the Office of the Comptroller of the Currency",
+    "why": "Rule — Treasury Department, Comptroller of the Currency.",
+    "summary": "Rule — Treasury Department, Comptroller of the Currency. The Office of the Comptroller of the Currency (OCC) is issuing regulations implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act regarding the issuance of payment stablecoins and certain related activities by entities subject to the OCC's jurisdiction",
+    "jurisdiction": "US",
+    "source": "Federal Register — deemed export AI",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the",
+    "date": "2026-10-23",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — deemed export AI",
+        "https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the"
+      ]
+    ]
+  },
+  {
     "id": "10394490fd5ef300",
     "type": "enforce",
     "title": "Commission to investigate how Booking.com combats scams and fraud under the Digital Services Act",
@@ -176,6 +510,30 @@
         "Read more",
         "EU Digital Strategy",
         "https://digital-strategy.ec.europa.eu/en/news/commission-investigate-how-bookingcom-combats-scams-and-fraud-under-digital-services-act"
+      ]
+    ]
+  },
+  {
+    "id": "70f6eb496e9a6656",
+    "type": "news",
+    "title": "Grant Guideline; Notice",
+    "why": "Notice — State Justice Institute.",
+    "summary": "Notice — State Justice Institute. This guideline sets forth the administrative, programmatic, and financial requirements attendant to FY 2027 State Justice Institute grants",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/21/2026-21505/grant-guideline-notice",
+    "date": "2026-10-21",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/10/21/2026-21505/grant-guideline-notice"
       ]
     ]
   },
@@ -244,6 +602,150 @@
         "Read more",
         "NIST",
         "https://www.nist.gov/news-events/news/2026/10/new-chip-based-tape-measure-light-could-revolutionize-mobile-timekeeping"
+      ]
+    ]
+  },
+  {
+    "id": "5f3191713569ede2",
+    "type": "update",
+    "title": "Self-Regulatory Organizations; Cboe Exchange, Inc.; Notice of Filing of Amendment No. 1 and Order Granting Accelerated Approval of a Proposed Rule Change, as Modified by Amendment No. 1, To Permit the Listing of Binary Options Overlying Key Performance Indicators Reported by Certain Issuers of Stock",
+    "why": "Notice — Securities and Exchange Commission",
+    "summary": "Notice — Securities and Exchange Commission",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/16/2026-21149/self-regulatory-organizations-cboe-exchange-inc-notice-of-filing-of-amendment-no-1-and-order",
+    "date": "2026-10-16",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/10/16/2026-21149/self-regulatory-organizations-cboe-exchange-inc-notice-of-filing-of-amendment-no-1-and-order"
+      ]
+    ]
+  },
+  {
+    "id": "377da250825f1abd",
+    "type": "update",
+    "title": "Guidance to U.S. Customs and Border Protection Regarding the Assessment of “U.S. Content” for Purposes of Implementing Tariffs Pursuant to Clause (2)(D) of Proclamation 11032 of June 1, 2026",
+    "why": "Notice — Commerce Department, Industry and Security Bureau.",
+    "summary": "Notice — Commerce Department, Industry and Security Bureau. This notice provides guidance to U.S. Customs and Border Protection regarding the assessment of \"U.S. content\" for products of Canada and Mexico that qualify for preferential tariff treatment under the United States-Mexico-Canada Agreement, for purposes of implementing tariffs pursuant to Proclamation 11032 of June 1, 2026",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/14/2026-20938/guidance-to-us-customs-and-border-protection-regarding-the-assessment-of-us-content-for-purposes-of",
+    "date": "2026-10-14",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/10/14/2026-20938/guidance-to-us-customs-and-border-protection-regarding-the-assessment-of-us-content-for-purposes-of"
+      ]
+    ]
+  },
+  {
+    "id": "68ce25629d458bc0",
+    "type": "enforce",
+    "title": "Schedules of Controlled Substances: Temporary Placement of 7- Hydroxymitragynine and Mitragynine Pseudoindoxyl Above a Specified Threshold in Schedule I",
+    "why": "Proposed Rule — Justice Department, Drug Enforcement Administration.",
+    "summary": "Proposed Rule — Justice Department, Drug Enforcement Administration. The Administrator of the Drug Enforcement Administration (DEA) is issuing this notice of intent to publish a temporary order to schedule 7-hydroxymitragynine and mitragynine pseudoindoxyl (including their isomers, esters, ethers, salts, and salts of isomers, esters, and ethers, whenever the existence of such isomers, esters, ethers, and salts is possible) when either substance alone, or their combined amount if both are present, is above a specified threshold, in schedule I of the Controlled Substances Act (CSA). Based on a different threshold provided by the Department of Health and Human Services (HHS) in July of 2025, DEA published a notice of intent to temporarily schedule 7-hydroxymitragynine above that lower threshold on July 7, 2026. Additionally, DEA published a temporary order placing mitragynine pseudoindoxyl without a threshold in schedule I of the CSA on August 26, 2026. On October 8, 2026, HHS sent a letter recommending that DEA place of the CSA 7-hydroxymitragynine and mitragynine pseudoindoxyl in schedule I when either substance alone, or their combined amount if both are present, is above a new specified threshold. Based on the October 8, 2026 letter, DEA is issuing this notice of intent. While the new threshold recommended by HHS would permit certain products to remain in the marketplace without being subject to schedule I controls, neither HHS nor DEA has made a finding that these substances are safe to use at below-threshold levels. When a temporary order is issued, it will impose the regulatory controls and administrative, civil, and criminal sanctions applicable to schedule I controlled substances on persons who handle (manufacture, distribute, reverse distribute, import, export, engage in research, conduct instructional activities or chemical analysis with, or possess) or propose to handle 7- hydroxymitragynine and/or mitragynine pseudoindoxyl above the specified threshold. In a separate document contained in this issue of the Federal Register, DEA is withdrawing the July 7, 2026 notice of intent related to 7-hydroxymitragynine. The August 26, 2026 temporary order placing mitragynine pseudoindoxyl in schedule I of the CSA without a threshold remains in effect until either it expires or the new temporary order is published and the previous order is withdrawn, whichever occurs first",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/14/2026-20943/schedules-of-controlled-substances-temporary-placement-of-7--hydroxymitragynine-and-mitragynine",
+    "date": "2026-10-14",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2026/10/14/2026-20943/schedules-of-controlled-substances-temporary-placement-of-7--hydroxymitragynine-and-mitragynine"
+      ]
+    ]
+  },
+  {
+    "id": "1f628e3c48ad362e",
+    "type": "enforce",
+    "title": "Schedules of Controlled Substances: Temporary Placement of MGM-15 and MGM-16 in Schedule I",
+    "why": "Proposed Rule — Justice Department, Drug Enforcement Administration.",
+    "summary": "Proposed Rule — Justice Department, Drug Enforcement Administration. The Drug Enforcement Administration (DEA) is issuing this notice of intent to publish a temporary order to schedule two 7- hydroxymitragynine-related substances (MGM-15 and MGM-16), including their isomers, esters, ethers, salts, and salts of isomers, esters, and ethers, whenever the existence of such isomers, esters, ethers, and salts is possible, in schedule I of the Controlled Substances Act (CSA). On August 26, 2026, DEA published a temporary order placing mitragynine pseudoindoxyl, MGM-15, and MGM-16 in schedule I of the CSA. Today, DEA is providing notice of its intent to publish a new temporary order for MGM-15 and MGM-16 that will maintain the temporary placement of these substances in schedule I of the CSA without change. Separately in this Federal Register, DEA is publishing a notice of intent relating to mitragynine pseudoindoxyl, in response to a letter sent by the Department of Health and Human Services (HHS) dated October 6, 2026. HHS's letter related only to mitragynine pseudoindoxyl. Therefore, DEA is publishing this notice of intent only for the technical and procedural purpose of distinguishing MGM-15 and MGM-16 from mitragynine pseudoindoxyl. When issued, the temporary scheduling order addressing MGM-15 and MGM-16 will continue to impose the regulatory controls and administrative, civil, and criminal sanctions applicable to schedule I controlled substances on persons who handle (manufacture, distribute, reverse distribute, import, export, engage in research, conduct instructional activities or chemical analysis with, or possess) or propose to handle these two 7-hydroxymitragynine-related substances. The August 26, 2026 temporary order placing these substances in schedule I of the CSA remains in effect until either it expires or the new temporary order is published and the previous order is withdrawn, whichever occurs first",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/14/2026-20942/schedules-of-controlled-substances-temporary-placement-of-mgm-15-and-mgm-16-in-schedule-i",
+    "date": "2026-10-14",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2026/10/14/2026-20942/schedules-of-controlled-substances-temporary-placement-of-mgm-15-and-mgm-16-in-schedule-i"
+      ]
+    ]
+  },
+  {
+    "id": "902ea095a1893d87",
+    "type": "update",
+    "title": "Removal of Automatic Extensions for Certain Employment Authorization Documents",
+    "why": "Rule — Homeland Security Department.",
+    "summary": "Rule — Homeland Security Department. On October 30, 2025, DHS published an interim final rule (IFR) that amended DHS regulations to end the practice of automatically extending the validity of employment authorization documents (Forms I- 766 or EADs) for aliens who have timely filed an application to renew their EAD in certain employment authorization categories. This final rule responds to comments received on the IFR and reaffirms and finalizes the provisions of the IFR. Ending the automatic extension of EADs enhances benefit integrity and prioritizes the proper vetting and screening of aliens before granting a new period of employment authorization and/or a new EAD",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/14/2026-20955/removal-of-automatic-extensions-for-certain-employment-authorization-documents",
+    "date": "2026-10-14",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/10/14/2026-20955/removal-of-automatic-extensions-for-certain-employment-authorization-documents"
+      ]
+    ]
+  },
+  {
+    "id": "fd52dc050b6e80f3",
+    "type": "update",
+    "title": "Regulation Crypto Asset Transactions and Regulation Crypto Asset Markets",
+    "why": "Proposed Rule — Commodity Futures Trading Commission.",
+    "summary": "Proposed Rule — Commodity Futures Trading Commission. The Commodity Futures Trading Commission (\"Commission\" or \"CFTC\") is issuing an advanced notice of proposed rulemaking regarding section 2(c)(2)(D) of the Commodity Exchange Act (\"CEA\" or \"Act\") to provide notice and seek public comment on its intent to develop and establish fit-for-purpose rules implementing section 2(c)(2)(D) of the Act with respect to transactions and markets in crypto assets",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/13/2026-20888/regulation-crypto-asset-transactions-and-regulation-crypto-asset-markets",
+    "date": "2026-10-13",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/10/13/2026-20888/regulation-crypto-asset-transactions-and-regulation-crypto-asset-markets"
       ]
     ]
   },
@@ -340,6 +842,54 @@
     ]
   },
   {
+    "id": "8ff047ac66f52264",
+    "type": "update",
+    "title": "Investment Adviser Performance-Based Compensation Modernization",
+    "why": "Proposed Rule — Securities and Exchange Commission.",
+    "summary": "Proposed Rule — Securities and Exchange Commission. The Securities and Exchange Commission (the \"Commission\") is proposing to amend the rule under the Investment Advisers Act of 1940 that provides an exemption from the statutory prohibition on registered investment advisers receiving compensation on the basis of a share of capital gains in or capital appreciation of an advisory client's account. Specifically, the proposed amendments would expand the ability of investment advisers to receive this compensation from clients that are registered management investment companies and business development companies (collectively, \"regulated funds\"), subject to certain conditions. The proposal would relatedly amend certain regulated fund registration and reporting forms to require separate disclosure of all performance-based compensation paid by regulated funds to their investment adviser. The proposed rule amendments would also allow investment advisers to receive this compensation from additional clients by revising the rule's \"qualified client\" definition to include investors that meet the \"accredited investor\" definition in Regulation D under the Securities Act of 1933. The proposal would relatedly make conforming amendments to certain other rules under the Investment Advisers Act of 1940 whose provisions reference the \"qualified client\" definition",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/06/2026-20474/investment-adviser-performance-based-compensation-modernization",
+    "date": "2026-10-06",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/10/06/2026-20474/investment-adviser-performance-based-compensation-modernization"
+      ]
+    ]
+  },
+  {
+    "id": "dbb9c77170aab056",
+    "type": "update",
+    "title": "Adviser and Regulated Fund Custody Rules; Crypto Custody Rules",
+    "why": "Proposed Rule — Securities and Exchange Commission.",
+    "summary": "Proposed Rule — Securities and Exchange Commission. The Securities and Exchange Commission (the \"Commission\" or the \"SEC\") is proposing new custody rules under the Investment Company Act of 1940 (the \"Investment Company Act\") and amendments to related reporting and recordkeeping requirements to address how regulated investment companies may custody crypto securities and similar investments, and amendments to the custody rule and related reporting and recordkeeping rules under the Investment Advisers Act of 1940 (the \"Advisers Act\") to address how registered investment advisers may custody client crypto funds and securities. We are also proposing to amend the current custody rules to modernize their requirements, to better address current industry practices and feedback, and to implement certain conforming amendments. We are also proposing amendments to the recordkeeping rules under the Investment Company Act and Advisers Act related to these proposed modernization amendments to the custody rules. Additionally, we are proposing to redesignate the custody rule under the Advisers Act and to make corresponding amendments to Form ADV and Form ADV-E for registered investment advisers to reflect the Advisers Act custody rule redesignation. We are also proposing amendments to Form ADV for registered investment advisers and Form N-CEN for regulated investment companies and to improve the quality of public disclosures made on these forms. We are also proposing to add new questions to Form ADV and Form N-CEN related to tokenized private funds and regulated investment company shares, respectively",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/06/2026-20466/adviser-and-regulated-fund-custody-rules-crypto-custody-rules",
+    "date": "2026-10-06",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/10/06/2026-20466/adviser-and-regulated-fund-custody-rules-crypto-custody-rules"
+      ]
+    ]
+  },
+  {
     "id": "e9a4373184c85dff",
     "type": "news",
     "title": "Physicist Jun Ye Wins Wolf Prize in Physics",
@@ -386,6 +936,30 @@
     ]
   },
   {
+    "id": "6d0812f170120c0b",
+    "type": "enforce",
+    "title": "Proposal of Special Measure Prohibiting the Transmittal of Funds Regarding Transactions Involving the A7 Network's Sub-Agents",
+    "why": "Proposed Rule — Treasury Department, Financial Crimes Enforcement Network.",
+    "summary": "Proposed Rule — Treasury Department, Financial Crimes Enforcement Network. FinCEN is issuing a finding and notice of proposed rulemaking, pursuant to section 9714(a) of the Combating Russian Money Laundering Act (Public Law 116-283), as amended by section 6106(b) of the National Defense Authorization Act for Fiscal Year 2022 (Public Law 117-81), finding transactions involving any company operating outside of the United States that is controlled by the A7 Network, a sanctions evasion and money laundering service with ties to Russia, leveraged by a wide range of illicit actors, including Iran and its terrorist proxies, to be a class of transactions of primary money laundering concern in connection with Russian illicit finance and proposing the imposition of a prohibition on certain transmittals of funds, by any covered financial institution, involving that class of transactions",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/05/2026-20371/proposal-of-special-measure-prohibiting-the-transmittal-of-funds-regarding-transactions-involving",
+    "date": "2026-10-05",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/10/05/2026-20371/proposal-of-special-measure-prohibiting-the-transmittal-of-funds-regarding-transactions-involving"
+      ]
+    ]
+  },
+  {
     "id": "7dab6e988db9776c",
     "type": "update",
     "title": "Consultation on EU KIDS ACT",
@@ -404,6 +978,102 @@
         "Read more",
         "EU Digital Strategy",
         "https://digital-strategy.ec.europa.eu/en/consultations/consultation-eu-kids-act"
+      ]
+    ]
+  },
+  {
+    "id": "6389f8193cbf433a",
+    "type": "update",
+    "title": "Global Benchmark for Efficient Drug Pricing (GLOBE) Model",
+    "why": "Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services.",
+    "summary": "Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services. This final rule implements the Global Benchmark for Efficient Drug Pricing Model (GLOBE Model), a new mandatory Medicare payment model under section 1115A of the Social Security Act. The GLOBE Model will test whether a payment model that uses an alternative method for calculating Medicare Part B drug inflation rebate amounts for certain separately payable Medicare Part B drugs and biological products reduces costs for Original Medicare (OM) beneficiaries and the Medicare program while preserving quality of care. The term OM has the same meaning as Medicare fee-for-service and the traditional Medicare program",
+    "jurisdiction": "US",
+    "source": "Federal Register — chip security location verification",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/02/2026-20281/global-benchmark-for-efficient-drug-pricing-globe-model",
+    "date": "2026-10-02",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — chip security location verification",
+        "https://www.federalregister.gov/documents/2026/10/02/2026-20281/global-benchmark-for-efficient-drug-pricing-globe-model"
+      ]
+    ]
+  },
+  {
+    "id": "9a370eedbc7cd51f",
+    "type": "update",
+    "title": "Rule on Impersonation of Government and Businesses",
+    "why": "Proposed Rule — Federal Trade Commission.",
+    "summary": "Proposed Rule — Federal Trade Commission. The Federal Trade Commission (\"FTC\" or \"Commission\") proposes to commence a rulemaking proceeding to prevent certain unfair or deceptive acts or practices by search engine, social media, and other digital marketplace platforms that further government and business impersonation scams to defraud consumers. The Commission is soliciting written comment, data, and arguments concerning the need for such rulemaking",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/10/01/2026-20143/rule-on-impersonation-of-government-and-businesses",
+    "date": "2026-10-01",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/10/01/2026-20143/rule-on-impersonation-of-government-and-businesses"
+      ]
+    ]
+  },
+  {
+    "id": "d036c378d5cceff9",
+    "type": "news",
+    "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Five-Year Records Retention Requirement for Export Transactions and Boycott Actions",
+    "why": "Notice — Commerce Department, Industry and Security Bureau",
+    "summary": "Notice — Commerce Department, Industry and Security Bureau",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/30/2026-20058/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+    "date": "2026-09-30",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/09/30/2026-20058/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for"
+      ]
+    ]
+  },
+  {
+    "id": "e45955d26ea76a4b",
+    "type": "update",
+    "title": "The Safer Affordable Fuel-Efficient (SAFE) Vehicles Rule III for Model Years 2022 to 2031 Passenger Cars and Light Trucks",
+    "why": "Rule — Transportation Department, National Highway Traffic Safety Administration.",
+    "summary": "Rule — Transportation Department, National Highway Traffic Safety Administration. NHTSA, on behalf of the U.S. Department of Transportation (DOT), is substantially recalibrating the Corporate Average Fuel Economy (CAFE) program to bring the program into compliance with the law and to remove previous regulatory distortions which have induced manufacturers to make design decisions that have neither aligned with market demand and the needs of American families nor have delivered the consistent improvements in the fuel economy performance of manufacturer fleets, as Congress intended. This recalibration finalizes amendments to fuel economy standards for light-duty vehicles for model years 2022- 2026 and MYs 2027-2031. This final rule also finalizes amendments to compliance aspects of the program, including to vehicle classification and other compliance pathways",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger",
+    "date": "2026-09-30",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger"
       ]
     ]
   },
@@ -430,6 +1100,54 @@
     ]
   },
   {
+    "id": "ca63eeecf646d5c2",
+    "type": "news",
+    "title": "URAL Airlines JSC, Utrenniy Lane 1-g, Yekaterinburg, Russia 620025; Order Renewing Temporary Denial of Export Privileges",
+    "why": "Notice — Commerce Department, Industry and Security Bureau",
+    "summary": "Notice — Commerce Department, Industry and Security Bureau",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/29/2026-19927/ural-airlines-jsc-utrenniy-lane-1-g-yekaterinburg-russia-620025-order-renewing-temporary-denial-of",
+    "date": "2026-09-29",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/09/29/2026-19927/ural-airlines-jsc-utrenniy-lane-1-g-yekaterinburg-russia-620025-order-renewing-temporary-denial-of"
+      ]
+    ]
+  },
+  {
+    "id": "63433bc3b020cb2f",
+    "type": "update",
+    "title": "Implementing the Federal Reserve Board's Responsibilities Under the GENIUS Act",
+    "why": "Proposed Rule — Federal Reserve System.",
+    "summary": "Proposed Rule — Federal Reserve System. The Board of Governors of the Federal Reserve System (Board) proposes to issue regulations to implement the Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act) with respect to Board-supervised permitted payment stablecoin issuers (PPSIs) and certain other entities that are subject to the Board's jurisdiction. In addition, the Board proposes to issue regulations to implement the prohibition on tying in section 4(a)(8) of the GENIUS Act, which is applicable generally to all PPSIs",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/29/2026-19860/implementing-the-federal-reserve-boards-responsibilities-under-the-genius-act",
+    "date": "2026-09-29",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/09/29/2026-19860/implementing-the-federal-reserve-boards-responsibilities-under-the-genius-act"
+      ]
+    ]
+  },
+  {
     "id": "dd6ce6ecd8042e8c",
     "type": "update",
     "title": "NIST Provides Updates on National Construction Safety Team Activities",
@@ -450,6 +1168,174 @@
         "Read more",
         "NIST",
         "https://www.nist.gov/news-events/news/2026/09/nist-provides-updates-national-construction-safety-team-activities"
+      ]
+    ]
+  },
+  {
+    "id": "7ee5676e151229b7",
+    "type": "update",
+    "title": "Hazardous Materials: Incorporation of ASME Code Section XII and the National Board Inspection Code",
+    "why": "Rule — Transportation Department, Pipeline and Hazardous Materials Safety Administration.",
+    "summary": "Rule — Transportation Department, Pipeline and Hazardous Materials Safety Administration. PHMSA is amending the Hazardous Materials Regulations (HMR) to incorporate by reference and authorize the use of the 2015 edition of the American Society of Mechanical Engineers (ASME) Boiler and Pressure Vessel Code, Section XII--Rules for Construction and Continued Service of Transport Tanks for the construction and continued service of certain specification cargo tank motor vehicles (CTMVs), cryogenic portable tanks, and multi-unit tank car tanks. PHMSA is also amending the HMR to incorporate by reference and authorize the use of the 2015 edition of the National Board of Boiler and Pressure Vessel Inspectors National Board Inspection Code, Parts 2 and 3 (including Supplement 6) as it applies to the continued service of transport packagings constructed to ASME Section XII standards, as well as for existing CTMVs constructed in accordance with ASME requirements and the HMR. PHMSA finds these updates will result in cost savings and increased regulatory flexibility without compromising safety",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/28/2026-19741/hazardous-materials-incorporation-of-asme-code-section-xii-and-the-national-board-inspection-code",
+    "date": "2026-09-28",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/09/28/2026-19741/hazardous-materials-incorporation-of-asme-code-section-xii-and-the-national-board-inspection-code"
+      ]
+    ]
+  },
+  {
+    "id": "2c1410cf155ebb45",
+    "type": "update",
+    "title": "Measures To Restrict Stockpiling of Polysilicon and Polysilicon Derivatives Under Proclamation 11052",
+    "why": "Rule — Commerce Department, Industry and Security Bureau.",
+    "summary": "Rule — Commerce Department, Industry and Security Bureau. On August 6, 2026, the President issued Proclamation 11052, \"Adjusting Imports of Polysilicon and Its Derivatives Into the United States\" (Proclamation 11052), ordering the Secretary of Commerce (Secretary) to take action to restrict imports by a company if he determines the company is stockpiling polysilicon or polysilicon derivatives (Polysilicon Products) in advance of import adjustments that will be effective on December 4, 2026. The Bureau of Industry and Security (BIS), in this temporary final rule (TFR), announces the criteria and process it will use to monitor existing companies for evidence of stockpiling, limit a newly established importer's ability to stockpile, and subject companies that are stockpiling to an import prohibition if necessary. This TFR also establishes the process for such companies to obtain a waiver from any import prohibitions imposed pursuant to this rule, and imposes certain import limitations on new importers that register with U.S. Customs and Border Protection (CBP) on or after August 6, 2026",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/24/2026-19537/measures-to-restrict-stockpiling-of-polysilicon-and-polysilicon-derivatives-under-proclamation-11052",
+    "date": "2026-09-24",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/09/24/2026-19537/measures-to-restrict-stockpiling-of-polysilicon-and-polysilicon-derivatives-under-proclamation-11052"
+      ]
+    ]
+  },
+  {
+    "id": "dbc88da07e499796",
+    "type": "update",
+    "title": "Request for Information; Medicare Part D Reasonable and Relevant Pharmacy Contracting Standards",
+    "why": "Proposed Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services.",
+    "summary": "Proposed Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services. This request for information (RFI) solicits input from interested parties for purposes of establishing standards for reasonable and relevant pharmacy contract terms and conditions under the Medicare prescription drug benefit. Section 6223(a) of the Consolidated Appropriations Act, 2026 (CAA, 2026) amends section 1860D- 4(b)(1)(A) of the Social Security Act (the Act) to require Part D plan sponsors to permit any pharmacy that meets standard contract terms and conditions under the plan to participate as a network pharmacy of the plan. Section 6223(a) of the CAA, 2026 further requires that, notwithstanding any other provision of law, for plan years beginning January 1, 2029, such standard contract terms and conditions offered by Part D plan sponsors must be reasonable and relevant according to standards established by the Secretary of the Department of Health and Human Services. Finally, section 6223(a) of the CAA, 2026 requires the Secretary to issue this RFI for purposes of establishing such standards",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/24/2026-19535/request-for-information-medicare-part-d-reasonable-and-relevant-pharmacy-contracting-standards",
+    "date": "2026-09-24",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/09/24/2026-19535/request-for-information-medicare-part-d-reasonable-and-relevant-pharmacy-contracting-standards"
+      ]
+    ]
+  },
+  {
+    "id": "d6b794adf7b93b53",
+    "type": "update",
+    "title": "HUD Evaluation Policy",
+    "why": "Notice — Housing and Urban Development Department.",
+    "summary": "Notice — Housing and Urban Development Department. This policy articulates the core principles of the Department of Housing and Urban Development's evaluation and research activities. This notice updates the Department's Evaluation Policy and reaffirms HUD's commitment to conducting rigorous, relevant evaluations, adhering to the tenets of Executive Order 14303, \"Restoring Gold Standard Science,\" and using evidence from evaluations to inform policy and practice",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/24/2026-19528/hud-evaluation-policy",
+    "date": "2026-09-24",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/09/24/2026-19528/hud-evaluation-policy"
+      ]
+    ]
+  },
+  {
+    "id": "7d1aaf72b3840db9",
+    "type": "update",
+    "title": "Guidance and Procedures for Implementing Tariff Adjustments for Specialty Pharmaceuticals and Associated Pharmaceutical Ingredients and Technical Corrections to the Harmonized Tariff Schedule of the United States for Duties Imposed Under Proclamation 11020",
+    "why": "Notice — Commerce Department, Industry and Security Bureau.",
+    "summary": "Notice — Commerce Department, Industry and Security Bureau. This notice defines the pharmaceutical products and lists the jurisdictions that are eligible to receive an ad valorem tariff rate of zero pursuant to Presidential Proclamation 11020 of April 2, 2026, \"Adjusting Imports of Pharmaceuticals and Pharmaceutical Ingredients Into the United States,\" (Proclamation 11020). These pharmaceutical products include drugs and associated ingredients where all approved indications are designated as orphan; nuclear medicines; plasma derived therapies; fertility drugs; cell therapy product; gene therapy product; antibody drug conjugates; medical countermeasures related to chemical, biological, radiological, and nuclear threats; and animal health. Proclamation 11020 states that such products and associated ingredients receive the Section 232 zero tariff rate if they are products of a jurisdiction that has a current or forthcoming trade and security framework agreement or if they meet an urgent U.S. health need. This notice also includes procedures for the public to submit information for the Department of Commerce's (Commerce) approval to determine if imports of the pharmaceutical products and associated ingredients meet an urgent U.S. health need. This notice also issues five technical corrections to Annex I and one technical correction to Annex IV of the Proclamation",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/23/2026-19498/guidance-and-procedures-for-implementing-tariff-adjustments-for-specialty-pharmaceuticals-and",
+    "date": "2026-09-23",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/09/23/2026-19498/guidance-and-procedures-for-implementing-tariff-adjustments-for-specialty-pharmaceuticals-and"
+      ]
+    ]
+  },
+  {
+    "id": "3b5ce539f0d955a5",
+    "type": "update",
+    "title": "Patient Protection and Affordable Care Act; Temporary Moratoria on Certain Agent and Broker Registration To Participate in the Exchanges",
+    "why": "Rule — Health and Human Services Department.",
+    "summary": "Rule — Health and Human Services Department. This interim final rule with comment period (IFC) codifies the Department of Health and Human Services' (HHS) authority to impose a temporary moratorium pausing the registration of agents and brokers that do not have a current Plan Year registration with the Federally- facilitated Exchanges at the time the moratorium is effective and are seeking to enter into Exchange agreements with the Centers for Medicare & Medicaid Services (CMS) to assist consumers with enrollment through the Federally-facilitated Exchange (FFE) and State-based Exchanges that use the Federal platform (SBE-FPs) (hereinafter collectively referred to as the \"Federally-facilitated Exchanges\"). HHS is issuing this rule on an interim final basis. For the reasons explained in this rule, HHS finds good cause under the Administrative Procedure Act (APA) to waive prior notice and comment because providing advance notice would be contrary to the public interest and impracticable. HHS further finds good cause under the APA for this rule to become effective immediately upon publication. HHS nevertheless invites public comment and will consider comments in determining whether to retain, modify, or rescind the codified authority established by this rule. Further, CMS provides notice that, on behalf of HHS, the agency is immediately imposing a temporary moratorium to pause the registration of agents and brokers that do not have Plan Year 2026 Exchange agreements with the Federally- facilitated Exchanges and are seeking to enter into agreements with CMS to assist consumers with enrollment through the Federally-facilitated Exchanges for Plan Year 2027. This temporary moratorium does not affect registrations on the State-based Exchanges (SBEs). This moratorium will be in place while CMS implements enhanced program-integrity safeguards designed to prevent instances of noncompliance and fraud, waste, and abuse perpetrated by agents and brokers, including unauthorized enrollment activity, misuse of consumer personally identifiable information (PII), and other conduct that does not comply with Exchange standards and threatens consumers and the integrity of the Federally- facilitated Exchanges. Agents and brokers that do not have Plan Year 2026 Exchange agreements with CMS will not be able to complete registration with the Federally-facilitated Exchanges for Plan Year 2027 until the moratorium ends on February 1, 2027",
+    "jurisdiction": "US",
+    "source": "Federal Register — chip security location verification",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/23/2026-19493/patient-protection-and-affordable-care-act-temporary-moratoria-on-certain-agent-and-broker",
+    "date": "2026-09-23",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — chip security location verification",
+        "https://www.federalregister.gov/documents/2026/09/23/2026-19493/patient-protection-and-affordable-care-act-temporary-moratoria-on-certain-agent-and-broker"
+      ]
+    ]
+  },
+  {
+    "id": "8461b1d5a2fb9c0f",
+    "type": "update",
+    "title": "Nonclinical Testing Terminology",
+    "why": "Proposed Rule — Health and Human Services Department, Food and Drug Administration.",
+    "summary": "Proposed Rule — Health and Human Services Department, Food and Drug Administration. The Food and Drug Administration (FDA, Agency, or we) is proposing to substitute references to \"animal\" tests or studies with \"nonclinical\" tests or studies, add a definition of the terms \"nonclinical test\" and \"nonclinical study,\" and make other comparable or conforming amendments in certain safety and reporting sections of its regulations. The proposed rule would also substitute \"nonclinical\" for \"preclinical\" and \"in vitro\" for consistency in terminology. These proposed amendments align with recent amendments to the Federal Food, Drug, and Cosmetic Act (FD&C Act) and the Public Health Service Act (PHS Act) and are intended to remove an emphasis, in certain places, on the use of animal testing as the only scientific methodology to assess the safety of a drug in the nonclinical setting. These changes may also foster the development and use of scientifically valid new testing methodologies, potentially improving predictive accuracy of product safety testing while replacing, reducing, or refining animal use. The proposed rule would add no new requirements",
+    "jurisdiction": "US",
+    "source": "Federal Register — chip security location verification",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/22/2026-19349/nonclinical-testing-terminology",
+    "date": "2026-09-22",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — chip security location verification",
+        "https://www.federalregister.gov/documents/2026/09/22/2026-19349/nonclinical-testing-terminology"
       ]
     ]
   },
@@ -540,6 +1426,102 @@
         "Read more",
         "EU Digital Strategy",
         "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy"
+      ]
+    ]
+  },
+  {
+    "id": "962c26fcd1ecb45f",
+    "type": "news",
+    "title": "Azur Air, Office 29, Vzletnaya St. 57, Krasnoyarsk, Russia 660020; Order Renewing Temporary Denial of Export Privileges",
+    "why": "Notice — Commerce Department, Industry and Security Bureau",
+    "summary": "Notice — Commerce Department, Industry and Security Bureau",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/17/2026-19021/azur-air-office-29-vzletnaya-st-57-krasnoyarsk-russia-660020-order-renewing-temporary-denial-of",
+    "date": "2026-09-17",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/09/17/2026-19021/azur-air-office-29-vzletnaya-st-57-krasnoyarsk-russia-660020-order-renewing-temporary-denial-of"
+      ]
+    ]
+  },
+  {
+    "id": "25a8a78c8f88898c",
+    "type": "news",
+    "title": "PJSC Aeroflot, 1 Arbat St., 119019, Moscow, Russia; Order Renewing Temporary Denial of Export Privileges",
+    "why": "Notice — Commerce Department, Industry and Security Bureau",
+    "summary": "Notice — Commerce Department, Industry and Security Bureau",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/17/2026-19020/pjsc-aeroflot-1-arbat-st-119019-moscow-russia-order-renewing-temporary-denial-of-export-privileges",
+    "date": "2026-09-17",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/09/17/2026-19020/pjsc-aeroflot-1-arbat-st-119019-moscow-russia-order-renewing-temporary-denial-of-export-privileges"
+      ]
+    ]
+  },
+  {
+    "id": "5f408176d53b9a11",
+    "type": "news",
+    "title": "UTair Aviation JSC, Khanty-Mansiysk Airport, Tyumen Region, Russia 628012; Order Renewing Temporary Denial of Export Privileges",
+    "why": "Notice — Commerce Department, Industry and Security Bureau",
+    "summary": "Notice — Commerce Department, Industry and Security Bureau",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/17/2026-19019/utair-aviation-jsc-khanty-mansiysk-airport-tyumen-region-russia-628012-order-renewing-temporary",
+    "date": "2026-09-17",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/09/17/2026-19019/utair-aviation-jsc-khanty-mansiysk-airport-tyumen-region-russia-628012-order-renewing-temporary"
+      ]
+    ]
+  },
+  {
+    "id": "5fc57405551f67c6",
+    "type": "update",
+    "title": "Partial Repeal of the Carbon Pollution Standards for Fossil Fuel-Fired Electric Generating Units",
+    "why": "Rule — Environmental Protection Agency.",
+    "summary": "Rule — Environmental Protection Agency. In this final rule, the U.S. Environmental Protection Agency (EPA) is repealing most provisions of the 2024 Carbon Pollution Standards for greenhouse gas (GHG) emissions from fossil fuel-fired electric generating units (EGUs) based on a reevaluation of the best system of emission reduction for the relevant subcategories. Specifically, the EPA is repealing the emission guidelines for existing fossil fuel-fired steam generating units, the carbon capture and sequestration/storage (CCS)-based standards for coal-fired steam generating units undertaking a large modification, and the CCS-based standards for new base load stationary combustion turbines (i.e., Phase 2 standards). In a separate action published concurrently with this final rule, the EPA is issuing a supplemental proposal soliciting comment on additional reasons to rescind all GHG emission requirements for fossil fuel-fired EGUs to effectuate the best reading of Clean Air Act (CAA) section 111 and ensure consistency with applicable principles of administrative law beyond those reasons on which the EPA solicited comment in the June 2025 notice of proposed rulemaking",
+    "jurisdiction": "US",
+    "source": "Federal Register — deemed export AI",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/17/2026-19071/partial-repeal-of-the-carbon-pollution-standards-for-fossil-fuel-fired-electric-generating-units",
+    "date": "2026-09-17",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — deemed export AI",
+        "https://www.federalregister.gov/documents/2026/09/17/2026-19071/partial-repeal-of-the-carbon-pollution-standards-for-fossil-fuel-fired-electric-generating-units"
       ]
     ]
   },
@@ -638,6 +1620,54 @@
     ]
   },
   {
+    "id": "68537ba82ecbc8c3",
+    "type": "update",
+    "title": "Transfer Agent Rules",
+    "why": "Proposed Rule — Securities and Exchange Commission.",
+    "summary": "Proposed Rule — Securities and Exchange Commission. The U.S. Securities and Exchange Commission (\"SEC\" or \"Commission\") is proposing to adopt new rules, amend existing rules, amend the existing form for registration with the Commission as a transfer agent (Form TA-1) and the existing form for reporting activities of transfer agents (Form TA-2), and rescind an existing rule governing registered transfer agents. The proposals are designed to modernize the rules governing registered transfer agents",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/04/2026-18190/transfer-agent-rules",
+    "date": "2026-09-04",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2026/09/04/2026-18190/transfer-agent-rules"
+      ]
+    ]
+  },
+  {
+    "id": "4a542f78507b5732",
+    "type": "update",
+    "title": "Unsafe or Unsound Practices, Matters Requiring Attention",
+    "why": "Rule — Treasury Department, Comptroller of the Currency, Federal Deposit Insurance Corporation.",
+    "summary": "Rule — Treasury Department, Comptroller of the Currency, Federal Deposit Insurance Corporation. The Office of the Comptroller of the Currency (OCC) and the Federal Deposit Insurance Corporation (FDIC) are adopting a final rule to define the term \"unsafe or unsound practice\" for purposes of section 8 of the Federal Deposit Insurance Act and to revise the supervisory framework for the issuance of matters requiring attention and other supervisory communications",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2026/09/01/2026-17823/unsafe-or-unsound-practices-matters-requiring-attention",
+    "date": "2026-09-01",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2026/09/01/2026-17823/unsafe-or-unsound-practices-matters-requiring-attention"
+      ]
+    ]
+  },
+  {
     "id": "daad979956c6ff50",
     "type": "update",
     "title": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act",
@@ -678,6 +1708,78 @@
         "Read more",
         "EU Digital Strategy",
         "https://digital-strategy.ec.europa.eu/en/events/state-union-2026"
+      ]
+    ]
+  },
+  {
+    "id": "73031e43cda21e13",
+    "type": "update",
+    "title": "Streamlining Export Controls for Drone Exports",
+    "why": "Rule — Commerce Department, Industry and Security Bureau",
+    "summary": "Rule — Commerce Department, Industry and Security Bureau",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/08/28/C1-2026-16628/streamlining-export-controls-for-drone-exports",
+    "date": "2026-08-28",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/08/28/C1-2026-16628/streamlining-export-controls-for-drone-exports"
+      ]
+    ]
+  },
+  {
+    "id": "5bdef329e0a48554",
+    "type": "enforce",
+    "title": "Schedules of Controlled Substances: Temporary Placement of Mitragynine Pseudoindoxyl, MGM-15, and MGM-16 in Schedule I",
+    "why": "Rule — Justice Department, Drug Enforcement Administration.",
+    "summary": "Rule — Justice Department, Drug Enforcement Administration. The Drug Enforcement Administration (DEA) is issuing this temporary order to schedule three 7-hydroxymitragynine-related substances (mitragynine pseudoindoxyl, MGM-15, and MGM-16), including their isomers, esters, ethers, salts, and salts of isomers, esters, and ethers, whenever the existence of such isomers, esters, ethers, and salts is possible, in schedule I of the Controlled Substances Act. DEA bases this action on a finding that placing mitragynine pseudoindoxyl, MGM-15, and MGM-16 in schedule I is necessary to avoid an imminent hazard to public safety. This order imposes the regulatory controls and administrative, civil, and criminal sanctions applicable to schedule I controlled substances on persons who handle (manufacture, distribute, reverse distribute, import, export, engage in research, conduct instructional activities or chemical analysis with, or possess) or propose to handle these three 7-hydroxymitragynine-related substances",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2026/08/26/2026-17429/schedules-of-controlled-substances-temporary-placement-of-mitragynine-pseudoindoxyl-mgm-15-and",
+    "date": "2026-08-26",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2026/08/26/2026-17429/schedules-of-controlled-substances-temporary-placement-of-mitragynine-pseudoindoxyl-mgm-15-and"
+      ]
+    ]
+  },
+  {
+    "id": "05f11f7c9743967d",
+    "type": "update",
+    "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Directive Allocation Orders Under the Defense Priorities and Allocations System in Response to Presidential Determination on Recoverable Critical Minerals and Materials",
+    "why": "Notice — Commerce Department, Industry and Security Bureau.",
+    "summary": "Notice — Commerce Department, Industry and Security Bureau. The Department of Commerce, in accordance with the Paperwork Reduction Act of 1995 (PRA), invites the general public and other Federal agencies to comment on proposed, and continuing information collections, which helps us assess the impact of our information collection requirements and minimize the public's reporting burden. The purpose of this notice is to allow for 60 days of public comment on the OMB approved emergency collection for the Temporary Final Rule \"DPAS Directive Allocation Order and Additional Requirements for Recoverable Critical Minerals and Materials\" (August 6, 2026, 91 FR 50701)",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/08/25/2026-17323/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+    "date": "2026-08-25",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/08/25/2026-17323/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for"
       ]
     ]
   },
@@ -728,6 +1830,78 @@
     ]
   },
   {
+    "id": "e1edab6d9f61fe9f",
+    "type": "update",
+    "title": "Revisions to the Entity List",
+    "why": "Rule — Commerce Department, Industry and Security Bureau.",
+    "summary": "Rule — Commerce Department, Industry and Security Bureau. In this rule, the Bureau of Industry and Security (BIS) revises the Export Administration Regulations (EAR) by removing two addresses associated with Arrow Electronics (Hong Kong) Co., Ltd. from the Entity List under the destination of China, People's Republic of (China). This determination follows the removal from the Entity List of Arrow China Electronics Trading Co., Ltd., and the removal of six aliases for Arrow Electronics (Hong Kong) Co., Ltd. in November 2025",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/08/24/2026-17231/revisions-to-the-entity-list",
+    "date": "2026-08-24",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/08/24/2026-17231/revisions-to-the-entity-list"
+      ]
+    ]
+  },
+  {
+    "id": "c64b7b99326c5220",
+    "type": "update",
+    "title": "Removal From the Entity List",
+    "why": "Rule — Commerce Department, Industry and Security Bureau.",
+    "summary": "Rule — Commerce Department, Industry and Security Bureau. In this rule, the Bureau of Industry and Security (BIS) amends the Export Administration Regulations (EAR) by removing one entity from the Entity List under the destination of Turkey",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/08/24/2026-17230/removal-from-the-entity-list",
+    "date": "2026-08-24",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/08/24/2026-17230/removal-from-the-entity-list"
+      ]
+    ]
+  },
+  {
+    "id": "7a0780b4073d9055",
+    "type": "update",
+    "title": "Application for Relief From Disabilities Imposed by Federal Laws With Respect to the Acquisition, Receipt, Transfer, Shipment, Transportation, or Possession of Firearms",
+    "why": "Rule — Justice Department, Alcohol, Tobacco, Firearms, and Explosives Bureau, .",
+    "summary": "Rule — Justice Department, Alcohol, Tobacco, Firearms, and Explosives Bureau, . The Department of Justice (\"the Department\") is implementing criteria to guide determinations for granting relief from disabilities imposed by federal laws with respect to the acquisition, receipt, transfer, shipment, transportation, or possession of firearms. The criteria are designed to ensure that the fundamental right of the people to keep and bear arms is not unduly infringed, that those people granted relief are not likely to act in a manner dangerous to public safety, and that granting such relief would not be contrary to the public interest",
+    "jurisdiction": "US",
+    "source": "Federal Register — deemed export AI",
+    "source_url": "https://www.federalregister.gov/documents/2026/08/20/2026-16981/application-for-relief-from-disabilities-imposed-by-federal-laws-with-respect-to-the-acquisition",
+    "date": "2026-08-20",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — deemed export AI",
+        "https://www.federalregister.gov/documents/2026/08/20/2026-16981/application-for-relief-from-disabilities-imposed-by-federal-laws-with-respect-to-the-acquisition"
+      ]
+    ]
+  },
+  {
     "id": "5de04348eeb11196",
     "type": "update",
     "title": "Call for tenders: Study on how online marketplace design influences user behaviour",
@@ -746,6 +1920,54 @@
         "Read more",
         "EU Digital Strategy",
         "https://digital-strategy.ec.europa.eu/en/funding/call-tenders-study-how-online-marketplace-design-influences-user-behaviour"
+      ]
+    ]
+  },
+  {
+    "id": "282b792a6b7bdd70",
+    "type": "update",
+    "title": "Streamlining Export Controls for Drone Exports",
+    "why": "Rule — Commerce Department, Industry and Security Bureau.",
+    "summary": "Rule — Commerce Department, Industry and Security Bureau. The Bureau of Industry and Security (BIS) is easing export controls on certain Unmanned Aerial Vehicles (UAVs or drones) and related parts, components, accessories, attachments, technology, and software under the Export Administration Regulations (EAR). Specifically, this rule: eliminates wind gust tolerance as a parameter for determining UAV controls under the EAR; increases the threshold for national security controls on certain UAVs from an endurance of 30 minutes to an endurance of 3 hours; makes conforming changes to remove national security controls on software and technology associated with UAVs with an endurance less than 3 hours; maintains military end-use and end-user controls on those lower endurance drones and associated software and technology; clarifies Commerce Control List (CCL) controls for certain UAVs specially designed for military use; and removes national security controls on certain specially designed parts, components, accessories, and attachments for such UAVs as they do not provide any significant military or intelligence capabilities",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/08/14/2026-16628/streamlining-export-controls-for-drone-exports",
+    "date": "2026-08-14",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/08/14/2026-16628/streamlining-export-controls-for-drone-exports"
+      ]
+    ]
+  },
+  {
+    "id": "12ac6895aeb05875",
+    "type": "update",
+    "title": "Introduction to the Unified Agenda of Federal Regulatory and Deregulatory Actions-2026",
+    "why": "Notice — Regulatory Information Service Center.",
+    "summary": "Notice — Regulatory Information Service Center. Publication of the 2026 Unified Agenda of Federal Regulatory and Deregulatory Actions represents a key component of the regulatory planning mechanism prescribed in Executive Order (\"E.O.\") 12866, \"Regulatory Planning and Review,\" (58 FR 51735, as amended) and reaffirmed in E.O. 13563, \"Improving Regulation and Regulatory Review,\" (76 FR 3821) and E.O. 14192, \"Unleashing Prosperity Through Deregulation.\" The Regulatory Flexibility Act requires that agencies publish semiannual regulatory agendas in the Federal Register describing regulatory actions they are developing that may have a significant economic impact on a substantial number of small entities (5 U.S.C. 602). The Unified Agenda of Federal Regulatory and Deregulatory Actions (Unified Agenda) helps agencies fulfill all of these requirements. All Federal regulatory agencies have chosen to publish their regulatory agendas as part of this publication. The complete publication of the 2026 Unified Agenda contains 78 Federal agency regulatory agendas available to the public at www.reginfo.gov. The 2026 Unified Agenda publication appearing in the Federal Register includes the agency Regulatory Flexibility Agendas, in accordance with the publication requirements of the Regulatory Flexibility Act. Agency Regulatory Flexibility Agendas contain only those Agenda entries for rules that are likely to have a significant economic impact on a substantial number of small entities and entries that have been selected for periodic review under section 610 of the Regulatory Flexibility Act",
+    "jurisdiction": "US",
+    "source": "Federal Register — deemed export AI",
+    "source_url": "https://www.federalregister.gov/documents/2026/08/14/2026-16603/introduction-to-the-unified-agenda-of-federal-regulatory-and-deregulatory-actions-2026",
+    "date": "2026-08-14",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — deemed export AI",
+        "https://www.federalregister.gov/documents/2026/08/14/2026-16603/introduction-to-the-unified-agenda-of-federal-regulatory-and-deregulatory-actions-2026"
       ]
     ]
   },
@@ -820,6 +2042,54 @@
     ]
   },
   {
+    "id": "db464225e1f4f135",
+    "type": "update",
+    "title": "DPAS Directive Allocation Order and Additional Requirements for Recoverable Critical Minerals and Materials",
+    "why": "Rule — Commerce Department, Industry and Security Bureau.",
+    "summary": "Rule — Commerce Department, Industry and Security Bureau. The Bureau of Industry and Security (\"BIS\") is publishing this temporary final rule to restrict the exportation of black mass and tungsten waste and scrap without a license. Specifically, as of August 27, 2026, U.S. persons engaged in the sale of black mass and tungsten waste and scrap must allocate 100 percent of monthly sales to U.S. persons, unless an adjustment or exception is obtained in advance from BIS. This action is taken pursuant to section 101 of the Defense Production Act of 1950, as amended (\"DPA\" or the \"Act\"), the Defense Priorities and Allocations System (15 CFR part 700) and Presidential Determination Pursuant to Section 101 of the Defense Production Act of 1950, as Amended, on Recoverable Critical Minerals and Materials, dated July 30, 2026 (\"DPA Determination on Recoverable CMMs\"), in which the President authorized the Department of Commerce (\"Commerce\") to address the scarcity of recoverable critical minerals and materials (\"CMMs\"). BIS invites the public to submit comments on whether any additional sales requirements are necessary or appropriate to promote the national defense",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/08/06/2026-16078/dpas-directive-allocation-order-and-additional-requirements-for-recoverable-critical-minerals-and",
+    "date": "2026-08-06",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/08/06/2026-16078/dpas-directive-allocation-order-and-additional-requirements-for-recoverable-critical-minerals-and"
+      ]
+    ]
+  },
+  {
+    "id": "eb291d594d776a6b",
+    "type": "update",
+    "title": "Request for Public Comments on the Proposed Implementation of Duties on Additional Aluminum, Steel, and Copper Derivative Articles Under Section 232",
+    "why": "Notice — Commerce Department, Industry and Security Bureau.",
+    "summary": "Notice — Commerce Department, Industry and Security Bureau. This notice requests public comments on a proposal to include 14 additional derivative articles within the scope of the Section 232 duties on steel, aluminum, and copper: aluminum powder; brass-wind musical instruments and their parts and accessories; parts of welding machines and apparatus; floor safes; certain electric conductor cables; fire extinguishers; parts of heat exchange units; parts of certain hydraulic engines and motors; certain self-propelled cranes, mobile lifting frames, and straddle carriers; tanker trailers and semi- trailers; self-loading or self-unloading trailers and semi-trailers for agricultural purposes; certain other trailers and semi-trailers; and certain filled steel containers",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/08/06/2026-15961/request-for-public-comments-on-the-proposed-implementation-of-duties-on-additional-aluminum-steel",
+    "date": "2026-08-06",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/08/06/2026-15961/request-for-public-comments-on-the-proposed-implementation-of-duties-on-additional-aluminum-steel"
+      ]
+    ]
+  },
+  {
     "id": "920a5fe2ff212c19",
     "type": "news",
     "title": "‘Spooky’ Particles Transit DC Suburbs, a Step Toward a Quantum Network",
@@ -868,6 +2138,54 @@
     ]
   },
   {
+    "id": "cd03449cd1cae900",
+    "type": "news",
+    "title": "Notice of Reduction of Tariffs on Patented Pharmaceuticals and Pharmaceutical Ingredients for Products of the United Kingdom Implemented by Presidential Proclamation 11020",
+    "why": "Notice — Commerce Department, Industry and Security Bureau.",
+    "summary": "Notice — Commerce Department, Industry and Security Bureau. This notice revises the tariff rate on patented pharmaceuticals and associated pharmaceutical ingredients that are products of the United Kingdom from 10 percent to zero percent in accordance with Proclamation 11020 \"Adjusting Imports of Pharmaceuticals and Pharmaceutical Ingredients Into the United States.\"",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/08/04/2026-15799/notice-of-reduction-of-tariffs-on-patented-pharmaceuticals-and-pharmaceutical-ingredients-for",
+    "date": "2026-08-04",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/08/04/2026-15799/notice-of-reduction-of-tariffs-on-patented-pharmaceuticals-and-pharmaceutical-ingredients-for"
+      ]
+    ]
+  },
+  {
+    "id": "b93b901716018483",
+    "type": "update",
+    "title": "Medicare Program; Hospital Inpatient Prospective Payment Systems for Acute Care Hospitals (IPPS) and the Long-Term Care Hospital Prospective Payment System and Policy Changes and Fiscal Year (FY) 2027 Rates; Requirements for Quality Programs; Other Policy Changes; and Adoption of Updated Versions of Certain Health Information Technology Standards",
+    "why": "Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services, .",
+    "summary": "Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services, . This final rule will revise the Medicare hospital inpatient prospective payment systems (IPPS) for operating and capital-related costs of acute care hospitals; make changes relating to Medicare graduate medical education (GME) for teaching hospitals; update the payment policies and the annual payment rates for the Medicare prospective payment system (PPS) for inpatient hospital services provided by long-term care hospitals (LTCHs); update and make changes to requirements for certain quality programs; and make other policy- related changes. ONC also adopts certain health information technology (health IT) standards and specifications on behalf of HHS",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2026/08/04/2026-15833/medicare-program-hospital-inpatient-prospective-payment-systems-for-acute-care-hospitals-ipps-and",
+    "date": "2026-08-04",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2026/08/04/2026-15833/medicare-program-hospital-inpatient-prospective-payment-systems-for-acute-care-hospitals-ipps-and"
+      ]
+    ]
+  },
+  {
     "id": "e7644651c602a0a2",
     "type": "enforce",
     "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
@@ -912,6 +2230,30 @@
     ]
   },
   {
+    "id": "bffec573502b7422",
+    "type": "update",
+    "title": "Upper C-Band (3.98-4.2 GHz); Expanding Flexible Use of the 3.7 to 4.2 GHz Band",
+    "why": "Rule — Federal Communications Commission.",
+    "summary": "Rule — Federal Communications Commission. In this document, the Federal Communications Commission (Commission) adopted a Report and Order, Order of Proposed Modification, and Order on Reconsideration (Order), that expands the ecosystem for next-generation wireless services in the 3.7-4.2 GHz band (C-band) by making 160 megahertz of the 3.98-4.2 GHz band (Upper C- band) available for terrestrial wireless flexible use. This action is pursuant to Congress' direction in the One Big Beautiful Bill Act to complete a system of competitive bidding by July 4, 2027, for at least 100 megahertz of spectrum in the 3.98-4.2 GHz band. The Order creates a single 3.7 GHz Service that spans 3.7-4.14 GHz and adopts competitive bidding procedures for an auction. The Order largely applies the current Lower C-band licensing and operating rules to the Upper C-band, but it imposes more forward-leaning performance requirements. The Commission also generally adopts the Lower C-band technical rules for the Upper C-band, with certain modifications designed to reinforce a successful coexistence environment with adjacent band radio altimeters. The Order requires new licensees in the Upper C-band, as a condition of their licenses, to reimburse defined incumbent Fixed Satellite Service (FSS) licensees for reasonable and necessary costs associated with migrating FSS operations out of the reconfigured portion of the Upper C-band, consistent with the Commission's Emerging Technologies precedent. The Order also provides incentives to eligible space station operators that meet their clearing obligations by specified transition deadlines. Finally, new Upper C-band licensees must provide rebates for defined classes of eligible aircraft owners and operators to facilitate compliance with the FAA's radio altimeter retrofit requirements, which are designed to promote successful coexistence between Upper C-band licensees and radio altimeters in the 4.2-4.4 GHz band",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15598/upper-c-band-398-42-ghz-expanding-flexible-use-of-the-37-to-42-ghz-band",
+    "date": "2026-07-31",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2026/07/31/2026-15598/upper-c-band-398-42-ghz-expanding-flexible-use-of-the-37-to-42-ghz-band"
+      ]
+    ]
+  },
+  {
     "id": "941f173f2f968bdb",
     "type": "update",
     "title": "EU launches AI Gigafactories call to boost Europe's computing capacity and unlock more than €30 billion in investment",
@@ -952,6 +2294,78 @@
         "Read more",
         "EU Digital Strategy",
         "https://digital-strategy.ec.europa.eu/en/events/ai-powered-robotics-europe-live-demonstrations-and-strategic-debate"
+      ]
+    ]
+  },
+  {
+    "id": "c3a53bb6982d6a9d",
+    "type": "update",
+    "title": "Implementation of EAR Export Controls on Silencers, Mufflers, and Sound Suppressors; and Other Firearms Related Changes",
+    "why": "Rule — Commerce Department, Industry and Security Bureau.",
+    "summary": "Rule — Commerce Department, Industry and Security Bureau. The Department of Commerce (Commerce), Bureau of Industry and Security (BIS) is revising the Export Administration Regulations (EAR) and the Commerce Control List (CCL) to appropriately control certain silencers, mufflers, and sound suppressors (sound suppressors) that will no longer be described on the International Traffic in Arms Regulations U.S. Munitions List (USML). This interim final rule (IFR) complements a Department of State interim final rule published elsewhere in this issue of the Federal Register (International Traffic in Arms Regulations: USML Category I Firearm Suppressors (1400-AG11) (State IFR)). This transfer of jurisdiction will reduce the regulatory burden on exports of sound suppressors. This IFR also revises the EAR to allow firearms and related items to be temporarily exported and reexported under a license exception as tools of trade, thereby relieving exporters of the regulatory burden of applying for authorization. Finally, this IFR clarifies which items fall within the scope of the EAR's entry clearance requirements for a temporary import",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/07/23/2026-14942/implementation-of-ear-export-controls-on-silencers-mufflers-and-sound-suppressors-and-other-firearms",
+    "date": "2026-07-23",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/07/23/2026-14942/implementation-of-ear-export-controls-on-silencers-mufflers-and-sound-suppressors-and-other-firearms"
+      ]
+    ]
+  },
+  {
+    "id": "4c64d19c0b5a3326",
+    "type": "news",
+    "title": "Securing America's Defense Supply Chains and Ensuring Domestic Acquisition of Critical Materials",
+    "why": "Presidential Document — Executive Office of the President",
+    "summary": "Presidential Document — Executive Office of the President",
+    "jurisdiction": "US",
+    "source": "Federal Register — deemed export AI",
+    "source_url": "https://www.federalregister.gov/documents/2026/07/23/2026-15003/securing-americas-defense-supply-chains-and-ensuring-domestic-acquisition-of-critical-materials",
+    "date": "2026-07-23",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — deemed export AI",
+        "https://www.federalregister.gov/documents/2026/07/23/2026-15003/securing-americas-defense-supply-chains-and-ensuring-domestic-acquisition-of-critical-materials"
+      ]
+    ]
+  },
+  {
+    "id": "f699c4225037fd0e",
+    "type": "update",
+    "title": "Electronic Disclosure by Group Health Plans Under ERISA",
+    "why": "Proposed Rule — Labor Department, Employee Benefits Security Administration.",
+    "summary": "Proposed Rule — Labor Department, Employee Benefits Security Administration. This proposed rule sets forth a new, additional safe harbor for group health plan administrators to use electronic media (e.g., email or web portal) to furnish documents and information to participants and beneficiaries of plans subject to the Employee Retirement Income Security Act of 1974 (ERISA). This proposal, if finalized, would allow plan administrators who satisfy specified conditions to provide participants and beneficiaries with a notice that certain disclosures will be made available electronically on a website. Individuals who prefer to receive these disclosures on paper will be able to request paper copies and to opt out of electronic delivery entirely. The Department expects that the proposal, if finalized, would improve the effectiveness of the disclosures and significantly reduce the costs and burden to group health plans associated with furnishing many of the recurring disclosures",
+    "jurisdiction": "US",
+    "source": "Federal Register — chip security location verification",
+    "source_url": "https://www.federalregister.gov/documents/2026/07/23/2026-14917/electronic-disclosure-by-group-health-plans-under-erisa",
+    "date": "2026-07-23",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — chip security location verification",
+        "https://www.federalregister.gov/documents/2026/07/23/2026-14917/electronic-disclosure-by-group-health-plans-under-erisa"
       ]
     ]
   },
@@ -1112,6 +2526,30 @@
     ]
   },
   {
+    "id": "9dbfbb27c30c3d5b",
+    "type": "update",
+    "title": "Establishing a Fixed Time Period of Admission and an Extension of Stay Procedure for Nonimmigrant Academic Students, Exchange Visitors, and Representatives of Foreign Information Media",
+    "why": "Rule — Homeland Security Department.",
+    "summary": "Rule — Homeland Security Department. The Department of Homeland Security (DHS) is amending its regulations to change the admission period in the F, J, and I classifications from duration of status to an admission for a fixed time period, and additional changes to admission and extension requirements. This final rule will provide additional protections and oversight of these nonimmigrant categories and will allow DHS to better evaluate whether these nonimmigrants are maintaining status while temporarily in the United States. This final rule provides amendments to the proposed rule covering this topic that was published in the Federal Register on August 28, 2025",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2026/07/17/2026-14439/establishing-a-fixed-time-period-of-admission-and-an-extension-of-stay-procedure-for-nonimmigrant",
+    "date": "2026-07-17",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2026/07/17/2026-14439/establishing-a-fixed-time-period-of-admission-and-an-extension-of-stay-procedure-for-nonimmigrant"
+      ]
+    ]
+  },
+  {
     "id": "e351b78b90326399",
     "type": "update",
     "title": "Commission accepts X’s action plan to comply with Digital Services Act",
@@ -1130,6 +2568,54 @@
         "Read more",
         "EU Digital Strategy",
         "https://digital-strategy.ec.europa.eu/en/news/commission-accepts-xs-action-plan-comply-digital-services-act"
+      ]
+    ]
+  },
+  {
+    "id": "a97d7f1a05d6f6a2",
+    "type": "update",
+    "title": "Medicare and Medicaid Programs; CY 2027 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program",
+    "why": "Proposed Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services.",
+    "summary": "Proposed Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services. This proposed rule addresses: changes to the physician fee schedule (PFS); other changes to Medicare Part B payment policies to ensure that payment systems are updated to reflect changes in medical practice, relative value of services, and changes in the statute; codification of establishment of new policies for: the Medicare Prescription Drug Inflation Rebate Program under the Inflation Reduction Act of 2022; the Ambulatory Specialty Model; updates to drugs and biological products paid under Part B; Medicare Shared Savings Program requirements; updates to the Quality Payment Program; updates to policies for Rural Health Clinics and Federally Qualified Health Centers; update to the Ambulance Fee Schedule regulations; codification of the Inflation Reduction Act and Consolidated Appropriations Act, 2026 provisions; updates to Clinical Laboratory Fee Schedule regulations; updates to the Medicare Promoting Interoperability Program",
+    "jurisdiction": "US",
+    "source": "Federal Register — chip security location verification",
+    "source_url": "https://www.federalregister.gov/documents/2026/07/16/2026-14327/medicare-and-medicaid-programs-cy-2027-payment-policies-under-the-physician-fee-schedule-and-other",
+    "date": "2026-07-16",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — chip security location verification",
+        "https://www.federalregister.gov/documents/2026/07/16/2026-14327/medicare-and-medicaid-programs-cy-2027-payment-policies-under-the-physician-fee-schedule-and-other"
+      ]
+    ]
+  },
+  {
+    "id": "3594b68b4edc6488",
+    "type": "update",
+    "title": "Reforming and Modernizing the NRC's Radiation Protection Framework",
+    "why": "Proposed Rule — Nuclear Regulatory Commission.",
+    "summary": "Proposed Rule — Nuclear Regulatory Commission. The U.S. Nuclear Regulatory Commission (NRC) is proposing to amend its regulations that govern its standards for protection against radiation. These proposed revisions would address section 5(b) of Executive Order 14300, \"Ordering the Reform of the Nuclear Regulatory Commission,\" and would reflect the NRC's experience and other developments in the field of radiation protection since the NRC's last major revisions to these standards in 1991. In addition, the NRC is issuing for public comment draft implementing guidance",
+    "jurisdiction": "US",
+    "source": "Federal Register — deemed export AI",
+    "source_url": "https://www.federalregister.gov/documents/2026/07/15/2026-14208/reforming-and-modernizing-the-nrcs-radiation-protection-framework",
+    "date": "2026-07-15",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — deemed export AI",
+        "https://www.federalregister.gov/documents/2026/07/15/2026-14208/reforming-and-modernizing-the-nrcs-radiation-protection-framework"
       ]
     ]
   },
@@ -1176,6 +2662,30 @@
         "Read more",
         "EU Digital Strategy",
         "https://digital-strategy.ec.europa.eu/en/consultations/commission-collects-feedback-define-eus-position-upcoming-world-radiocommunication-conference-2027"
+      ]
+    ]
+  },
+  {
+    "id": "5bf0ef20074a1850",
+    "type": "update",
+    "title": "Enhanced Favorable Treatment for the United Arab Emirates Under the Export Administration Regulations",
+    "why": "Rule — Commerce Department, Industry and Security Bureau.",
+    "summary": "Rule — Commerce Department, Industry and Security Bureau. In this final rule, the Bureau of Industry and Security (BIS) amends the Export Administration Regulations (EAR) to provide enhanced favorable treatment for the United Arab Emirates (UAE). Specifically, BIS is removing the UAE from Country Groups D:3 and D:4 and adding the UAE to Country Group A:5. More license exceptions will now be available, including Strategic Trade Authorization (STA) for the UAE Government and approved commercial entities in the UAE. STA will authorize the export, reexport, or transfer (in-country) of military items; certain commercial satellites and spacecraft; and dual-use items useful in, inter alia, oil and gas production, desalination, and civil nuclear power generation. The UAE Government and approved commercial entities will also have license-free access to advanced computing items, consistent with the May 2025 U.S.-UAE Artificial Intelligence Cooperation framework, without compromising U.S. digital infrastructure buildout",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration",
+    "date": "2026-07-14",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration"
       ]
     ]
   },
@@ -1404,6 +2914,54 @@
     ]
   },
   {
+    "id": "1344d1e8f5fd84f2",
+    "type": "enforce",
+    "title": "Notice of Request for Public Comments on Section 232 National Security Investigation of Anthracite Coal",
+    "why": "Notice — Commerce Department, Industry and Security Bureau.",
+    "summary": "Notice — Commerce Department, Industry and Security Bureau. On June 29, 2026, the Secretary of Commerce initiated an investigation to determine the effects on the national security of imports of anthracite coal. This investigation has been initiated under section 232 of the Trade Expansion Act of 1962, as amended (Section 232). Interested parties are invited to submit written comments, data, analyses, or other information pertinent to the investigation to the Department of Commerce's (Department) Bureau of Industry and Security (BIS), Office of Strategic Industries and Economic Security. This notice identifies issues on which the Department is especially interested in obtaining the public's views",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/07/07/2026-13663/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-anthracite",
+    "date": "2026-07-07",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/07/07/2026-13663/notice-of-request-for-public-comments-on-section-232-national-security-investigation-of-anthracite"
+      ]
+    ]
+  },
+  {
+    "id": "d341a683a09611b7",
+    "type": "update",
+    "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; Including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots",
+    "why": "Proposed Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services.",
+    "summary": "Proposed Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services. This proposed rule would revise the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar year 2027 based on our continuing experience with these systems. We also describe the changes to the amounts and factors used to determine the payment rates for Medicare services paid under the OPPS and those paid under the ASC payment systems. In addition, this proposed rule would update and refine the requirements for the Hospital Outpatient Quality Reporting Program and the Ambulatory Surgical Center Quality Reporting Program. There are no changes to the Rural Emergency Hospital Quality Reporting Program. We propose to expand the prior authorization requirement to include additional Botulinum Toxin Injection services. We also propose to implement certain provisions of the Consolidated Appropriations Act, 2026, for off-campus outpatient departments of a provider. In addition, this proposed rule announces notices of closure of teaching hospitals and opportunities to apply for available slots. This rule also requests information regarding potential approaches to improve comparability and standardization, particularly for complex contracting methodologies, of the HPT information reported in machine- readable files and consumer-friendly displays. We propose hospital AOs with deeming authority to assess compliance with certain Emergency Medical Treatment and Labor Act (EMTALA) administrative requirements during accreditation and reaccreditation surveys. Finally, we are soliciting comments on a potential separate payment under the Inpatient Prospective Payment System (IPPS) for domestic procurement of personal protective equipment and essential medicines",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2026/07/07/2026-13656/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
+    "date": "2026-07-07",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2026/07/07/2026-13656/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment"
+      ]
+    ]
+  },
+  {
     "id": "59dd9e2774570383",
     "type": "news",
     "title": "Arvind Raman Confirmed as the 18th NIST Director",
@@ -1424,6 +2982,126 @@
         "Read more",
         "NIST",
         "https://www.nist.gov/news-events/news/2026/07/arvind-raman-confirmed-18th-nist-director"
+      ]
+    ]
+  },
+  {
+    "id": "285975ddcdd45f6c",
+    "type": "enforce",
+    "title": "Schedules of Controlled Substances: Temporary Placement of Mitragynine Pseudoindoxyl, MGM-15, and MGM-16 in Schedule I",
+    "why": "Proposed Rule — Justice Department, Drug Enforcement Administration.",
+    "summary": "Proposed Rule — Justice Department, Drug Enforcement Administration. The Administrator of the Drug Enforcement Administration is issuing this notice of intent to publish a temporary order to schedule three 7-hydroxymitragynine-related substances (mitragynine pseudoindoxyl, MGM-15, and MGM-16), including their isomers, esters, ethers, salts, and salts of isomers, esters, and ethers, whenever the existence of such isomers, esters, ethers, and salts is possible, in schedule I of the Controlled Substances Act. When it is issued, the temporary scheduling order will impose the regulatory controls and administrative, civil, and criminal sanctions applicable to schedule I controlled substances on persons who handle (manufacture, distribute, reverse distribute, import, export, engage in research, conduct instructional activities or chemical analysis with, or possess) or propose to handle these three 7-hydroxymitragynine-related substances",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2026/07/06/2026-13581/schedules-of-controlled-substances-temporary-placement-of-mitragynine-pseudoindoxyl-mgm-15-and",
+    "date": "2026-07-06",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2026/07/06/2026-13581/schedules-of-controlled-substances-temporary-placement-of-mitragynine-pseudoindoxyl-mgm-15-and"
+      ]
+    ]
+  },
+  {
+    "id": "7dfa896b316f1709",
+    "type": "enforce",
+    "title": "Schedules of Controlled Substance: Temporary Placement of 7-Hydroxymitragynine Above a Specified Threshold in Schedule I",
+    "why": "Proposed Rule — Justice Department, Drug Enforcement Administration.",
+    "summary": "Proposed Rule — Justice Department, Drug Enforcement Administration. The Administrator of the Drug Enforcement Administration is issuing this notice of intent to publish a temporary order to schedule 7-hydroxymitragynine above a specified threshold, including its isomers, esters, ethers, salts, and salts of isomers, esters, and ethers, whenever the existence of such isomers, esters, ethers, and salts is possible, in schedule I of the Controlled Substances Act. When it is issued, the temporary scheduling order will impose the regulatory controls and administrative, civil, and criminal sanctions applicable to schedule I controlled substances on persons who handle (manufacture, distribute, reverse distribute, import, export, engage in research, conduct instructional activities or chemical analysis with, or possess) or propose to handle 7-hydroxymitragynine above a specified threshold",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2026/07/06/2026-13580/schedules-of-controlled-substance-temporary-placement-of-7-hydroxymitragynine-above-a-specified",
+    "date": "2026-07-06",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2026/07/06/2026-13580/schedules-of-controlled-substance-temporary-placement-of-7-hydroxymitragynine-above-a-specified"
+      ]
+    ]
+  },
+  {
+    "id": "4320fcae1a90940b",
+    "type": "news",
+    "title": "Implementing Voluntary Agreements Under the Defense Production Act",
+    "why": "Notice — Energy Department.",
+    "summary": "Notice — Energy Department. On October 23, 2025, the Department of Energy held a public meeting to discuss the development of voluntary agreements and plans of action under the Defense Production Act. As part of that meeting, a draft voluntary agreement was released to the accompanying docket and published in the Federal Register for comment. This notice publishes the \"Nuclear Fuel Cycle Consortium\" Voluntary Agreement approved by the Secretary of Energy, after consultation by the Attorney General and Chairman of the Federal Trade Commission",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2026/07/06/2026-13486/implementing-voluntary-agreements-under-the-defense-production-act",
+    "date": "2026-07-06",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2026/07/06/2026-13486/implementing-voluntary-agreements-under-the-defense-production-act"
+      ]
+    ]
+  },
+  {
+    "id": "5ba6b2e61abdaec5",
+    "type": "update",
+    "title": "Calendar Year 2027 Home Health Prospective Payment System (HH PPS) Rate Update; Requirements for the HH Quality Reporting Program and the Expanded HH Value-Based Purchasing Model; Medicare Provider Enrollment, Durable Medical Equipment (DME), and DME, Prosthetics, Orthotics, and Supplies (DMEPOS) Policies",
+    "why": "Proposed Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services.",
+    "summary": "Proposed Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services. This proposed rule would set forth routine updates to the Medicare home health payment rates in accordance with existing statutory and regulatory requirements. In addition, this proposed rule discusses the behavior adjustment and proposes a temporary behavior adjustment and proposes to recalibrate the case-mix weights and update the functional impairment levels; comorbidity subgroups; and low- utilization payment adjustment (LUPA) thresholds for CY 2027. Additionally, this proposed rule discusses the provision of home health palliative care services and includes a request for information (RFI) on a home health specific wage index. This rule would also propose changes to the Home Health Quality Reporting Program (HH QRP) and summarizes potential initiatives to improve alignment between the HH QRP and expanded Home Health Value Based Purchasing (HHVBP) Model. Lastly, the rule would--clarify the application of the DMEPOS face-to- face encounter requirements for the replacement of DMEPOS items; make changes to the provider and supplier enrollment requirements; make changes regarding DME benefit expansion for infusion pumps and drugs; and discuss collection of information requirement changes regarding the DMEPOS Competitive Bidding Program (CBP) country of origin",
+    "jurisdiction": "US",
+    "source": "Federal Register — chip security location verification",
+    "source_url": "https://www.federalregister.gov/documents/2026/07/06/2026-13602/calendar-year-2027-home-health-prospective-payment-system-hh-pps-rate-update-requirements-for-the-hh",
+    "date": "2026-07-06",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — chip security location verification",
+        "https://www.federalregister.gov/documents/2026/07/06/2026-13602/calendar-year-2027-home-health-prospective-payment-system-hh-pps-rate-update-requirements-for-the-hh"
+      ]
+    ]
+  },
+  {
+    "id": "9ec872266ae808b7",
+    "type": "news",
+    "title": "Privacy Act of 1974; Matching Program",
+    "why": "Notice — Health and Human Services Department, Centers for Medicare & Medicaid Services.",
+    "summary": "Notice — Health and Human Services Department, Centers for Medicare & Medicaid Services. In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS) is providing notice of a new matching program between CMS and the Department of Veterans Affairs (VA), \"Verification of Eligibility for Insurance Affordability Programs Under the Patient Protection and Affordable Care Act.\"",
+    "jurisdiction": "US",
+    "source": "Federal Register — chip security location verification",
+    "source_url": "https://www.federalregister.gov/documents/2026/07/06/2026-13572/privacy-act-of-1974-matching-program",
+    "date": "2026-07-06",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — chip security location verification",
+        "https://www.federalregister.gov/documents/2026/07/06/2026-13572/privacy-act-of-1974-matching-program"
       ]
     ]
   },
@@ -1516,6 +3194,54 @@
         "Read more",
         "EU Digital Strategy",
         "https://digital-strategy.ec.europa.eu/en/events/info-session-call-proposals-youth-driven-social-media-platforms"
+      ]
+    ]
+  },
+  {
+    "id": "b8f755c7385c512c",
+    "type": "update",
+    "title": "Modernizing Security Requirements",
+    "why": "Proposed Rule — Nuclear Regulatory Commission.",
+    "summary": "Proposed Rule — Nuclear Regulatory Commission. The U.S. Nuclear Regulatory Commission (NRC) is proposing to revise its regulations to modernize security and fitness-for-duty requirements to enhance efficiency, consistent with Executive Order 14300, \"Ordering the Reform of the Nuclear Regulatory Commission.\" The proposed revisions are intended to reduce regulatory burden, where appropriate, while continuing to provide reasonable assurance that safety and security will be adequately maintained at NRC-licensed facilities",
+    "jurisdiction": "US",
+    "source": "Federal Register — deemed export AI",
+    "source_url": "https://www.federalregister.gov/documents/2026/06/26/2026-12989/modernizing-security-requirements",
+    "date": "2026-06-26",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — deemed export AI",
+        "https://www.federalregister.gov/documents/2026/06/26/2026-12989/modernizing-security-requirements"
+      ]
+    ]
+  },
+  {
+    "id": "fb06b3c1a6deaf0d",
+    "type": "news",
+    "title": "Ushering in the Next Frontier of Quantum Innovation",
+    "why": "Presidential Document — Executive Office of the President",
+    "summary": "Presidential Document — Executive Office of the President",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2026/06/25/2026-12910/ushering-in-the-next-frontier-of-quantum-innovation",
+    "date": "2026-06-25",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2026/06/25/2026-12910/ushering-in-the-next-frontier-of-quantum-innovation"
       ]
     ]
   },
@@ -1854,6 +3580,30 @@
         "Read more",
         "Southwark Crown Court / NCA / Reuters",
         "https://www.reuters.com/world/diezani-alison-madueke-acquittal-2026"
+      ]
+    ]
+  },
+  {
+    "id": "2e9bddc14e355066",
+    "type": "update",
+    "title": "General Services Acquisition Regulation; Acquisition of Information and Communication Technology; Notice of Listening Sessions and Request for Comments",
+    "why": "Proposed Rule — General Services Administration.",
+    "summary": "Proposed Rule — General Services Administration. The General Services Administration (GSA) is seeking public comment on the draft of a new General Services Administration Acquisition Regulation (GSAR) clause regarding basic safeguarding of data within Large Language Model Artificial Intelligence Systems (LLMs). Due to the complexity of the issue, GSA is publishing this notification and draft clause to gather feedback from stakeholders before taking future action (e.g., deviation and/or formal rulemaking)",
+    "jurisdiction": "US",
+    "source": "Federal Register — deemed export AI",
+    "source_url": "https://www.federalregister.gov/documents/2026/06/17/2026-12205/general-services-acquisition-regulation-acquisition-of-information-and-communication-technology",
+    "date": "2026-06-17",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — deemed export AI",
+        "https://www.federalregister.gov/documents/2026/06/17/2026-12205/general-services-acquisition-regulation-acquisition-of-information-and-communication-technology"
       ]
     ]
   },
@@ -2227,6 +3977,30 @@
     ]
   },
   {
+    "id": "699a38d69009aa21",
+    "type": "update",
+    "title": "Medicaid Program; Community Engagement Requirement for Certain Individuals",
+    "why": "Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services.",
+    "summary": "Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services. This interim final rule with comment period (IFC) interprets and implements the community engagement requirement in Medicaid under section 1902(xx) of the Social Security Act. States are required to implement the new requirement no later than January 1, 2027. This IFC specifies the requirements and expectations for States, including the Medicaid applicants and beneficiaries who must demonstrate community engagement as a condition of their eligibility, the types of qualifying activities that satisfy the community engagement requirement, the criteria to meet an exception from the requirement (that is, be deemed compliant), and the criteria to meet a specified exclusion from the requirement. It also specifies requirements for verification of qualifying activities, outreach to affected populations, steps States must take if they determine individuals are noncompliant, and additional operational considerations for States. Finally, this IFC specifies implementation timing and establishes new State reporting requirements",
+    "jurisdiction": "US",
+    "source": "Federal Register — chip security location verification",
+    "source_url": "https://www.federalregister.gov/documents/2026/06/03/2026-11094/medicaid-program-community-engagement-requirement-for-certain-individuals",
+    "date": "2026-06-03",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — chip security location verification",
+        "https://www.federalregister.gov/documents/2026/06/03/2026-11094/medicaid-program-community-engagement-requirement-for-certain-individuals"
+      ]
+    ]
+  },
+  {
     "id": "9507b7076e9ad20f",
     "type": "news",
     "title": "Apply AI Webinar on AI for Cultural, Creative and Media Sectors",
@@ -2298,6 +4072,30 @@
     ]
   },
   {
+    "id": "9548741f921ca11d",
+    "type": "update",
+    "title": "Medicare Program; Alternative Payment Model Updates and the Increasing Organ Transplant Access (IOTA) Model",
+    "why": "Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services.",
+    "summary": "Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services. This final rule will update and revise the Increasing Organ Transplant Access (IOTA) Model for Performance Year (PY) 2. This final rule also includes a technical correction to the regulatory text",
+    "jurisdiction": "US",
+    "source": "Federal Register — chip security location verification",
+    "source_url": "https://www.federalregister.gov/documents/2026/06/01/2026-10890/medicare-program-alternative-payment-model-updates-and-the-increasing-organ-transplant-access-iota",
+    "date": "2026-06-01",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — chip security location verification",
+        "https://www.federalregister.gov/documents/2026/06/01/2026-10890/medicare-program-alternative-payment-model-updates-and-the-increasing-organ-transplant-access-iota"
+      ]
+    ]
+  },
+  {
     "id": "7cdc0188c578682f",
     "type": "news",
     "title": "NIST Expands AI Consortium’s Scope, Calls for New Members",
@@ -2344,6 +4142,30 @@
     ]
   },
   {
+    "id": "380778ffe1568c24",
+    "type": "update",
+    "title": "Regulation for Federal Financial Assistance",
+    "why": "Proposed Rule — Management and Budget Office, Health and Human Services Department, Agriculture Department, State Department, Agency for International Development, Veterans…",
+    "summary": "Proposed Rule — Management and Budget Office, Health and Human Services Department, Agriculture Department, State Department, Agency for International Development, Veterans Affairs Department, Energy Department, Treasury Department, Defense Department, Transportation Department, Commerce Department, Interior Department, Environmental Protection Agency, U.S. International Development Finance Corporation, National Aeronautics and Space Administration, United States Agency for Global Media, Nuclear Regulatory Commission, Corporation for National and Community Service, Social Security Administration, Housing and Urban Development Department, National Science Foundation, National Archives and Records Administration, Small Business Administration, Justice Department, Labor Department, Homeland Security Department, National Foundation on the Arts and the Humanities, Institute of Museum and Library Services, National Endowment for the Arts, National Endowment for the Humanities, Education Department, Export-Import Bank, Executive Office of the President, Office of National Drug Control Policy, Peace Corps, Election Assistance Commission, Gulf Coast Ecosystem Restoration Council, Federal Communications Commission, Consumer Product Safety Commission, Delta Regional Authority, Appraisal Subcommittee of the Federal Financial Institutions Examination Council, Marine Mammal Commission, Millennium Challenge Corporation, National Credit Union Administration. The Office of Management and Budget (OMB) proposes to revise the Guidance for Federal Financial Assistance to improve government- wide policies and requirements related to the management of grants, cooperative agreements, and other forms of assistance. OMB is proposing revisions that would improve transparency, accountability, and oversight for Federal awards across the Federal Government. This includes ensuring that American tax dollars are not wasted or misused, activities performed under Federal awards are consistent with law and policy, and recipients are held accountable when they fail to meet relevant standards. The revisions also aim to ensure that basic American principles of equality and equal opportunity are upheld throughout all stages of the award making process and that unlawful discrimination is no longer permitted. Proposed changes also include providing further clarification on the regulatory status of the OMB requirements and on the process for future updates to the government- wide requirements. Finally, OMB also proposes changes to reduce recipient burden. The listed Federal grant-making agencies propose conforming changes to their respective adopting regulations, or, in the case of some agencies and other entities, establishing new adopting regulations or policies. The proposed changes reflect the administration's commitment to transparency, accountability, and proper oversight for the Federal grantmaking process. The proposed regulations seek to ensure that American tax dollars are ultimately used to serve the needs of the American public",
+    "jurisdiction": "US",
+    "source": "Federal Register — chip security location verification",
+    "source_url": "https://www.federalregister.gov/documents/2026/05/29/2026-10817/regulation-for-federal-financial-assistance",
+    "date": "2026-05-29",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — chip security location verification",
+        "https://www.federalregister.gov/documents/2026/05/29/2026-10817/regulation-for-federal-financial-assistance"
+      ]
+    ]
+  },
+  {
     "id": "7da7a97137756a9a",
     "type": "enforce",
     "title": "Commission fines Temu €200 million for breaching the Digital Services Act",
@@ -2366,6 +4188,30 @@
     ]
   },
   {
+    "id": "2d35932044483edc",
+    "type": "news",
+    "title": "Implementing Certain Tariff-Related Elements of a Trade and Security Agreement Between the American Institute in Taiwan and the Taipei Economic and Cultural Representative Office in the United States",
+    "why": "Notice — Commerce Department, International Trade Administration, Trade Representative, Office of United States.",
+    "summary": "Notice — Commerce Department, International Trade Administration, Trade Representative, Office of United States. On September 5, 2025, President Trump issued Executive Order 14346 (Modifying the Scope of Reciprocal Tariffs and Establishing Procedures for Implementing Trade and Security Agreements). Executive Order 14346 directed and authorized the Secretary of Commerce (Secretary) and the United States Trade Representative (Trade Representative) to implement the terms of any framework trade and security agreement or final trade and security agreement concluded between the United States and a foreign trading partner that involve the national emergency declared in Executive Order 14257 of April 2, 2025 (Regulating Imports with a Reciprocal Tariff to Rectify Trade Practices that Contribute to Large and Persistent Annual United States Goods Trade Deficits), or threats to the national security found pursuant to Section 232 of the Trade Expansion Act of 1962 (Section 232). On January 15, 2026, the American Institute in Taiwan (AIT) and the Taipei Economic and Cultural Representative Office in the United States (TECRO) signed the Memorandum of Understanding Between the Taipei Economic and Cultural Representative Office in the United States and the American Institute in Taiwan Relating to Taiwan-U.S. Investment (MOU). In the MOU, the United States committed to, among other things, modify tariffs imposed under Section 232 in certain respects. On February 12, 2026, AIT and TECRO signed the Agreement Between the American Institute in Taiwan and the Taipei Economic and Cultural Representative Office in the United States on Reciprocal Trade Between the United States of America and Taiwan (ART or Agreement). Both the MOU and the ART qualify for implementation under Executive Order 14346. The Secretary and Trade Representative are taking necessary and appropriate action to implement the MOU at this time. The Secretary and Trade Representative are not implementing the ART at this time as it has not yet entered into force. This notice amends the Harmonized Tariff Schedule of the United States (HTSUS) to implement the terms of the MOU pertaining to the modification of certain Section 232 tariffs applied to automobile parts, timber, lumber, and wood derivative products of Taiwan. In addition, the MOU states that the United States will remove derivative Section 232 steel, aluminum, and copper tariffs from aircraft components that are products of Taiwan",
+    "jurisdiction": "US",
+    "source": "Federal Register — deemed export AI",
+    "source_url": "https://www.federalregister.gov/documents/2026/05/28/2026-10571/implementing-certain-tariff-related-elements-of-a-trade-and-security-agreement-between-the-american",
+    "date": "2026-05-28",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — deemed export AI",
+        "https://www.federalregister.gov/documents/2026/05/28/2026-10571/implementing-certain-tariff-related-elements-of-a-trade-and-security-agreement-between-the-american"
+      ]
+    ]
+  },
+  {
     "id": "ee120b939f9a02a3",
     "type": "update",
     "title": "Call for Tenders: Development, consultancy and support for a data altruism consent management system",
@@ -2384,6 +4230,30 @@
         "Read more",
         "EU Digital Strategy",
         "https://digital-strategy.ec.europa.eu/en/funding/call-tenders-development-consultancy-and-support-data-altruism-consent-management-system"
+      ]
+    ]
+  },
+  {
+    "id": "1ae287b9610d4446",
+    "type": "update",
+    "title": "Medicaid Program; Medicaid Managed Care State Directed Payments and Medicaid Fee-for-Service Targeted Medicaid Practitioner Payments",
+    "why": "Proposed Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services.",
+    "summary": "Proposed Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services. This proposed rule describes alternatives to modify the limit on the total payment rate and other requirements for State directed payments in Medicaid managed care. We propose these changes based on our authority to interpret and implement section 1902(a)(4) of the Social Security Act (the Act) with respect to prepaid inpatient health plans and prepaid ambulatory health plans, and section 1903(m)(2)(A)(iii) of the Act, which require that contracts between States and managed care organizations to provide payments under a risk- based contract for services and associated administrative costs that are actuarially sound. This rule also proposes to set a limit for certain targeted Medicaid payments in Medicaid fee-for-service. We propose this change based on our authority to interpret and implement section 1902(a)(30)(A) of the Act with respect to certain targeted Medicaid payments which require that payments be consistent with efficiency, economy, and quality of care and are sufficient to enlist enough providers so that care and services are available under the plan at least to the extent that such care and services are available to the general population in the geographic area",
+    "jurisdiction": "US",
+    "source": "Federal Register — chip security location verification",
+    "source_url": "https://www.federalregister.gov/documents/2026/05/22/2026-10292/medicaid-program-medicaid-managed-care-state-directed-payments-and-medicaid-fee-for-service-targeted",
+    "date": "2026-05-22",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — chip security location verification",
+        "https://www.federalregister.gov/documents/2026/05/22/2026-10292/medicaid-program-medicaid-managed-care-state-directed-payments-and-medicaid-fee-for-service-targeted"
       ]
     ]
   },
@@ -2480,6 +4350,30 @@
         "Read more",
         "NIST",
         "https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits"
+      ]
+    ]
+  },
+  {
+    "id": "cd551e95db106fe3",
+    "type": "update",
+    "title": "Medicare Program; Hospital Inpatient Prospective Payment Systems for Acute Care Hospitals (IPPS) and the Long-Term Care Hospital Prospective Payment System and Policy Changes and Fiscal Year (FY) 2027 Rates; Requirements for Quality Programs; and Other Policy Changes",
+    "why": "Proposed Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services.",
+    "summary": "Proposed Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services. This proposed rule would revise the Medicare hospital inpatient prospective payment systems (IPPS) for operating and capital- related costs of acute care hospitals; make changes relating to Medicare graduate medical education (GME) for teaching hospitals; update the payment policies and the annual payment rates for the Medicare prospective payment system (PPS) for inpatient hospital services provided by long-term care hospitals (LTCHs); update and make changes to requirements for certain quality programs; and make other policy-related changes",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2026/04/14/2026-07203/medicare-program-hospital-inpatient-prospective-payment-systems-for-acute-care-hospitals-ipps-and",
+    "date": "2026-04-14",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2026/04/14/2026-07203/medicare-program-hospital-inpatient-prospective-payment-systems-for-acute-care-hospitals-ipps-and"
       ]
     ]
   },
@@ -2776,6 +4670,30 @@
         "Read more",
         "CDT Europe – AI Bulletin March 2026",
         "https://cdt.org/insights/cdt-europes-ai-bulletin-march-2026/"
+      ]
+    ]
+  },
+  {
+    "id": "e2c07db939840f73",
+    "type": "update",
+    "title": "Regulatory Capital Rule: Category I and II Banking Organizations, Banking Organizations With Significant Trading Activity, and Optional Adoption for Other Banking Organizations",
+    "why": "Proposed Rule — Treasury Department, Comptroller of the Currency, Federal Reserve System, Federal Deposit Insurance Corporation.",
+    "summary": "Proposed Rule — Treasury Department, Comptroller of the Currency, Federal Reserve System, Federal Deposit Insurance Corporation. The Office of the Comptroller of the Currency, the Board of Governors of the Federal Reserve System, and the Federal Deposit Insurance Corporation are proposing to modernize the capital requirements applicable to Category I and II depository institution holding companies and depository institutions, as well as revise the market risk capital framework for banking organizations with significant trading activity (the proposal). The proposal would improve the regulatory capital framework for covered banking organizations by enhancing its risk sensitivity and consistency and by simplifying core components of its design. The agencies expect the proposal would support the safety and soundness of covered banking organizations and U.S. financial stability while promoting lending and other financial intermediation activities in the banking system over a range of economic conditions",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2026/03/27/2026-05959/regulatory-capital-rule-category-i-and-ii-banking-organizations-banking-organizations-with",
+    "date": "2026-03-27",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2026/03/27/2026-05959/regulatory-capital-rule-category-i-and-ii-banking-organizations-banking-organizations-with"
       ]
     ]
   },
@@ -4414,6 +6332,30 @@
     ]
   },
   {
+    "id": "1bf6e5163b00a67f",
+    "type": "update",
+    "title": "Petition To Delist Hazardous Air Pollutant: 2-Butoxyethyl Benzoate (2-BEB)",
+    "why": "Proposed Rule — Environmental Protection Agency.",
+    "summary": "Proposed Rule — Environmental Protection Agency. The U.S. Environmental Protection Agency (EPA or Agency) is proposing to grant a petition to remove 2-Butoxyethyl benzoate (2-BEB) (Chemical Abstract Service (CAS) No. 5451-76-3) from the glycol ethers category in the list of hazardous air pollutants (HAP) in Clean Air Act (CAA). The EPA proposes to find that there are adequate data on the health or environmental effects of 2-BEB to support the request for removal. This action also details a streamlined approach to the review process of future petitions",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2025/12/22/2025-23566/petition-to-delist-hazardous-air-pollutant-2-butoxyethyl-benzoate-2-beb",
+    "date": "2025-12-22",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2025/12/22/2025-23566/petition-to-delist-hazardous-air-pollutant-2-butoxyethyl-benzoate-2-beb"
+      ]
+    ]
+  },
+  {
     "id": "384fe2c3c1aad012",
     "type": "news",
     "title": "NIST Physicists Bring Unruly Molecules to the Quantum Party",
@@ -4530,6 +6472,54 @@
         "Read more",
         "NIST",
         "https://www.nist.gov/news-events/news/2025/12/what-time-it-mars-nist-physicists-have-answer"
+      ]
+    ]
+  },
+  {
+    "id": "f5bbc15dc9f8ebfa",
+    "type": "news",
+    "title": "Launching the Genesis Mission",
+    "why": "Presidential Document — Executive Office of the President",
+    "summary": "Presidential Document — Executive Office of the President",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2025/11/28/2025-21665/launching-the-genesis-mission",
+    "date": "2025-11-28",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2025/11/28/2025-21665/launching-the-genesis-mission"
+      ]
+    ]
+  },
+  {
+    "id": "de8c4fa777942fb7",
+    "type": "enforce",
+    "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; Quality Reporting Programs; Overall Hospital Quality Star Rating; Hospital Price Transparency; and Notice of Closure of a Teaching Hospital and Opportunity To Apply for Available Slots",
+    "why": "Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services, .",
+    "summary": "Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services, . This final rule with comment period revises the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar year 2026 based on our continuing experience with these systems. We also describe the changes to the amounts and factors used to determine the payment rates for Medicare services paid under the OPPS and those paid under the ASC payment systems. In addition, this final rule with comment period announces the closure of a teaching hospital and the opportunity to apply for available slots, and updates and refines the requirements for the Hospital Outpatient Quality Reporting Program, Rural Emergency Hospital Quality Reporting Program, Ambulatory Surgical Center Quality Reporting Program, Overall Hospital Quality Star Rating, and hospitals to make public their standard charge information and enforcement of hospital price transparency, as well as summarizes comments received in response to a request for information on measure concepts regarding Well-Being and Nutrition for consideration in future years for the OQR, REHQR, and ASCQR programs",
+    "jurisdiction": "US",
+    "source": "Federal Register — frontier model export",
+    "source_url": "https://www.federalregister.gov/documents/2025/11/25/2025-20907/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
+    "date": "2025-11-25",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — frontier model export",
+        "https://www.federalregister.gov/documents/2025/11/25/2025-20907/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment"
       ]
     ]
   },
@@ -9766,6 +11756,78 @@
     ]
   },
   {
+    "id": "cc12f5c60daed6e8",
+    "type": "update",
+    "title": "Implementation of Additional Due Diligence Measures for Advanced Computing Integrated Circuits; Amendments and Clarifications; and Extension of Comment Period",
+    "why": "Rule — Commerce Department, Industry and Security Bureau.",
+    "summary": "Rule — Commerce Department, Industry and Security Bureau. BIS is revising the Export Administration Regulations (EAR) in response to requests from the public to provide additional due diligence procedures regarding advanced computing integrated circuits (ICs). This interim final rule (IFR) will protect the national security of the United States and assist foundries and Outsourced Semiconductor Assembly and Test (\"OSATs\") companies in complying with provisions of the EAR pertaining to advanced computing ICs in the supply chain. This IFR also revises the EAR to make amendments and clarifications to the EAR for changes made to the EAR in an IFR released by BIS on December 2, 2024, \"Foreign-Produced Direct Product Rule Additions, and Refinements to Controls for Advanced Computing and Semiconductor Manufacturing Items,\" (FDP IFR), including extending the deadline for written comments for the FDP IFR to March 14, 2025",
+    "jurisdiction": "US",
+    "source": "Federal Register — BIS AI diffusion",
+    "source_url": "https://www.federalregister.gov/documents/2025/01/16/2025-00711/implementation-of-additional-due-diligence-measures-for-advanced-computing-integrated-circuits",
+    "date": "2025-01-16",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — BIS AI diffusion",
+        "https://www.federalregister.gov/documents/2025/01/16/2025-00711/implementation-of-additional-due-diligence-measures-for-advanced-computing-integrated-circuits"
+      ]
+    ]
+  },
+  {
+    "id": "5fa1ef5c018fdff4",
+    "type": "update",
+    "title": "Public Briefing on Framework for Artificial Intelligence Diffusion",
+    "why": "Rule — Commerce Department, Industry and Security Bureau.",
+    "summary": "Rule — Commerce Department, Industry and Security Bureau. On January 10, 2025, the Office of the Federal Register posted for public inspection a Bureau of Industry and Security (BIS) interim final rule: \"Framework for Artificial Intelligence Diffusion\" (RIN 0694-AJ90). This document announces that, on January 15, 2025, BIS will host a virtual public briefing on this rule. This document also provides details on the procedures for participating in the virtual public briefing",
+    "jurisdiction": "US",
+    "source": "Federal Register — BIS AI diffusion",
+    "source_url": "https://www.federalregister.gov/documents/2025/01/15/2025-00637/public-briefing-on-framework-for-artificial-intelligence-diffusion",
+    "date": "2025-01-15",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — BIS AI diffusion",
+        "https://www.federalregister.gov/documents/2025/01/15/2025-00637/public-briefing-on-framework-for-artificial-intelligence-diffusion"
+      ]
+    ]
+  },
+  {
+    "id": "69f8ac07e7f6a6c4",
+    "type": "update",
+    "title": "Framework for Artificial Intelligence Diffusion",
+    "why": "Rule — Commerce Department, Industry and Security Bureau.",
+    "summary": "Rule — Commerce Department, Industry and Security Bureau. With this interim final rule, the Commerce Department's Bureau of Industry and Security (BIS) revises the Export Administration Regulations' (EAR) controls on advanced computing integrated circuits (ICs) and adds a new control on artificial intelligence (AI) model weights for certain advanced closed-weight dual-use AI models. In conjunction with the expansion of these controls, which BIS has determined are necessary to protect U.S. national security and foreign policy interests, BIS is adding new license exceptions and updating the Data Center Validated End User authorization to facilitate the export, reexport, and transfer (in-country) of advanced computing (ICs) to end users in destinations that do not raise national security or foreign policy concerns. Together, these changes will cultivate secure ecosystems for the responsible diffusion and use of AI and advanced computing ICs",
+    "jurisdiction": "US",
+    "source": "Federal Register — BIS AI diffusion",
+    "source_url": "https://www.federalregister.gov/documents/2025/01/15/2025-00636/framework-for-artificial-intelligence-diffusion",
+    "date": "2025-01-15",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — BIS AI diffusion",
+        "https://www.federalregister.gov/documents/2025/01/15/2025-00636/framework-for-artificial-intelligence-diffusion"
+      ]
+    ]
+  },
+  {
     "id": "global-ai-responsibility-update-published-february-2025-pdf-8a7a1f90",
     "type": "update",
     "title": "ai-responsibility-update-published-february-2025.pdf",
@@ -9841,6 +11903,78 @@
     ]
   },
   {
+    "id": "7bc1100ec44e67de",
+    "type": "update",
+    "title": "Foreign-Produced Direct Product Rule Additions, and Refinements to Controls for Advanced Computing and Semiconductor Manufacturing Items",
+    "why": "Rule — Commerce Department, Industry and Security Bureau.",
+    "summary": "Rule — Commerce Department, Industry and Security Bureau. In this interim final rule (IFR), the Bureau of Industry and Security (BIS) makes changes to the Export Administration Regulations (EAR) controls for certain advanced computing items, supercomputers, and semiconductor manufacturing equipment, which includes adding new controls for certain semiconductor manufacturing equipment and related items, creating new Foreign Direct Product (FDP) rules for certain commodities to impair the capability to produce \"advanced-node integrated circuits\" (\"advanced-node ICs\") by certain destinations or entities of concern, adding new controls for certain high bandwidth memory important for advanced computing, and clarifying controls on certain software keys that allow for the use of items such as software tools. This IFR publishes concurrently with another BIS final rule entitled, \"Additions and Modifications to the Entity List; and Removals from the Validated End-User (VEU) Program\" (Entity List rule) that adds to and modifies the Entity List to ensure appropriate EAR controls are in place for certain critical technologies and to minimize the risk of diversion to entities of concern",
+    "jurisdiction": "US",
+    "source": "Federal Register — BIS AI diffusion",
+    "source_url": "https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing",
+    "date": "2024-12-05",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — BIS AI diffusion",
+        "https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing"
+      ]
+    ]
+  },
+  {
+    "id": "152db47f936a746f",
+    "type": "update",
+    "title": "Guidance on Use of Artificial Intelligence-Based Tools in Practice Before the United States Patent and Trademark Office",
+    "why": "Notice — Commerce Department, Patent and Trademark Office.",
+    "summary": "Notice — Commerce Department, Patent and Trademark Office. The United States Patent and Trademark Office (USPTO) issues this guidance to inform practitioners and the public of the important issues that patent and trademark professionals, innovators, and entrepreneurs must navigate while using Artificial Intelligence (AI) in matters before the USPTO. The USPTO recognizes the possibility that AI will be used to prepare and prosecute patent and trademark applications, as well as other filings before the Office including filings submitted to the Patent Trial and Appeal Board (PTAB) and Trademark Trial and Appeal Board (TTAB). While the USPTO is committed to maximizing AI's benefits and seeing them distributed broadly across society, the USPTO recognizes the need, through technical mitigations and human governance, to cabin the risks arising from the use of AI in practice before the USPTO. At this time, based on the USPTO's engagement with stakeholders through the USPTO's AI and Emerging Technologies (ET) Partnership (AI/ET Partnership) and a review of existing rules, the USPTO has determined that existing rules protect the USPTO's ecosystem against such potential perils. This guidance reminds individuals involved in proceedings before the USPTO of the pertinent rules and policies, helps inform those same individuals of the risks associated with the use of AI systems, and provides suggestions to mitigate those risks. The USPTO will continue to engage with the public, including through the AI/ET Partnership, as the use of AI advances and evolves",
+    "jurisdiction": "US",
+    "source": "Federal Register — BIS AI diffusion",
+    "source_url": "https://www.federalregister.gov/documents/2024/04/11/2024-07629/guidance-on-use-of-artificial-intelligence-based-tools-in-practice-before-the-united-states-patent",
+    "date": "2024-04-11",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — BIS AI diffusion",
+        "https://www.federalregister.gov/documents/2024/04/11/2024-07629/guidance-on-use-of-artificial-intelligence-based-tools-in-practice-before-the-united-states-patent"
+      ]
+    ]
+  },
+  {
+    "id": "247a97bda9486105",
+    "type": "update",
+    "title": "Export Controls on Semiconductor Manufacturing Items",
+    "why": "Rule — Commerce Department, Industry and Security Bureau.",
+    "summary": "Rule — Commerce Department, Industry and Security Bureau. On October 7, 2022, the Bureau of Industry and Security (BIS) released the interim final rule (IFR) \"Implementation of Additional Export Controls: Certain Advanced Computing and Semiconductor Manufacturing Items; Supercomputer and Semiconductor End Use\" (October 7 IFR), which amended the Export Administration Regulations (EAR) to implement controls on advanced computing integrated circuits (ICs), computer commodities that contain such ICs, and certain semiconductor manufacturing items. The October 7 IFR also made other EAR changes to ensure appropriate related controls, including on certain \"U.S. person\" activities. This IFR addresses comments received in response to only the part of the October 7 IFR that controls semiconductor manufacturing equipment (SME) and amends the EAR to implement SME controls more effectively and to address ongoing national security concerns",
+    "jurisdiction": "US",
+    "source": "Federal Register — BIS AI diffusion",
+    "source_url": "https://www.federalregister.gov/documents/2023/10/25/2023-23049/export-controls-on-semiconductor-manufacturing-items",
+    "date": "2023-10-25",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — BIS AI diffusion",
+        "https://www.federalregister.gov/documents/2023/10/25/2023-23049/export-controls-on-semiconductor-manufacturing-items"
+      ]
+    ]
+  },
+  {
     "id": "eu-regulation-2023-988-en-eur-lex-d0734343",
     "type": "update",
     "title": "Regulation - 2023/988 - EN - EUR-Lex",
@@ -9891,6 +12025,30 @@
     ]
   },
   {
+    "id": "b89e1c65d83c4e84",
+    "type": "update",
+    "title": "Implementation of Additional Export Controls: Certain Advanced Computing and Semiconductor Manufacturing Items; Supercomputer and Semiconductor End Use; Entity List Modification",
+    "why": "Rule — Commerce Department, Industry and Security Bureau.",
+    "summary": "Rule — Commerce Department, Industry and Security Bureau. In this rule, the Bureau of Industry and Security (BIS) is amending the Export Administration Regulations (EAR) to implement necessary controls on advanced computing integrated circuits (ICs), computer commodities that contain such ICs, and certain semiconductor manufacturing items. In addition, BIS is expanding controls on transactions involving items for supercomputer and semiconductor manufacturing end uses, for example, this rule expands the scope of foreign-produced items subject to license requirements for twenty-eight existing entities on the Entity List that are located in China. BIS is also informing the public that specific activities of \"U.S. persons\" that `support' the \"development\" or \"production\" of certain ICs in the PRC require a license. Lastly, to minimize short term impact on the semiconductor supply chain from this rule, BIS is establishing a Temporary General License to permit specific, limited manufacturing activities in China related to items destined for use outside China and is identifying a model certificate that may be used in compliance programs to assist, along with other measures, in conducting due diligence. `",
+    "jurisdiction": "US",
+    "source": "Federal Register — BIS AI diffusion",
+    "source_url": "https://www.federalregister.gov/documents/2022/10/13/2022-21658/implementation-of-additional-export-controls-certain-advanced-computing-and-semiconductor",
+    "date": "2022-10-13",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — BIS AI diffusion",
+        "https://www.federalregister.gov/documents/2022/10/13/2022-21658/implementation-of-additional-export-controls-certain-advanced-computing-and-semiconductor"
+      ]
+    ]
+  },
+  {
     "id": "eu-eur-lex-52022pc0197-en-eur-lex-def6c3b1",
     "type": "news",
     "title": "EUR-Lex - 52022PC0197 - EN - EUR-Lex",
@@ -9916,6 +12074,30 @@
     ]
   },
   {
+    "id": "634ba42a44be5694",
+    "type": "update",
+    "title": "Medicare Program; Revisions to Payment Policies Under the Physician Fee Schedule, Clinical Laboratory Fee Schedule, Access to Identifiable Data for the Center for Medicare and Medicaid Innovation Models & Other Revisions to Part B for CY 2015",
+    "why": "Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services.",
+    "summary": "Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services. This major final rule with comment period addresses changes to the physician fee schedule, and other Medicare Part B payment policies to ensure that our payment systems are updated to reflect changes in medical practice and the relative value of services, as well as changes in the statute. See the Table of Contents for a listing of the specific issues addressed in this rule",
+    "jurisdiction": "US",
+    "source": "Federal Register — BIS AI diffusion",
+    "source_url": "https://www.federalregister.gov/documents/2014/11/13/2014-26183/medicare-program-revisions-to-payment-policies-under-the-physician-fee-schedule-clinical-laboratory",
+    "date": "2014-11-13",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — BIS AI diffusion",
+        "https://www.federalregister.gov/documents/2014/11/13/2014-26183/medicare-program-revisions-to-payment-policies-under-the-physician-fee-schedule-clinical-laboratory"
+      ]
+    ]
+  },
+  {
     "id": "global-bill-text-ab-2013-generative-artificial-intelligence--2f1f90de",
     "type": "news",
     "title": "Bill Text - AB-2013 Generative artificial intelligence: training data transparency.",
@@ -9937,6 +12119,30 @@
         "Read more",
         "urldefense.com",
         "https://urldefense.com/v3/__https:/leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2013__;!!HTp9Kzo!glpDSDE684e0x23vFhMMtp-EjFPCnA2nQD7gacFWSaFJLNU5XMC4KxK9zZ8fsYv_aP6DodNdh0QXurIjY34P2HvG8fj1YoQXP4KXLHc$"
+      ]
+    ]
+  },
+  {
+    "id": "2594249dc11f3b28",
+    "type": "update",
+    "title": "Guidelines Establishing Test Procedures for the Analysis of Pollutants Under the Clean Water Act; National Primary Drinking Water Regulations; and National Secondary Drinking Water Regulations; Analysis and Sampling Procedures",
+    "why": "Proposed Rule — Environmental Protection Agency.",
+    "summary": "Proposed Rule — Environmental Protection Agency. EPA is proposing changes to analysis and sampling procedures in wastewater regulations. These changes include proposal of vendor- developed methods; new EPA and voluntary consensus standard bodies (VCSB) methods; updated versions of currently approved methods; revised method modification and analytical requirements; withdrawal of certain outdated methods; and changes to sample collection, preservation, and holding time requirements. EPA also is proposing changes to drinking water analysis and monitoring. These changes include proposal of vendor-developed methods; new EPA and VCSB methods; and updated VCSB methods. The addition of new and updated methods to the wastewater and drinking water regulations will provide increased flexibility to the regulated community and laboratories in the selection of analytical methods. Finally, EPA is soliciting comment on the guidance document EPA Microbiological Alternate Test Procedure (ATP) Protocol for Drinking Water, Ambient Water, and Wastewater Monitoring Methods",
+    "jurisdiction": "US",
+    "source": "Federal Register — BIS AI diffusion",
+    "source_url": "https://www.federalregister.gov/documents/2004/04/06/04-6427/guidelines-establishing-test-procedures-for-the-analysis-of-pollutants-under-the-clean-water-act",
+    "date": "2004-04-06",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — BIS AI diffusion",
+        "https://www.federalregister.gov/documents/2004/04/06/04-6427/guidelines-establishing-test-procedures-for-the-analysis-of-pollutants-under-the-clean-water-act"
       ]
     ]
   },
@@ -9987,6 +12193,78 @@
         "Read more",
         "kpmg.com",
         "https://kpmg.com/ch/en/insights/artificial-intelligence/iso-iec-42001.html*:*:text=ISO*2FIEC*2042001*20is*20the,management*20and*20third*2Dparty*20suppliers."
+      ]
+    ]
+  },
+  {
+    "id": "98b1902c1658de5d",
+    "type": "update",
+    "title": "Amendments for Testing and Monitoring Provisions",
+    "why": "Rule — Environmental Protection Agency.",
+    "summary": "Rule — Environmental Protection Agency. In this rule, we, the Environmental Protection Agency (EPA) are making final minor amendments to our stationary source testing and monitoring rules. These amendments include miscellaneous editorial changes and technical corrections that are needed. We are also promulgating Performance Specification 15, which contains the criteria for certifying continuous emission monitoring systems (CEMS) that use fourier transform infrared spectroscopy (FTIR). In addition, we are changing the outline of the test methods and CEMS performance specifications already listed in Parts 60, 61, and 63 to fit a new format recommended by the Environmental Monitoring Management Council (EMMC). The editorial changes and technical corrections update the rules and help maintain their original intent. Performance Specification 15 will provide the needed acceptance criteria for FTIR CEMS as they emerge as a new technology. We are reformatting the test methods and performance specifications to make them more uniform in content and interchangeable with other Agency methods. The amendments apply to a large number of industries that are already subject to the current provisions of Parts 60, 61, and 63. Therefore, we have not listed specific affected industries or their Standard Industrial Classification codes here",
+    "jurisdiction": "US",
+    "source": "Federal Register — BIS AI diffusion",
+    "source_url": "https://www.federalregister.gov/documents/2000/10/17/00-19099/amendments-for-testing-and-monitoring-provisions",
+    "date": "2000-10-17",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — BIS AI diffusion",
+        "https://www.federalregister.gov/documents/2000/10/17/00-19099/amendments-for-testing-and-monitoring-provisions"
+      ]
+    ]
+  },
+  {
+    "id": "9e9dfb4c78269e02",
+    "type": "update",
+    "title": "Hazardous Waste Identification Rule (HWIR): Identification and Listing of Hazardous Wastes",
+    "why": "Proposed Rule — Environmental Protection Agency.",
+    "summary": "Proposed Rule — Environmental Protection Agency. Today's action proposes to retain and amend the mixture rule and the derived-from rule in the Resource Conservation and Recovery Act (RCRA). The mixture and derived-from rules ensure that hazardous wastes that are mixed with other wastes or that result from the treatment, storage or disposal of hazardous wastes do not escape regulation and thereby cause harm to human health and the environment. EPA is proposing two revisions to the mixture and derived-from rules. These revisions would narrow the scope of the mixture and derived-from rules, tailoring the rules to more specifically match the risks posed by particular wastes. The first is an exemption for mixtures and/or derivatives of wastes listed solely for the ignitability, corrosivity, and/or reactivity characteristics. The second is a conditional exemption from the mixture and derived-from rules for ``mixed wastes'' (that is, wastes that are both hazardous and radioactive). Today's document also discusses an implementation framework for an exemption from hazardous waste management for wastes that meet chemical-specific exemption levels, also known as the Hazardous Waste Identification Rule (HWIR) exemption. The HWIR exemption would identify a broad set of listed hazardous waste that could be safely managed in nonhazardous waste management units. The current version of the model that could be used to derive the exemption levels is designed to evaluate simultaneous exposures across multiple media and pathways in order to estimate the resulting health and environmental effects. Before using a revised risk assessment to support a final regulatory action, we would propose the HWIR exemption, providing public notice and the opportunity to comment on the revised risk assessment and resulting exemption levels. In addition, today's document discusses the possibility of revising the Land Disposal Restrictions (LDRs) by replacing technology-based treatment standards in the RCRA regulations with risk-based treatment standards",
+    "jurisdiction": "US",
+    "source": "Federal Register — BIS AI diffusion",
+    "source_url": "https://www.federalregister.gov/documents/1999/11/19/99-29067/hazardous-waste-identification-rule-hwir-identification-and-listing-of-hazardous-wastes",
+    "date": "1999-11-19",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — BIS AI diffusion",
+        "https://www.federalregister.gov/documents/1999/11/19/99-29067/hazardous-waste-identification-rule-hwir-identification-and-listing-of-hazardous-wastes"
+      ]
+    ]
+  },
+  {
+    "id": "8136abed001733fd",
+    "type": "news",
+    "title": "Copyright Restoration of Works in Accordance With the Uruguay Round Agreements Act; List Identifying Copyrights Restored Under the Uruguay Round Agreements Act for Which Notices of Intent To Enforce Restored Copyrights Were Filed in the Copyright Office",
+    "why": "Notice — , , Library of Congress, Copyright Office, Library of Congress.",
+    "summary": "Notice — , , Library of Congress, Copyright Office, Library of Congress. The Copyright Office is publishing its eighth list of restored copyrights for which it has received and processed Notices of Intent to Enforce a copyright restored under the Uruguay Round Agreements Act. Publication of the lists creates a record for the public to identify copyright owners and works whose copyright has been restored for which Notices of Intent to Enforce have been filed with the Copyright Office. Generally, this is the concluding NIE list of titles for copyright owners whose eligibility to file in the Office expired on December 31, 1997",
+    "jurisdiction": "US",
+    "source": "Federal Register — BIS AI diffusion",
+    "source_url": "https://www.federalregister.gov/documents/1998/04/17/98-10002/copyright-restoration-of-works-in-accordance-with-the-uruguay-round-agreements-act-list-identifying",
+    "date": "1998-04-17",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — BIS AI diffusion",
+        "https://www.federalregister.gov/documents/1998/04/17/98-10002/copyright-restoration-of-works-in-accordance-with-the-uruguay-round-agreements-act-list-identifying"
       ]
     ]
   }
