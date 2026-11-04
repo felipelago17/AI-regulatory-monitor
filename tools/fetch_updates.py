@@ -53,10 +53,11 @@ FEEDS = [
         "tags": ["uk", "ai-regulation", "policy"],
     },
     {
-        "url": "https://www.bis.gov/rss.xml",
-        "source": "BIS – Export Administration Regulations",
+        "type": "fr_api",
+        "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=industry-and-security-bureau&order=newest&per_page=20",
+        "source": "BIS – Federal Register (rules & notices)",
         "jurisdiction": "United States",
-        "tags": ["bis", "export-controls", "entity-list"],
+        "tags": ["bis", "export-controls", "entity-list", "federal-register"],
     },
     # Law firm insight feeds — export controls, sanctions, and AI regulatory analysis
     {
@@ -128,31 +129,36 @@ FEEDS = [
     # Federal Register topic-RSS feeds — flags published rules/notices matching
     # active watch terms (AI diffusion, frontier models, Anthropic/BIS action)
     {
-        "url": "https://www.federalregister.gov/articles/search.rss?conditions%5Bterm%5D=frontier+model+export",
+        "type": "fr_api",
+        "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=frontier+model+export&order=newest&per_page=20",
         "source": "Federal Register — frontier model export",
         "jurisdiction": "United States",
         "tags": ["federal-register", "frontier-models", "export-controls", "ai-diffusion"],
     },
     {
-        "url": "https://www.federalregister.gov/articles/search.rss?conditions%5Bterm%5D=covered+AI+model",
+        "type": "fr_api",
+        "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=covered+AI+model&order=newest&per_page=20",
         "source": "Federal Register — covered AI model",
         "jurisdiction": "United States",
         "tags": ["federal-register", "frontier-models", "export-controls", "ai-diffusion"],
     },
     {
-        "url": "https://www.federalregister.gov/articles/search.rss?conditions%5Bterm%5D=deemed+export+artificial+intelligence",
+        "type": "fr_api",
+        "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=deemed+export+artificial+intelligence&order=newest&per_page=20",
         "source": "Federal Register — deemed export AI",
         "jurisdiction": "United States",
         "tags": ["federal-register", "deemed-export", "export-controls", "national-security"],
     },
     {
-        "url": "https://www.federalregister.gov/articles/search.rss?conditions%5Bterm%5D=BIS+AI+diffusion",
+        "type": "fr_api",
+        "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=BIS+AI+diffusion&order=newest&per_page=20",
         "source": "Federal Register — BIS AI diffusion",
         "jurisdiction": "United States",
         "tags": ["federal-register", "bis", "export-controls", "ai-diffusion"],
     },
     {
-        "url": "https://www.federalregister.gov/articles/search.rss?conditions%5Bterm%5D=chip+security+location+verification",
+        "type": "fr_api",
+        "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=chip+security+location+verification&order=newest&per_page=20",
         "source": "Federal Register — chip security location verification",
         "jurisdiction": "United States",
         "tags": ["federal-register", "chip-security", "export-controls", "location-verification"],
@@ -210,9 +216,10 @@ def _fetch_url(url: str) -> bytes:
         url,
         headers={
             "User-Agent": (
-                "AI-regulatory-monitor/1.0 "
-                "(https://github.com/felipelago17/AI-regulatory-monitor)"
-            )
+                "Mozilla/5.0 (compatible; AI-regulatory-monitor/1.1; "
+                "+https://github.com/felipelago17/AI-regulatory-monitor)"
+            ),
+            "Accept": "application/rss+xml, application/atom+xml, application/xml, application/json;q=0.9, */*;q=0.8",
         },
     )
     with urllib.request.urlopen(req, timeout=_TIMEOUT) as resp:
@@ -247,14 +254,135 @@ def _text(element, tag: str, ns: dict | None = None) -> str:
     return ""
 
 
+def _parse_fr_api(content: bytes, feed_meta: dict) -> list[dict]:
+    """Parse a Federal Register API v1 documents.json response."""
+    try:
+        payload = json.loads(content)
+    except json.JSONDecodeError as exc:
+        print(f"  ⚠ JSON parse error for {feed_meta['source']}: {exc}")
+        return []
+    items = []
+    for doc in payload.get("results", []):
+        title = _strip_html(doc.get("title") or "")
+        url = doc.get("html_url") or ""
+        if not title or not url:
+            continue
+        agencies = ", ".join(a.get("name", "") for a in doc.get("agencies", []) if isinstance(a, dict))
+        doc_type = doc.get("type") or ""
+        abstract = _strip_html(doc.get("abstract") or "")
+        prefix = " — ".join(x for x in (doc_type, agencies) if x)
+        summary = f"{prefix}. {abstract}".strip(". ") if prefix else abstract
+        tags = list(feed_meta["tags"])
+        if doc_type and doc_type.lower().replace(" ", "-") not in tags:
+            tags.append(doc_type.lower().replace(" ", "-"))
+        items.append({
+            "id": _make_id(url, title),
+            "date": _parse_date(doc.get("publication_date") or ""),
+            "jurisdiction": feed_meta["jurisdiction"],
+            "topics": [],
+            "title": title,
+            "summary": summary,
+            "source": feed_meta["source"],
+            "url": url,
+            "tags": tags,
+            "category": "news",
+            "citation": doc.get("citation") or "",
+            "document_number": doc.get("document_number") or "",
+        })
+    return items
+
+
+_BARE_AMP = re.compile(rb"&(?!(?:[a-zA-Z][a-zA-Z0-9]*|#[0-9]+|#x[0-9a-fA-F]+);)")
+_CTRL = re.compile(rb"[\x00-\x08\x0b\x0c\x0e-\x1f]")
+
+
+_XML_ENTITIES = {"amp", "lt", "gt", "quot", "apos"}
+_NAMED_ENT = re.compile(rb"&([a-zA-Z][a-zA-Z0-9]*);")
+
+
+def _sanitize_xml(content: bytes) -> bytes:
+    """Make near-valid feeds parseable by a strict XML parser.
+
+    - escape bare ampersands
+    - convert HTML-only named entities (&nbsp; &rsquo; …) to numeric references
+    - drop control characters
+    """
+    from html.entities import name2codepoint
+
+    def _ent(m):
+        name = m.group(1).decode("ascii")
+        if name in _XML_ENTITIES:
+            return m.group(0)
+        cp = name2codepoint.get(name)
+        return f"&#{cp};".encode("ascii") if cp else b"&amp;" + name.encode("ascii") + b";"
+
+    content = _BARE_AMP.sub(b"&amp;", content)
+    content = _NAMED_ENT.sub(_ent, content)
+    return _CTRL.sub(b"", content)
+
+
+def _parse_with_feedparser(content: bytes, feed_meta: dict) -> list[dict]:
+    """Tolerant fallback for malformed RSS/Atom.
+
+    1. Re-try strict parsing on a sanitised copy (no extra dependency).
+    2. If that still fails, use feedparser when installed.
+    """
+    cleaned = _sanitize_xml(content)
+    if cleaned != content:
+        try:
+            root = ET.fromstring(cleaned)
+        except ET.ParseError:
+            root = None
+        if root is not None:
+            print(f"  ↻ Recovered {feed_meta['source']} after sanitising XML")
+            if root.tag.endswith("feed"):
+                return _parse_atom_root(root, feed_meta)
+            return _parse_rss_root(root, feed_meta)
+    try:
+        import feedparser  # type: ignore
+    except ImportError:
+        print("  ⚠ feedparser not installed – cannot recover malformed feed")
+        return []
+    parsed = feedparser.parse(content)
+    items = []
+    for e in parsed.entries:
+        title = _strip_html(e.get("title", ""))
+        url = e.get("link", "") or e.get("id", "")
+        if not title:
+            continue
+        summary = _strip_html(e.get("summary", "") or e.get("description", ""))
+        date_text = e.get("published", "") or e.get("updated", "")
+        if e.get("published_parsed") or e.get("updated_parsed"):
+            tp = e.get("published_parsed") or e.get("updated_parsed")
+            date_text = f"{tp.tm_year:04d}-{tp.tm_mon:02d}-{tp.tm_mday:02d}"
+        items.append({
+            "id": _make_id(url, title),
+            "date": _parse_date(date_text),
+            "jurisdiction": feed_meta["jurisdiction"],
+            "topics": [],
+            "title": title,
+            "summary": summary,
+            "source": feed_meta["source"],
+            "url": url,
+            "tags": list(feed_meta["tags"]),
+            "category": "news",
+        })
+    if items:
+        print(f"  ↻ Recovered {len(items)} item(s) from {feed_meta['source']} with tolerant parser")
+    return items
+
+
 def _parse_rss(content: bytes, feed_meta: dict) -> list[dict]:
     """Parse an RSS 2.0 feed and return a list of item dicts."""
     try:
         root = ET.fromstring(content)
     except ET.ParseError as exc:
         print(f"  ⚠ RSS parse error for {feed_meta['source']}: {exc}")
-        return []
+        return _parse_with_feedparser(content, feed_meta)
+    return _parse_rss_root(root, feed_meta)
 
+
+def _parse_rss_root(root, feed_meta: dict) -> list[dict]:
     items = []
     for entry in root.findall(".//item"):
         title = _strip_html(_text(entry, "title"))
@@ -287,8 +415,11 @@ def _parse_atom(content: bytes, feed_meta: dict) -> list[dict]:
         root = ET.fromstring(content)
     except ET.ParseError as exc:
         print(f"  ⚠ Atom parse error for {feed_meta['source']}: {exc}")
-        return []
+        return _parse_with_feedparser(content, feed_meta)
+    return _parse_atom_root(root, feed_meta)
 
+
+def _parse_atom_root(root, feed_meta: dict) -> list[dict]:
     ns = _ATOM_NS
     items = []
     for entry in root.findall("atom:entry", ns):
@@ -331,6 +462,9 @@ def _fetch_feed(feed_meta: dict) -> list[dict]:
         print(f"  ⚠ Unexpected error fetching {feed_meta['source']}: {exc}")
         return []
 
+    if feed_meta.get("type") == "fr_api":
+        return _parse_fr_api(content, feed_meta)
+
     # Detect format: Atom feeds contain <feed, RSS feeds contain <rss or <channel
     snippet = content[:512].lower()
     if b"<feed" in snippet or b"xmlns=\"http://www.w3.org/2005/atom\"" in snippet:
@@ -341,6 +475,29 @@ def _fetch_feed(feed_meta: dict) -> list[dict]:
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
+
+def _report_feed_health(feed_health: list[tuple[str, int]]) -> None:
+    """Print a feed-health table and append it to the GitHub job summary."""
+    ok = [(n, c) for n, c in feed_health if c > 0]
+    dead = [n for n, c in feed_health if c == 0]
+    lines = [
+        f"### Feed health — {len(ok)}/{len(feed_health)} sources returned items",
+        "",
+        "| Source | Items parsed |",
+        "|---|---|",
+    ]
+    lines += [f"| {n} | {c} |" for n, c in feed_health]
+    if dead:
+        lines += ["", f"⚠️ **{len(dead)} source(s) returned nothing:** " + ", ".join(dead)]
+    text = "\n".join(lines)
+    print(text)
+    summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary_path:
+        with open(summary_path, "a", encoding="utf-8") as fh:
+            fh.write(text + "\n")
+    if feed_health and len(dead) > len(feed_health) // 2:
+        print("::warning::More than half of the configured feeds returned no items – check feed URLs.")
+
 
 def main() -> int:
     print(f"📡 fetch_updates.py – {datetime.now(timezone.utc).isoformat(timespec='seconds')}")
@@ -361,6 +518,7 @@ def main() -> int:
 
     # --- 2. Fetch from each feed (errors are non-fatal) ---
     new_items: list[dict] = []
+    feed_health: list[tuple[str, int]] = []
     for feed_meta in FEEDS:
         try:
             fetched = _fetch_feed(feed_meta)
@@ -368,6 +526,7 @@ def main() -> int:
             print(f"  ⚠ Skipping {feed_meta['source']} due to unexpected error:")
             traceback.print_exc()
             fetched = []
+        feed_health.append((feed_meta["source"], len(fetched)))
 
         for item in fetched:
             if item["id"] not in existing_ids and item.get("url", "") not in existing_urls:
@@ -377,6 +536,7 @@ def main() -> int:
                     existing_urls.add(item["url"])
 
     print(f"✅ {len(new_items)} new item(s) fetched from feeds.")
+    _report_feed_health(feed_health)
 
     if not new_items:
         # Nothing new – update timestamp and exit cleanly

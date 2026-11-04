@@ -97,10 +97,9 @@ def main():
         problems.append(("data/updates.json missing", ["data/updates.json"]))
 
     # 5) KPI IDs sanity check (if you added KPIs)
-    expected_ids = ["kpiTotal","kpiNew","kpiHighRisk","kpiEnforcement","kpiUpdates","kpiNews"]
-    missing_ids = [i for i in expected_ids if f'id="{i}"' not in html]
-    if missing_ids:
-        problems.append(("KPI elements missing in index.html (IDs not found)", missing_ids))
+    # KPI tiles are rendered dynamically by renderKpis() into the #kpis container
+    if 'id="kpis"' not in html:
+        problems.append(("KPI container missing in index.html", ['id="kpis"']))
 
     # 6) favicon check (your 404)
     fav = ROOT / "favicon.ico"
