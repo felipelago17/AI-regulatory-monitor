@@ -2,6 +2,46 @@
   "generated_at": "2026-11-04T17:25:11+00:00",
   "items": [
     {
+      "id": "efs-coolworld-refrigeration-attack-2026-11-04",
+      "date": "2026-11-04",
+      "jurisdiction": "EU",
+      "topics": [
+        "Cybersecurity",
+        "OT/ICS Security",
+        "Supply-Chain Risk",
+        "NIS2",
+        "Health Sector",
+        "GDPR"
+      ],
+      "title": "France: Blood-Service Freezers Set to 110 °C via Cooling Contractor — OT Supply-Chain Attack on an Essential Entity",
+      "summary": "SOURCE: Cyber Security News (Guru Baran, 4 Nov 2026), drawing on Cyberattaque and Le Canard enchaîné. INCIDENT: Overnight on 1–2 Nov 2026 attackers altered temperature setpoints on refrigeration units used by the Établissement français du sang (EFS), France's national blood service, from about −30 °C to 110 °C. Access ran through EFS's cooling/maintenance provider Coolworld, not EFS's own IT. Facilities in Bourgogne-Franche-Comté were among those concerned; donor safety-surveillance samples and, per EFS, frozen transfusion plasma were among the stock affected. Staff detected the abnormal temperatures in time; the Health Ministry reports no operational consequences. Entry vector, number of units, product temperatures reached and attribution remain unconfirmed; no donor-data theft is reported. CONTEXT: CERT-FR issued an alert on 12 Oct 2026 about compromised internet-exposed refrigeration controllers (Danfoss AK-SM/AK-SC, Copeland, Dixell XWEB) after attacks on supermarket refrigeration; ENISA published a joint statement on refrigeration-system cyber incidents across the EU on 4 Nov 2026. No public evidence ties those to the EFS event. REGULATORY READ-ACROSS: (1) NIS2 — blood establishments are Annex I health-sector essential entities; Art. 21(2)(d) supply-chain security and Art. 23 reporting (24h early warning / 72h notification) are engaged, and the case tests whether an integrity attack with 'no operational consequences' is a 'significant incident'. (2) GDPR — donor-linked samples are special-category health data; loss of integrity/availability can be an Art. 4(12) breach requiring an Art. 33 assessment with the CNIL even without exfiltration. (3) Cyber Resilience Act — security-by-default obligations for connected controllers once in application. (4) Third-party risk programmes built around data processors must extend to OT service providers holding write access to physical parameters. ACTIONS: remove public exposure of controller management interfaces; enforce VPN/zero-trust vendor remote access with per-technician MFA and session logging; alert on setpoint changes; flow NIS2 Art. 21 requirements into maintenance contracts; add cyber-physical integrity scenarios to incident and notification playbooks. STATUS: DEVELOPING — press reporting only; no official EFS/ANSSI incident report yet. Full write-up in the global-privacy-cyber-hub case study: https://felipelago17.github.io/global-privacy-cyber-hub/case-studies/efs-coolworld-refrigeration-2026/",
+      "source": "Cyber Security News — French Blood Plasma Freezers Hacked",
+      "url": "https://cybersecuritynews.com/french-blood-plasma-freezers-hacked/",
+      "tags": [
+        "cybersecurity",
+        "ot-ics",
+        "supply-chain",
+        "nis2",
+        "gdpr",
+        "health-sector",
+        "france",
+        "critical-infrastructure",
+        "incident"
+      ],
+      "category": "news",
+      "risk_score": 72,
+      "impact_assessment": {
+        "scenario": "Essential-entity operators (health, energy, food cold-chain) with vendor-managed OT face setpoint-manipulation attacks via contractor remote access; NIS2 notification and supply-chain audit obligations triggered, with GDPR breach analysis where samples or records are donor/patient-linked",
+        "probability_percent": 60,
+        "financial_loss_low_millions": 1,
+        "financial_loss_likely_millions": 5,
+        "financial_loss_high_millions": 25,
+        "reputational_exposure": "High",
+        "regulatory_disruption_days": "30-120",
+        "confidence_level": "Medium (press reporting; vector and scale unconfirmed)"
+      }
+    },
+    {
       "id": "eu-ai-act-aug2026-enforcement-countdown-2026-03-27",
       "date": "2026-03-27",
       "jurisdiction": "EU",
