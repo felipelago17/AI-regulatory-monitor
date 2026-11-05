@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T17:25:11+00:00",
+  "generated_at": "2026-11-05T13:43:31+00:00",
   "items": [
     {
       "id": "eu-joint-statement-refrigeration-incidents-2026-11-04",
@@ -67,7 +67,7 @@
         "critical-infrastructure",
         "incident"
       ],
-      "category": "news",
+      "category": "update",
       "risk_score": 72,
       "impact_assessment": {
         "scenario": "Essential-entity operators (health, energy, food cold-chain) with vendor-managed OT face setpoint-manipulation attacks via contractor remote access; NIS2 notification and supply-chain audit obligations triggered, with GDPR breach analysis where samples or records are donor/patient-linked",
