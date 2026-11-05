@@ -163,6 +163,19 @@ FEEDS = [
         "jurisdiction": "United States",
         "tags": ["federal-register", "chip-security", "export-controls", "location-verification"],
     },
+    # Threat-intel / incident news — high volume, so gated by a relevance regex (see "keywords")
+    {
+        "url": "https://cybersecuritynews.com/feed/",
+        "source": "Cyber Security News",
+        "jurisdiction": "Global",
+        "tags": ["cybersecurity", "incident", "threat-intel"],
+        "keywords": (
+            r"\b(hacked|breach|leak|ransomware attack|data (theft|exposure|stolen)|"
+            r"hospital|health|blood|medical|water|energy|grid|pipeline|refrigerat|ics|scada|\bot\b|plc|critical infrastructure|"
+            r"cert-fr|anssi|enisa|cisa|ncsc|\bico\b|cnil|edpb|ftc|gdpr|nis2|regulator|fine[sd]?\b|sanction|export control|"
+            r"supply[- ]chain|third[- ]party|vendor compromise|ai (model|agent)|llm|prompt injection|deepfake)\b"
+        ),
+    },
 ]
 
 # Namespaces used in Atom feeds
@@ -526,6 +539,10 @@ def main() -> int:
             print(f"  ⚠ Skipping {feed_meta['source']} due to unexpected error:")
             traceback.print_exc()
             fetched = []
+        kw = feed_meta.get("keywords")
+        if kw:
+            rx = re.compile(kw, re.IGNORECASE)
+            fetched = [i for i in fetched if rx.search(f"{i.get('title','')} {i.get('summary','')}")]
         feed_health.append((feed_meta["source"], len(fetched)))
 
         for item in fetched:
