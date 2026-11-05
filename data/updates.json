@@ -2,6 +2,45 @@
   "generated_at": "2026-11-04T17:25:11+00:00",
   "items": [
     {
+      "id": "eu-joint-statement-refrigeration-incidents-2026-11-04",
+      "date": "2026-11-04",
+      "jurisdiction": "EU",
+      "topics": [
+        "Cybersecurity",
+        "Cyber Resilience Act",
+        "NIS2",
+        "OT/ICS Security",
+        "Critical Infrastructure",
+        "Incident Reporting"
+      ],
+      "title": "EU Joint Statement on Cyber Incidents in Refrigeration Systems — First Live Test of CRA Manufacturer Reporting",
+      "summary": "SOURCE: European Commission (DG CNECT), ENISA, Europol EC3, EU CSIRTs Network and EU-CyCLONe joint statement, 4 Nov 2026. WHAT: Confirms that commercial refrigeration systems and similar devices in several Member States have been affected by cybersecurity incidents beginning 11 Oct 2026, with a new wave on 1–2 Nov 2026 (the dates of the French blood-service EFS freezer-setpoint attack). No countries, vendors, products, intrusion method or threat actor are named. Affected Member States are investigating and issuing guidance; the CSIRTs Network and EU-CyCLONe are sharing information; ENISA maintains an advisory collection (CNW-2026-05). REGULATORY CONTENT: (1) NIS2 (Dir. 2022/2555) — in-scope entities must manage cybersecurity risk to their operations and report significant incidents to the national CSIRT/competent authority. (2) Cyber Resilience Act (Reg. 2024/2847) — since 11 Sep 2026 manufacturers must report actively exploited vulnerabilities and severe incidents via the CRA Single Reporting Platform; the main security-by-design, lifecycle-support and vulnerability-remediation obligations apply from 11 Dec 2027. (3) ENISA Secure by Design and Default Playbook and product-security advisories. WHY IT MATTERS: This is one of the first publicly acknowledged incident waves to fall inside the CRA reporting window, so refrigeration-controller vendors whose products were exploited now carry a reporting duty that did not exist two months earlier; operators of vendor-managed OT in health, food cold-chain and retail should treat it as a NIS2 supply-chain (Art. 21(2)(d)) and significant-incident (Art. 23) trigger. ACTIONS: remove public exposure of controller management interfaces; enforce authenticated remote maintenance access; monitor setpoint changes; confirm whether controller vendors have filed CRA reports; map NIS2 notification thresholds for integrity attacks with no operational consequences. STATUS: ACTIVE — EU-level monitoring ongoing. Related: EFS/Coolworld case study in global-privacy-cyber-hub.",
+      "source": "European Commission / ENISA / Europol / CSIRTs Network / EU-CyCLONe — Joint Statement",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/joint-statement-cyber-incidents-refrigeration-systems-across-eu",
+      "tags": [
+        "eu",
+        "cyber-resilience-act",
+        "nis2",
+        "ot-ics",
+        "critical-infrastructure",
+        "incident-reporting",
+        "enisa",
+        "europol"
+      ],
+      "category": "update",
+      "risk_score": 70,
+      "impact_assessment": {
+        "scenario": "Operators and manufacturers of connected refrigeration/OT equipment in the EU face NIS2 incident-notification and CRA vulnerability-reporting obligations arising from an ongoing multi-state attack wave, with supervisory scrutiny of supply-chain controls",
+        "probability_percent": 70,
+        "financial_loss_low_millions": 1,
+        "financial_loss_likely_millions": 5,
+        "financial_loss_high_millions": 20,
+        "reputational_exposure": "High",
+        "regulatory_disruption_days": "30-90",
+        "confidence_level": "High (official EU statement; scope and attribution undisclosed)"
+      }
+    },
+    {
       "id": "efs-coolworld-refrigeration-attack-2026-11-04",
       "date": "2026-11-04",
       "jurisdiction": "EU",
