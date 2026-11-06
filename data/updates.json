@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T13:43:31+00:00",
+  "generated_at": "2026-11-06T13:27:28+00:00",
   "items": [
     {
       "id": "eu-joint-statement-refrigeration-incidents-2026-11-04",
@@ -10992,6 +10992,102 @@
       "category": "update",
       "citation": "",
       "document_number": "2026-10292"
+    },
+    {
+      "id": "4d1662d67d48b3cf",
+      "date": "2026-11-06",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Commission preliminarily finds TikTok’s ‘For You’ feed in breach of Digital Services Act for harmful ‘rabbit holes’ effect",
+      "summary": "Commission preliminarily finds TikTok’s ‘For You’ feed in breach of Digital Services Act for harmful ‘rabbit holes’ effect Anonymous (not verified) Fri, 11/06/2026 - 12:09 The European Commission has preliminarily found TikTok in breach of the Digital Services Act (DSA) for the so-called ‘rabbit hole effect’ of its recommender system. TikTok's ‘For You' feed shows users a continuous stream of personalised videos, even when those are related to mental health struggles and body image. The more a user interacts with a certain type of content, the more TikTok's ‘For You' feed algorithm recommends similar content. This design can be harmful when such endless and repeated exposure involves, for example, content about sadness, isolation or body image. These ‘rabbit holes' can have a detrimental impact on users' mental health, especially that of vulnerable adults and minors. These preliminary findings focus on both risk assessment and mitigation measures. Read the full details in the press release Find further information about: Supervision of the designated very large online platforms and search engines under DSA Digital Services Act - main aspects of the regulation User rights under the Digital Services Act - an overview Related topics Online platforms and e-commerce DSA - Digital Services Act",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "45bf6b714109f26b",
+      "date": "2026-11-06",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Application Process To Waive the Import Qualification Criteria Measures To Restrict Stockpiling of Polysilicon and Polysilicon Derivatives",
+      "summary": "Notice — Commerce Department, Industry and Security Bureau. The Department of Commerce, in accordance with the Paperwork Reduction Act of 1995 (PRA), invites the general public and other Federal agencies to comment on proposed, and continuing information collections, which helps us assess the impact of our information collection requirements and minimize the public's reporting burden. The purpose of this notice is to allow for 60 days of public comment on the OMB approved emergency collection for the Temporary Final Rule \"Measures To Restrict Stockpiling of Polysilicon and Polysilicon Derivatives Under Proclamation 11052\" (September 24, 2026, 91 FR 60505)",
+      "source": "BIS – Federal Register (rules & notices)",
+      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22726/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+      "tags": [
+        "bis",
+        "export-controls",
+        "entity-list",
+        "federal-register",
+        "notice"
+      ],
+      "category": "update",
+      "citation": "",
+      "document_number": "2026-22726"
+    },
+    {
+      "id": "c6069634f9ebcf7c",
+      "date": "2026-11-06",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Section 232 National Security Adjustments to Imports of Specialty Pharmaceuticals and Associated Ingredients",
+      "summary": "Notice — Commerce Department, Industry and Security Bureau. The Department of Commerce, in accordance with the Paperwork Reduction Act of 1995 (PRA), invites the general public and other Federal agencies to comment on proposed, and continuing information collections, which helps us assess the impact of our information collection requirements and minimize the public's reporting burden. The purpose of this notice is to allow for 60 days of public comment on the OMB approved emergency collection for the Temporary Final Rule \"Section 232 National Security Adjustments to Imports of Specialty Pharmaceuticals and Associated Ingredients\" September 23, 2026, (91 FR 60360)",
+      "source": "BIS – Federal Register (rules & notices)",
+      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22725/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+      "tags": [
+        "bis",
+        "export-controls",
+        "entity-list",
+        "federal-register",
+        "notice"
+      ],
+      "category": "update",
+      "citation": "",
+      "document_number": "2026-22725"
+    },
+    {
+      "id": "ff5fba5e339ab7c2",
+      "date": "2026-11-06",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots",
+      "summary": "Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services. This final rule with comment period revises the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar year 2027 based on our continuing experience with these systems. We also describe the changes to the amounts and factors used to determine the payment rates for Medicare services paid under the OPPS and those paid under the ASC payment systems. In addition, this final rule with comment period updates and refines the requirements for the Hospital Outpatient Quality Reporting Program and the Ambulatory Surgical Center Quality Reporting Program. There are no changes to the Rural Emergency Hospital Quality Reporting Program. We finalized the expansion of the prior authorization requirement to include additional Botulinum Toxin Injection services. We also finalized implementation of certain provisions of the Consolidated Appropriations Act, 2026, for off-campus outpatient departments of a provider. In addition, this final rule with comment period announces notices of closure of teaching hospitals and opportunities to apply for available slots. Additionally, we finalized the policy that hospital accrediting organizations (AOs) with deeming authority may assess compliance with certain Emergency Medical Treatment and Labor Act (EMTALA) administrative requirements under 42 CFR 489.20 during accreditation and reaccreditation surveys",
+      "source": "Federal Register — covered AI model",
+      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
+      "tags": [
+        "federal-register",
+        "frontier-models",
+        "export-controls",
+        "ai-diffusion",
+        "rule"
+      ],
+      "category": "update",
+      "citation": "",
+      "document_number": "2026-22739"
+    },
+    {
+      "id": "43234a65b07179a7",
+      "date": "2026-11-06",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Special Supplemental Nutrition Program for Women, Infants, and Children (WIC): Online Ordering and Transactions and Food Delivery Revisions To Meet the Needs of a Modern, Data-Driven Program",
+      "summary": "Rule — Agriculture Department, Food and Nutrition Administration. This final rule considers public comments submitted in response to the proposed rule to remove barriers to online ordering and internet-based transactions in the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) published on February 23, 2023. USDA FNA is issuing this regulatory action to support State innovation and develop and implement modernized systems, while underscoring program integrity. It allows for the use of new technologies to improve the WIC shopping experience while increasing access to healthy foods for WIC participants. This final rule also complements the Program's complete transition to electronic benefit transfer (EBT) by streamlining and modernizing certain WIC food delivery regulations to support current technology and future innovation, and introduces measures to support a modern, data-driven program that uses new technologies for food delivery",
+      "source": "Federal Register — chip security location verification",
+      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22679/special-supplemental-nutrition-program-for-women-infants-and-children-wic-online-ordering-and",
+      "tags": [
+        "federal-register",
+        "chip-security",
+        "export-controls",
+        "location-verification",
+        "rule"
+      ],
+      "category": "update",
+      "citation": "",
+      "document_number": "2026-22679"
     }
   ]
 }
