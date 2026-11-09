@@ -2,127 +2,127 @@
   {
     "name": "NIST",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
+    "last_sync": "2026-11-09T14:42:48+00:00",
     "count": 72
   },
   {
     "name": "EU Digital Strategy",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
+    "last_sync": "2026-11-09T14:42:48+00:00",
     "count": 82
   },
   {
     "name": "gov.uk",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
+    "last_sync": "2026-11-09T14:42:48+00:00",
     "count": 1
   },
   {
     "name": "BIS – Export Administration Regulations",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
+    "last_sync": "2026-11-09T14:42:48+00:00",
     "count": 1
   },
   {
     "name": "Skadden",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
+    "last_sync": "2026-11-09T14:42:48+00:00",
     "count": 1
   },
   {
     "name": "Freshfields",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
+    "last_sync": "2026-11-09T14:42:48+00:00",
     "count": 1
   },
   {
     "name": "WilmerHale",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
+    "last_sync": "2026-11-09T14:42:48+00:00",
     "count": 1
   },
   {
     "name": "Squire Patton Boggs",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
+    "last_sync": "2026-11-09T14:42:48+00:00",
     "count": 1
   },
   {
     "name": "Sidley Austin",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
+    "last_sync": "2026-11-09T14:42:48+00:00",
     "count": 1
   },
   {
     "name": "Holland & Knight",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
+    "last_sync": "2026-11-09T14:42:48+00:00",
     "count": 1
   },
   {
     "name": "Arnold & Porter",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
+    "last_sync": "2026-11-09T14:42:48+00:00",
     "count": 1
   },
   {
     "name": "Miller & Chevalier",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
+    "last_sync": "2026-11-09T14:42:48+00:00",
     "count": 1
   },
   {
     "name": "Federal Register — frontier model export",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
+    "last_sync": "2026-11-09T14:42:48+00:00",
     "count": 20
   },
   {
     "name": "Federal Register — covered AI model",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
-    "count": 19
+    "last_sync": "2026-11-09T14:42:48+00:00",
+    "count": 22
   },
   {
     "name": "Federal Register — deemed export AI",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
+    "last_sync": "2026-11-09T14:42:48+00:00",
     "count": 11
   },
   {
     "name": "Federal Register — BIS AI diffusion",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
+    "last_sync": "2026-11-09T14:42:48+00:00",
     "count": 12
+  },
+  {
+    "name": "BIS – Federal Register (rules & notices)",
+    "status": "live",
+    "last_sync": "2026-11-09T14:42:48+00:00",
+    "count": 23
   },
   {
     "name": "ted.com",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
+    "last_sync": "2026-11-09T14:42:48+00:00",
     "count": 22
   },
   {
     "name": "amazon.com",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
-    "count": 22
-  },
-  {
-    "name": "BIS – Federal Register (rules & notices)",
-    "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
+    "last_sync": "2026-11-09T14:42:48+00:00",
     "count": 22
   },
   {
     "name": "Federal Register — chip security location verification",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
-    "count": 14
+    "last_sync": "2026-11-09T14:42:48+00:00",
+    "count": 15
   },
   {
     "name": "Claude triage",
     "status": "live",
-    "last_sync": "2026-11-08T12:27:37+00:00",
+    "last_sync": "2026-11-09T14:42:48+00:00",
     "count": null
   }
 ]
