@@ -1,5 +1,29 @@
 [
   {
+    "id": "93217d4ccaafee0a",
+    "type": "update",
+    "title": "Medicare and Medicaid Programs; Cutting Administrative Requirements for Excellence in Patient Care",
+    "why": "Proposed Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services.",
+    "summary": "Proposed Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services. This proposed rule would reform Medicare and Medicaid regulations deemed obsolete or excessively burdensome on healthcare providers and suppliers, with the objective of reducing costs, enhancing flexibility in delivering innovative care, and streamlining existing regulations. This reform seeks to enable healthcare professionals to devote more resources to improving patient care by eliminating or minimizing requirements that impede quality patient care or that divert resources away from furnishing high quality patient care",
+    "jurisdiction": "US",
+    "source": "Federal Register — chip security location verification",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/10/2026-22812/medicare-and-medicaid-programs-cutting-administrative-requirements-for-excellence-in-patient-care",
+    "date": "2026-11-10",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — chip security location verification",
+        "https://www.federalregister.gov/documents/2026/11/10/2026-22812/medicare-and-medicaid-programs-cutting-administrative-requirements-for-excellence-in-patient-care"
+      ]
+    ]
+  },
+  {
     "id": "172857cbf84089dd",
     "type": "update",
     "title": "Extension of the Suspension of Expansion of End-User Controls for Affiliates of Certain Listed Entities",

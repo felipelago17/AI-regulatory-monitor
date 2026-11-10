@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T14:42:48+00:00",
+  "generated_at": "2026-11-10T13:57:56+00:00",
   "items": [
     {
       "id": "eu-joint-statement-refrigeration-incidents-2026-11-04",
@@ -11188,6 +11188,26 @@
       "category": "update",
       "citation": "",
       "document_number": "2026-22750"
+    },
+    {
+      "id": "93217d4ccaafee0a",
+      "date": "2026-11-10",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Medicare and Medicaid Programs; Cutting Administrative Requirements for Excellence in Patient Care",
+      "summary": "Proposed Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services. This proposed rule would reform Medicare and Medicaid regulations deemed obsolete or excessively burdensome on healthcare providers and suppliers, with the objective of reducing costs, enhancing flexibility in delivering innovative care, and streamlining existing regulations. This reform seeks to enable healthcare professionals to devote more resources to improving patient care by eliminating or minimizing requirements that impede quality patient care or that divert resources away from furnishing high quality patient care",
+      "source": "Federal Register — chip security location verification",
+      "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22812/medicare-and-medicaid-programs-cutting-administrative-requirements-for-excellence-in-patient-care",
+      "tags": [
+        "federal-register",
+        "chip-security",
+        "export-controls",
+        "location-verification",
+        "proposed-rule"
+      ],
+      "category": "update",
+      "citation": "",
+      "document_number": "2026-22812"
     }
   ]
 }
