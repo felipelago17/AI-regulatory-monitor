@@ -1,5 +1,29 @@
 [
   {
+    "id": "d4a72075332a95f4",
+    "type": "update",
+    "title": "Housing and Community Development Act of 1980: Verification of Eligible Status",
+    "why": "Rule — Housing and Urban Development Department.",
+    "summary": "Rule — Housing and Urban Development Department. This final rule revises HUD's Section 214 regulations to require the verification of U.S. citizenship or the eligible immigration status of all applicants and recipients of assistance under a covered program regardless of age. The rule will also make prorated assistance a temporary condition pending verification of eligible status of all family members, where permitted by statute, as opposed to under HUD's current regulations where prorated assistance could continue indefinitely. These amendments bring HUD's regulations into greater alignment with the wording and purpose of Section 214 and align with the current Administration's priorities and regulatory reform efforts",
+    "jurisdiction": "US",
+    "source": "Federal Register — chip security location verification",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/12/2026-23003/housing-and-community-development-act-of-1980-verification-of-eligible-status",
+    "date": "2026-11-12",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — chip security location verification",
+        "https://www.federalregister.gov/documents/2026/11/12/2026-23003/housing-and-community-development-act-of-1980-verification-of-eligible-status"
+      ]
+    ]
+  },
+  {
     "id": "93217d4ccaafee0a",
     "type": "update",
     "title": "Medicare and Medicaid Programs; Cutting Administrative Requirements for Excellence in Patient Care",
