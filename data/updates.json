@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T13:38:48+00:00",
+  "generated_at": "2026-11-14T12:43:31+00:00",
   "items": [
     {
       "id": "eu-joint-statement-refrigeration-incidents-2026-11-04",
@@ -11228,6 +11228,26 @@
       "category": "update",
       "citation": "",
       "document_number": "2026-23003"
+    },
+    {
+      "id": "771c52240976042c",
+      "date": "2026-11-16",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Privacy Act of 1974; Matching Program",
+      "summary": "Notice — Health and Human Services Department, . In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the U.S. Department of Health and Human Services, Centers for Medicare & Medicaid Services (CMS), is providing notice of a new matching program between CMS and the U.S. Department of Education (ED), Federal Student Aid. The matching program supports eligibility determinations for enrollment in applicable State health subsidy programs under the Patient Protection and Affordable Care Act (PPACA), including Qualified Health Plans (QHPs), Medicaid, the Children's Health Insurance Program (CHIP), and Basic Health Programs (BHPs). The matching program also supports implementation of statutory requirements concerning Medicaid community engagement and the prevention of concurrent Medicaid enrollment in more than one State through the Multi-State Enrollment Prevention (MSEP) system",
+      "source": "Federal Register — chip security location verification",
+      "url": "https://www.federalregister.gov/documents/2026/11/16/2026-23237/privacy-act-of-1974-matching-program",
+      "tags": [
+        "federal-register",
+        "chip-security",
+        "export-controls",
+        "location-verification",
+        "notice"
+      ],
+      "category": "news",
+      "citation": "",
+      "document_number": "2026-23237"
     }
   ]
 }

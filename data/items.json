@@ -1,5 +1,29 @@
 [
   {
+    "id": "771c52240976042c",
+    "type": "news",
+    "title": "Privacy Act of 1974; Matching Program",
+    "why": "Notice — Health and Human Services Department, .",
+    "summary": "Notice — Health and Human Services Department, . In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the U.S. Department of Health and Human Services, Centers for Medicare & Medicaid Services (CMS), is providing notice of a new matching program between CMS and the U.S. Department of Education (ED), Federal Student Aid. The matching program supports eligibility determinations for enrollment in applicable State health subsidy programs under the Patient Protection and Affordable Care Act (PPACA), including Qualified Health Plans (QHPs), Medicaid, the Children's Health Insurance Program (CHIP), and Basic Health Programs (BHPs). The matching program also supports implementation of statutory requirements concerning Medicaid community engagement and the prevention of concurrent Medicaid enrollment in more than one State through the Multi-State Enrollment Prevention (MSEP) system",
+    "jurisdiction": "US",
+    "source": "Federal Register — chip security location verification",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/16/2026-23237/privacy-act-of-1974-matching-program",
+    "date": "2026-11-16",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — chip security location verification",
+        "https://www.federalregister.gov/documents/2026/11/16/2026-23237/privacy-act-of-1974-matching-program"
+      ]
+    ]
+  },
+  {
     "id": "d4a72075332a95f4",
     "type": "update",
     "title": "Housing and Community Development Act of 1980: Verification of Eligible Status",
