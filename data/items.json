@@ -1,5 +1,75 @@
 [
   {
+    "id": "89e6da2aeb9f74e4",
+    "type": "enforce",
+    "title": "Commission preliminarily finds Temu in breach of the Digital Services Act for failure to tackle the sale of illegal products",
+    "why": "Commission preliminarily finds Temu in breach of the Digital Services Act for failure to tackle the sale of illegal products Tue, 11/17/2026 - 11:11 The European Commission…",
+    "summary": "Commission preliminarily finds Temu in breach of the Digital Services Act for failure to tackle the sale of illegal products Anonymous (not verified) Tue, 11/17/2026 - 11:11 The European Commission preliminarily found Temu in breach of the Digital Services Act (DSA) obligation to put in place reasonable, proportionate and effective measures to mitigate the risk of illegal products being offered on its platform. The Commission preliminarily found that Temu's mitigation measures include ineffective controls to check the compliance of products; a weak content moderation system; and an ineffective sanction system. Henna Virkkunen, Executive Vice-President for Tech Sovereignty, Security and Democracy, said: Shopping online should not mean risking the purchase of illegal and unsafe products. Under the Digital Services Act, platforms are responsible for protecting users from the risk of illegal content and goods. The preliminary findings against Temu mark another step towards making the online world safer. Read the full details in the press release Find further information about: Supervision of the designated very large online platforms and search engines under DSA Digital Services Act - main aspects of the regulation User rights under the Digital Services Act - an overview Related topics Online platforms and e-commerce DSA - Digital Services Act",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-temu-breach-digital-services-act-failure-tackle-sale-illegal",
+    "date": "2026-11-17",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-temu-breach-digital-services-act-failure-tackle-sale-illegal"
+      ]
+    ]
+  },
+  {
+    "id": "27a572e5c219460a",
+    "type": "update",
+    "title": "Modernizing the Commission's National Environmental Policy Act Rules",
+    "why": "Rule — Federal Communications Commission.",
+    "summary": "Rule — Federal Communications Commission. In this document (Order), the Federal Communications Commission (\"Commission\" or \"FCC\") takes action to cut through outdated and unnecessary burdens that have slowed deployment of critical communications networks. These reforms restore balance to the Commission's National Environmental Policy Act (NEPA) implementation by providing clear and predictable rules to ensure NEPA serves as a tool for informed decision-making rather than a barrier to investment, innovation, and connectivity",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/17/2026-23385/modernizing-the-commissions-national-environmental-policy-act-rules",
+    "date": "2026-11-17",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/11/17/2026-23385/modernizing-the-commissions-national-environmental-policy-act-rules"
+      ]
+    ]
+  },
+  {
+    "id": "ceb55449978ccfd0",
+    "type": "update",
+    "title": "Modernizing the Labor Market Test and Improving Protections for U.S. Workers in the PERM Immigrant Visa Program",
+    "why": "Proposed Rule — Labor Department, Employment and Training Administration.",
+    "summary": "Proposed Rule — Labor Department, Employment and Training Administration. The Department of Labor (Department or DOL) proposes to amend its regulations regarding the certification of job opportunities offered by employers seeking to employ aliens on a permanent basis in the United States. This Notice of Proposed Rulemaking (NPRM or proposed rule) strengthens the standards by which the Department receives and reviews employers' applications for permanent labor certification and improves the integrity of the overall employment-based immigrant visa program to more effectively protect the wages and job opportunities of U.S. workers similarly employed in the United States. Among the issues addressed in this proposed rule are eliminating further administration of Schedule A, which exempts certain job opportunities from the statutorily required labor market test; strengthening the minimum standards of recruitment to ensure all employers seeking labor certification access the broadest pool of high-quality U.S. workers using the latest technologies and methods; enhancing safeguards for U.S. workers impacted by layoffs, including those laid off by employers using third-party staffing companies and establishing standards for employers to report layoffs; expanding requirements for employers to provide U.S. workers with notice of filing (NOF) applications for permanent labor certification; improving employer compliance with program requirements and consideration of qualified U.S. workers that is comparable to job opportunities for which permanent labor certification is not required; and codifying the Department's practice of electronically receiving, processing, and issuing final determinations on employer requests for prevailing wages and permanent labor certifications. The changes in this proposed rule are consistent with the Secretary of Labor's (Secretary) statutory responsibilities to certify that there are not sufficient workers in the United States who are able, willing, qualified, and available to fill the petitioning employer's job opportunity at the time of application for a visa and admission to the United States, and that the employment of such alien will not adversely affect the wages and working conditions of similarly employed workers in the United States",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/17/2026-23370/modernizing-the-labor-market-test-and-improving-protections-for-us-workers-in-the-perm-immigrant",
+    "date": "2026-11-17",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/11/17/2026-23370/modernizing-the-labor-market-test-and-improving-protections-for-us-workers-in-the-perm-immigrant"
+      ]
+    ]
+  },
+  {
     "id": "771c52240976042c",
     "type": "news",
     "title": "Privacy Act of 1974; Matching Program",
@@ -20,6 +90,28 @@
         "Read more",
         "Federal Register — chip security location verification",
         "https://www.federalregister.gov/documents/2026/11/16/2026-23237/privacy-act-of-1974-matching-program"
+      ]
+    ]
+  },
+  {
+    "id": "9fa1e59308087ce3",
+    "type": "news",
+    "title": "Commission hosts Apply AI Summit to boost Europe’s AI innovation and uptake",
+    "why": "Commission hosts Apply AI Summit to boost Europe’s AI innovation and uptake Mon, 11/16/2026 - 13:43 Nearly 1,000 high-level policymakers, start-ups, industry leaders and…",
+    "summary": "Commission hosts Apply AI Summit to boost Europe’s AI innovation and uptake Anonymous (not verified) Mon, 11/16/2026 - 13:43 Nearly 1,000 high-level policymakers, start-ups, industry leaders and researchers will take part in the Apply AI Summit in Brussels tomorrow. They will discuss how artificial intelligence (AI) can boost Europe’s competitiveness across 10 strategic sectors and the public sector. The summit will also showcase concrete AI applications, European success stories and innovative projects. Henna Virkkunen , Executive Vice-President for Technological Sovereignty, Security and Democracy, will host the summit and present the first Apply AI Startup Award to three European start-ups. The award recognises innovative European startups and scaleups developing AI solutions in the strategic sectors. Alongside the in-person event, an online conference platform will run from 16 to 20 November, allowing additional 2,500 participants to join part of the summit. The Apply AI Summit marks one year since the adoption of the Apply AI Strategy , which sets out how to speed up the use of AI in Europe’s key industries and the public sector. It concludes the first European AI Innovation Month , running from 14 October to 17 November 2026, organised by the European Commission in partnership with the Irish Presidency of the Council of the European Union. More on the Apply AI Summit Related topics Artificial intelligence Related content News article 16 November 2026 Commission seeks feedback on draft template for the fundamental rights impact assessment under the AI Act The Commission is collecting feedback on the draft template for a questionnaire to facilitate certain deployers of high-risk AI system in complying with their obligations to prepare a fundamental rights impact assessment under Article 27 AI Act. News article 17 November 2026 Call for Expression of Interest for European AI providers The European Commission’s AI Office is launching a call for expression of interest for European AI providers to present AI solutions to the network of European Digital Innovation Hubs (EDIHs).",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-hosts-apply-ai-summit-boost-europes-ai-innovation-and-uptake",
+    "date": "2026-11-16",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/news/commission-hosts-apply-ai-summit-boost-europes-ai-innovation-and-uptake"
       ]
     ]
   },
