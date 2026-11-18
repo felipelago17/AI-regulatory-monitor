@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T15:10:49+00:00",
+  "generated_at": "2026-11-18T14:48:36+00:00",
   "items": [
     {
       "id": "eu-joint-statement-refrigeration-incidents-2026-11-04",
@@ -11320,6 +11320,46 @@
       "category": "update",
       "citation": "",
       "document_number": "2026-23370"
+    },
+    {
+      "id": "11c6443b14c2ed6d",
+      "date": "2026-11-18",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Self-Regulatory Organizations; NYSE Arca, Inc.; Notice of Filing and Immediate Effectiveness of Proposed Rule Change To Amend Its Rules its Rules To Permit the Listing of Binary Options Overlying Key Performance Indicators",
+      "summary": "Notice — Securities and Exchange Commission",
+      "source": "Federal Register — covered AI model",
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23427/self-regulatory-organizations-nyse-arca-inc-notice-of-filing-and-immediate-effectiveness-of-proposed",
+      "tags": [
+        "federal-register",
+        "frontier-models",
+        "export-controls",
+        "ai-diffusion",
+        "notice"
+      ],
+      "category": "update",
+      "citation": "",
+      "document_number": "2026-23427"
+    },
+    {
+      "id": "62118cae2cb66849",
+      "date": "2026-11-18",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Self-Regulatory Organizations; NYSE American LLC; Notice of Filing and Immediate Effectiveness of Proposed Change To Amend Its Rules To Permit the Listing of Binary Options Overlying Key Performance Indicators",
+      "summary": "Notice — Securities and Exchange Commission",
+      "source": "Federal Register — covered AI model",
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23425/self-regulatory-organizations-nyse-american-llc-notice-of-filing-and-immediate-effectiveness-of",
+      "tags": [
+        "federal-register",
+        "frontier-models",
+        "export-controls",
+        "ai-diffusion",
+        "notice"
+      ],
+      "category": "update",
+      "citation": "",
+      "document_number": "2026-23425"
     }
   ]
 }
