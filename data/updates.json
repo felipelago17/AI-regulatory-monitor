@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T14:55:20+00:00",
+  "generated_at": "2026-11-20T14:36:42+00:00",
   "items": [
     {
       "id": "eu-joint-statement-refrigeration-incidents-2026-11-04",
@@ -11456,6 +11456,62 @@
       "category": "update",
       "citation": "",
       "document_number": "2026-23429"
+    },
+    {
+      "id": "fc88fc03c424fddd",
+      "date": "2026-11-19",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "NIST Project Aims to Accelerate Mobile Driver’s License Adoption",
+      "summary": "Mobile driver’s licenses could help U.S. citizens do business more securely, but there are few ways to use them — an issue the project is designed to help address.",
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/11/nist-project-aims-accelerate-mobile-drivers-license-adoption",
+      "tags": [
+        "nist",
+        "ai-standards",
+        "cybersecurity"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "4c866763e28dd6cb",
+      "date": "2026-11-20",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Self-Regulatory Organizations; MEMX LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Its Rules To Permit the Listing of Binary Options Overlying Key Performance Indicators",
+      "summary": "Notice — Securities and Exchange Commission",
+      "source": "Federal Register — covered AI model",
+      "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23650/self-regulatory-organizations-memx-llc-notice-of-filing-and-immediate-effectiveness-of-a-proposed",
+      "tags": [
+        "federal-register",
+        "frontier-models",
+        "export-controls",
+        "ai-diffusion",
+        "notice"
+      ],
+      "category": "update",
+      "citation": "",
+      "document_number": "2026-23650"
+    },
+    {
+      "id": "52b8d111730aa6fc",
+      "date": "2026-11-20",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Self-Regulatory Organizations; Miami International Securities Exchange, LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Permit the Listing of Binary Options Overlying Key Performance Indicators Reported by Certain Issuers of Stock",
+      "summary": "Notice — Securities and Exchange Commission",
+      "source": "Federal Register — covered AI model",
+      "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23649/self-regulatory-organizations-miami-international-securities-exchange-llc-notice-of-filing-and",
+      "tags": [
+        "federal-register",
+        "frontier-models",
+        "export-controls",
+        "ai-diffusion",
+        "notice"
+      ],
+      "category": "update",
+      "citation": "",
+      "document_number": "2026-23649"
     }
   ]
 }

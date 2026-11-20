@@ -1,5 +1,53 @@
 [
   {
+    "id": "4c866763e28dd6cb",
+    "type": "update",
+    "title": "Self-Regulatory Organizations; MEMX LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Its Rules To Permit the Listing of Binary Options Overlying Key Performance Indicators",
+    "why": "Notice — Securities and Exchange Commission",
+    "summary": "Notice — Securities and Exchange Commission",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/20/2026-23650/self-regulatory-organizations-memx-llc-notice-of-filing-and-immediate-effectiveness-of-a-proposed",
+    "date": "2026-11-20",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/11/20/2026-23650/self-regulatory-organizations-memx-llc-notice-of-filing-and-immediate-effectiveness-of-a-proposed"
+      ]
+    ]
+  },
+  {
+    "id": "52b8d111730aa6fc",
+    "type": "update",
+    "title": "Self-Regulatory Organizations; Miami International Securities Exchange, LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Permit the Listing of Binary Options Overlying Key Performance Indicators Reported by Certain Issuers of Stock",
+    "why": "Notice — Securities and Exchange Commission",
+    "summary": "Notice — Securities and Exchange Commission",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/20/2026-23649/self-regulatory-organizations-miami-international-securities-exchange-llc-notice-of-filing-and",
+    "date": "2026-11-20",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/11/20/2026-23649/self-regulatory-organizations-miami-international-securities-exchange-llc-notice-of-filing-and"
+      ]
+    ]
+  },
+  {
     "id": "8f9897b45e340dea",
     "type": "update",
     "title": "Addressing Remote Access to Advanced Semiconductors",
@@ -92,6 +140,30 @@
         "Read more",
         "Federal Register — chip security location verification",
         "https://www.federalregister.gov/documents/2026/11/19/2026-23429/hipaa-privacy-rule-changes-to-support-coordinated-care-and-individual-engagement-and-reduce"
+      ]
+    ]
+  },
+  {
+    "id": "fc88fc03c424fddd",
+    "type": "news",
+    "title": "NIST Project Aims to Accelerate Mobile Driver’s License Adoption",
+    "why": "Mobile driver’s licenses could help U.S.",
+    "summary": "Mobile driver’s licenses could help U.S. citizens do business more securely, but there are few ways to use them — an issue the project is designed to help address.",
+    "jurisdiction": "US",
+    "source": "NIST",
+    "source_url": "https://www.nist.gov/news-events/news/2026/11/nist-project-aims-accelerate-mobile-drivers-license-adoption",
+    "date": "2026-11-19",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "cybersecurity"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "NIST",
+        "https://www.nist.gov/news-events/news/2026/11/nist-project-aims-accelerate-mobile-drivers-license-adoption"
       ]
     ]
   },
