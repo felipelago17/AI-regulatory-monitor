@@ -1,5 +1,77 @@
 [
   {
+    "id": "209ee5c026c61a22",
+    "type": "news",
+    "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Additional Protocol Report Forms",
+    "why": "Notice — Commerce Department, Industry and Security Bureau.",
+    "summary": "Notice — Commerce Department, Industry and Security Bureau. The Department of Commerce, in accordance with the Paperwork Reduction Act of 1995 (PRA), invites the general public and other Federal agencies to comment on proposed, and continuing information collections, which helps us assess the impact of our information collection requirements and minimize the public's reporting burden. The purpose of this notice is to allow for 60 days of public comment preceding submission of the collection to OMB",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/23/2026-23758/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+    "date": "2026-11-23",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/11/23/2026-23758/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for"
+      ]
+    ]
+  },
+  {
+    "id": "51bc41deb0964a10",
+    "type": "update",
+    "title": "Employee or Independent Contractor Status Under the Fair Labor Standards Act, Family and Medical Leave Act, and Migrant and Seasonal Agricultural Worker Protection Act",
+    "why": "Rule — Labor Department, Wage and Hour Division.",
+    "summary": "Rule — Labor Department, Wage and Hour Division. This final rule rescinds the analysis for determining employee or independent contractor status under the Fair Labor Standards Act (FLSA or Act) set forth in the Department of Labor's (Department) regulations and replaces it with an analysis similar to what it published in a final rule promulgated in 2021, with several modifications and enhancements. In addition, this final rule amends provisions in the Department's regulations implementing the Family and Medical Leave Act (FMLA) and Migrant and Seasonal Agricultural Worker Protection Act (MSPA) to provide that employee or independent contractor status under those laws should be determined using the Department's FLSA analysis, as the FMLA and MSPA both incorporate the FLSA's scope of employment",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/23/2026-23777/employee-or-independent-contractor-status-under-the-fair-labor-standards-act-family-and-medical",
+    "date": "2026-11-23",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/11/23/2026-23777/employee-or-independent-contractor-status-under-the-fair-labor-standards-act-family-and-medical"
+      ]
+    ]
+  },
+  {
+    "id": "e45a113524a301a4",
+    "type": "update",
+    "title": "Self-Regulatory Organizations; 24X National Exchange LLC; Notice of Filing of a Proposed Rule Change To Adopt Rules To Govern the Trading of Options on the Exchange",
+    "why": "Notice — Securities and Exchange Commission",
+    "summary": "Notice — Securities and Exchange Commission",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/23/2026-23748/self-regulatory-organizations-24x-national-exchange-llc-notice-of-filing-of-a-proposed-rule-change",
+    "date": "2026-11-23",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/11/23/2026-23748/self-regulatory-organizations-24x-national-exchange-llc-notice-of-filing-of-a-proposed-rule-change"
+      ]
+    ]
+  },
+  {
     "id": "4c866763e28dd6cb",
     "type": "update",
     "title": "Self-Regulatory Organizations; MEMX LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Its Rules To Permit the Listing of Binary Options Overlying Key Performance Indicators",
@@ -44,6 +116,28 @@
         "Read more",
         "Federal Register — covered AI model",
         "https://www.federalregister.gov/documents/2026/11/20/2026-23649/self-regulatory-organizations-miami-international-securities-exchange-llc-notice-of-filing-and"
+      ]
+    ]
+  },
+  {
+    "id": "8904b4115a6688ff",
+    "type": "news",
+    "title": "European Digital Infrastructure Consortium launches today to strengthen digital sovereignty in education",
+    "why": "European Digital Infrastructure Consortium launches today to strengthen digital sovereignty in education Fri, 11/20/2026 - 11:30 Today, the European Commission and eight Member…",
+    "summary": "European Digital Infrastructure Consortium launches today to strengthen digital sovereignty in education Anonymous (not verified) Fri, 11/20/2026 - 11:30 Today, the European Commission and eight Member States are launching the European Digital Infrastructure Consortium on Education (EDU-EDIC) to pool resources and develop shared, secure and interoperable digital infrastructure and services for education. GettyImages © anyaberkut The new consortium on education brings together Belgium, Croatia, Finland, France, Greece, Slovenia, Spain and the Netherlands, which will be hosting the EDIC. The initiative will strengthen Europe's technological resilience while making high-quality digital tools accessible to schools, teachers and learners. It will also help narrow the digital divide in education by supporting solutions that can be used across national education systems, regardless of their resources or technological capacity. Today's launch marks an important milestone in fostering innovation and excellence in education and contributing to the EU's technological sovereignty ambitions. Executive Vice-Presidents Henna Virkkunen and Roxana Mînzatu, together with Judith Tielen, Minister for Primary and Secondary Education of the Netherlands, will welcome the launch. Henna Virkkunen, Executive Vice-President for Tech Sovereignty, Security and Democracy, said: “Today's launch of the European Digital Infrastructure Consortium on Education is an important step towards achieving Europe's technological sovereignty in one of our most sensitive and strategic sectors. Education shapes our future, and Europe must be able to rely on trusted, safe and interoperable digital solutions that reflect European values and principles. By working together with the Member States, we can build a resilient European digital education infrastructure that supports learners, educators and schools across the Union.” Roxana Mînzatu, Executive Vice-President for Social Rights and Skills, Quality Jobs and Preparedness, said: “Recently, we officially launched the Education and Skills Package and announced the establishment of the EDU-EDIC consortium. Today, we are reiterating our commitment to reinforce education for Europe's future. Our priority is to ensure that education is ready for the AI era. We will work together with Member States to pool expertise in strategic areas such as cloud infrastructure, AI for education, secure data exchange across educational institutions, and Europe's education technology (EdTech) sector.” You can also read more about other European Digital Infrastructure Consortium (EDIC) . Related topics Creating a digital society Digital skills Europe's Digital Decade European Digital Infrastructure Consortium Technological sovereignty Related content News article 20 November 2026 Member States join forces to develop sovereign digital infrastructure on education Eight EU countries join forces to develop trusted, accessible digital education services and strengthen digital sovereignty.",
+    "jurisdiction": "EU",
+    "source": "EU Digital Strategy",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
+    "date": "2026-11-20",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "EU Digital Strategy",
+        "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education"
       ]
     ]
   },
