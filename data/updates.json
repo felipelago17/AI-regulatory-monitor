@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T16:52:03+00:00",
+  "generated_at": "2026-11-24T16:43:00+00:00",
   "items": [
     {
       "id": "eu-joint-statement-refrigeration-incidents-2026-11-04",
@@ -11588,6 +11588,26 @@
       "category": "update",
       "citation": "",
       "document_number": "2026-23748"
+    },
+    {
+      "id": "30b83df9fea1c071",
+      "date": "2026-11-24",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Restructuring the Governance and Funding Model of the Consolidated Audit Trail",
+      "summary": "Proposed Rule — Securities and Exchange Commission. Although the consolidated audit trail (the \"CAT\") continues to be a necessary regulatory tool, its decentralized governance has presented certain challenges to administering the CAT. To address those shortcomings, the Securities and Exchange Commission (the \"Commission\" or the \"SEC\") proposes to assume direct control of the CAT. Specifically, the Commission is proposing amendments to Regulation NMS under the Securities Exchange Act of 1934 (\"Exchange Act\") that would rescind Rule 613, which obligates the national securities exchanges and national securities associations (collectively, the \"SROs\") to act jointly to develop a national market system plan to develop, implement, and maintain the CAT (the \"CAT NMS Plan\"). The Commission is simultaneously proposing new Rule 17a-26, which would require the SROs and broker-dealers to record and electronically report to a central repository substantially the same information that was previously required to be recorded and reported pursuant to Rule 613, the CAT NMS Plan, related SRO compliance rules, and related exemptive relief previously issued by the Commission",
+      "source": "Federal Register — covered AI model",
+      "url": "https://www.federalregister.gov/documents/2026/11/24/2026-23951/restructuring-the-governance-and-funding-model-of-the-consolidated-audit-trail",
+      "tags": [
+        "federal-register",
+        "frontier-models",
+        "export-controls",
+        "ai-diffusion",
+        "proposed-rule"
+      ],
+      "category": "update",
+      "citation": "",
+      "document_number": "2026-23951"
     }
   ]
 }

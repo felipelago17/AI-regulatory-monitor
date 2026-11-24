@@ -1,5 +1,29 @@
 [
   {
+    "id": "30b83df9fea1c071",
+    "type": "update",
+    "title": "Restructuring the Governance and Funding Model of the Consolidated Audit Trail",
+    "why": "Proposed Rule — Securities and Exchange Commission.",
+    "summary": "Proposed Rule — Securities and Exchange Commission. Although the consolidated audit trail (the \"CAT\") continues to be a necessary regulatory tool, its decentralized governance has presented certain challenges to administering the CAT. To address those shortcomings, the Securities and Exchange Commission (the \"Commission\" or the \"SEC\") proposes to assume direct control of the CAT. Specifically, the Commission is proposing amendments to Regulation NMS under the Securities Exchange Act of 1934 (\"Exchange Act\") that would rescind Rule 613, which obligates the national securities exchanges and national securities associations (collectively, the \"SROs\") to act jointly to develop a national market system plan to develop, implement, and maintain the CAT (the \"CAT NMS Plan\"). The Commission is simultaneously proposing new Rule 17a-26, which would require the SROs and broker-dealers to record and electronically report to a central repository substantially the same information that was previously required to be recorded and reported pursuant to Rule 613, the CAT NMS Plan, related SRO compliance rules, and related exemptive relief previously issued by the Commission",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/24/2026-23951/restructuring-the-governance-and-funding-model-of-the-consolidated-audit-trail",
+    "date": "2026-11-24",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/11/24/2026-23951/restructuring-the-governance-and-funding-model-of-the-consolidated-audit-trail"
+      ]
+    ]
+  },
+  {
     "id": "209ee5c026c61a22",
     "type": "news",
     "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Additional Protocol Report Forms",
