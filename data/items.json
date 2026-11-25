@@ -1,5 +1,77 @@
 [
   {
+    "id": "6681c3266bf0a228",
+    "type": "update",
+    "title": "Additions to the Entity List",
+    "why": "Rule — Commerce Department, Industry and Security Bureau.",
+    "summary": "Rule — Commerce Department, Industry and Security Bureau. In this rule, the Bureau of Industry and Security (BIS) amends the Export Administration Regulations (EAR) by adding 7 entities to the Entity List, under the destinations of Malaysia, Singapore, and Thailand. These entities have been determined by the U.S. Government to be acting contrary to the national security or foreign policy interests of the United States",
+    "jurisdiction": "US",
+    "source": "BIS – Federal Register (rules & notices)",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/25/2026-23999/additions-to-the-entity-list",
+    "date": "2026-11-25",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "BIS – Federal Register (rules & notices)",
+        "https://www.federalregister.gov/documents/2026/11/25/2026-23999/additions-to-the-entity-list"
+      ]
+    ]
+  },
+  {
+    "id": "7ba7598087721b3a",
+    "type": "news",
+    "title": "Request for Comments Regarding International Trade Commission's Economic Analysis",
+    "why": "Notice — International Trade Commission.",
+    "summary": "Notice — International Trade Commission. Pursuant to Section 332 of the Tariff Act of 1930, the United States International Trade Commission (Commission) is seeking information from the public on its economic analysis, including its methodology and areas of focus",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/25/2026-23981/request-for-comments-regarding-international-trade-commissions-economic-analysis",
+    "date": "2026-11-25",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/11/25/2026-23981/request-for-comments-regarding-international-trade-commissions-economic-analysis"
+      ]
+    ]
+  },
+  {
+    "id": "1403bbee1b79cf3b",
+    "type": "update",
+    "title": "Medicare Program; Contract Year 2028 Policy and Technical Changes to the Medicare Advantage Program, Medicare Prescription Drug Benefit Program, and Programs of All-Inclusive Care for the Elderly",
+    "why": "Proposed Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services.",
+    "summary": "Proposed Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services. This proposed rule would revise the Medicare Advantage (Part C), Medicare Prescription Drug Benefit (Part D), and Programs of All- Inclusive Care for the Elderly regulations to implement changes related to marketing and communications, drug coverage, enrollment processes, special needs plans, and other programmatic areas. Additionally, it would establish and implement a mandatory Medicare Advantage (MA) CMS Innovation Center model",
+    "jurisdiction": "US",
+    "source": "Federal Register — covered AI model",
+    "source_url": "https://www.federalregister.gov/documents/2026/11/25/2026-23960/medicare-program-contract-year-2028-policy-and-technical-changes-to-the-medicare-advantage-program",
+    "date": "2026-11-25",
+    "risk": 50,
+    "risk_note": "",
+    "topics": [
+      "export-controls"
+    ],
+    "actions": [],
+    "links": [
+      [
+        "Read more",
+        "Federal Register — covered AI model",
+        "https://www.federalregister.gov/documents/2026/11/25/2026-23960/medicare-program-contract-year-2028-policy-and-technical-changes-to-the-medicare-advantage-program"
+      ]
+    ]
+  },
+  {
     "id": "30b83df9fea1c071",
     "type": "update",
     "title": "Restructuring the Governance and Funding Model of the Consolidated Audit Trail",

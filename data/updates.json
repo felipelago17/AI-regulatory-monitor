@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T16:43:00+00:00",
+  "generated_at": "2026-11-25T16:28:15+00:00",
   "items": [
     {
       "id": "eu-joint-statement-refrigeration-incidents-2026-11-04",
@@ -11608,6 +11608,66 @@
       "category": "update",
       "citation": "",
       "document_number": "2026-23951"
+    },
+    {
+      "id": "6681c3266bf0a228",
+      "date": "2026-11-25",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Additions to the Entity List",
+      "summary": "Rule — Commerce Department, Industry and Security Bureau. In this rule, the Bureau of Industry and Security (BIS) amends the Export Administration Regulations (EAR) by adding 7 entities to the Entity List, under the destinations of Malaysia, Singapore, and Thailand. These entities have been determined by the U.S. Government to be acting contrary to the national security or foreign policy interests of the United States",
+      "source": "BIS – Federal Register (rules & notices)",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23999/additions-to-the-entity-list",
+      "tags": [
+        "bis",
+        "export-controls",
+        "entity-list",
+        "federal-register",
+        "rule"
+      ],
+      "category": "update",
+      "citation": "",
+      "document_number": "2026-23999"
+    },
+    {
+      "id": "7ba7598087721b3a",
+      "date": "2026-11-25",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Request for Comments Regarding International Trade Commission's Economic Analysis",
+      "summary": "Notice — International Trade Commission. Pursuant to Section 332 of the Tariff Act of 1930, the United States International Trade Commission (Commission) is seeking information from the public on its economic analysis, including its methodology and areas of focus",
+      "source": "Federal Register — covered AI model",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23981/request-for-comments-regarding-international-trade-commissions-economic-analysis",
+      "tags": [
+        "federal-register",
+        "frontier-models",
+        "export-controls",
+        "ai-diffusion",
+        "notice"
+      ],
+      "category": "news",
+      "citation": "",
+      "document_number": "2026-23981"
+    },
+    {
+      "id": "1403bbee1b79cf3b",
+      "date": "2026-11-25",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "Medicare Program; Contract Year 2028 Policy and Technical Changes to the Medicare Advantage Program, Medicare Prescription Drug Benefit Program, and Programs of All-Inclusive Care for the Elderly",
+      "summary": "Proposed Rule — Health and Human Services Department, Centers for Medicare & Medicaid Services. This proposed rule would revise the Medicare Advantage (Part C), Medicare Prescription Drug Benefit (Part D), and Programs of All- Inclusive Care for the Elderly regulations to implement changes related to marketing and communications, drug coverage, enrollment processes, special needs plans, and other programmatic areas. Additionally, it would establish and implement a mandatory Medicare Advantage (MA) CMS Innovation Center model",
+      "source": "Federal Register — covered AI model",
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23960/medicare-program-contract-year-2028-policy-and-technical-changes-to-the-medicare-advantage-program",
+      "tags": [
+        "federal-register",
+        "frontier-models",
+        "export-controls",
+        "ai-diffusion",
+        "proposed-rule"
+      ],
+      "category": "update",
+      "citation": "",
+      "document_number": "2026-23960"
     }
   ]
 }
