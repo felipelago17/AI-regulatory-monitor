@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T16:28:15+00:00",
+  "generated_at": "2026-11-26T16:01:13+00:00",
   "items": [
     {
       "id": "eu-joint-statement-refrigeration-incidents-2026-11-04",
@@ -11668,6 +11668,42 @@
       "category": "update",
       "citation": "",
       "document_number": "2026-23960"
+    },
+    {
+      "id": "8c1d1a9d9f745822",
+      "date": "2026-11-25",
+      "jurisdiction": "European Union",
+      "topics": [],
+      "title": "Commission proposes Quantum Act and new Sovereign Tech Equity Fund to strengthen Europe's industrial capacity and security",
+      "summary": "Commission proposes Quantum Act and new Sovereign Tech Equity Fund to strengthen Europe's industrial capacity and security Anonymous (not verified) Wed, 11/25/2026 - 08:52 The European Commission today proposed the Quantum Act, a new framework to help turn Europe's quantum research into products and services, strengthen supply chains and prepare Europe's digital systems for post-quantum cryptography. GettyImages © AliseFox The proposal also lays the groundwork for the Sovereign Tech Equity Fund (STEF). The impact of quantum technologies will be profound, from navigation without satellites and faster drug discovery to ultra-advanced batteries and next-generation secure communications. Quantum technologies are moving from laboratories to products and services. The Quantum Act has three main pillars: research excellence, bringing quantum technology into use, and keeping systems and supplies secure. These will be delivered through the Quantum Europe Framework Initiative, which will bring together EU and national programmes around shared priorities for research and industry. Henna Virkkunen, Executive Vice-President for Tech Sovereignty, Security and Democracy, said: \"Quantum technologies will shape the future of industry, security and innovation, and they will have a profound impact on our societies. Europe needs to accelerate now. With the Quantum Act, we are putting in place the key elements to turn our world-class quantum research into industrial capacity, strengthen critical supply chains and prepare for the cyber risks linked to quantum computing. Europe has already built strong foundations in quantum; now we must turn them into industrial scale, resilient supply chains and secure deployment.\" Read the full details in the press release Find out more information The Quantum Act Legislation - Proposal for a Quantum Act Frequently Asked Questions - The Quantum Act explained Factsheet - Quantum Act Related topics Advanced computing Quantum computing Technological sovereignty Related content Policy and legislation 25 November 2026 Proposal for a Quantum Act The Quantum Act proposal, announced in the Quantum Europe Strategy adopted in July 2025, aims to help Europe become a global leader in quantum technologies by 2030 by turning its quantum research into industrial leadership, market uptake and resilient supply chains.",
+      "source": "EU Digital Strategy",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-quantum-act-and-new-sovereign-tech-equity-fund-strengthen-europes-industrial",
+      "tags": [
+        "eu",
+        "ai-act",
+        "digital-regulation"
+      ],
+      "category": "update"
+    },
+    {
+      "id": "f1c1a4f0da473d00",
+      "date": "2026-11-27",
+      "jurisdiction": "United States",
+      "topics": [],
+      "title": "American SI Exports Program; On-Demand Consortia for Specific Foreign Opportunities",
+      "summary": "Notice — Commerce Department, International Trade Administration. The Department of Commerce (the Department), through the International Trade Administration (ITA), establishes the On-Demand Consortia pathway under the Super Intelligence (SI) Exports Program \\1\\ (the Program) authorized by Executive Order 14320: Promoting the Export of the American SI Technology Stack, as laid out in the Call for Proposals for Pre-Set Consortia, released on April 10, 2026 (April 2026 CFP). The Department also provides for re-designation and de- designation of packages designated under the April 2026 CFP or this notice and for the Pre-Set Consortia pathway to reopen at a later date. ---------------------------------------------------------------------------",
+      "source": "Federal Register — covered AI model",
+      "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24107/american-si-exports-program-on-demand-consortia-for-specific-foreign-opportunities",
+      "tags": [
+        "federal-register",
+        "frontier-models",
+        "export-controls",
+        "ai-diffusion",
+        "notice"
+      ],
+      "category": "update",
+      "citation": "",
+      "document_number": "2026-24107"
     }
   ]
 }
